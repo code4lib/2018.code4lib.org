@@ -1,0 +1,637 @@
+- dist: .50-.74
+  hood: Westwood
+  name: BJ's Restaurant & Brewhouse
+  res: 'no'
+  type: Pub
+  url: https://www.bjsrestaurants.com/locations/ca/westwood
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: Tanino Ristorante Bar
+  res: 'yes'
+  type: Italian
+  url: http://www.tanino.com/index.html
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: In-N-Out Burger
+  res: 'no'
+  type: Burgers
+  url: locations.in-n-out.com
+  veg: 'no'
+- dist: .50-.74
+  hood: Westwood
+  name: Gushi
+  res: 'no'
+  type: Korean
+  url: http://gushimenu.com/
+  veg: 'no'
+- dist: .50-.74
+  hood: Westwood
+  name: Ami Japanese Restaurant
+  res: 'no'
+  type: Japanese
+  url: http://m.mainstreethub.com/amijapaneserestaurant
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: Bollywood Bites
+  res: 'no'
+  type: Indian
+  url: http://www.thebollywoodbites.com/bb-restaurant-menu.php
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: Native Foods Cafe
+  res: 'no'
+  type: Vegan
+  url: https://www.nativefoods.com/locations/los-angeles/westwood/
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: TLT Food
+  res: 'no'
+  type: New American
+  url: http://www.tltfood.com/westwood
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: Skylight Gardens
+  res: 'yes'
+  type: Italian
+  url: http://www.skylightgardens.com/
+  veg: 'no'
+- dist: .50-.74
+  hood: Westwood
+  name: Napa Valley Grille
+  res: 'yes'
+  type: Italian
+  url: http://napavalleygrille.com/
+  veg: 'no'
+- dist: .50-.74
+  hood: Westwood
+  name: The Boiling Crab
+  res: 'no'
+  type: Cajun Seafood
+  url: http://theboilingcrab.com
+  veg: 'no'
+- dist: .50-.74
+  hood: Westwood
+  name: Tender Greens
+  res: 'no'
+  type: Salad Bar & Grill
+  url: http://tendergreens.com
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: Fat Sal's Deli
+  res: 'no'
+  type: sandwiches
+  url: http://fatsalsdeli.com
+  veg: 'no'
+- dist: .75-1 mile
+  hood: Westwood
+  name: Veggie Grill
+  res: 'no'
+  type: Vegan
+  url: https://www.veggiegrill.com/locations.html?address=los+angeles&bounds=32.3119068797914%2C-129.63203984375002%7C39.441859173424334%2C-112.95479375000002
+  veg: 'yes'
+- dist: .75-1 mile
+  hood: Westwood
+  name: Naab Cafe
+  res: 'yes'
+  type: Persian
+  url: http://www.naabcafe.com/index.html
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Palomino
+  res: 'yes'
+  type: Italian
+  url: http://palomino.com
+  veg: kinda
+- dist: 1+ miles
+  hood: Westwood
+  name: Frida
+  res: 'no'
+  type: Mexican
+  url: http://fridarestaurant.com
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Emporium Thai
+  res: 'no'
+  type: Thai
+  url: http://emporiumthai.com
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Westwood Thai Cafe
+  res: 'no'
+  type: Thai
+  url: http://www.westwoodthaicafe.com/
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Soleil/P'tit Soleil
+  res: 'yes'
+  type: French Canadian
+  url: http://www.soleilwestwood.com/
+  veg: kinda
+- dist: 1+ miles
+  hood: Westwood
+  name: Mary & Robbs Westwood Cafe
+  res: 'no'
+  type: Diner
+  url: http://www.maryandrobbs.com/home-1.html
+  veg: 'no'
+- dist: 1+ miles
+  hood: Westwood
+  name: Flame Persian Cuisine
+  res: 'yes'
+  type: Persian
+  url: http://www.flamepersiancuisine.com/#/welcome
+  veg: 'no'
+- dist: 1+ miles
+  hood: Westwood
+  name: Delphi Greek
+  res: 'yes'
+  type: Greek
+  url: http://www.delphigreek.com/
+  veg: 'no'
+- dist: 1+ miles
+  hood: Westwood
+  name: Hamasaku
+  res: 'yes'
+  type: Japanese
+  url: http://hamasakula.com
+  veg: kinda
+- dist: 1+ miles
+  hood: Westwood
+  name: O Sushi
+  res: 'no'
+  type: Sushi
+  url: http://osushiandroll.eat24hour.com
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Zankou Chicken
+  res: 'no'
+  type: Mediterranean
+  url: http://www.zankouchicken.com
+  veg: kinda
+- dist: 1+ miles
+  hood: Westwood
+  name: Shamshiri Grill
+  res: 'no'
+  type: Persian
+  url: http://shamshiri.com/
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Qin West Chinese Cuisine
+  res: 'no'
+  type: Chinese
+  url: http://www.qinwestchinesecuisine.com/#the-kitchen
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: Sunnin
+  res: 'no'
+  type: Lebanese
+  url: http://sunnin.com/westwood/
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: 'Thai Fresh Cafe '
+  res: 'no'
+  type: Thai
+  url: http://thaifreshcafe.com/
+  veg: 'yes'
+- dist: 1+ miles
+  hood: Westwood
+  name: necco
+  res: 'yes'
+  type: Japanese
+  url: http://necco-restaurant.com
+  veg: 'yes'
+- dist: 2+ miles
+  hood: Westwood
+  name: Poquito Mas
+  res: 'no'
+  type: Burritos
+  url: http://www.poquitomas.com
+  veg: 'no'
+- dist: 2+ miles
+  hood: Westwood
+  name: Matteo's
+  res: 'yes'
+  type: Italian
+  url: http://mateosla.com
+  veg: kinda
+- dist: 2+ miles
+  hood: Westwood
+  name: Pastina Trattoria
+  res: 'yes'
+  type: Italian
+  url: http://pastina.net
+  veg: 'yes'
+- dist: 2+ miles
+  hood: Westwood
+  name: Lenny's Deli
+  res: 'no'
+  type: Deli
+  url: http://lennysdelilosangeles.com
+  veg: kinda
+- dist: 2+ miles
+  hood: Westwood
+  name: The Apple Pan
+  res: 'no'
+  type: Burgers & Pie
+  url: n/a
+  veg: 'no'
+- dist: 1+ miles
+  hood: Westwood
+  name: MZuma Kitchen
+  res: 'no'
+  type: Mediterranean
+  url: http://mzumakitchen.com/
+  veg: 'no'
+- dist: .50-.74
+  hood: Westwood
+  name: Pieology Pizzeria
+  res: 'no'
+  type: Pizza
+  url: http://www.pieology.com
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: 800 Degrees Neapolitan Pizzeria
+  res: 'no'
+  type: Pizza
+  url: http://places.singleplatform.com/800-degrees-pizzeria/menu?ref=google
+  veg: 'yes'
+- dist: .50-.74
+  hood: Westwood
+  name: PokeBar
+  res: 'no'
+  type: Poke
+  url: http://www.ilovepokebar.com/
+  veg: 'yes'
+- dist: 2+ miles
+  hood: Sawtelle / Brentwood
+  name: Sugarfish By Sushi Nozawa
+  res: 'yes'
+  type: Sushi
+  url: http://sugarfishsushi.com
+  veg: 'no'
+- dist: 2+ miles
+  hood: Sawtelle / Brentwood
+  name: Bandera
+  res: 'yes'
+  type: Southwestern
+  url: http://hillstone.com
+  veg: kinda
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Plan Check
+  res: 'no'
+  type: New American
+  url: http://plancheck.com
+  veg: 'no'
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Tsujita LA Artisan Noodles Annex
+  res: 'no'
+  type: Ramen
+  url: tsujita-la.com
+  veg: 'no'
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Nong La Cafe
+  res: 'no'
+  type: Vietnamese
+  url: http://nonglacafe.com
+  veg: 'yes'
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Mizu 212
+  res: 'yes'
+  type: Shabu-shabu
+  url: http://mizu212degrees.com
+  veg: 'yes'
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Nook Bistro
+  res: 'yes'
+  type: American
+  url: http://nookbistro.com
+  veg: 'no'
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Monte Alban
+  res: 'no'
+  type: Oaxacan (Mexican)
+  url: http://montealbanlosangeles.com
+  veg: 'no'
+- dist: 3+ miles
+  hood: Sawtelle / Brentwood
+  name: Mori Sushi
+  res: 'no'
+  type: Sushi
+  url: n/a
+  veg: 'no'
+- dist: '3+ miles'
+  hood: Sawtelle / Brentwood
+  name: Ohana Burger
+  res: 'no'
+  type: Burgers
+  url: http://ohanaburger.com/
+  veg: 'no'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: The Misfit
+  res: 'no'
+  type: Gastropub
+  url: http://themisfitbar.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: FIG
+  res: 'yes'
+  type: Farm-to-table
+  url: http://figsantamonica.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Water Grill
+  res: 'yes'
+  type: Seafood
+  url: http://watergrill.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: True Food Kitchen
+  res: 'yes'
+  type: Healthy / Vegan
+  url: http://truefoodkitchen.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Blue Daisy Cafe
+  res: 'yes'
+  type: American
+  url: http://bluedaisycafe.com
+  veg: kinda
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Father's Office
+  res: 'no'
+  type: Burgers
+  url: http://fathersoffice.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Bay Cities Deli
+  res: 'no'
+  type: Sandwiches
+  url: http://baycitiesitaliandeli.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: The Penthouse
+  res: 'yes'
+  type: American
+  url: http://thehuntlethotel.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Umami Burger
+  res: 'yes'
+  type: Burgers
+  url: http://umamiburger.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Pono Burger
+  res: 'no'
+  type: Burgers
+  url: http://ponoburger.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Santa Monica
+  name: Solidarity (formerly Warsawa)
+  res: 'yes'
+  type: Polish
+  url: http://solidarityla.com
+  veg: 'yes'
+- dist: 8+ miles
+  hood: Venice
+  name: Wurstkuche
+  res: 'no'
+  type: German Sausage
+  url: http://wurstkuche.com
+  veg: 'no'
+- dist: 9+ miles
+  hood: Venice
+  name: Mao's Kitchen
+  res: 'no'
+  type: Chinese
+  url: http://maoskitchen.com
+  veg: 'yes'
+- dist: 9+ miles
+  hood: Venice
+  name: Gjelina
+  res: 'yes'
+  type: New American
+  url: http://gjelina.com
+  veg: 'yes'
+- dist: 9+ miles
+  hood: Venice
+  name: The Butcher's Daughter
+  res: 'no'
+  type: Vegan
+  url: http://thebutchersdaughter.com
+  veg: 'yes'
+- dist: 9+ miles
+  hood: Venice
+  name: Salt Air
+  res: 'yes'
+  type: Seafood
+  url: http://saltairvenice.com
+  veg: 'yes'
+- dist: 9+ miles
+  hood: Venice
+  name: Plant Food and Wine
+  res: 'yes'
+  type: Vegan
+  url: http://matthewkenneycuisine.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Republique
+  res: 'yes'
+  type: French
+  url: http://republiquela.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Mercado
+  res: 'yes'
+  type: Mexican
+  url: http://mercadorestaurant.com
+  veg: kinda
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Animal
+  res: 'yes'
+  type: New American
+  url: http://animalrestaurant.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Ink
+  res: 'yes'
+  type: New American
+  url: http://mvink.com
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Bludso's
+  res: 'no'
+  type: BBQ
+  url: http://barandque.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Pink's
+  res: 'no'
+  type: Hot Dogs
+  url: http://pinkshollywood.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Umami Burger
+  res: 'yes'
+  type: Burgers
+  url: http://umamiburger.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Doughboys
+  res: 'no'
+  type: Comfort Food
+  url: http://doughboys.net
+  veg: 'yes'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Tom Bergin's
+  res: 'yes'
+  type: Irish / Steakhouse
+  url: http://tombergins.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Carlito's Gardel
+  res: 'yes'
+  type: Argentiinian
+  url: http://carlitosgardel.com
+  veg: 'no'
+- dist: 5+ miles
+  hood: Miracle Mile
+  name: Plan Check
+  res: 'no'
+  type: New American
+  url: http://plancheck.com
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Guelaguetza
+  res: 'yes'
+  type: Oaxacan (Mexican)
+  url: http://ilovemole.com
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Taylor's Steak House
+  res: 'yes'
+  type: Steak
+  url: http://www.taylorssteakhouse.com
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Soot Bull Jeep
+  res: 'no'
+  type: Korean BBQ
+  url: http://www.sootbulljeepla.com
+  veg: 'no'
+- dist: 9+miles
+  hood: Koreatown
+  name: Beer Belly
+  res: 'no'
+  type: Gastropub
+  url: http://beerbellyla.com
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Here's Looking at You
+  res: 'yes'
+  type: New American
+  url: http://hereslookingatyoula.com
+  veg: kinda
+- dist: 9+ miles
+  hood: Koreatown
+  name: Chosun Galbee
+  res: 'no'
+  type: Korean BBQ
+  url: http://chosungalbee.com
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Honey Pig
+  res: 'no'
+  type: Korean BBQ
+  url: n/a
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Papa Cristo's
+  res: 'yes'
+  type: Greek
+  url: http://papacristos.com
+  veg: 'yes'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Hamjibak
+  res: 'no'
+  type: Korean
+  url: http://www.hamjiparkla.com/
+  veg: 'kinda'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Moodaepo II
+  res: 'yes'
+  type: Korean BBQ
+  url: https://www.yelp.com/biz/moodaepo-ii-los-angeles
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Myungdong Kyoja
+  res: 'no'
+  type: Korean BBQ
+  url: https://www.yelp.com/biz/myung-dong-kyoja-los-angeles
+  veg: 'kinda'
+- dist: 7+ miles
+  hood: Culver City
+  name: Paco's Tacos
+  res: 'no'
+  type: Mexican
+  url: http://www.pacoscantina.com/
+  veg: 'no'
+- dist: 7+ miles
+  hood: Culver City
+  name: Honey's Kettle Fried Chicken
+  res: 'no'
+  type: Comfort Food
+  url: http://honeyskettle.com/
+  veg: 'no'

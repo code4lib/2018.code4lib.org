@@ -1,0 +1,41 @@
+- title: Event 1
+  officers:
+    - name: Joe Smith
+      img: /assets/img/joesmith.png
+    - name: Jane Sampson
+      img: /assets/img/janesampson.png
+
+- title:
+  officers:
+    - name:
+      img:
+    - name:
+      img:
+
+- title:
+  officers:
+    - name:
+      img:
+    - name:
+      img:
+
+- title:
+  officers:
+    - name:
+      img:
+    - name:
+      img:
+
+- title:
+  officers:
+    - name:
+      img:
+    - name:
+      img:
+
+- title:
+  officers:
+    - name:
+      img:
+    - name:
+      img:

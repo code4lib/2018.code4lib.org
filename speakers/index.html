@@ -1,0 +1,43 @@
+---
+layout: default
+title: Speakers
+---
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Keynotes</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 keynote-sequence sequence">
+                {% for person in site.data.speakers_final %}
+                    {% assign speaker = person[1] %}
+                    {% if speaker.Keynote == 1 %}
+                        {% include speaker_box.html param=speaker %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Speakers</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 speaker-sequence sequence">
+            {% for person in site.data.speakers_final %}
+                {% assign speaker = person[1] %}
+                    {% if speaker.Keynote == 0 and speaker.Show == 1%}
+                        {% include speaker_box.html param=speaker %}
+                    {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

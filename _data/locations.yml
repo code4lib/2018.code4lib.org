@@ -1,0 +1,130 @@
+# Garden-3:
+  # Building: Chemical Heritage Foundation
+  # Room: Garden 3
+  # AM-sessions: islandora-for-managers
+  # PM-sessions: migrating-hydra-based-repositories-from-fedora-3-to-4
+  # Map: https://goo.gl/maps/nfeLoHPS9rP2
+  # Floor: /assets/img/floor-plans/conference-center_second-floor.gif
+  # Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Garden 3 is the last room on the right.
+Lobby:
+  Building: Luskin Center
+  Room: Lobby
+
+TBD-1:
+  Building: Powell Library
+  Room: CLICC Classroom B (Level 3)
+  AM-sessions: five-tips-for-developers-creating-applications-using-apis
+  PM-sessions: developing-library-applications-in-google-sheets-with-google-apps-script
+  Map: /venue/workshops.html#powell
+
+TBD-2:
+  Building: Luskin Center
+  Room: Legacy Room B (Level 2)
+  AM-sessions: aws-services-overview
+  PM-sessions: aws-services-overview
+  Map: /venue/workshops.html#main-hotel
+
+TBD-3:
+  Building: Young (Charles E. Young) Research Library
+  Room: Conference Room (Level 1)
+  AM-sessions: data-analysis-with-python-an-introduction-to-pandas-and-jupyter-notebooks
+  PM-sessions: natural-language-processing-with-python-getting-started
+  Map: /venue/workshops.html#charles-young
+
+TBD-4:
+  Building: Luskin Center
+  Room: Exploration Room (Level 2)
+  AM-sessions: digital-projects-basic-technical-skills-bootcamp
+  PM-sessions: building-bibliographic-rdf-applications-and-micro-services
+  Map: /venue/workshops.html#main-hotel
+
+TBD-5:
+  Building: Luskin Center
+  Room: Laureate Room (Level 1)
+  AM-sessions: fedora-import-export
+  PM-sessions: performance-and-scale-testing-of-fedora
+  Map: /venue/workshops.html#main-hotel
+
+TBD-6:
+  Building: Luskin Center
+  Room: Centennial A (Level 1)
+  AM-sessions: data-modeling-101-getting-started
+  PM-sessions: data-modeling-201-building-models-and-profiles-with-pcdm
+  Map: /venue/workshops.html#main-hotel
+
+TBD-7:
+  Building: Luskin Center
+  Room: Optimist Room A (Level 2)
+  AM-sessions: getting-started-with-iiif
+  PM-sessions: customizing-blacklight-approaches-and-best-practices
+  Map: /venue/workshops.html#main-hotel
+
+TBD-8:
+  Building: Young (Charles E. Young) Research Library
+  Room: Presentation Room
+  AM-sessions: introduction-to-ipfs-and-distributed-technologies
+  PM-sessions: engineering-virtual-reality-experiences-in-library-settings
+  Map: /venue/workshops.html#charles-young
+
+TBD-9:
+  Building: Young (Charles E. Young) Research Library
+  Room: West Electronic Classroom (Level 2)
+  AM-sessions: introduction-to-text-mining
+  PM-sessions:
+    Map: /venue/workshops.html#charles-young
+
+TBD-10:
+  Building: Luskin Center
+  Room: Illumination Room (Level 2)
+  AM-sessions: folio-for-developers-getting-your-own-folio-instance-running
+  PM-sessions: folio-hack-a-thon
+  Map: /venue/workshops.html#main-hotel
+
+TBD-11:
+  Building: Luskin Center
+  Room: Legacy Room A (Level 2)
+  AM-sessions: modeling-concepts-in-linked-data-rdf
+  PM-sessions: islandora-in-the-wild-training-and-resources-from-pilot-and-production-repository-projects
+  Map: /venue/workshops.html#main-hotel
+
+TBD-12:
+  Building: Luskin Center
+  Room: Pinnacle room (Level 1)
+  AM-sessions:
+  PM-sessions: getting-your-hands-dirty-with-web-scraping
+  Map: /venue/workshops.html#main-hotel
+
+TBD-13:
+  Building: Powell Library
+  Room: Room 186
+  AM-sessions: let-s-paper-prototype-low-cost-structured-brainstorming-individually-and-in-teams
+  PM-sessions: fail4lib-2017-fail5lib
+  Map: /venue/workshops.html#powell
+
+TBD-14:
+  Building: Luskin Center
+  Room: Optimist Room B (Level 2)
+  AM-sessions: resisting-impostor-syndrome
+  PM-sessions: ally-skills-workshop
+  Map: /venue/workshops.html#main-hotel
+
+TBD-15:
+  Building: Science & Engineering Library - 8270 Boelter Hall
+  Room: SEL Classroom
+  AM-sessions: web-accessibility-becoming-a-stronger-advocate
+  PM-sessions: curation-collaboration-and-coding-the-secret-sauce-for-scholarship-support
+  Map: /venue/workshops.html#science-engineering
+
+TBD-16:
+  Building: Young (Charles E. Young) Research Library
+  Room: Nautilus Chamber
+  AM-sessions: getting-started-ansible
+  PM-sessions:
+    Map: /venue/workshops.html#charles-young
+
+TBD-17:
+  Building:
+  Room:
+  AM-sessions:
+  PM-sessions:
+    Map: /venue/workshops.html

@@ -1,0 +1,114 @@
+---
+layout: default
+title: code4lib - Washington, D.C. 2018
+---
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="row">
+    <div class="jumbotron" id="main" style="background: url(assets/img/los-angeles-cropped.jpg) top no-repeat;">
+        <div class="container">
+            <h1 class="text-right">Washington, D.C.</h1>
+            <h2 class="text-right">2018</h2>
+
+            <!-- Livestream -->
+            {% if site.data.conf.toggles.livestream %}
+            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a></p>
+            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.captioning-url }}">Closed captioning</a></p>
+            {% endif %}
+
+            <!-- Register -->
+            {% if site.data.conf.toggles.register %}
+            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.registration-form }}">Register Now!</a></p>
+            {% endif %}
+
+            <!-- Preconference events -->
+            <div class="text-right">
+                <a class="btn btn-lg btn-primary" href="/schedule/timeline.html">What's Going On?</a>
+                <ul class="list-unstyled">
+
+                    {% if site.data.conf.toggles.prop-talk %}
+                        <li>Talk Proposals</li>
+                    {% endif %}
+                    {% if site.data.conf.toggles.vote-talk %}
+                        <li><a href="{{ site.data.conf.talk-voting-link }}">Vote for Talks</a></li>
+                    {% endif %}
+
+                    {% if site.data.conf.toggles.vote-panels %}
+                        <li><a href="{{ site.data.conf.panel-voting-link }}">Vote for Panels</a></li>
+                    {% endif %}
+
+                    {% if site.data.conf.toggles.prop-shop %}
+                        <li>Workshop Proposals</li>
+                    {% endif %}
+                    {% if site.data.conf.toggles.vote-shop %}
+                        <li><a href="{{ site.data.conf.workshop-voting-link }}">Vote for Workshops</a></li>
+                    {% endif %}
+
+                    {% if site.data.conf.toggles.prop-shirt %}
+                        <li>T-shirt Logo Proposals</li>
+                    {% endif %}
+                    {% if site.data.conf.toggles.vote-shirt %}
+                        <li>Vote for T-shirt Designs</li>
+                    {% endif %}
+
+                    <li>Sponsorship</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row attribution">
+    <div class="container">
+        <p class="text-right small"><a href="https://www.flickr.com/photos/28794394@N03/13502778005/">photo by and with permission from Ulysses Ebuen</a></p>
+    </div>
+</div>
+
+<div class="sub-container">
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>The conference for people who code for libraries.</h2>
+            <p>
+                An annual gathering of technologists from around the world, who largely work for and with libraries,
+                archives, and museums and have a commitment to open technologies.
+            </p>
+        </div>
+    </div>
+
+    <div class="row section" id="testimonials">
+        <div class="cell cell-lg">
+            <h2>What are people saying?</h2>
+            <div class="row">
+            {% for testimonial in site.data.testimonials %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="speech-bubble">
+                            <div class="arrow bottom right"></div>
+                                {{ testimonial.blurb }}
+                            </div>
+                            <div class="caption">
+                                <h3><a href="https://twitter.com/{{ testimonial.twitter }}">{{ testimonial.name }}</a></h3>
+                                <p>{{ testimonial.org }}</p>
+                            </div>
+                        </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row section">
+        <div class="cell cell-lg">
+            <div class="col-md-2">
+                <!-- TODO: probably need a different image? -->
+                <img class="clip-circle" src="assets/img/audrey-small.jpg" alt="Audrey Hepburn with sunglasses.">
+            </div>
+            <div class="col-md-10">
+                <h2>Welcome to Washington, D.C.</h2>
+                <!--
+                TODO: DC blurb here
+                -->
+            </div>
+        </div>
+    </div>
+</div>

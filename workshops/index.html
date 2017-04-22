@@ -1,0 +1,87 @@
+---
+layout: default
+title: Preconference Workshops
+---
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>{{ page.title }}<!-- : March 6th, 2017 --></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <p>Registration will open at <strong>8 a.m.</strong> in the Luskin Center &mdash; Centennial Ballroom Foyer.  UCLA volunteers will be available at Luskin and guiding groups to the different Preconference Workshops at 8:30 a.m., 8:45 a.m., and 1:00 p.m.</p>
+            </div>
+        </div>
+        <div class="row" id="workshop-sorting-div">
+            <div class="col-xs-12 col-sm-6">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default sort-workshop-time active" id="all">All</button>
+                    <button type="button" class="btn btn-default sort-workshop-time" id="am">AM</button>
+                    <button type="button" class="btn btn-default sort-workshop-time" id="pm">PM</button>
+                    <button type="button" class="btn btn-default sort-workshop-time" id="full">Full Day</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <!--<select class="form-control sort-workshop-locale">
+                    <option value="all">All Locations</option>
+                    {% for location in site.data.locations %}
+                        {% assign loc = location[1] %}
+                        <option value="{{ loc.Room | slugify }}">{{ loc.Room }} - {{ loc.Building }}</option>
+                    {% endfor %}
+                </select>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 sequence">
+                {% assign posts = site.posts | sort: 'title' %}
+                {% for post in posts %}
+                    {% if post.type == 'workshop' %}
+                    {% assign postLength = 'empty' %}
+                    {% for location in site.data.locations %}
+                        {% assign loc = location[1] %}
+                        {% if loc.AM-sessions == post.slugTitle and loc.PM-sessions == post.slugTitle %}
+                            {% assign postLength = '9:00-4:30 (w/ lunch break)' %}
+                            {% assign postTime = 'full' %}
+                            {% assign postLocale = loc %}
+                            {% assign postMap = loc.Map %}
+                        {% elsif loc.AM-sessions == post.slugTitle %}
+                            {% assign postLength = '9-12' %}
+                            {% assign postTime = 'am' %}
+                            {% assign postLocale = loc %}
+                            {% assign postMap = loc.Map %}
+                        {% elsif loc.PM-sessions == post.slugTitle %}
+                            {% assign postLength = '1:30-4:30' %}
+                            {% assign postTime = 'pm' %}
+                            {% assign postLocale = loc %}
+                            {% assign postMap = loc.Map %}
+                        {% endif %}
+                    {% endfor %}
+                    <div class="well workshop-well" data-length="{{ postTime }}" data-location="{{ postLocale.Room | slugify }}">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                {% if post.full == true %}
+                                    <p class="text-danger">This workshop is full</p>
+                                {% endif %}
+                                <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                            </div>
+                            <div class="col-xs-12">
+                                <h5>Time</h5>
+                                <h5>{{ postLength }}</h5>
+                            </div>
+                            <div class="col-xs-12">
+                                <h5>Location</h5>
+                                <p><a href="{{ postMap }}">{{ postLocale.Building }} - {{ postLocale.Room }}</a></p>
+                                <!--<p><a href="{{ postLocale.Map }}" target="_blank">{{ postLocale.Building }} - {{ postLocale.Room }}</a></p>-->
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

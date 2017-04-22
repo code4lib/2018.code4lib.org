@@ -1,0 +1,63 @@
+<footer class="footer">
+    <div class="container">
+        <a href="#"><img src="/assets/img/c4l-logo-orange.svg" alt="Code4Lib"></a>
+        <ul class="list list--inline list--inline--dotted tsxs">
+            <li class="list-item tci"><a href="/index.html">Home</a></li>
+            <li class="list-item tci"><a href="/schedule/timeline.html">Schedule</a></li>
+            <!-- TODO: toggles in _data/conf.yml should handle nav links -->
+            <!-- <li class="list-item tci"><a href="/schedule/">Schedule</a></li> -->
+            <!-- <li class="list-item tci"><a href="/attend">Attend</a></li> -->
+            <li class="list-item tci"><a href="/speakers/past-keynotes.html">Speakers</a></li>
+            <!-- <li class="list-item tci"><a href="/speakers/index.html">Speakers</a></li> -->
+            <!-- <li class="list-item tci"><a href="/venue">Venues</a></li> -->
+            <li class="list-item tci"><a href="/sponsors">Sponsors</a></li>
+            <li class="list-item tci"><a href="/conduct">Conduct</a></li>
+            <li class="list-item tci"><a href="/about">About</a></li>
+        </ul>
+        <div class="bucket">
+            <p>
+                <a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license">
+                    <img src="/assets/img/cc.png" alt="License"></a>
+            </p>
+            <div style="display: inline;" xmlns:cc="/ns#" about="http://creativecommons.org">
+                <p>
+                    <small>
+                        Except where otherwise noted, content on this site is licensed under a
+                        <a rel="license" href="//creativecommons.org/licenses/by/4.0/" class="subfoot">
+                            Creative Commons Attribution 4.0 International license</a>.
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/assets/js/lunr.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="/assets/js/vendor/bootstrap.min.js"></script>
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/search.js"></script>
+
+{% if page.layout == 'proposedContent' %}
+<script src="/assets/js/vendor/tabletop.js"></script>
+{% include proposed-js.html %}
+{% endif %}
+
+{% if page.title == 'Newcomer Dinner' %}
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"></script>
+<script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#dinner-table').DataTable({
+        "paging": false,
+        "searching": false,
+        "autoWidth": false,
+        "order": [[3, 'asc'], [0, 'asc']]
+        });
+    } );
+</script>
+{% endif %}
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Past Keynotes
+---
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>12 Years of Keynote Speakers</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 speaker-sequence sequence">
+                {% for person in site.data.past-keynotes %}
+                    {% assign speaker = person[1] %}
+                    {% include speaker_box.html param=speaker %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

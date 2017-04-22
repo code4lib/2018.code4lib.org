@@ -1,0 +1,179 @@
+{% include header.html %}
+{% include search_results.html %}
+
+{% if page.type == 'workshop' %}
+    {% assign pageLength = 'empty' %}
+    {% assign pageDate = 'March 6th' %}
+    {% if page.time == 'full' %}
+        {% assign pageLength = '9:00-4:30 (w/ lunch break)' %}
+    {% elsif page.time == 'am' %}
+        {% assign pageLength = '9-12' %}
+    {% elsif page.time == 'pm' %}
+        {% assign pageLength = '1:30-4:30' %}
+    {% endif %}
+{% endif %}
+
+{% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
+    {% if page.day == 1 %}
+        {% assign pageDate = 'March 7th' %}
+    {% endif %}
+    {% if page.day == 2 %}
+        {% assign pageDate = 'March 8th' %}
+    {% endif %}
+    {% if page.day == 3 %}
+        {% assign pageDate = 'March 9th' %}
+    {% endif %}
+{% endif %}
+
+{% if page.type == 'poster' %}
+    {% assign pageDate = 'March 7th' %}
+{% endif %}
+
+<div class="sub-container container-fluid presentation-container">
+    <div class="row section">
+        <div class="cell cell-lg">
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>{{ page.title }}</h1>
+                        {% if page.full == true %}
+                        <h4 class="text-danger">This workshop is full</h4>
+                        {% endif %}
+                        {{ content }}
+                    </div>
+                    <div class="col-xs-12">
+                        <h3>Speaker(s)</h3>
+                        {% for speakerId in page.speakers %}
+                            {% if speakerId != 0 %}
+                                {% assign speaker = site.data.speakers_final[speakerId] %}
+                                {% if speaker.Show == 1 %}
+                                <div class="col-sm-3 text-center">
+                                    <a href="/speakers/#{{speaker.Name | slugify }}">
+                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                        {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                        <span>{{ speaker.Name }}</span>
+                                        {% endif %}
+                                    </a>
+                                </div>
+                                {% else %}
+                                    <div class="col-sm-3 text-center">
+                                        <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                        {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
+                                        <span>{{ speaker.Name }}</span>
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3 text-center">
+                <div class="row talk-detail-box">
+                    <!-- date -->
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <!--<h3>Date</h3>-->
+                        {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                            <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ pageDate }}</a></div>
+                        {% else %}
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                            <div class="talk-box-detail-value"> <a href="/workshops">{{ pageDate }}</a></div>
+                        {% endif %}
+                    </div>
+
+                    <!-- time of day for presentations -->
+                    {% if page.type == 'workshop' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">{{ pageLength }}</div>
+                    </div>
+                    {% elsif page.type == 'poster' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
+                    </div>
+                    {% endif %}
+
+                    <!-- building for workshops -->
+                    {% if page.type == 'workshop' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            Room: {{ page.location }}
+                        </div>
+                    </div>
+                    {% elsif page.type == 'poster' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            Room: Lobby
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- group -->
+                    {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
+                    {% assign group_data = site.data.schedule | where:'groupId', page.group %}
+                    {% assign group = group_data | first %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <!--<h3>Group {{ page.group }}
+                        <p>{{ group.time }}</p></h3>-->
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
+
+                    </div>
+                    {% endif %}
+
+                    <!-- length -->
+                    {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <!--<h3>Length</h3>
+                        <p>{{ page.length }} minutes</p>-->
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>
+                        <div class="talk-box-detail-value">  {{ page.length }} minutes</div>
+                    </div>
+                    {% endif %}
+
+
+                </div>
+                <!-- slides -->
+                {% if page.slides %}
+                <div class="talk-box-detail-value"><a href="{{ page.slides }}" class="btn btn-default btn-lg col-sm-12">
+                  <span class="glyphicon glyphicon-blackboard"></span>&nbsp;View Slides</a></div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if page.type == 'workshop' %}
+<!-- Floor plan modal -->
+<div class="modal fade" id="floorplan" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{{pageLocale.Building}} Floor Plan</h4>
+            </div>
+            <div class="modal-body">
+                <p>{{pageLocale.Strat}}</p>
+                <img class="img-responsive" src="{{pageLocale.Floor}}">
+            </div>
+            <div class="modal-footer">
+                <div class="pull-left">
+                    {% if pageLocale.Building == 'Chemical Heritage Foundation' %}
+                    <span><small>Image by <a href="http://www.chemheritage.org/visit/conference-center-rental/floor-plans.aspx">Chemical Heritage Foundation</a></small></span>
+                    {% endif %}
+                    {% if pageLocale.Building == 'Sheraton Hotel' %}
+                    <span><small>Image by <a href="http://www.starwoodhotels.com/sheraton/property/meetings/stacked_map.html?propertyID=166&buildingKey=1013372586&floorKey=all">Sheraton</a></small></span>
+                    {% endif %}
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{% endif %}
+
+{% include footer.html %}

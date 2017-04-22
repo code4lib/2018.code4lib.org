@@ -1,0 +1,114 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/assets/img/c4l-logo-orange.svg" alt="Code4Lib"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                <!-- HOME -->
+                <li><a href="/">Home</a></li>
+
+                <!-- TODO: toggles in _data/conf.yml should handle nav links -->
+                <!-- SCHEDULE (exchange with temp schedule)
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/schedule">Overview</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/workshops">Workshops</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/posters">Posters</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/schedule/day-1">Day 1</a></li>
+                        <li><a href="/schedule/day-2">Day 2</a></li>
+                        <li><a href="/schedule/day-3">Day 3</a></li>
+                    </ul>
+                </li>
+                -->
+
+                <!-- TEMP SCHEDULE -->
+                <li><a href="/schedule/timeline.html">Schedule</a></li>
+
+                <!-- ATTEND
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Attend <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/attend">Registration</a></li>
+                        <li><a href="/attend/index.html#remote">Remote Attendance</a></li>
+                        <li><a href="/attend/index.html#policies">Policies</a></li>
+                        <li><a href="/accessibility/">Accessibility</a></li>
+                    </ul>
+                </li>
+                -->
+
+                <!-- SPEAKERS (exchange with past speakers)
+                <li><a href="/speakers/">Speakers</a></li>
+                -->
+
+                <!-- PAST KEYNOTES -->
+                <li><a href="/speakers/past-keynotes.html">Speakers</a></li>
+
+                <!-- VENUE dropdown
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venues <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/venue">Conference</a></li>
+                        <li><a href="/venue/workshops.html">Workshops</a></li>
+                        <li><a href="/venue/reception.html">Reception</a></li>
+                        <li><a href="/venue/playandshare.html">Play &amp; Share</a></li>
+                        <li><a href="/venue/dinner.html">Newcomer Dinner</a></li>
+                        <li><a href="https://drive.google.com/open?id=11dBRFfMhYump8B5nCznsx-iVFVs&amp;usp=sharing" target="_blank">Activity Map</a>
+                    </ul>
+                </li>
+                -->
+
+                <!-- sponsors is always active -->
+                <li><a href="/sponsors">Sponsors</a></li>
+
+                <!-- turn on scholarships once applications are being accepted
+                <li><a href="/diversity-scholarships/recipients.html">Scholarships</a></li>
+                 -->
+
+                 <!-- prior to conference only conduct is shown -->
+                 <li><a href="/conduct">Conduct</a></li>
+
+                <!-- SAFETY dropdown — activate closer to conference
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Safety <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/conduct">Conduct</a></li>
+                        <li><a href="/duty-officers">Duty Officers</a></li>
+                        <li><a href="/emergency">Emergency Resources</a></li>
+                    </ul>
+                </li>
+                -->
+
+                <li><a href="/about">About</a></li>
+
+                <!-- SEARCH -->
+                {% if site.data.conf.toggles.search %}
+                <li>
+                    <form class="navbar-form" action="get" id="site_search">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search Presentations" id="search_box">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                {% endif %}
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

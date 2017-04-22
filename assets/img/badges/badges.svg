@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" style="position: absolute; width: 0; height: 0; overflow: hidden;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <!-- SPARKLE -->
+        <g id="sparkle" stroke-width="2.3516">
+            <path d="M4.771,0.352 L4.771,9.076"></path>
+            <path d="M0.617,4.713 L7.68,4.713"></path>
+        </g>
+
+        <g id="sparkles">
+            <use xlink:href="#sparkle" transform="translate(121.000000, 28.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+            <use xlink:href="#sparkle" transform="translate(162.000000, 136.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+            <use xlink:href="#sparkle" transform="translate(59.000000, 121.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+        </g>
+
+        <g id="thumbs-sparkles">
+            <use xlink:href="#sparkle" transform="translate(87.000000, 155.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+            <use xlink:href="#sparkle" transform="translate(161.000000, 147.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+            <use xlink:href="#sparkle" transform="translate(120.000000, 28.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+        </g>
+
+        <!-- BADGE -->
+        <g id="badge" transform="translate(0.000000, 3.000000)">
+            <path id="hex-border" stroke="#2AACE3" fill="#80D3F1" style="fill: var(--secondary-color); stroke: var(--primary-color)" stroke-width="5.4871" d="M118.981,213.691 C116.837,213.691 114.694,213.138 112.771,212.035 L30.97,165.033 C27.11,162.814 24.728,158.705 24.716,154.252 L24.523,59.908 C24.513,55.457 26.88,51.338 30.732,49.105 L112.336,1.763 C114.27,0.64 116.43,0.079 118.59,0.079 C120.733,0.079 122.876,0.632 124.799,1.735 L206.601,48.739 C210.46,50.956 212.844,55.065 212.854,59.518 L213.05,153.862 C213.06,158.315 210.693,162.434 206.841,164.669 L125.233,212.009 C123.302,213.131 121.142,213.691 118.981,213.691 L118.981,213.691 Z"></path>
+            <polygon id="hex-inner" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)" stroke-width="2.3516" points="200.588 153.889 118.981 201.23 37.18 154.227 36.985 59.883 118.591 12.543 200.392 59.545"></polygon>
+            <polygon id="left-ribbon" stroke="#2AACE3" fill="E6F4FA" style="fill: var(--tertiary-color); stroke: var(--primary-color)" stroke-width="5.4871" points="49.161 132.963 3.625 132.963 3.625 80.773 49.161 80.773 35.686 106.611"></polygon>
+            <polygon id="left-ribbon-bottom" fill="#2AACE3" style="fill: var(--primary-color)" points="23.298 152.834 0.795 135.033 23.298 135.033"></polygon>
+            <polygon id="right-ribbon" stroke="#2AACE3" fill="E6F4FA" style="fill: var(--tertiary-color); stroke: var(--primary-color)" stroke-width="5.4871" points="189.359 133.746 234.897 133.746 234.897 81.557 189.359 81.557 202.837 107.395"></polygon>
+            <polygon id="right-ribbon-bottom" fill="#2AACE3" style="fill: var(--primary-color)" points="215.088 153.617 237.591 135.818 215.088 135.818"></polygon>
+        </g>
+
+        <!-- MEDAL -->
+        <g id="medal" stroke-width="7.4741" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)">
+            <path id="medal-center-pin" d="M117.554,84.586 C125.647,84.586 133.15,87.082 139.354,91.338 L139.354,55 L97,55 L97,90.553 C102.956,86.793 109.993,84.586 117.554,84.586 L117.554,84.586 Z"></path>
+            <path id="medal-left-pin" d="M94.536,92.428 L94.536,55 L69,55 L69,75.555 L93.344,93.369 C93.733,93.04 94.137,92.739 94.536,92.428 L94.536,92.428 Z"></path>
+            <path id="medal-right-pin" d="M143,92.428 L143,55 L168.537,55 L168.537,75.555 L144.192,93.369 C143.807,93.04 143.399,92.739 143,92.428 L143,92.428 Z"></path>
+            <circle id="medal-color" cx="117.616" cy="123.616" r="38.616" fill="#E16400" style="fill: var(--highlight-color)"></circle>
+            <path id="medal-star" stroke="#80D3F1" fill="#FFFFFF" style="stroke: var(--tertiary-color)" stroke-width="3.861" d="M129.49431,143.821 C129.02231,143.821 128.54931,143.71 128.11631,143.481 L117.83431,138.077 L107.55231,143.481 C107.11831,143.71 106.64531,143.821 106.17431,143.821 C105.55831,143.821 104.94631,143.63 104.43031,143.255 C103.51831,142.593 103.06031,141.468 103.25031,140.357 L105.21431,128.908 L96.8963102,120.799 C96.0873102,120.012 95.7963102,118.832 96.1453102,117.76 C96.4943102,116.686 97.4223102,115.905 98.5393102,115.742 L110.03531,114.07 L115.17631,103.654 C115.67631,102.64 116.70631,102 117.83531,102 C118.96331,102 119.99431,102.641 120.49431,103.654 L125.63531,114.07 L137.13131,115.742 C138.24731,115.904 139.17531,116.685 139.52531,117.76 C139.87331,118.832 139.58331,120.012 138.77531,120.799 L130.45631,128.908 L132.42031,140.357 C132.61031,141.468 132.15331,142.593 131.23931,143.255 C130.72131,143.629 130.10931,143.821 129.49431,143.821 L129.49431,143.821 Z"></path>
+        </g>
+
+        <!-- DIAMOND -->
+        <g id="diamond" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)">
+            <path id="diamond-top-hex" stroke-width="5" d="M156.613043,62.9930979 C158.066684,63.7872111 158.061721,65.077434 156.613043,65.8688362 L141.504597,74.1224659 C140.050955,74.9165791 137.52849,75.560335 135.876462,75.560335 L101.123538,75.560335 C99.4688461,75.560335 96.9440818,74.913868 95.4954033,74.1224659 L80.3869574,65.8688362 C78.9333162,65.074723 78.9382789,63.7845 80.3869574,62.9930979 L95.4954033,54.7394682 C96.9490445,53.945355 99.4715104,53.301599 101.123538,53.301599 L135.876462,53.301599 C137.531154,53.301599 140.055918,53.948066 141.504597,54.7394682 L156.613043,62.9930979 Z"></path>
+            <path id="diamond-center-triangle" stroke-width="5.5" d="M81.8565081,108.376359 C81.0119945,106.952781 81.6720907,105.798742 83.3269406,105.798742 L152.952821,105.798742 C154.609432,105.798742 155.263796,106.959475 154.423254,108.376359 L119.669008,166.960853 C118.824494,168.384432 117.451296,168.377737 116.610754,166.960853 L81.8565081,108.376359 Z"></path>
+            <path id="diamond-right-square" stroke-width="5.5" transform="translate(158.134026, 85.366925) rotate(2.000000) translate(-158.134026, -85.366925)" d="M154.9041,65.368226 C156.28137,64.4524936 158.265737,64.7394346 159.329375,66.0009039 L176.600133,86.4839477 C177.666875,87.7490985 177.495335,89.6254193 176.21696,90.6748515 L158.428354,105.277712 C157.149992,106.327134 155.420566,106.020221 154.573479,104.60541 L139.40459,79.2701929 C138.553964,77.8494688 138.984757,75.9528273 140.358163,75.0396642 L154.9041,65.368226 Z"></path>
+            <path id="diamond-left-square" stroke-width="5.5" transform="translate(78.221457, 85.366925) scale(-1, 1) rotate(2.000000) translate(-78.221457, -85.366925)" d="M74.9915309,65.368226 C76.3688013,64.4524936 78.3531686,64.7394346 79.416806,66.0009039 L96.6875644,86.4839477 C97.754306,87.7490985 97.5827666,89.6254193 96.3043913,90.6748515 L78.5157856,105.277712 C77.2374234,106.327134 75.507997,106.020221 74.6609106,104.60541 L59.4920213,79.2701929 C58.6413948,77.8494688 59.0721884,75.9528273 60.4455945,75.0396642 L74.9915309,65.368226 Z"></path>
+            <path id="diamond-right-line" stroke-width="4.5" stroke-linecap="square" d="M177.199405,90.2484277 L118.860119,166.191824"></path>
+            <path id="diamond-left-line" stroke-width="4.5" stroke-linecap="square" transform="translate(88.970238, 129.666667) scale(-1, 1) translate(-88.970238, -129.666667)" d="M118.139881,91.6949686 L59.8005952,167.638365"></path>
+            <polyline id="diamond-center-accent" style="stroke: var(--tertiary-color)" stroke-width="2" points="101 114 142 114 124 145"></polyline>
+            <path id="diamond-upper-right-accent" style="stroke: var(--tertiary-color)" stroke-width="2" d="M157,73 L168,87"></path>
+        </g>
+
+        <!-- TROPHY -->
+        <g id="trophy" transform="translate(0.000000, 3.000000)" stroke-width="5.4871" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)">
+            <path id="trophy-cup" d="M153.584,110.55 L153.584,110.701 L153.511,110.701 C147.114,123.408 133.988,132.146 118.792,132.146 C103.595,132.146 90.47,123.408 84.073,110.701 L84,110.701 L84,110.55 L84,47 L153.584,47 L153.584,59.343 L153.584,75.968 L153.584,110.55 L153.584,110.55 Z"></path>
+            <rect id="trophy-stem" x="113" y="132" width="12.047" height="18.122"></rect>
+            <path id="trophy-base" d="M98.9142797,150.001287 L136.71728,150.001287 C136.71728,150.001287 145.02528,149.585287 145.02528,163.709287 L91.0212797,163.709287 C91.0212797,163.709287 90.1902797,150.001287 98.9142797,150.001287 L98.9142797,150.001287 Z"></path>
+            <path id="trophy-left-handle" d="M83.617,110.657877 C65.692,109.723877 60,93.3128767 60,93.3128767 L60,66.7268767 C60,57.5878767 66.646,58.0028767 66.646,58.0028767 L83.616,58.0028767 L83.616,110.657877 L83.617,110.657877 Z"></path>
+            <path id="trophy-right-handle" d="M153,110.657877 C170.924,109.723877 176.616,93.3128767 176.616,93.3128767 L176.616,66.7268767 C176.616,57.5878767 169.97,58.0028767 169.97,58.0028767 L153,58.0028767 L153,110.657877 L153,110.657877 Z"></path>
+            <path id="trophy-first-accent" stroke-width="2.3516" style="stroke: var(--tertiary-color)" d="M113,61 L118.806,61"></path>
+            <polyline id="trophy-second-accent" stroke-width="2.3516" style="stroke: var(--tertiary-color)" points="128 61 142.123 61 142.123 88.003"></polyline>
+        </g>
+
+        <!-- STAR -->
+        <g id="star" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)">
+            <path id="star-path" stroke-width="5.4871" d="M145.793567,153.876 C144.654567,153.876 143.514567,153.605 142.466567,153.054 L117.667567,140.017 L92.8665668,153.054 C91.8195668,153.605 90.6775668,153.876 89.5405668,153.876 C88.0575668,153.876 86.5815668,153.415 85.3355668,152.509 C83.1325668,150.909 82.0305668,148.198 82.4885668,145.515 L87.2245668,117.902 L67.1605668,98.34 C65.2105668,96.442 64.5095668,93.598 65.3495668,91.01 C66.1905668,88.422 68.4295668,86.533 71.1225668,86.143 L98.8515668,82.116 L111.251567,56.986 C112.456567,54.546 114.942567,53 117.665567,53 C120.386567,53 122.872567,54.546 124.077567,56.986 L136.478567,82.116 L164.207567,86.143 C166.901567,86.534 169.139567,88.422 169.980567,91.01 C170.820567,93.598 170.119567,96.442 168.170567,98.34 L148.106567,117.902 L152.841567,145.515 C153.301567,148.199 152.198567,150.91 149.995567,152.509 C148.751567,153.415 147.276567,153.876 145.793567,153.876 L145.793567,153.876 Z"></path>
+            <path id="star-accent-1" stroke-width="2.3516" style="stroke: var(--tertiary-color)" d="M119,66 L129.661,87.024"></path>
+            <polyline id="star-accent-2" stroke-width="2.3516" style="stroke: var(--tertiary-color)" points="137 91 159.071 94.703 137 115.963 140.806 138.166"></polyline>
+            <use xlink:href="#sparkle" transform="translate(126.000000, 170.000000)" stroke="#80D3F1" style="stroke: var(--tertiary-color)"></use>
+        </g>
+
+        <!-- THUMBS -->
+        <g id="thumbs" transform="translate(66.000000, 48.000000)" stroke-width="5.1311" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)">
+            <path id="thumb" d="M96.175,93.654 L51.842,93.654 C51.842,93.654 33.139,97.197 33.139,75.627 L33.139,8.736 C33.139,8.736 32.67,0.371 41.921,0.371 C41.921,0.371 50.419,-0.738 50.419,10.201 L50.419,28.476 C50.419,28.476 51.842,39.953 74.615,39.953 L96.175,39.953 L96.175,93.654 L96.175,93.654 Z"></path>
+            <path id="thumb-cuff" d="M4.239,94.449 C2.064,94.449 0.301,92.34 0.301,89.738 L0.301,31.568 C0.301,28.966 2.064,26.857 4.239,26.857 L29.197,26.857 C31.372,26.857 33.135,28.966 33.135,31.568 L33.135,89.738 C33.135,92.34 31.372,94.449 29.197,94.449 L4.239,94.449 L4.239,94.449 Z"></path>
+            <path id="thumb-index-finger" d="M61.846,55.594 C59.299,55.594 57.235,53.916 57.235,51.848 L57.235,40.612 C57.235,38.546 59.299,36.868 61.846,36.868 L99.288,36.868 C101.834,36.868 103.899,38.546 103.899,40.612 L103.899,51.848 C103.899,53.916 101.834,55.594 99.288,55.594 L61.846,55.594 L61.846,55.594 Z"></path>
+            <path id="thumb-middle-finger" d="M61.846,74.945 C59.299,74.945 57.235,73.267 57.235,71.199 L57.235,59.965 C57.235,57.897 59.299,56.219 61.846,56.219 L99.288,56.219 C101.834,56.219 103.899,57.897 103.899,59.965 L103.899,71.199 C103.899,73.267 101.834,74.945 99.288,74.945 L61.846,74.945 L61.846,74.945 Z"></path>
+            <path id="thumb-pinky-finger" d="M61.846,94.186 C59.299,94.186 57.235,92.51 57.235,90.444 L57.235,79.208 C57.235,77.14 59.299,75.462 61.846,75.462 L99.288,75.462 C101.834,75.462 103.899,77.14 103.899,79.208 L103.899,90.444 C103.899,92.51 101.834,94.186 99.288,94.186 L61.846,94.186 L61.846,94.186 Z"></path>
+            <circle id="thumb-button" stroke="#80D3F1" style="stroke: var(--tertiary-color)" stroke-width="2.199" cx="14.792" cy="46.777" r="6.885"></circle>
+        </g>
+    </defs>
+
+
+    <!-- MEDAL BADGE -->
+    <symbol id="medal-badge" viewBox="0 0 237 220">
+        <use xlink:href="#badge"></use>
+        <use xlink:href="#medal"></use>
+        <use xlink:href="#sparkles"></use>
+    </symbol>
+
+    <!-- DIAMOND BADGE-->
+    <symbol id="diamond-badge" viewBox="0 0 237 220">
+        <use xlink:href="#badge"></use>
+        <use xlink:href="#diamond"></use>
+        <use xlink:href="#sparkles"></use>
+    </symbol>
+
+    <!-- TROPHY BADGE-->
+    <symbol id="trophy-badge" viewBox="0 0 237 220">
+        <use xlink:href="#badge"></use>
+        <use xlink:href="#trophy"></use>
+        <use xlink:href="#sparkles"></use>
+    </symbol>
+
+    <!-- STAR BADGE-->
+    <symbol id="star-badge" viewBox="0 0 237 220">
+        <use xlink:href="#badge"></use>
+        <use xlink:href="#star"></use>
+        <use xlink:href="#sparkles"></use>
+    </symbol>
+
+    <!-- STAR BADGE-->
+    <symbol id="thumbs-badge" viewBox="0 0 237 220">
+        <use xlink:href="#badge"></use>
+        <use xlink:href="#thumbs"></use>
+        <use xlink:href="#thumbs-sparkles"></use>
+    </symbol>
+</svg>

@@ -1,0 +1,8 @@
+url: http://2018.code4lib.org
+permalink: /:categories/:title
+exclude: [node_modules]
+repository: code4lib/2018.codelib.org
+future: true
+timezone: America/New_York
+sass:
+  sass_dir: assets/_scss
