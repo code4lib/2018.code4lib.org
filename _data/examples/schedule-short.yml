@@ -1,0 +1,81 @@
+# This file is only used for testing the theme and special content pieces
+
+# Registration
+- timeImg: 8.00.png
+  title: Registration/Breakfast
+  day1: true
+  time: 08:00-09:00
+
+# Announcements
+- timeImg: 9.00.png
+  title: Announcements and Welcome
+  day1: true
+  time: 09:00-09:15
+
+# Breaks
+- timeImg: 10.00.png
+  title: Break
+  day1: true
+  time: 10:00-10:15
+
+# Breakouts
+- timeImg: 2.45.png
+  title: Breakout Sessions 1
+  day1: true
+  time: 14:45-15:40
+
+# lightning
+- timeImg: 3.50.png
+  title: Lightning Talks 1
+  day1: true
+  time: 15:50-16:50
+
+# wrap ups
+- timeImg: 4.50.png
+  title: Daily Wrap-up
+  day1: true
+  time: 16:50-17:00
+
+# receptions
+- timeImg: 5.45.png
+  title: Reception
+  day1: true
+  time: 17:45-19:45
+
+# lunches
+- timeImg: 12.10.png
+  title: Lunch
+  day1: true
+  time: 12:10-13:10
+
+# housekeeping (announcements and giveaways)
+- timeImg: 10.15.png
+  title: Announcements
+  day1: true
+  time: 10:15-10:20
+
+- timeImg: 1.10.png
+  title: Announcements
+  day1: true
+  time: 13:10-13:15
+
+- timeImg: 3.45.png
+  title: Announcements
+  day1: true
+  time: 15:45-15:50
+
+# keynotes
+- timeImg: 9.15.png
+  title: Opening Keynote
+  day1: true
+  groupId: key-open
+  time: 09:15-10:00
+
+# groups
+- timeImg: 10.20.png
+  title: Group 1&#58; 100 minutes (2 talks)
+  day1: true
+  groupId: 1
+  time: 10:20-12:00
+  start: 1457432400
+  end: 1457438400
