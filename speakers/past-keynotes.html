@@ -13,8 +13,7 @@ title: Past Keynotes
         <div class="row">
             <div class="col-xs-12 speaker-sequence sequence">
                 {% for person in site.data.past-keynotes %}
-                    {% assign speaker = person[1] %}
-                    {% include speaker_box.html param=speaker %}
+                    {% include speaker_box.html param=person %}
                 {% endfor %}
             </div>
         </div>
