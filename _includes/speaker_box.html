@@ -14,7 +14,6 @@
         <div class="arrow-down"></div>
     </div>
 </div>
-<!--<div class="speaker-info" style="order:{{order | plus:3}}" id="{{ speaker.Name | slugify }}-info">-->
 <div class="speaker-info" id="{{ speaker.Name | slugify }}-info">
     <div class="speaker-info-inner">
         {% if speaker.Twitter-Handle %}
@@ -29,6 +28,7 @@
                 </span>
                 <span class="username">{{ speaker.Twitter-Handle }}</span>
               </a>
+            </span>
         </p>
         {% endif %}
         <p class="speaker-bio">
@@ -55,15 +55,5 @@
                 {% endfor %}
             {% endfor %}
         {% endif %}
-        <!--
-        <div class="row">
-            {% if speaker.Email-Address %}
-            <div class="col-xs-12 col-sm-6 text-center">
-                <h4><span class="glyphicon glyphicon-envelope"></span>: {{ speaker.Email-Address }}</h4>
-            </div>
-            {% endif %}
-        </div>
-      -->
     </div>
-
 </div>

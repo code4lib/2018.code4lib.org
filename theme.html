@@ -1,0 +1,127 @@
+---
+layout: default
+title: code4lib - Washington, D.C. 2018
+hero-image: assets/img/los-angeles-cropped.jpg
+speaker:
+    Name: Lady
+    Last: McAwesome
+    Bio: |
+        Saved the world from stupid people
+    Twitter-Handle: tweet
+    Work-Title: Superstar
+    Institution: That Place
+    Image-URL: /assets/img/nopics/nopic1.jpg
+---
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="row">
+    <div class="jumbotron" id="main" style="background: url({{ page.hero-image }}) top no-repeat;">
+        <div class="container">
+            <h1 class="text-right">Somewhereville</h1>
+            <h2 class="text-right">1999</h2>
+
+            <p class="text-right"><a class="btn btn-lg btn-primary">Info Button</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="row attribution">
+    <div class="container">
+        <p class="text-right small"><a href="">attributtion</a></p>
+    </div>
+</div>
+
+<div class="sub-container">
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Section 1</h2>
+            <p>
+                Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
+                Donec in magna condimentum, fermentum nulla et, consequat dui. Nulla lobortis massa ac mi vehicula ornare.
+                Nulla a nunc aliquet, pellentesque lorem quis, dapibus quam. Quisque et urna tincidunt leo hendrerit lacinia.
+                Duis bibendum augue id convallis viverra. Nullam sit amet imperdiet ligula. In vel tincidunt felis, in vehicula magna.
+                Donec id urna erat. Curabitur mattis nisi ut massa auctor, et gravida lacus pulvinar. Suspendisse tortor
+                nisi, tempor sit amet erat vel, egestas eleifend odio. Fusce venenatis eget enim consectetur sodales.
+                Etiam bibendum mattis rutrum.
+            </p>
+        </div>
+    </div>
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Section 2</h2>
+            <p>
+                Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
+                Donec in magna condimentum, fermentum nulla et, consequat dui. Nulla lobortis massa ac mi vehicula ornare.
+                Nulla a nunc aliquet, pellentesque lorem quis, dapibus quam. Quisque et urna tincidunt leo hendrerit lacinia.
+                Duis bibendum augue id convallis viverra. Nullam sit amet imperdiet ligula. In vel tincidunt felis, in vehicula magna.
+                Donec id urna erat. Curabitur mattis nisi ut massa auctor, et gravida lacus pulvinar. Suspendisse tortor
+                nisi, tempor sit amet erat vel, egestas eleifend odio. Fusce venenatis eget enim consectetur sodales.
+                Etiam bibendum mattis rutrum.
+            </p>
+        </div>
+    </div>
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Section 3</h2>
+            <p>
+                Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
+                Donec in magna condimentum, fermentum nulla et, consequat dui. Nulla lobortis massa ac mi vehicula ornare.
+                Nulla a nunc aliquet, pellentesque lorem quis, dapibus quam. Quisque et urna tincidunt leo hendrerit lacinia.
+                Duis bibendum augue id convallis viverra. Nullam sit amet imperdiet ligula. In vel tincidunt felis, in vehicula magna.
+                Donec id urna erat. Curabitur mattis nisi ut massa auctor, et gravida lacus pulvinar. Suspendisse tortor
+                nisi, tempor sit amet erat vel, egestas eleifend odio. Fusce venenatis eget enim consectetur sodales.
+                Etiam bibendum mattis rutrum.
+            </p>
+        </div>
+    </div>
+
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Special Elements</h2>
+
+            <!-- Speaker -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>Speaker</h3>
+                    {% include speaker_box.html param=page.speaker %}
+                </div>
+            </div>
+
+            <!-- Sponsor badge -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>Sponsor Plate</h3>
+                    {% include sponsor_plate.html level="Platinum Sponsors" badge="trophy-badge" %}
+                </div>
+            </div>
+
+            <!-- testimonial -->
+            <div class="row" id="testimonials">
+                <div class="col-xs-12">
+                    <h3>Testimonial</h3>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <div class="speech-bubble">
+                                <div class="arrow bottom right"></div>
+                                Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
+                            </div>
+                            <div class="caption">
+                                <h3><a href="">Person</a></h3>
+                                <p>University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- timeline -->
+            <div class="row">
+                <div class="col-xs-12">
+                    {% include presentation_timeline.html param="day1" %}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
