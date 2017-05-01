@@ -1,21 +1,13 @@
 ---
 layout: default
 title: code4lib - Washington, D.C. 2018
-hero-image: assets/img/los-angeles-cropped.jpg
-speaker:
-    Name: Lady
-    Last: McAwesome
-    Bio: |
-        Saved the world from stupid people
-    Twitter-Handle: tweet
-    Work-Title: Superstar
-    Institution: That Place
-    Image-URL: /assets/img/nopics/nopic1.jpg
+# Change this url to try different images
+hero-image: assets/img/theme-images/hero-image.jpg
 ---
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="row">
-    <div class="jumbotron" id="main" style="background: url({{ page.hero-image }}) top no-repeat;">
+    <div class="jumbotron" id="main" style="background: url('{{ page.hero-image }}') top no-repeat;">
         <div class="container">
             <h1 class="text-right">Somewhereville</h1>
             <h2 class="text-right">1999</h2>
@@ -75,53 +67,102 @@ speaker:
         </div>
     </div>
 
+    <!-- Badges -->
     <div class="row section">
         <div class="cell cell-lg">
-            <h2>Special Elements</h2>
+            <h2>Sponsor Badges</h2>
+            {% include sponsor_plate.html level="Diamond Sponsor" badge="diamond-badge" %}
+        </div>
+    </div>
 
-            <!-- Speaker -->
+
+    <!-- Speakers -->
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Speakers</h2>
             <div class="row">
-                <div class="col-xs-12">
-                    <h3>Speaker</h3>
-                    {% include speaker_box.html param=page.speaker %}
+                <div class="col-xs-12 speaker-sequence sequence">
+                    {% assign speakers = site.data.examples.speakers | sort: 'last' %}
+                    {% for speaker in speakers %}
+                        {% include speaker_box.html param=speaker %}
+                    {% endfor %}
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Sponsor badge -->
+    <!-- Menu -->
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Menu</h2>
+            {% assign menu = site.data.examples.menu %}
+            {% for meal in menu limit:1 offset:1 %}
+                <div class="col-md-12">
+                    {% include menu.html meal=meal.Lunch %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- timeline -->
+    <div class="row section">
+        <div class="cell cell-lg">
+            <h2>Schedule</h2>
+            {% include schedule_nav.html param="day1" %}
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Sponsor Plate</h3>
-                    {% include sponsor_plate.html level="Platinum Sponsors" badge="trophy-badge" %}
+                    {% assign events = site.data.examples.schedule-short | sort: "time" %}
+                    {% include presentation_timeline.html events=events menuDay="day1" %}
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- testimonial -->
-            <div class="row" id="testimonials">
-                <div class="col-xs-12">
-                    <h3>Testimonial</h3>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <div class="speech-bubble">
-                                <div class="arrow bottom right"></div>
-                                Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
-                            </div>
-                            <div class="caption">
-                                <h3><a href="">Person</a></h3>
-                                <p>University</p>
-                            </div>
+    <div class="row section" id="testimonials">
+        <div class="cell cell-lg">
+            <div class="row">
+
+                <!-- testimonial -->
+                <div class="col-sm-4">
+                    <h2>Testimonial</h2>
+                    <div class="thumbnail">
+                        <div class="speech-bubble">
+                            <div class="arrow bottom right"></div>
+                            Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
+                        </div>
+                        <div class="caption">
+                            <h3><a href="">Person</a></h3>
+                            <p>University</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-sm-offset-1">
+                    <!-- Presentation Info -->
+                    <h2>Presentation Info</h2>
+                    <div class="row talk-detail-box">
+                        <!-- date -->
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                            <div class="talk-box-detail-value"> <a href=""></a>March 7th</div>
+                        </div>
+
+                        <!-- time of day for presentations -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                            <div class="talk-box-detail-value">11:10 AM</div>
+                        </div>
+
+                        <!-- length -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                            <!--<h3>Length</h3>
+                            <p>{{ page.length }} minutes</p>-->
+                            <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>
+                            <div class="talk-box-detail-value">  20 minutes</div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- timeline -->
-            <div class="row">
-                <div class="col-xs-12">
-                    {% include presentation_timeline.html param="day1" %}
-                </div>
-            </div>
-
         </div>
     </div>
-
 </div>
