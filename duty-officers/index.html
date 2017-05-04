@@ -24,12 +24,14 @@ title: Duty Officers
             <div class="col-md-12">
                 <div class="row">
                 {% for officer in site.data.duty-officers %}
-                    <div class="col-md-4"><div class="speaker-box text-center">
-                        <div class="speaker-box-inner">
-                            <img class="clip-circle-lg" src="/{{ officer[1].img }}" alt="{{ officer[1].name }}">
-                            <h3 class="speaker-name">{{ officer[1].name }}</h3>
+                    <div class="col-md-4">
+                        <div class="speaker-box text-center">
+                            <div class="speaker-box-inner">
+                                <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                                <h3 class="speaker-name">{{ officer.name }}</h3>
+                            </div>
                         </div>
-                    </div></div>
+                    </div>
                 {% endfor %}
                 </div>
             </div>
@@ -42,7 +44,7 @@ title: Duty Officers
                     <p><strong>All duty officers attending the event &mdash; look for the black lanyards!</strong></p>
                 {% else %}
                     {% for officerId in session.officers %}
-                    {% assign officer = site.data.duty-officers[officerId] %}
+                    {% assign officer = site.data.duty-officers | where: "id", officerId | first %}
                     <div class="speaker-box text-center">
                         <div class="speaker-box-inner">
                             <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">

@@ -1,0 +1,11 @@
+- id: lobby
+  building: Conference Center
+  room: Lobby
+  map:
+
+- id: classroom-b
+  building: Building A
+  room: Classroom B (Level 3)
+  am-sessions: example-workshop-slug
+  pm-sessions: example-workshop-slug2
+  map:
