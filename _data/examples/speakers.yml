@@ -1,0 +1,37 @@
+- id: ophelia-the-omnipresent
+  name: Ophelia
+  last: Ophelia
+  bio: |
+    She toats loves Hamlet...a bit too much.
+  twitter-handle: ???
+  work-title: Supporting Character
+  institution: Hamlet
+  image-src: /assets/img/nopics/nopic8.jpg
+- id: melancholy-jaques
+  name: Melancholy Jaques
+  last: Jaques
+  bio: |
+    Depressed much?
+  twitter-handle: ???
+  work-title: Introvert
+  institution: Arden
+  image-src: /assets/img/nopics/nopic9.jpg
+- id: duke-senior
+  name: Duke Senior
+  last: Senior
+  bio: |
+    The Yin to Jaques' Yang
+  twitter-handle: ???
+  work-title: Robin Hood
+  institution: Arden
+  image-src: /assets/img/nopics/nopic10.jpg
+- id: lady-macbeth
+  name: Lady Macbeth
+  last: Macbeth
+  bio: |
+    Out out...
+  twitter-handle: ???
+  work-title: Heroine
+  institution: Dunsinane
+  image-src: /assets/img/nopics/nopic1.jpg
+  keynote: 1

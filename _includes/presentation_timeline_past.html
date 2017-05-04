@@ -1,7 +1,7 @@
 
 
 <section id="cd-timeline" class="cd-container">
-    {% assign posts = site.posts | where:include.param, 1 %}
+    {% assign posts = site.posts | where:"categories", "past-keynote" %}
     {% for post in posts %}
     <div class="cd-timeline-block">
         <div class="cd-timeline-img"></div>
@@ -11,12 +11,12 @@
                 <h2>{{ post.title }}</h2>
             </div>
             {% if post.speaker %}
-            {% assign speaker = site.data.past-keynotes[post.speaker] %}
-            <div class="col-sm-4 hidden-xs text-center">
-                <a href="/speakers/past-keynotes.html#{{ speaker.Name | slugify }}-info" class="speaker-overlay" data-content="{{ speaker.Name }}">
-                    <img class="clip-circle" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
-                </a>
-            </div>
+                {% assign speaker = site.data.past-keynotes | where:"id",post.speaker | first %}
+                <div class="col-sm-4 hidden-xs text-center">
+                    <a href="/speakers/past-keynotes.html#{{ speaker.name | slugify }}-info" class="speaker-overlay" data-content="{{ speaker.name }}">
+                        <img class="clip-circle" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
+                    </a>
+                </div>
             {% endif %}
             <div class="col-sm-4 col-xs-6 text-center">
                 <h3 class="past-pres-date">{{ post.date | date: '%Y' }}</h3>
