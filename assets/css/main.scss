@@ -18,7 +18,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 20.3125em;
   padding-bottom: 20px;
-  color: $primary-dark;
+  color: $gray-base;
 }
 
 
@@ -30,24 +30,26 @@ body {
   position: absolute;
   right: 0;
   width: 100%;
-  color: #fff;
-  background-color: #313d38;
+  color: $footer-color;
+  background-color: $footer-bg;
   padding-top: 3em;
   text-align: center;
+
+  p {
+    font-size: .8em;
+  }
+
+  a {
+    color: $footer-link;
+  }
+  a:hover, a:focus {
+    color: $footer-hover;
+  }
 }
 @media (min-width: 768px){
   .footer{
     padding: 5em 0;
   }
-}
-
-.footer a {
-  color: $accent-light;
-}
-
-.footer p {
-  color: #fff;
-  font-size: 0.8em;
 }
 
 
@@ -89,12 +91,26 @@ p {
 }
 
 .section:nth-child(3n+2) {
-  background: $primary-light;
+  background: $section-2-bg;
+  color: $section-2-color;
+  a {
+    color: $section-2-link;
+  }
+  a:hover, a:focus {
+    color: $section-2-hover;
+  }
+
 }
 
 .section:nth-child(3n+3) {
-  background: $secondary;
-  color: $primary-lighter;
+  background: $section-3-bg;
+  color: $section-3-color;
+  a {
+    color: $section-3-link;
+  }
+  a:hover, a:focus {
+    color: $section-3-hover;
+  }
 }
 
 .cell {
@@ -226,7 +242,7 @@ p {
 }
 
 .attribution {
-  background-color: $primary-light;
+  background-color: $gray-light;
   color: #fcf5e3;
   padding-top: 0px;
   padding-right:10px;
@@ -234,7 +250,7 @@ p {
 
 .attribution a{
 
-  color: $primary-dark;
+  color: $gray-base;
   padding: 6px;
 }
 
@@ -282,14 +298,14 @@ p {
   width: 94px;
   border-radius: 50%;
   margin: 0 auto .2em;
-  background: #f7f6f1;
-  border: 6px solid #f7f6f1;
+  background: $clip-circle-border;
+  border: 6px solid $clip-circle-border;
   box-sizing: content-box;
 }
 
 .clip-circle-speaker {
-  background: #8e908c;
-  border: 6px solid #8e908c;
+  background: $clip-circle-border;
+  border: 6px solid $clip-circle-border;
   display: block;
   height: 94px;
   width: 94px;
@@ -304,20 +320,16 @@ p {
   width: 172px;
   border-radius: 50%;
   margin: 0 auto .2em;
-  background: #4d4d4d;
-  border: 3px solid #4d4d4d;
+  background: $clip-circle-border;
+  border: 3px solid $clip-circle-border;
   box-sizing: content-box;
 }
 
 
 .speech-bubble {
-  color: white;
-  background-color: $secondary;
-  border: 1px solid $secondary-dark;
-  /*
-  background-color: $accent-light;
-  border: 1px solid $accent;
-  */
+  color: $testimonial-color;
+  background-color: $testimonial-bg;
+  border: 1px solid $testimonial-border;
   border-radius: 5px;
   width: auto;
   padding: 20px;
@@ -331,13 +343,13 @@ p {
 }
 
 .bottom {
-  border-color: $secondary-dark transparent transparent transparent;
+  border-color: $primary-dark transparent transparent transparent;
   border-width: 8px 8px 0px 8px;
   bottom: -8px;
 }
 
 .bottom:after {
-  border-color: $secondary transparent transparent transparent;
+  border-color: $primary transparent transparent transparent;
   border-style: solid;
   border-width: 7px 7px 0px 7px;
   bottom: 1px;
@@ -608,7 +620,7 @@ p.speaker-title{
 }
 
 p.speaker-bio {
-  color: $primary-dark;
+  color: $speaker-info-color;
   padding: 0.5em;
   margin-bottom: 5px;
 }
@@ -622,8 +634,7 @@ p.speaker-inst{
   font-size: .9em;
 }
 .speaker-info{
-  background-color: #eeeeee;
-  color: #fff;
+  background-color: $speaker-info-bg;
   width: 900px;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -651,7 +662,7 @@ p.speaker-inst{
 }
 .speaker-info-inner h4{
   padding: 0.5em;
-  color: $gray-dark;
+  color: $speaker-info-color;
 }
 
 .speaker-box{
@@ -668,19 +679,19 @@ p.speaker-inst{
   width: 100%
 }
 .speaker-box.selected .speaker-box-inner{
-  background-color: $accent;
+  background-color: $speaker-selected-bg;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 .speaker-box.selected a{
-  color:$primary-lighter;
+  color: $speaker-selected-color;
 }
 .speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
-  color:$primary-lighter;
+  color: $speaker-selected-color;
   text-decoration: none;
 }
 .speaker-box.selected p{
-  color: $primary-lighter;
+  color: $speaker-selected-color;
 }
 
 .arrow-down {
@@ -690,7 +701,7 @@ p.speaker-inst{
   border-right: 140px solid transparent;
   position: absolute;
   z-index: 99;
-  border-top: 15px solid $accent;
+  border-top: 15px solid $speaker-selected-bg;
   margin-top: 15px;
   opacity: 0;
 }
@@ -711,26 +722,28 @@ p.speaker-inst{
   animation: intro .34s .4s cubic-bezier(1.000, 1.400, 0.410, 1.010) forwards;
   transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);
   border-radius: 10px;
-  background: #fff;
-  box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
+  background: $talk-box-bg;
+  box-shadow: 4px 5px 0px $talk-box-shadow;
   margin-bottom: 100px;
-  color: #3d3d3d;
+  color: $talk-box-color;
 }
 
 .talk-detail-box .time-slot {
-  background: $accent-light;
+  background: $talk-box-2-bg;
+  color: $talk-box-2-color;
 }
 
 .talk-detail-box .building {
-  background: #fff;
+  background: $talk-box-bg;
+  background: $talk-box-color;
 }
 
 
 .talk-detail-box .time-length {
-  background: $accent;
+  background: $talk-box-3-bg;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  color: #fff;
+  color: $talk-box-3-color;
 }
 
 .talk-box-detail-icon {
@@ -775,10 +788,10 @@ p.speaker-inst{
 .tasting-menu {
   padding: 20px 18px 40px;
   margin-bottom: 75px;
-  border: $accent-light 4px double;
+  border: $menu-border 4px double;
   margin-right: 0;
-  background: $primary-lighter;
-  color: $primary-dark;
+  background: $menu-bg;
+  color: $menu-color;
 }
 
 .tasting-menu .tasting-intro {
@@ -796,7 +809,7 @@ p.speaker-inst{
 }
 
 .tasting-menu .tasting-options li {
-  border-bottom: 1px dashed #d1d3d4;
+  border-bottom: 1px dashed $menu-divider;
   padding: 0 0 13px;
   margin-bottom: 20px;
   list-style-type: none;
@@ -804,21 +817,21 @@ p.speaker-inst{
 
 .tasting-menu h4 {
   text-align: center;
-  color: #fff;
+  color: $menu-banner-color;
   text-transform: uppercase;
-  background: $accent;
+  background: $menu-banner-bg;
   text-align: center;
   padding: 20px 60px;
   margin-bottom: 26px;
   font: 48px/1 din-condensed-web, sans-serif;
-  background-color: $accent;
+  background-color: $menu-banner-bg;
   padding: 10px 20px;
   margin-top: 0;
 }
 
 .tasting-menu .tasting-options h5 {
   font-style: normal;
-  color: $accent;
+  color: $menu-headers;
   font-family: din-condensed-web, sans-serif;
   font-size: 20px;
 }
@@ -827,7 +840,7 @@ p.speaker-inst{
   text-transform: none;
   font-style: italic;
   margin: 0;
-  color: #4D4D4D;
+  color: $menu-color;
   border: 0;
 }
 
@@ -873,11 +886,12 @@ p.speaker-inst{
    SVGs
    ========================================================================== */
 .sponsor-badge{
-  --primary-color: #{$accent};
-  --secondary-color: #{$accent-light};
-  --background-color:#fff;
-  --tertiary-color: #{lighten($accent-light, 15%)};
-  --highlight-color:#fff;
+  --primary-color: #{$sponsor-badge-primary};
+  --secondary-color: #{$sponsor-badge-secondary};
+  --background-color:#{$sponsor-badge-bg};
+  --tertiary-color: #{$sponsor-badge-tertiary};
+  --ribbon-color: #{$sponsor-badge-ribbon};
+  --highlight-color:#{$sponsor-badge-bg};
 }
 
 .sponsor-badge.gold{
