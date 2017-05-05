@@ -36,7 +36,7 @@ Main components
   left: 18px;
   height: 100%;
   width: 4px;
-  background: $secondary;
+  background: $timeline-line-color;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -72,10 +72,6 @@ Main components
   }
 }
 
-.past-pres-date {
-  color: gray;
-}
-
 .cd-timeline-img {
   position: absolute;
   top: 0;
@@ -83,7 +79,7 @@ Main components
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px $timeline-clock-border, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   background: $accent-light;
 }
 .cd-timeline-img img {
@@ -164,10 +160,10 @@ Main components
 .cd-timeline-content {
   position: relative;
   margin-left: 70px;
-  background: white;
+  background: $timeline-content-bg;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 4px 5px 0px $timeline-content-shadow;
 }
 .cd-timeline-content:after {
   content: "";
@@ -178,7 +174,7 @@ Main components
   padding: 0;
   margin: 0;
   font-size: 20px;
-  color: $primary;
+  color: $timeline-text-color;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 14px;
@@ -191,16 +187,7 @@ Main components
   margin: 1em 0;
   line-height: 1.6;
 }
-.cd-timeline-content .cd-read-more {
-  float: right;
-  padding: .8em 1em;
-  background: $primary-light;
-  color: $primary;
-  border-radius: 0.25em;
-}
-.no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: $primary-light;
-}
+
 .cd-timeline-content .cd-date {
   float: left;
   padding: .8em 0;

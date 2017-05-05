@@ -3,44 +3,102 @@ $bootstrap-sass-asset-helper: false !default;
 // Variables
 // --------------------------------------------------
 
-// Primaries
-$primary-dark:  #332C2F !default;
-$primary: #67655D !default;
-$primary-light: #D4D8D1 !default;
-$primary-lighter: #FFFFFF !default;
-$secondary: #577492;
-$secondary-dark: darken($secondary, 6.5%) !default; 
-
-// Accents
-$accent: #B74934;
-$accent-light: #fc8a56;
-
-
 //== Colors
+$gray-base:               #332C2F !default;
+$gray-darker:             lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:               #67655D !default;
+$gray:                    #8E908C;
+$gray-light:              #D4D8D1 !default;
+$gray-lighter:            #FFFFFF !default;
+
+$primary:                 #577492;
+$primary-dark:            darken($primary, 6.5%) !default;
+$primary-light:           lighten($primary, 10%) !default;
+
+$accent:                  #B74934;
+$accent-dark:             darken($accent, 10%) !default;
+$accent-light:            #fc8a56;
+
+$brand-primary:           $primary !default; // #337ab7
+$brand-success:           #5cb85c !default;
+$brand-info:              #5bc0de !default;
+$brand-warning:           #f0ad4e !default;
+$brand-danger:            #d9534f !default;
+
+//== Code4Lib
 //
-//## Gray and brand colors for use across Bootstrap.
+//## Unique Code4Lib conference site components
+// Sections
+$section-2-bg:            $gray-light;
+$section-2-color:         $gray-base;
+$section-2-link:          $accent;
+$section-2-hover:         $accent-dark;
 
-$gray-base:              #000 !default;
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              #4d4d4d;
-$gray:                   #8E908C;
-$gray-light:             #D1D3D4; // #777
-$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$section-3-bg:            $primary;
+$section-3-color:         $gray-lighter;
+$section-3-link:          $accent-light;
+$section-3-hover:         darken($accent-light, 6.5%);
 
-$brand-primary:         darken($primary, 6.5%) !default; // #337ab7
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$footer-bg:               $gray-dark;
+$footer-color:            $gray-lighter;
+$footer-link:             $accent-light;
+$footer-hover:            darken($accent-light, 6.5%);
+
+//Clip circle
+$clip-circle-border:      $primary-dark;
+
+//Sponsor Badges
+$sponsor-badge-primary:   $accent;
+$sponsor-badge-secondary: $accent-light;
+$sponsor-badge-tertiary:  $primary-light;
+$sponsor-badge-ribbon:    $gray-lighter;
+$sponsor-badge-bg:        $gray-lighter;
+
+//Speaker Box
+$speaker-selected-bg:     $accent;
+$speaker-selected-color:  $gray-lighter;
+$speaker-info-bg:         $gray-lighter;
+$speaker-info-color:      $gray-base;
+
+//Menu
+$menu-border:             $accent-light;
+$menu-banner-bg:          $accent;
+$menu-banner-color:       $gray-lighter;
+$menu-headers:            $accent;
+$menu-bg:                 $gray-lighter;
+$menu-color:              $gray-base;
+$menu-divider:            $gray-light;
+
+// Timeline
+$timeline-line-color:     $primary;
+$timeline-clock-bg:       $accent;
+$timeline-clock-border:   $primary-dark;
+$timeline-text-color:     $gray-base;
+$timeline-content-bg:     $gray-lighter;
+$timeline-content-shadow: $gray;
+
+// Testimonials
+$testimonial-bg:          $primary;
+$testimonial-border:      $primary-dark;
+$testimonial-color:       $gray-lighter;
+
+// Presentation Info Box
+$talk-box-bg:             $gray-lighter;
+$talk-box-color:          $gray-base;
+$talk-box-shadow:         $gray;
+$talk-box-2-bg:           $accent-light;
+$talk-box-2-color:        $gray-base;
+$talk-box-3-bg:           $accent;
+$talk-box-3-color:        $gray-lighter;
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $primary-lighter !default;
+$body-bg:               $gray-lighter !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$text-color:            $gray-base !default;
 
 //** Global textual link color.
 $link-color:            $accent !default;
@@ -248,18 +306,18 @@ $cursor-disabled:                not-allowed !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-$dropdown-bg:                    $primary-lighter !default;
+$dropdown-bg:                    $gray-lighter !default;
 //** Dropdown menu `border-color`.
 $dropdown-border:                rgba(0,0,0,.15) !default;
 //** Dropdown menu `border-color` **for IE8**.
 $dropdown-fallback-border:       #ccc !default;
 //** Divider color for between dropdown items.
-$dropdown-divider-bg:            $secondary !default;
+$dropdown-divider-bg:            $primary !default;
 
 //** Dropdown link text color.
 $dropdown-link-color:            $gray-dark !default;
 //** Hover color for dropdown links.
-$dropdown-link-hover-color:      $primary-dark !default;
+$dropdown-link-hover-color:      $gray-base !default;
 //** Hover background for dropdown links.
 $dropdown-link-hover-bg:         $accent-light !default;
 
@@ -380,12 +438,12 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $primary-lighter !default;
-$navbar-default-bg:                $primary-dark !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-color:             $gray-lighter !default;
+$navbar-default-bg:                $primary !default;
+$navbar-default-border:            $primary-dark !default;
 
 // Navbar links
-$navbar-default-link-color:                $primary-lighter !default;
+$navbar-default-link-color:                $gray-lighter !default;
 $navbar-default-link-hover-color:          $accent-light !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         $accent-light !default;
