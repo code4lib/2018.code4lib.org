@@ -23,9 +23,9 @@
         <g id="badge" transform="translate(0.000000, 3.000000)">
             <path id="hex-border" stroke="#2AACE3" fill="#80D3F1" style="fill: var(--secondary-color); stroke: var(--primary-color)" stroke-width="5.4871" d="M118.981,213.691 C116.837,213.691 114.694,213.138 112.771,212.035 L30.97,165.033 C27.11,162.814 24.728,158.705 24.716,154.252 L24.523,59.908 C24.513,55.457 26.88,51.338 30.732,49.105 L112.336,1.763 C114.27,0.64 116.43,0.079 118.59,0.079 C120.733,0.079 122.876,0.632 124.799,1.735 L206.601,48.739 C210.46,50.956 212.844,55.065 212.854,59.518 L213.05,153.862 C213.06,158.315 210.693,162.434 206.841,164.669 L125.233,212.009 C123.302,213.131 121.142,213.691 118.981,213.691 L118.981,213.691 Z"></path>
             <polygon id="hex-inner" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)" stroke-width="2.3516" points="200.588 153.889 118.981 201.23 37.18 154.227 36.985 59.883 118.591 12.543 200.392 59.545"></polygon>
-            <polygon id="left-ribbon" stroke="#2AACE3" fill="E6F4FA" style="fill: var(--tertiary-color); stroke: var(--primary-color)" stroke-width="5.4871" points="49.161 132.963 3.625 132.963 3.625 80.773 49.161 80.773 35.686 106.611"></polygon>
+            <polygon id="left-ribbon" stroke="#2AACE3" fill="E6F4FA" style="fill: var(--ribbon-color); stroke: var(--primary-color)" stroke-width="5.4871" points="49.161 132.963 3.625 132.963 3.625 80.773 49.161 80.773 35.686 106.611"></polygon>
             <polygon id="left-ribbon-bottom" fill="#2AACE3" style="fill: var(--primary-color)" points="23.298 152.834 0.795 135.033 23.298 135.033"></polygon>
-            <polygon id="right-ribbon" stroke="#2AACE3" fill="E6F4FA" style="fill: var(--tertiary-color); stroke: var(--primary-color)" stroke-width="5.4871" points="189.359 133.746 234.897 133.746 234.897 81.557 189.359 81.557 202.837 107.395"></polygon>
+            <polygon id="right-ribbon" stroke="#2AACE3" fill="E6F4FA" style="fill: var(--ribbon-color); stroke: var(--primary-color)" stroke-width="5.4871" points="189.359 133.746 234.897 133.746 234.897 81.557 189.359 81.557 202.837 107.395"></polygon>
             <polygon id="right-ribbon-bottom" fill="#2AACE3" style="fill: var(--primary-color)" points="215.088 153.617 237.591 135.818 215.088 135.818"></polygon>
         </g>
 
