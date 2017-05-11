@@ -242,19 +242,19 @@ p {
 }
 
 .attribution {
-  background-color: $gray-light;
-  color: #fcf5e3;
+  background-color: $accent;
+  color: $gray-lighter;
   padding-top: 0px;
   padding-right:10px;
-}
 
-.attribution a{
-  color: $gray-base;
-  padding: 6px;
-}
+  a {
+    color: $gray-lighter;
+    padding: 6px;
+  }
 
-.attribution p{
-  margin: auto;
+  p {
+    margin: auto;
+  }
 }
 
 .subcategories {
@@ -348,7 +348,7 @@ p {
 }
 
 .bottom:after {
-  border-color: $primary transparent transparent transparent;
+  border-color: $testimonial-bg transparent transparent transparent;
   border-style: solid;
   border-width: 7px 7px 0px 7px;
   bottom: 1px;
