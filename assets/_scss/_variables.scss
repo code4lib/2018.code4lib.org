@@ -5,7 +5,7 @@ $bootstrap-sass-asset-helper: false !default;
 
 //== Colors
 $gray-base:               #332C2F !default;
-$gray-darker:             lighten($gray-base, 13.5%) !default; // #222
+$gray-darker:             #464745 !default; // #222
 $gray-dark:               #67655D !default;
 $gray:                    #8E908C;
 $gray-light:              #D4D8D1 !default;
@@ -39,10 +39,10 @@ $section-3-color:         $gray-lighter;
 $section-3-link:          $accent-light;
 $section-3-hover:         darken($accent-light, 6.5%);
 
-$footer-bg:               $primary-dark;
+$footer-bg:               $gray-darker;
 $footer-color:            $gray-lighter;
-$footer-link:             $accent-light;
-$footer-hover:            darken($accent-light, 6.5%);
+$footer-link:             lighten($accent-light, 30%);
+$footer-hover:            darken($footer-link, 6.5%);
 
 //Clip circle
 $clip-circle-border:      $accent-light;
