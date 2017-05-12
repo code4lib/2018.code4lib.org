@@ -57,7 +57,7 @@ $sponsor-badge-bg:        $gray-lighter;
 //Speaker Box
 $speaker-selected-bg:     $accent;
 $speaker-selected-color:  $gray-lighter;
-$speaker-info-bg:         $gray-lighter;
+$speaker-info-bg:         $gray-light;
 $speaker-info-color:      $gray-base;
 
 //Menu
@@ -72,10 +72,10 @@ $menu-divider:            $gray-light;
 // Timeline
 $timeline-line-color:     $accent-light;
 $timeline-clock-bg:       $gray-lighter;
-$timeline-clock-border:   $primary;
+$timeline-clock-border:   $primary-dark;
 $timeline-text-color:     $gray-base;
 $timeline-content-bg:     $gray-lighter;
-$timeline-content-shadow: $primary-dark;
+$timeline-content-shadow: $gray;
 
 // Testimonials
 $testimonial-bg:          $accent;
