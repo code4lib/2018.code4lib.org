@@ -5,21 +5,21 @@ $bootstrap-sass-asset-helper: false !default;
 
 //== Colors
 $gray-base:               #332C2F !default;
-$gray-darker:             lighten($gray-base, 13.5%) !default; // #222
+$gray-darker:             #464745 !default; // #222
 $gray-dark:               #67655D !default;
 $gray:                    #8E908C;
 $gray-light:              #D4D8D1 !default;
-$gray-lighter:            #FFFFFF !default;
+$gray-lighter:            #F6FDFD !default;
 
-$primary:                 #577492;
-$primary-dark:            darken($primary, 6.5%) !default;
+$primary:                 #94ACC9;
+$primary-dark:            #12192D;
 $primary-light:           lighten($primary, 10%) !default;
 
-$accent:                  #B74934;
+$accent:                  #B41403;
 $accent-dark:             darken($accent, 10%) !default;
-$accent-light:            #fc8a56;
+$accent-light:            #F65108;
 
-$brand-primary:           $primary !default; // #337ab7
+$brand-primary:           $accent !default; // #337ab7
 $brand-success:           #5cb85c !default;
 $brand-info:              #5bc0de !default;
 $brand-warning:           #f0ad4e !default;
@@ -29,29 +29,29 @@ $brand-danger:            #d9534f !default;
 //
 //## Unique Code4Lib conference site components
 // Sections
-$section-2-bg:            $gray-light;
+$section-2-bg:            $primary;
 $section-2-color:         $gray-base;
-$section-2-link:          $accent;
-$section-2-hover:         $accent-dark;
+$section-2-link:          $accent-dark;
+$section-2-hover:         darken($accent-dark, 10%);
 
-$section-3-bg:            $primary;
+$section-3-bg:            $primary-dark;
 $section-3-color:         $gray-lighter;
 $section-3-link:          $accent-light;
 $section-3-hover:         darken($accent-light, 6.5%);
 
-$footer-bg:               $gray-dark;
+$footer-bg:               $gray-darker;
 $footer-color:            $gray-lighter;
-$footer-link:             $accent-light;
-$footer-hover:            darken($accent-light, 6.5%);
+$footer-link:             lighten($accent-light, 30%);
+$footer-hover:            darken($footer-link, 6.5%);
 
 //Clip circle
-$clip-circle-border:      $primary-dark;
+$clip-circle-border:      $accent-light;
 
 //Sponsor Badges
 $sponsor-badge-primary:   $accent;
 $sponsor-badge-secondary: $accent-light;
-$sponsor-badge-tertiary:  $primary-light;
-$sponsor-badge-ribbon:    $gray-lighter;
+$sponsor-badge-tertiary:  $primary;
+$sponsor-badge-ribbon:    $accent-light;
 $sponsor-badge-bg:        $gray-lighter;
 
 //Speaker Box
@@ -70,26 +70,30 @@ $menu-color:              $gray-base;
 $menu-divider:            $gray-light;
 
 // Timeline
-$timeline-line-color:     $primary;
-$timeline-clock-bg:       $accent;
-$timeline-clock-border:   $primary-dark;
+$timeline-line-color:     $accent-light;
+$timeline-clock-bg:       $gray-lighter;
+$timeline-clock-border:   $primary;
 $timeline-text-color:     $gray-base;
 $timeline-content-bg:     $gray-lighter;
-$timeline-content-shadow: $gray;
+$timeline-content-shadow: $primary-dark;
 
 // Testimonials
-$testimonial-bg:          $primary;
+$testimonial-bg:          $accent;
 $testimonial-border:      $primary-dark;
 $testimonial-color:       $gray-lighter;
 
 // Presentation Info Box
 $talk-box-bg:             $gray-lighter;
 $talk-box-color:          $gray-base;
-$talk-box-shadow:         $gray;
+$talk-box-shadow:         $primary-dark;
 $talk-box-2-bg:           $accent-light;
 $talk-box-2-color:        $gray-base;
 $talk-box-3-bg:           $accent;
 $talk-box-3-color:        $gray-lighter;
+
+$jumbotron-btn-bg:        $primary-dark;
+$jumbotron-btn-color:     $gray-lighter;
+$jumbotron-btn-hover:     darken($primary-dark, 6.5%);
 
 //== Scaffolding
 //
@@ -102,8 +106,8 @@ $text-color:            $gray-base !default;
 
 //** Global textual link color.
 $link-color:            $accent !default;
-//** Link hover color set via `darken()` function.
-$link-hover-color:      darken($accent, 15%) !default;
+
+$link-hover-color:      $accent-dark !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 
@@ -439,8 +443,8 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $gray-lighter !default;
-$navbar-default-bg:                $primary !default;
-$navbar-default-border:            $primary-dark !default;
+$navbar-default-bg:                $primary-dark !default;
+$navbar-default-border:            darken($primary-dark, 20%) !default;
 
 // Navbar links
 $navbar-default-link-color:                $gray-lighter !default;
