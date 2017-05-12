@@ -21,6 +21,15 @@ body {
   color: $gray-base;
 }
 
+.jumbotron-btn {
+  background-color: $jumbotron-btn-bg;
+  color: $jumbotron-btn-color;
+}
+.jumbotron-btn:hover, .jumbotron-btn:focus {
+  background-color: $jumbotron-btn-hover;
+  color: $jumbotron-btn-color;
+}
+
 
 .footer {
   bottom: 0;

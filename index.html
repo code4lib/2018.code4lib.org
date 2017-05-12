@@ -12,47 +12,18 @@ title: code4lib - Washington, D.C. 2018
 
             <!-- Livestream -->
             {% if site.data.conf.toggles.livestream %}
-            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a></p>
-            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.captioning-url }}">Closed captioning</a></p>
+            <p class="text-right"><a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a></p>
+            <p class="text-right"><a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.captioning-url }}">Closed captioning</a></p>
             {% endif %}
 
             <!-- Register -->
             {% if site.data.conf.toggles.register %}
-            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.registration-form }}">Register Now!</a></p>
+            <p class="text-right"><a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.registration-form }}">Register Now!</a></p>
             {% endif %}
 
             <!-- Preconference events -->
             <div class="text-right">
-                <a class="btn btn-lg btn-primary" href="/schedule/timeline.html">What's Going On?</a>
-                <ul class="list-unstyled">
-
-                    {% if site.data.conf.toggles.prop-talk %}
-                        <li>Talk Proposals</li>
-                    {% endif %}
-                    {% if site.data.conf.toggles.vote-talk %}
-                        <li><a href="{{ site.data.conf.talk-voting-link }}">Vote for Talks</a></li>
-                    {% endif %}
-
-                    {% if site.data.conf.toggles.vote-panels %}
-                        <li><a href="{{ site.data.conf.panel-voting-link }}">Vote for Panels</a></li>
-                    {% endif %}
-
-                    {% if site.data.conf.toggles.prop-shop %}
-                        <li>Workshop Proposals</li>
-                    {% endif %}
-                    {% if site.data.conf.toggles.vote-shop %}
-                        <li><a href="{{ site.data.conf.workshop-voting-link }}">Vote for Workshops</a></li>
-                    {% endif %}
-
-                    {% if site.data.conf.toggles.prop-shirt %}
-                        <li>T-shirt Logo Proposals</li>
-                    {% endif %}
-                    {% if site.data.conf.toggles.vote-shirt %}
-                        <li>Vote for T-shirt Designs</li>
-                    {% endif %}
-
-                    <li>Sponsorship</li>
-                </ul>
+                <a class="btn btn-lg jumbotron-btn" href="/schedule/timeline.html">What's Going On?</a>
             </div>
         </div>
     </div>

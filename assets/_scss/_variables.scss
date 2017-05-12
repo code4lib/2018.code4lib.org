@@ -91,6 +91,10 @@ $talk-box-2-color:        $gray-base;
 $talk-box-3-bg:           $accent;
 $talk-box-3-color:        $gray-lighter;
 
+$jumbotron-btn-bg:        $primary-dark;
+$jumbotron-btn-color:     $gray-lighter;
+$jumbotron-btn-hover:     darken($primary-dark, 6.5%);
+
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
