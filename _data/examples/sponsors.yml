@@ -1,3 +1,18 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.png
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
 # Available Levels
 # - diamond
 # - platinum
@@ -7,22 +22,15 @@
 # - contributor
 # - supporter
 
-# Example
-# - name: ebsco
-  # img: assets/img/sponsors/ebsco.png
-  # link: http://www.google.com
-  # level: platinum
-
-# if img is omitted, the name will be displayed instead.
-# The annotation key can be used to specify a qualifier next
-# to the sponsor's name/logo (e.g., "Closed Captioning")
 
 - name: Jerry's Pinapples
   img: assets/img/sponsors/sponsor1.png
   link: /
   level: supporter
+  annotation: "Closed Captioning"
+
 
 - name: Yolanda Autoparts
-  img: assets/img/sponsors/sponsor2.svg
-  link:
+  link: https://www.google.com
   level: diamond
+  diversity: true
