@@ -80,7 +80,7 @@ Main components
   height: 60px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px $timeline-clock-border, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-  background: $accent-light;
+  background: $timeline-clock-bg;
 }
 .cd-timeline-img img {
   display: block;

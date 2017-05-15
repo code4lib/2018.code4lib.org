@@ -17,14 +17,16 @@ categories: scholarships
 					scholarship program. Individual donors will be thanked on the <a href="/sponsors/">Sponsors</a>
 					page, though anonymous donation is also possible.
 				</p>
+				{% if site.data.conf.donate-link != '' %}
 				<p>
-					<a class="btn btn-primary btn-lg" href="https://mxmerchant.com/mxcustomer/d/4c19513a-51d3-4f1a-972a-06fd0eefb880">Donate Now</a>
+					<a class="btn btn-primary btn-lg" href="{{ site.data.conf.donate-link}}" target="_blank">Donate Now</a>
 				</p>
+				{% endif %}
 				<p>
 					All funds raised will help pay for transportation, accommodation, and conference registration costs
 					for Code4Lib's Diversity Scholarships recipients for our annual conference. Please feel free to
-					direct any question to the <a href="https://wiki.code4lib.org/2017_Conference_Committees#Scholarship_Committee">Scholarship Committee</a>
-					via <a href="mailto:code4lib-scholarships@googlegroups.com">Linda Ballinger</a>.
+					direct any question to the <a href="https://wiki.code4lib.org/2018_Conference_Committees#Scholarship_Committee">Scholarship Committee</a>
+					<!-- via <a href="mailto:code4lib-scholarships@googlegroups.com">Linda Ballinger</a>. -->
 				</p>
 			</div>
 		</div>
