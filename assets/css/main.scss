@@ -86,7 +86,7 @@ p {
     font-weight: normal;
     letter-spacing: .02em;
     font-size: 2em;
-    margin-top: -1.2em; /* Should equal 1/2 font size +  padding */
+    margin-top: -1.2em;
     margin-bottom: 0;
     padding: .2em;
     background-color: fade-out($accent-light, .35);
@@ -161,6 +161,7 @@ p {
       max-width: 1170px;
       margin-left: auto;
       margin-right: auto;
+      font-size: 3em;
   }
   #conferenceActions {
     text-align: left;
@@ -168,9 +169,19 @@ p {
     margin: 0 auto;
     .btn {
       margin-bottom: 0;
+      float: left;
     }
   }
+}
 
+@media (min-width: $screen-md-min) {
+  #conferenceInfo h1{
+    font-size: 4.5em;
+  }
+  #conferenceActions {
+    margin-top: -4.2em;
+    padding-bottom: 4.2em;
+  }
 }
 
 @media (min-width: 1600px) {
