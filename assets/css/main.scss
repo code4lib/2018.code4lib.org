@@ -310,9 +310,16 @@ section:nth-of-type(3n+3) {
   margin: 10px;
 }
 
+
 #contact_inner{
   margin: 0;
 }
+.past-slides {
+  font-size: 2em;
+  display: block;
+}
+
+// "contact" slide out on prospectus page
 #contact {
   position: fixed;
   top: 60px;
@@ -328,11 +335,38 @@ section:nth-of-type(3n+3) {
   -webkit-border-radius: 0 5px 5px 0;
   -moz-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
+
+  &:hover {
+    left: 250px;
+  }
+  &:hover #contact_inner {
+    left: 0;
+  }
+
+  .thumbnail{
+    background-color: $accent-light;
+    color: #fff;
+    padding: 20px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-align: left;
+    -webkit-border-radius: 0 0 5px 0;
+    -moz-border-radius: 0 0 5px 0;
+    border-radius: 0 0 5px 0;
+  }
+
+  // contact links need own color to stand out against orange background
+  a {
+      color: $primary-dark;
+  }
 }
 
 #contact_inner {
   position: fixed;
   background-color: $accent-light;
+  margin: 0;
   top: 60px;
   left: -250px;
   width: 250px;
@@ -342,26 +376,6 @@ section:nth-of-type(3n+3) {
   -ms-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
-  text-align: left;
-  -webkit-border-radius: 0 0 5px 0;
-  -moz-border-radius: 0 0 5px 0;
-  border-radius: 0 0 5px 0;
-}
-#contact:hover {
-  left: 250px;
-}
-#contact:hover #contact_inner {
-  left: 0;
-}
-
-#contact .thumbnail{
-  background-color: $accent-light;
-  color: #ffffff;
-  padding: 20px;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
   text-align: left;
   -webkit-border-radius: 0 0 5px 0;
   -moz-border-radius: 0 0 5px 0;
