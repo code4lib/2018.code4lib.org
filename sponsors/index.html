@@ -3,9 +3,9 @@ layout: default
 title: Sponsors
 ---
 
-<div class="sub-container">
-    <div class="row section" id="sponsorships">
-        <div class="cell cell-lg">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
             <h1>We ❤ our sponsors.</h1>
 
             {% comment %} disable until we get updated prospectus
@@ -66,111 +66,111 @@ title: Sponsors
                 {% for sponsor in gold %}
                 {% if sponsor.name == "IndexData" %}
                 <div class="col-xs-12 col-md-3">
-                {% else %}
-                <div class="col-xs-12 col-md-6">
-                {% endif %}
-                    {% if sponsor.img %}
-                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                        <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                    </a>
                     {% else %}
-                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                    {% endif %}
-                    {% if sponsor.annotation %}
-                    <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
-                    {% endif %}
+                    <div class="col-xs-12 col-md-6">
+                        {% endif %}
+                        {% if sponsor.img %}
+                        <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                            <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                        {% endif %}
+                        {% if sponsor.annotation %}
+                        <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
 
-            <!-- Silver -->
-            <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Silver Sponsors" badge="medal-badge" highlight-class="silver"%}
+                <!-- Silver -->
+                <div class="row sponsor-row">
+                    {% include sponsor_plate.html level="Silver Sponsors" badge="medal-badge" highlight-class="silver"%}
 
-                {% assign silver = site.data.sponsors | where_exp:"item", "item.level == 'silver'" %}
-                {% for sponsor in silver %}
-                <div class="col-xs-8 col-md-4">
-                    {% if sponsor.img %}
-                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                        <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                    </a>
-                    {% else %}
-                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                    {% endif %}
-                    {% if sponsor.annotation %}
-                    <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
-                    {% endif %}
+                    {% assign silver = site.data.sponsors | where_exp:"item", "item.level == 'silver'" %}
+                    {% for sponsor in silver %}
+                    <div class="col-xs-8 col-md-4">
+                        {% if sponsor.img %}
+                        <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                            <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                        {% endif %}
+                        {% if sponsor.annotation %}
+                        <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
 
-            <!-- Bronze -->
-            <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Bronze Sponsors" badge="medal-badge" highlight-class="bronze"%}
+                <!-- Bronze -->
+                <div class="row sponsor-row">
+                    {% include sponsor_plate.html level="Bronze Sponsors" badge="medal-badge" highlight-class="bronze"%}
 
-                {% assign bronze = site.data.sponsors | where_exp:"item", "item.level == 'bronze'" %}
-                {% for sponsor in bronze %}
-                <div class="col-xs-8 col-md-4">
-                    {% if sponsor.img %}
-                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                        <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                    </a>
-                    {% else %}
-                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                    {% endif %}
-                    {% if sponsor.annotation %}
-                    <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
-                    {% endif %}
+                    {% assign bronze = site.data.sponsors | where_exp:"item", "item.level == 'bronze'" %}
+                    {% for sponsor in bronze %}
+                    <div class="col-xs-8 col-md-4">
+                        {% if sponsor.img %}
+                        <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                            <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                        {% endif %}
+                        {% if sponsor.annotation %}
+                        <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
 
-            <!-- Contributors -->
-            <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Contributors" badge="star-badge" %}
+                <!-- Contributors -->
+                <div class="row sponsor-row">
+                    {% include sponsor_plate.html level="Contributors" badge="star-badge" %}
 
-                {% assign contributor = site.data.sponsors | where_exp:"item", "item.level == 'contributor'" %}
-                {% for sponsor in contributor %}
-                <div class="col-xs-3 col-md-3">
-                    {% if sponsor.img %}
-                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                        <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                    </a>
-                    {% else %}
-                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                    {% endif %}
-                    {% if sponsor.annotation %}
-                    <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
-                    {% endif %}
+                    {% assign contributor = site.data.sponsors | where_exp:"item", "item.level == 'contributor'" %}
+                    {% for sponsor in contributor %}
+                    <div class="col-xs-3 col-md-3">
+                        {% if sponsor.img %}
+                        <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                            <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                        {% endif %}
+                        {% if sponsor.annotation %}
+                        <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
 
-            <!-- Supporters -->
-            <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Supporters" badge="thumbs-badge" %}
+                <!-- Supporters -->
+                <div class="row sponsor-row">
+                    {% include sponsor_plate.html level="Supporters" badge="thumbs-badge" %}
 
-                {% assign supporter = site.data.sponsors | where_exp:"item", "item.level == 'supporter'" %}
-                {% for sponsor in supporter %}
-                <div class="col-xs-2 col-md-2">
-                    {% if sponsor.img %}
-                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                        <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                    </a>
-                    {% else %}
-                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                    {% endif %}
+                    {% assign supporter = site.data.sponsors | where_exp:"item", "item.level == 'supporter'" %}
+                    {% for sponsor in supporter %}
+                    <div class="col-xs-2 col-md-2">
+                        {% if sponsor.img %}
+                        <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                            <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
+
+                <hr/>
+
+                <img src="/assets/img/persistent/sponsors.jpg" title="Credit schwartzray on Flickr" alt="Code4Lib T-shirt" width="100%">
+                <p class="text-right small">
+                    Code4Lib T-shirt 2013 <a href="https://www.flickr.com/photos/schwartzray/sets/72157640116429213">photo: Ray Swartz on Flickr</a>
+                </p>
             </div>
-
-            <hr/>
-
-            <img src="/assets/img/persistent/sponsors.jpg" title="Credit schwartzray on Flickr" alt="Code4Lib T-shirt" width="100%">
-            <p class="text-right small">
-                Code4Lib T-shirt 2013 <a href="https://www.flickr.com/photos/schwartzray/sets/72157640116429213">photo: Ray Swartz on Flickr</a>
-            </p>
-
         </div>
     </div>
 </div>
