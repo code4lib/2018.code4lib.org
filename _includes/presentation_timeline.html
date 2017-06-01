@@ -1,5 +1,5 @@
 
-<section id="cd-timeline" class="cd-container">
+<div id="cd-timeline" class="cd-container">
     {% for event in include.events | sort: "time" %}
         <div class="cd-timeline-block">
             <div class="cd-timeline-img">
@@ -70,4 +70,4 @@
             </div>
         </div> <!-- cd-timeline-block -->
     {% endfor %}
-</section> <!-- cd-timeline -->
+</div> <!-- cd-timeline -->

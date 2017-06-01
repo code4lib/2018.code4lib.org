@@ -3,78 +3,51 @@ layout: default
 title: code4lib 2018 - Washington, D.C.
 ---
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="row">
-    <div class="jumbotron" id="main" style="background: url(/assets/img/theme-images/hero-image.jpg) top no-repeat;">
-        <div class="container">
-            <h1 class="text-right">Washington, D.C.</h1>
-            <h2 class="text-right">2018</h2>
+{% include jumbotron.html %}
 
-            <!-- Livestream -->
-            {% if site.data.conf.toggles.livestream %}
-            <p class="text-right"><a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a></p>
-            <p class="text-right"><a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.captioning-url }}">Closed captioning</a></p>
-            {% endif %}
-
-            <!-- Register -->
-            {% if site.data.conf.toggles.register %}
-            <p class="text-right"><a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.registration-form }}">Register Now!</a></p>
-            {% endif %}
-
-            <!-- Preconference events -->
-            <div class="text-right">
-                <a class="btn btn-lg jumbotron-btn" href="/schedule/timeline.html">What's Going On?</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row attribution">
+<section>
     <div class="container">
-        <p class="text-right small"><a href="https://www.flickr.com/photos/photographingtravis/14988543758/">photo by Travis Wise</a> <a href="https://creativecommons.org/licenses/by/2.0/">(CC BY 2.0)</a></p>
-    </div>
-</div>
-
-<div class="sub-container">
-    <div class="row section">
-        <div class="cell cell-lg">
-            <h2>The conference for people who code for libraries.</h2>
-            <p>
-                An annual gathering of technologists from around the world, who largely work for and with libraries,
-                archives, and museums and have a commitment to open technologies.
-            </p>
-        </div>
-    </div>
-
-    <div class="row section" id="testimonials">
-        <div class="cell cell-lg">
-            <h2>What are people saying?</h2>
-            <div class="row">
-            {% for testimonial in site.data.testimonials %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <div class="speech-bubble">
-                            <div class="arrow bottom right"></div>
-                                {{ testimonial.blurb }}
-                            </div>
-                            <div class="caption">
-                                <h3><a href="https://twitter.com/{{ testimonial.twitter }}">{{ testimonial.name }}</a></h3>
-                                <p>{{ testimonial.org }}</p>
-                            </div>
-                        </div>
-                </div>
-            {% endfor %}
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>The conference for people who code for libraries.</h2>
+                <p>
+                    An annual gathering of technologists from around the world, who largely work for and with libraries,
+                    archives, and museums and have a commitment to open technologies.
+                </p>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row section">
-        <div class="cell cell-lg">
-            <div class="col-md-2">
+<section>
+    <div class="container">
+        <div class="row" id="testimonials">
+        {% for testimonial in site.data.testimonials %}
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="speech-bubble">
+                        <div class="arrow bottom right"></div>
+                        {{ testimonial.blurb }}
+                    </div>
+                    <div class="caption">
+                        <h3><a href="https://twitter.com/{{ testimonial.twitter }}">{{ testimonial.name }}</a></h3>
+                        <p>{{ testimonial.org }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row section">
+            <div class="col-sm-2">
                 <!-- TODO: probably need a different image? -->
                 <img class="clip-circle" src="assets/img/theme-images/idol.jpg" alt="Audrey Hepburn with sunglasses.">
             </div>
-            <div class="col-md-10">
+            <div class="col-sm-10">
                 <h2>Welcome to Washington, D.C.</h2>
                 <!--
                 TODO: DC blurb here
@@ -82,4 +55,4 @@ title: code4lib 2018 - Washington, D.C.
             </div>
         </div>
     </div>
-</div>
+</section>

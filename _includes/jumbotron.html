@@ -1,0 +1,44 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+
+    <div class="hero-image">
+        <img src="/assets/img/theme-images/hero-image.jpg" alt="{{ site.data.conf.hero-img-alt }}">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12" id="conferenceInfo">
+
+                <h1 class="text-right">
+                    <span class="sr-only">code for lib 2018</span>
+                    Washington, D.C.
+                    <small>2018</small>
+                </h1>
+
+                <div id="conferenceActions">
+                    <!-- Livestream -->
+                    {% if site.data.conf.toggles.livestream %}
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a>
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.captioning-url }}">Closed captioning</a>
+                    {% endif %}
+
+                    <!-- Register -->
+                    {% if site.data.conf.toggles.register %}
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.registration-form }}">Register Now!</a>
+                    {% endif %}
+
+                    <!-- Preconference events -->
+                    <a class="btn btn-lg jumbotron-btn" href="/schedule/timeline.html">What's Going On?</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="heroImageAttribution">
+            <div class="col-xs-12 text-right small">
+                <a href="https://www.flickr.com/photos/photographingtravis/14988543758/">photo by Travis Wise</a> <a href="https://creativecommons.org/licenses/by/2.0/">(CC BY 2.0)</a>
+            </div>
+        </div>
+
+    </div>
+</div>

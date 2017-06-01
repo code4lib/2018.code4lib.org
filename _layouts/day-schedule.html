@@ -1,22 +1,14 @@
 {% include header.html %}
 {% include search_results.html %}
 
-<div class="sub-container container-fluid">
-    <div class="row section">
-        <div class="cell cell-lg">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>{{ page.title }}</h1>
-                </div>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>{{ page.title }}</h1>
             {% include schedule_nav.html param=page.day %}
             {{ content }}
-            <div class="row">
-                <div class="col-xs-12">
-                    {% assign events = site.data.schedule | where:page.day, true %}
-                    {% include presentation_timeline.html events=events menuDay=page.day %}
-                </div>
-            </div>
+            {% assign events = site.data.schedule | where:page.day, true %}
+            {% include presentation_timeline.html events=events menuDay=page.day %}
             {% include schedule_nav.html param=page.day %}
         </div>
     </div>
