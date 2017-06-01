@@ -240,14 +240,6 @@ section {
 section:nth-of-type(3n+1) {
   background-color: $body-bg;
   color: $text-color;
-
-  a {
-    color: $link-color;
-  }
-  a:hover, a:focus {
-    color: $link-hover-color;
-  }
-
 }
 
 section:nth-of-type(3n+2) {
