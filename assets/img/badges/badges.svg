@@ -109,7 +109,7 @@
         <use xlink:href="#sparkles"></use>
     </symbol>
 
-    <!-- STAR BADGE-->
+    <!-- THUMBS BADGE-->
     <symbol id="thumbs-badge" viewBox="0 0 237 220">
         <use xlink:href="#badge"></use>
         <use xlink:href="#thumbs"></use>
