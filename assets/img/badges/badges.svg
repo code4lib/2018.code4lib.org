@@ -30,7 +30,7 @@
         </g>
 
         <!-- Wolverine claws, CC-BY-3.0 Alen Krummenacher -->
-        <g id="claws" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)" transform="translate(55 40) scale(1.3)">
+        <g id="claws" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color)" transform="translate(55 45) scale(1.3)">
             <path d="M52.78,54.327l1.179-1.547l-2.615-3.458c-0.383,0.507-0.761,1.019-1.142,1.524C51.073,52.017,51.937,53.177,52.78,54.327z"/>
             <path d="M57.878,61.279l1.261-1.65l-2.596-3.427c-0.396,0.541-0.798,1.079-1.189,1.615C56.209,58.991,57.057,60.146,57.878,61.279z"/>
             <path d="M47.664,47.456l1.135-1.5l-22.1-29.227l-7.201-2.864C25.74,19.121,37.078,33.374,47.664,47.456z"/>
