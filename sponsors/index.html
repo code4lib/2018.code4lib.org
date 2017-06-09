@@ -14,6 +14,27 @@ title: Sponsors
                 <a class="btn btn-primary btn-lg" href="/prospectus">View our Prospectus</a>
             </p>
 
+            <!-- Adamantium -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Adamantium Sponsor" badge="adamantium-badge" %}
+
+                {% assign adamantium = site.data.sponsors | where_exp:"item", "item.level == 'adamantium'" %}
+                {% for sponsor in adamantium %}
+                <div class="col-xs-12 col-md-12">
+                    {% if sponsor.img %}
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                    {% else %}
+                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                    {% endif %}
+                    {% if sponsor.annotation %}
+                    <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+
             <!-- Diamond -->
             <div class="row sponsor-row">
                 {% include sponsor_plate.html level="Diamond Sponsor" badge="diamond-badge" %}
