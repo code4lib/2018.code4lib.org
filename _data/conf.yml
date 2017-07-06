@@ -19,6 +19,7 @@ hero-image-alt: "Library of Congress Interior"
 
 
 toggles:
+  call-for-sponsors: true
   livestream: false
   prop-shirt: false
   prop-shop: false
