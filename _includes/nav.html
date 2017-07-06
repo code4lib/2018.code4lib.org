@@ -72,8 +72,15 @@
                 </li>
                 -->
 
-                <!-- sponsors is always active -->
-                <li><a href="/sponsors">Sponsors</a></li>
+                {% comment %}
+                when looking for sponsors before conf, send users to prospectus
+                close to / during conf, send to the list of sponsors page
+                {% endcomment %}
+                {% if site.data.conf.toggles.call-for-sponsors %}
+                    <li><a href="/prospectus">Sponsors</a></li>
+                {% else %}
+                    <li><a href="/sponsors">Sponsors</a></li>
+                {% endif %}
 
                 <!-- turn on scholarships once applications are being accepted
                 <li><a href="/diversity-scholarships/recipients.html">Scholarships</a></li>

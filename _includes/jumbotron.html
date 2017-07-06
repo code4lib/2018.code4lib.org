@@ -30,6 +30,10 @@
 
                     <!-- Preconference events -->
                     <a class="btn btn-lg jumbotron-btn" href="/schedule/timeline.html">What's Going On?</a>
+
+                    {% if site.data.conf.toggles.call-for-sponsors %}
+                        <a class="btn btn-lg jumbotron-btn" href="/prospectus">Sponsor Code4Lib!</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
