@@ -18,20 +18,20 @@
 
                 <div id="conferenceActions">
                     <!-- Livestream -->
-                    {% if site.data.conf.toggles.livestream %}
-                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a>
+                    {% if site.data.conf.livestream.show %}
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream.url }}">Watch the livestream</a>
                     <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.captioning-url }}">Closed captioning</a>
                     {% endif %}
 
                     <!-- Register -->
-                    {% if site.data.conf.toggles.register %}
-                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.registration-form }}">Register Now!</a>
+                    {% if site.data.conf.conference-registration.show %}
+                    <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.conference-registration.url }}">Register Now!</a>
                     {% endif %}
 
                     <!-- Preconference events -->
                     <a class="btn btn-lg jumbotron-btn" href="/schedule/timeline.html">What's Going On?</a>
 
-                    {% if site.data.conf.toggles.call-for-sponsors %}
+                    {% if site.data.conf.call-for-sponsors %}
                         <a class="btn btn-lg jumbotron-btn" href="/prospectus">Sponsor Code4Lib!</a>
                     {% endif %}
                 </div>

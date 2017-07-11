@@ -76,7 +76,7 @@
                 when looking for sponsors before conf, send users to prospectus
                 close to / during conf, send to the list of sponsors page
                 {% endcomment %}
-                {% if site.data.conf.toggles.call-for-sponsors %}
+                {% if site.data.conf.call-for-sponsors %}
                     <li><a href="/prospectus">Sponsors</a></li>
                 {% else %}
                     <li><a href="/sponsors">Sponsors</a></li>
@@ -103,7 +103,7 @@
                 <li><a href="/about">About</a></li>
 
                 <!-- SEARCH -->
-                {% if site.data.conf.toggles.search %}
+                {% if site.data.conf.search %}
                 <li>
                     <form class="navbar-form" action="get" id="site_search">
                         <div class="input-group">
