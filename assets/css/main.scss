@@ -107,7 +107,7 @@ p {
     border: 2px solid $jumbotron-btn-color;
     color: $jumbotron-btn-color;
     border-radius: 0;
-    margin-top: .5em;
+    margin: .5em .5em 0 0;
   }
 
   .btn:hover {
@@ -168,7 +168,7 @@ p {
     max-width: 1050px;
     margin: 0 auto;
     .btn {
-      margin-bottom: 0;
+      margin-right: 1em;
       float: left;
     }
   }

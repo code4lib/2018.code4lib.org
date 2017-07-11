@@ -10,7 +10,11 @@
             <li class="list-item tci"><a href="/speakers/past-keynotes.html">Speakers</a></li>
             <!-- <li class="list-item tci"><a href="/speakers/index.html">Speakers</a></li> -->
             <!-- <li class="list-item tci"><a href="/venue">Venues</a></li> -->
-            <li class="list-item tci"><a href="/sponsors">Sponsors</a></li>
+            {% if site.data.conf.toggles.call-for-sponsors %}
+                <li><a href="/prospectus">Sponsors</a></li>
+            {% else %}
+                <li><a href="/sponsors">Sponsors</a></li>
+            {% endif %}
             <li class="list-item tci"><a href="/conduct">Conduct</a></li>
             <li class="list-item tci"><a href="/about">About</a></li>
         </ul>
