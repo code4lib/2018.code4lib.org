@@ -16,7 +16,7 @@ categories: Schedule
         </div>
 
         <!-- register/attend -->
-        {% if site.data.conf.toggles.register %}
+        {% if site.data.conf.conference-registration.show %}
         <div class="row">
                 <div class="col-xs-12">
                     <h2 style="border-bottom:1px solid; padding-bottom:5px;">Attend Code4Lib 2017!</h2>
@@ -27,11 +27,11 @@ categories: Schedule
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">December 14<sup>th</sup></small></h3>
-                    {% if site.data.conf.registration-form %}
-                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.registration-form }}" target="_blank">
+                    {% if site.data.conf.conference-registration.url %}
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.conference-registration.url }}" target="_blank">
                     {% endif %}
                         Register!
-                    {% if site.data.conf.registration-form %}
+                    {% if site.data.conf.conference-registration.url %}
                     </a>
                     {% endif %}
                 </div>
@@ -39,7 +39,7 @@ categories: Schedule
         {% endif %}
 
         <!-- Voting -->
-        {% if site.data.conf.toggles.vote-key or site.data.conf.toggles.vote-talk or site.data.conf.toggles.vote-panels or site.data.conf.toggles.vote-shop or site.data.conf.toggles.vote-shirt %}
+        {% if site.data.conf.toggles.vote-key or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show %}
         <div class="row">
             <div class="col-xs-12">
                 <h2 style="border-bottom:1px solid; padding-bottom:5px;">Voting</h2>
@@ -62,49 +62,49 @@ categories: Schedule
             {% endif %}
 
             <!-- Talks -->
-            {% if site.data.conf.toggles.vote-talk %}
+            {% if site.data.conf.talk-voting.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Conference Talks</h3>
                     <a href="/talks/proposed-talks.html">View Proposed Talks</a>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Nov. 16<sup>th</sup> to Dec. 7<sup>th</sup></small></h3>
-                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.talk-voting-link }}" target="_blank">Vote!</a>
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.talk-voting.url }}" target="_blank">Vote!</a>
                 </div>
             {% endif %}
 
             <!-- Panel -->
-            {% if site.data.conf.toggles.vote-panels %}
+            {% if site.data.conf.panel-voting.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Conference Panel</h3>
                     <a href="/panels/index.html">View Proposed Panels</a>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Nov. 16<sup>th</sup> to Dec. 7<sup>th</sup></small></h3>
-                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.panel-voting-link }}" target="_blank">Vote!</a>
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.panel-voting.url }}" target="_blank">Vote!</a>
                 </div>
             {% endif %}
 
             <!-- Workshops -->
-            {% if site.data.conf.toggles.vote-shop %}
+            {% if site.data.conf.workshop-voting.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Preconference Workshops</h3>
                     <a href="/workshops/proposed-workshops.html">View Proposed Workshops</a>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Now until Nov. 28<sup>th</sup></small></h3>
-                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.workshop-voting-link }}" target="_blank">Vote!</a>
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.workshop-voting.url }}" target="_blank">Vote!</a>
                 </div>
             {% endif %}
 
             <!-- T-shirt Logos -->
-            {% if site.data.conf.toggles.vote-shirt %}
+            {% if site.data.conf.shirt-voting.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>T-shirt Logos</h3>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">TBD</small></h3>
-                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.shirt-voting-link }}" target="_blank">Vote!</a>
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.shirt-voting.url }}" target="_blank">Vote!</a>
                 </div>
             {% endif %}
         </div>
@@ -118,7 +118,7 @@ categories: Schedule
             </div>
 
             <!-- T-shirts -->
-            {% if site.data.conf.toggles.prop-shirt %}
+            {% if site.data.conf.shirt-proposals.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>T-shirt Logos</h3>
                     <a href="https://wiki.code4lib.org/2017_Code4Lib_T-Shirt_Design_Competition">View the logo submissions</a>
@@ -126,27 +126,27 @@ categories: Schedule
             {% endif %}
 
             <!-- Talks -->
-            {% if site.data.conf.toggles.prop-talk %}
+            {% if site.data.conf.talk-proposals.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Conference Talks</h3>
                     <a href="/about/propose-a-talk.html">About Talk Proposals</a>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Now until Nov. 7<sup>th</sup></small></h3>
-                        <a class="btn btn-primary" href="{{ site.data.conf.talk-proposal-form }}">Propose a Talk</a>
-                        <a class="btn btn-primary" href="{{ site.data.conf.panel-proposal-form }}">Propose a Panel</a>
+                        <a class="btn btn-primary" href="{{ site.data.conf.talk-proposals.submission-form }}">Propose a Talk</a>
+                        <a class="btn btn-primary" href="{{ site.data.conf.panel-proposals.submission-form }}">Propose a Panel</a>
                 </div>
             {% endif %}
 
             <!-- Workshops -->
-            {% if site.data.conf.toggles.prop-shop %}
+            {% if site.data.conf.workshop-proposals.show %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Preconference Workshops</h3>
                     <a href="/about/propose-a-workshop.html">About Preconference Workshops</a>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Now until Nov. 8<sup>th</sup></small></h3>
-                    <a class="btn btn-primary" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Workshop</a>
+                    <a class="btn btn-primary" href="{{ site.data.conf.workshop-proposals.submission-form }}">Propose a Workshop</a>
                 </div>
             {% endif %}
 
@@ -154,7 +154,7 @@ categories: Schedule
                 <h2 style="border-bottom:1px solid; padding-bottom:5px;">Passed Deadlines</h2>
             </div>
 
-            {% unless site.data.conf.toggles.prop-shop %}
+            {% unless site.data.conf.workshop-proposals.show %}
             <div class="col-xs-12 col-sm-7">
                 <h3>Preconference Workshops</h3>
                 <a href="/about/propose-a-workshop.html">About Preconference Workshops</a>
@@ -164,7 +164,7 @@ categories: Schedule
             </div>
             {% endunless %}
 
-            {% unless site.data.conf.toggles.prop-talk %}
+            {% unless site.data.conf.talk-proposals.show %}
             <div class="col-xs-12 col-sm-7">
                 <h3>Conference Talks</h3>
                 <a href="/about/propose-a-talk.html">About Talk Proposals</a>

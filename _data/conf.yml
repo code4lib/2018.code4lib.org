@@ -1,34 +1,73 @@
+###################
+# "Global" Vars
+###########
 captioning-url: ""
-keynote-voting-link: ""
-livestream-url: "https://www.youtube.com/user/code4lib"
 main-conf-email: ""
 sponsor-contact-email: "c4l2018-sponsor@umd.edu"
 donate-link: ""
-panel-proposal-form: ""
-panel-voting-link: ""
-registration-form: ""
-shirt-proposal-form: ""
-shirt-voting-link: ""
-talk-proposal-form: ""
-panel-proposal-form: ""
-talk-voting-link: ""
-workshop-proposal-form: ""
-workshop-registration-form: ""
-workshop-voting-link: ""
 hero-image-alt: "Library of Congress Interior"
 
+###################
+# Proposals
+###########
+workshop-proposals:
+  show: false
+  submission-form: ""
 
-toggles:
-  call-for-sponsors: true
-  livestream: false
-  prop-shirt: false
-  prop-shop: false
-  prop-talk: false
-  register-shop: false
-  register: false
-  search: false
-  vote-key: false
-  vote-panels: false
-  vote-shirt: false
-  vote-shop: false
-  vote-talk: false
+talk-proposals:
+  show: false
+  sumbission-form: ""
+
+panel-proposals:
+  show: false
+  submission-form: ""
+
+shirt-proposals:
+  show: false
+  submission-form: ""
+
+###################
+# Voting
+###########
+keynote-voting:
+  show: false
+  url: ""
+
+workshop-voting:
+  show: false
+  url: ""
+
+talk-voting:
+  show: false
+  url: ""
+
+panel-voting:
+  show: false
+  url: ""
+
+shirt-voting:
+  show: false
+  url: ""
+
+###################
+# Registration
+###########
+
+workshop-registration:
+  show: false
+  url: ""
+
+conference-registration:
+  show: false
+  url: ""
+
+###################
+# Misc
+###########
+livestream:
+  show: false
+  url: "https://www.youtube.com/user/code4lib"
+
+# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
+call-for-sponsors: true
+search: false

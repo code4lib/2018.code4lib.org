@@ -9,15 +9,15 @@ title: Attend
                 <h1>Attend Code4Lib</h1>
 
                     <h3>Conference</h3>
-                    {% if site.data.conf.toggles.register %}
-                        <a href="{{ site.data.conf.registration-form }}" class="btn btn-lg btn-primary">Register Now!</a>
+                    {% if site.data.conf.conference-registration.show %}
+                        <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
                     {% else %}
                         <!--<p>Registration will open again at 12 p.m. EST / 9 a.m. PST on Wednesday, 11 January 2017.</p>-->
                     {% endif %}
 
-                    {% if site.data.conf.toggles.register-shop %}
+                    {% if site.data.conf.workshop-registration.show %}
                         <h3>Preconference Workshops</h3>
-                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration-form }}">Pre Conf Registration</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration.url }}">Pre Conf Registration</a></p>
                     {% endif %}
             </div>
         </div>

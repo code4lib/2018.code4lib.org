@@ -9,8 +9,8 @@ categories: talks
         <div class="col-xs-12">
             <h2>Proposals for Prepared Talks</h2>
 
-            {% if site.data.conf.toggles.prop-talk %}
-            <a class="btn btn-primary btn-lg pull-right" href="{{ site.data.conf.talk-proposal-form }}">
+            {% if site.data.conf.talk-proposals.show %}
+            <a class="btn btn-primary btn-lg pull-right" href="{{ site.data.conf.talk-proposals.submission-form }}">
                 Propose a Talk
             </a>
             {% endif %}
@@ -36,11 +36,11 @@ categories: talks
                 soliciting 10, 15, and 20 minute talks. You'll be asked to indicate which talk lengths you would be
                 willing to accommodate for your proposal. We are also considering holding a poster session at this year's conference.
                 If you would be interested in presenting your topic as a poster, please indicate so on
-                <a href="{{ site.data.conf.talk-proposal-form }}">the form</a>.
+                <a href="{{ site.data.conf.talk-proposals.submission-form }}">the form</a>.
             </p>
         </div>-->
 
-        <!-- NOTE: form URL different from talk-proposal-form above -->
+        <!-- NOTE: form URL different from talk-proposals.submission-form above -->
         <!--<div class="col-xs-12">
             <p>
                 In addition to "traditional" presentations and posters, we plan to include a panel session this year.
