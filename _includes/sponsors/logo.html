@@ -1,0 +1,12 @@
+<div class="{{ include.class }}">
+    <a href="{{ sponsor.link }}">
+        {% if sponsor.img.size %}
+        <img src="{{ sponsor.img }}" class="thumbnail" alt="{{ sponsor.name }}">
+        {% else %}
+        <span class="sponsor-name-only">{{ sponsor.name }}</span>
+        {% endif %}
+    </a>
+    {% if sponsor.annotation.size %}
+    <span class="sponsor-annotation">({{ sponsor.annotation}})</span>
+    {% endif %}
+</div>

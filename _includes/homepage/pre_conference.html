@@ -1,0 +1,178 @@
+<div class="col-xs-12">
+    <h3>What's going on?</h3>
+
+    <!-- register/attend -->
+    {% if site.data.conf.conference-registration.show %}
+        {% include homepage/going_on_block.html
+            primary=true
+            title='Registration'
+            more-info-link='/attend/'
+            more-info-text='Fees & additional information'
+            end-date=site.data.conf.conference-registration.end-date
+            url=site.data.conf.conference-registration.url
+            url-text='Register!'
+        %}
+    {% endif %}
+
+    <!-- Voting -->
+    {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Voting</h4>
+
+            <!-- Keynote -->
+            {% if site.data.conf.keynote-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Keynote Speakers'
+                    more-info-link=''
+                    more-info-text='View the nominees'
+                    end-date=site.data.conf.keynote-voting.end-date
+                    url=site.data.conf.keynote-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Talks -->
+            {% if site.data.conf.talk-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Talks'
+                    more-info-link='/talks/proposed-talks.html'
+                    more-info-text='View proposed talks'
+                    end-date=site.data.conf.talk-voting.end-date
+                    url=site.data.conf.talk-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Panel -->
+            {% if site.data.conf.panel-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Panel'
+                    more-info-link='/panels/index.html'
+                    more-info-text='View proposed panels'
+                    end-date=site.data.conf.panel-voting.end-date
+                    url=site.data.conf.panel-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Workshops -->
+            {% if site.data.conf.workshop-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Workshops'
+                    more-info-link='/workshops/proposed-workshops.html'
+                    more-info-text='View proposed workshops'
+                    end-date=site.data.conf.workshop-voting.end-date
+                    url=site.data.conf.workshop-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- T-shirt Logos -->
+            {% if site.data.conf.shirt-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='T-shirt logos'
+                    end-date=site.data.conf.shirt-voting.end-date
+                    url=site.data.conf.shirt-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+        <div class="col-xs-12">
+            <!--
+            one-time vote on a few conference structure questions
+            -->
+            {% include homepage/going_on_block.html
+                title='Program Committee Vote'
+                more-info-text='A community vote on a few matters concerning the 2018 conference.'
+                end-date='2017-08-25'
+                url='http://vote.code4lib.org/election/46'
+                url-text='Vote!'
+            %}
+        </div>
+    </div>
+
+    <!-- Proposals -->
+    {% if site.data.conf.talk-proposals.show or site.data.conf.panel-porposals.show or site.data.conf.workshop-proposals.show or site.data.conf.shirt-proposals.show %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Proposals</h4>
+
+            <!-- Talks -->
+            {% if site.data.conf.talk-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Talks'
+                    more-info-link='/about/propose-a-talk.html'
+                    more-info-text='About talk proposals'
+                    end-date=site.data.conf.talk-proposals.end-date
+                    url=site.data.conf.talk-proposals.submission-form
+                    url-text='Proposal a talk'
+                %}
+            {% endif %}
+
+            <!-- Panels -->
+            {% if site.data.conf.panel-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Panels'
+                    more-info-link='/about/propose-a-panel.html'
+                    more-info-text='About panel proposals'
+                    end-date=site.data.conf.panel-proposals.end-date
+                    url=site.data.conf.panel-proposals.submission-form
+                    url-text='Proposal a panel'
+                %}
+            {% endif %}
+
+            <!-- T-shirts -->
+            {% if site.data.conf.shirt-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='T-shirt logos'
+                    end-date=site.data.conf.shirt-proposals.end-date
+                    url=site.data.conf.shirt-proposals.submission-form
+                    url-text='Proposal a t-shirt logo'
+                %}
+            {% endif %}
+
+            <!-- Workshops -->
+            {% if site.data.conf.workshop-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Workshops'
+                    more-info-link='/about/propose-a-workshop.html'
+                    more-info-text='About workshop proposals'
+                    end-date=site.data.conf.workshop-proposals.end-date
+                    url=site.data.conf.workshop-proposals.submission-form
+                    url-text='Proposal a workshop'
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+<div class="col-xs-12">
+    {% assign ad_sponsors = site.data.sponsors | where: "level","adamantium" %}
+    {% assign plat_sponsors = site.data.sponsors | where: 'level','platinum' %}
+
+    {% if ad_sponsors.size and plat_sponsors.size %}
+        <h3>Thanks to our sponsors!</h3>
+        {% if ad_sponsors.size %}
+        <h4>Adamantium</h4>
+        <div class="row">
+            {% for sponsor in ad_sponsors %}
+            {% include sponsors/logo.html sponsor=sponsor class="col-xs-12 col-sm-4" %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if plat_sponsors.size %}
+        <h4>Platinum</h4>
+        <div class="row">
+            {% for sponsor in plat_sponsors %}
+            {% include sponsors/logo.html sponsor=sponsor class="col-xs-6 col-sm-3" %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    {% endif %}
+</div>
