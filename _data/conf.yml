@@ -8,23 +8,42 @@ donate-link: ""
 hero-image-alt: "Library of Congress Interior"
 
 ###################
+# Homepage section
+# Values can be one of
+# - pre :   displays the _includes/homepage/timeline.html partial
+#           this section provides an overview of important conference dates
+# - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
+# - post:   for after the conference is close
+###########
+homepage-display: pre
+
+##########
+# !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
+# e.g., 2013-11-29
+##########
+
+###################
 # Proposals
 ###########
 workshop-proposals:
   show: false
   submission-form: ""
+  end-date:
 
 talk-proposals:
   show: false
   sumbission-form: ""
+  end-date:
 
 panel-proposals:
   show: false
   submission-form: ""
+  end-date:
 
 shirt-proposals:
   show: false
   submission-form: ""
+  end-date:
 
 ###################
 # Voting
@@ -32,22 +51,27 @@ shirt-proposals:
 keynote-voting:
   show: false
   url: ""
+  end-date:
 
 workshop-voting:
   show: false
   url: ""
+  end-date:
 
 talk-voting:
   show: false
   url: ""
+  end-date:
 
 panel-voting:
   show: false
   url: ""
+  end-date:
 
 shirt-voting:
   show: false
   url: ""
+  end-date:
 
 ###################
 # Registration
@@ -60,6 +84,7 @@ workshop-registration:
 conference-registration:
   show: false
   url: ""
+  end-date:
 
 ###################
 # Misc
