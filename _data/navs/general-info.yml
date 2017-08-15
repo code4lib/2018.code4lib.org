@@ -1,0 +1,6 @@
+- name: Venue
+  url: /
+- name: Proposals
+  url: /
+- name: Scholarships
+  url: /
