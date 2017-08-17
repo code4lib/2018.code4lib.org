@@ -1,9 +1,9 @@
-<div class="row">
+<div class="row" style="margin-top: 1em;">
     <div class="col-xs-12 col-sm-6 col-md-5">
         {% if include.primary %}
-        <h4>{{ include.title }}</h4>
+        <h4 style="margin-top:0;">{{ include.title }}</h4>
         {% else %}
-        <h5>{{ include.title }}</h5>
+        <h5 style="margin-top:0;">{{ include.title }}</h5>
         {% endif %}
         {% if include.more-info-link.size %}
             <a href="{{ include.more-info-link }}">
