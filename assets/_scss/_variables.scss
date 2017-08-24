@@ -829,7 +829,7 @@ $thumbnail-border:            #ddd !default;
 $thumbnail-border-radius:     $border-radius-base !default;
 
 //** Custom text color for thumbnail captions
-$thumbnail-caption-color:     $text-color !default;
+$thumbnail-caption-color:     inherit !default;
 //** Padding around the thumbnail caption
 $thumbnail-caption-padding:   9px !default;
 
