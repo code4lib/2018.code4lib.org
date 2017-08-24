@@ -1,0 +1,49 @@
+---
+layout: secondary-nav
+title: Venues
+nav: general-info
+active: Venues
+subnav:
+- name: Conference Hotel
+  url: '#conference-hotel'
+- name: Accommodations
+  url: '#accommodations'
+---
+
+{% comment %} // Add these to subnav once we have content
+- name: Newcomer Dinner
+  url: '#dinner'
+- name: Play &amp; Share
+  url: '#play-and-share'
+- name: Reception
+  url: '#reception'
+- name: Workshops
+  url: '#workshops'
+{% endcomment %}
+
+<div class="container-fluid">
+    <div class="row">
+      <h1>Venues</h1>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative hotel.html %}
+        </div>
+      </div>
+
+      {% comment %}
+
+        {% include_relative dinner.html %}
+        {% include_relative playandshare.html %}
+        {% include_relative reception.html %}
+        {% include_relative workshops.html %}
+
+      {% endcomment %}
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative accommodations.html %}
+        </div>
+      </div>
+    </div>
+</div>

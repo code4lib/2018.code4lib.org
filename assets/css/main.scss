@@ -270,12 +270,25 @@ section:nth-of-type(3n+3) {
 }
 
 /* ==========================================================================
+   General Info
+   ========================================================================== */
+
+section .general-info {
+  background: none;
+  color: $gray-base;
+}
+
+section .general-info h2 {
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* ==========================================================================
    Sponsors
    ========================================================================== */
-.sponsor-row{
+.sponsor-row {
   margin-top: 20px;
 }
-.sponsor-plate{
+.sponsor-plate {
   padding: 10px 0;
   margin: 10px 0;
 }
@@ -318,9 +331,10 @@ section:nth-of-type(3n+3) {
 }
 
 
-#contact_inner{
+#contact_inner {
   margin: 0;
 }
+
 .past-slides {
   font-size: 2em;
   display: block;
@@ -350,7 +364,7 @@ section:nth-of-type(3n+3) {
     left: 0;
   }
 
-  .thumbnail{
+  .thumbnail {
     background-color: $accent-light;
     color: #fff;
     padding: 20px;
@@ -389,7 +403,7 @@ section:nth-of-type(3n+3) {
   border-radius: 0 0 5px 0;
 }
 
-.sponsor-badge{
+.sponsor-badge {
   --primary-color: #{$sponsor-badge-primary};
   --secondary-color: #{$sponsor-badge-secondary};
   --background-color:#{$sponsor-badge-bg};
@@ -398,13 +412,13 @@ section:nth-of-type(3n+3) {
   --highlight-color:#{$sponsor-badge-bg};
 }
 
-.sponsor-badge.gold{
+.sponsor-badge.gold {
   --highlight-color: #ffedb3
 }
-.sponsor-badge.silver{
+.sponsor-badge.silver {
   --highlight-color: #dedede
 }
-.sponsor-badge.bronze{
+.sponsor-badge.bronze {
   --highlight-color: #f2c6a5
 }
 
@@ -484,7 +498,7 @@ section:nth-of-type(3n+3) {
   background-color: transparent;
   border: 0px;
 }
-@media (min-width: 992px){
+@media (min-width: 992px) {
   #testimonials .thumbnail {
     min-height: 450px;
   }
@@ -497,20 +511,24 @@ section:nth-of-type(3n+3) {
 /* ==========================================================================
    Speaker Boxes
    ========================================================================== */
-h4.speaker-name{
+
+h4.speaker-name {
   margin-top: 8px;
   font-size: 1.5em;
   margin-bottom: 5px;
 }
-.speaker-mini{
+
+.speaker-mini {
   height: 5.2em;
   padding: 0 15px;
 }
-p.speaker-title, p.speaker-bio{
+
+p.speaker-title, p.speaker-bio {
   line-height: 1.5em;
   font-size: 1.1em;
 }
-p.speaker-title{
+
+p.speaker-title {
   padding: 0.2em 0.5em;
   margin-bottom: 0;
 }
@@ -521,15 +539,16 @@ p.speaker-bio {
   margin-bottom: 5px;
 }
 
-p.speaker-title{
+p.speaker-title {
   font-weight: 400;
 }
 
-p.speaker-inst{
+p.speaker-inst {
   line-height: 1.4em;
   font-size: .9em;
 }
-.speaker-info{
+
+.speaker-info {
   background-color: $speaker-info-bg;
   width: 900px;
   display: flex;
@@ -545,7 +564,7 @@ p.speaker-inst{
   transition: max-height .15s ease;
 
 }
-.speaker-info.show{
+.speaker-info.show {
   max-height: 600px;
   -webkit-transition: max-height .35s ease;
   -o-transition: max-height .35s ease;
@@ -553,15 +572,15 @@ p.speaker-inst{
   transition: max-height .35s ease;
   transition-delay: .15s;
 }
-.speaker-info-inner{
+.speaker-info-inner {
   padding: 20px 15px 10px 15px;
 }
-.speaker-info-inner h4{
+.speaker-info-inner h4 {
   padding: 0.5em;
   color: $speaker-info-color;
 }
 
-.speaker-box{
+.speaker-box {
   padding: 10px 10px 0px 10px;
   width: 300px;
   margin-top: 10px;
@@ -586,7 +605,7 @@ p.speaker-inst{
   color: $speaker-selected-color;
   text-decoration: none;
 }
-.speaker-box.selected p{
+.speaker-box.selected p {
   color: $speaker-selected-color;
 }
 

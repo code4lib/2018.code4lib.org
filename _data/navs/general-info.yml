@@ -1,6 +1,8 @@
-- name: Venue
-  url: /
+- name: Venues
+  url: /general-info/venues
 - name: Proposals
-  url: /
+  url: /general-info/proposals
 - name: Scholarships
-  url: /
+  url: /general-info/scholarships
+- name: About Code4Lib
+  url: /general-info/about-c4l
