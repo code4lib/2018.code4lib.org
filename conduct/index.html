@@ -142,10 +142,60 @@ active: 'Conduct & Safety'
                     <h2 id="officers">Duty Officers</h2>
 
                     <p>
-                        <a href="/duty-officers/">Duty Officers</a> are available throughout the conference to provide support if you
-                        feel unsafe or that the CodeOfConduct4Lib has been violated.
-                        {% include duty-officer-contact.html %}
+                        During all days of the conference, including pre-conference and sponsored evening activities,
+                        there will be <a href="http://wiki.code4lib.org/Duty_Officers">Duty Officers</a> available to
+                        help provide support for anyone who has been harassed, threatened, abused, or feels the
+                        <a href="https://github.com/code4lib/antiharassment-policy/blob/master/code_of_conduct.md">CodeOfConduct4Lib</a>
+                        has been violated during the conference. Below is a list of all duty officers, their photos,
+                        and the times they will be "on duty".
                     </p>
+
+                    <h3>Contacting a Duty Officer</h3>
+
+                    <p>
+                      To contact a duty officer, you can
+                      <ul>
+                        <li>Send an email to <a href="mailto:c4l17-duty-officers@googlegroups.com">c4l17-duty-officers@googlegroups.com</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.</li>
+                        <li>Use the <code>/dutyofficers</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a></li>
+                        <li>Use the <a href="https://c4l17.libraryexchange.org/">anonymous report form</a>.</li>
+                      </ul>
+                    </p>
+
+                    <div class="row">
+                    {% for officer in site.data.duty-officers %}
+                        <div class="col-md-4">
+                            <div class="speaker-box text-center">
+                                <div class="speaker-box-inner">
+                                    <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                                    <h3 class="speaker-name">{{ officer.name }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+
+                    <h3>Duty Officer Schedule</h3>
+                    {% for session in site.data.duty-officer-schedule %}
+                        <h2>{{ session.title }}</h2>
+                        <div class="row">
+                            <div class="col-xs-12 keynote-sequence sequence">
+                                {% if session.all-hands %}
+                                    <p><strong>All duty officers attending the event &mdash; look for the black lanyards!</strong></p>
+                                {% else %}
+                                    {% for officerId in session.officers %}
+                                    {% assign officer = site.data.duty-officers | where: "id", officerId | first %}
+                                    <div class="speaker-box text-center">
+                                        <div class="speaker-box-inner">
+                                            <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                                            <h3 class="speaker-name">{{ officer.name }}</h3>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                 {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+
                 </div>
             </div>
 
