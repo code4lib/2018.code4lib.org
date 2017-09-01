@@ -1,17 +1,29 @@
 ---
-layout: default
+layout: secondary-nav
 title: Venue
+nav: conduct
+subnav:
+- name: Code of Conduct
+  url: '#conduct'
+- name: Emergency
+  url: '#emergency'
+- name: Duty Officers
+  url: '#officers'
+- name: Photography Policy
+  url: '#photography'
+active: 'Conduct & Safety'
 ---
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-12">
-            <div class="page-header">
-                <h1>Code of Conduct</h1>
-            </div>
-        </div>
 
         <div class="col-md-12">
+            <div class="page-header" id="#conduct">
+                <h1>Conduct & Safety</h1>
+            </div>
+
+            <h2 id="conduct">Code4Lib Community Code of Conduct</h2>
+
             <blockquote>
                 <p>
                     Code4Lib seeks to provide a welcoming, fun, and safe community and conference experience and ongoing
@@ -29,7 +41,7 @@ title: Venue
                     other events, inappropriate physical contact, and unwelcome sexual attention.
                 </p>
 
-                <cite title="Source Title">CodeOfConduct4Lib</cite>
+                <cite title="Source Title">—CodeOfConduct4Lib</cite>
             </blockquote>
 
             <p class="lead text-center">
@@ -38,11 +50,137 @@ title: Venue
                 </a>
             </p>
 
-            <p>
-                <a href="/duty-officers/">Duty Officers</a> are available throughout the conference to provide support if you
-                feel unsafe or that the CodeOfConduct4Lib has been violated.
-                {% include duty-officer-contact.html %}
-            </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="emergency">Emergency Resources</h2>
+
+                    <p>See also the contact information for <a href="#officers">duty officers</a> on this page.</p>
+
+                    <h3>Washington, D.C. Police Department</h3>
+                    <p>
+                        Emergency: 9-1-1 • Non-emergency: <a href="tel:12027374404">202-737-4404</a> • Anonymous reporting line <a href="tel:12027279099">202-727-9099</a>
+                    </p>
+
+                    <h3>Hospitals & Urgent Care</h3>
+
+                    <p>
+                        George Washington University Hospital
+                        <br><a href="https://www.google.com/maps?q=900+23rd+Street,+NW,+Washington,+DC,+20037">900 23rd Street, NW Washington, DC 20037</a>
+                        <br><a href="tel:12027154000">202-715-4000</a>
+                    </p>
+
+                    <br>
+
+                    <p>
+                        <a href="https://www.medstarhealth.org/mpc-adams-morgan/">MedStar PromptCare</a> - Adams Morgan
+                        <br><a href="https://www.google.com/maps?q=1805+Columbia+Road,+Washington,+DC+20009">1805 Columbia Road, Washington, DC 20009
+                        <br><a href="tel:18555461973">855-546-1973</a>
+                    </p>
+
+                    <h3>DC Rape Crisis Center</h3>
+
+                    <p>Immediate support hotline available at <a href="tel:12023337273">202-333-RAPE</a>. They also maintain a <a href="http://dcrcc.org/dc-referral-guide/">referral guide</a> for finding service providers quickly.</p>
+
+                    {% comment %}
+                    <h2>Conference organizers and general assistance</h2>
+                    <ul>
+                        <li>Code4Lib 2017 general assistance — <a href="mailto:code4lib@library.ucla.edu">code4lib@library.ucla.edu</a></li>
+                        <li>Luskin Center general information — <a href="tel:310-206-8585">310-206-8585</a></li>
+                    </ul>
+
+                    A local crisis counseling location was also included for LA
+
+                    {% endcomment %}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="officers">Duty Officers</h2>
+
+                    <p>
+                        During all days of the conference, including pre-conference and sponsored
+                        evening activities, there will be Duty Officers available to help provide
+                        support for anyone who has been harassed, threatened, abused, or feels the
+                        <a href="https://github.com/code4lib/antiharassment-policy/blob/master/code_of_conduct.md">
+                        CodeOfConduct4Lib</a> has been violated during the conference.
+                    </p>
+
+                    <h3>Contacting a Duty Officer</h3>
+
+                    <p>
+                      Duty Officers for the 2018 conference have not yet been selected. You may still be able to contact a duty officer from the previous year using one of these methods:
+                      <ul>
+                        <li>Send an email to <a href="mailto:c4l17-duty-officers@googlegroups.com">c4l17-duty-officers@googlegroups.com</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.</li>
+                        <li>Use the <code>/dutyofficers</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a></li>
+                        <li>Use the <a href="https://c4l17.libraryexchange.org/">anonymous report form</a>.</li>
+                      </ul>
+                    </p>
+
+                    {% if site.data.duty-officers %}
+                    <div class="row">
+                    {% for officer in site.data.duty-officers %}
+                        <div class="col-md-4">
+                            <div class="speaker-box text-center">
+                                <div class="speaker-box-inner">
+                                    <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                                    <h3 class="speaker-name">{{ officer.name }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    {% if site.data.duty-officer-schedule %}
+                    <h3>Duty Officer Schedule</h3>
+                    {% for session in site.data.duty-officer-schedule %}
+                        <h2>{{ session.title }}</h2>
+                        <div class="row">
+                            <div class="col-xs-12 keynote-sequence sequence">
+                                {% if session.all-hands %}
+                                    <p><strong>All duty officers attending the event &mdash; look for the black lanyards!</strong></p>
+                                {% else %}
+                                    {% for officerId in session.officers %}
+                                    {% assign officer = site.data.duty-officers | where: "id", officerId | first %}
+                                    <div class="speaker-box text-center">
+                                        <div class="speaker-box-inner">
+                                            <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                                            <h3 class="speaker-name">{{ officer.name }}</h3>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                 {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                    {% endif %}
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="photography">Photography Policy</h2>
+
+                    <p>
+                        Do not photograph, film, or audio-record anyone at Code4Lib without their
+                        expressly-given permission beforehand. Color- and pattern-coded lanyards are
+                        available at the registration desk to help indicate the wearer’s preference
+                        for photography ONLY. Please note, regardless of lanyards, you must always
+                        ask before filming or audio-recording attendees.
+                    </p>
+
+                    <h3>Lanyard color code</h3>
+                    <ul>
+                        <li><b style="color: #036103">Solid green</b> printed with {code4lib}: Photographs always okay – this represents expressly-given permission beforehand</li>
+                        {# not very yellow because yellow's contrast is too low #}
+                        <li><b style="color: #88880d">Yellow</b>: Ask before photographing</li>
+                        <li><b style="color: #710d0d">Red</b>: Photographs never okay, don’t ask</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
