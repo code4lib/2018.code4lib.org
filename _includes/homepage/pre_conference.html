@@ -81,21 +81,6 @@
     </div>
     {% endif %}
 
-    <div class="row">
-        <div class="col-xs-12">
-            <!--
-            one-time vote on a few conference structure questions
-            -->
-            {% include homepage/going_on_block.html
-                title='Program Committee Vote'
-                more-info-text='A community vote on a few matters concerning the 2018 conference.'
-                end-date='2017-08-25'
-                url='http://vote.code4lib.org/election/46'
-                url-text='Vote!'
-            %}
-        </div>
-    </div>
-
     <!-- Proposals -->
     {% if site.data.conf.talk-proposals.show or site.data.conf.panel-porposals.show or site.data.conf.workshop-proposals.show or site.data.conf.shirt-proposals.show %}
     <div class="row">
