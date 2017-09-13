@@ -91,7 +91,7 @@
             {% if site.data.conf.talk-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Talks'
-                    more-info-link='/about/propose-a-talk.html'
+                    more-info-link='/general-info/propose-a-talk.html'
                     more-info-text='About talk proposals'
                     end-date=site.data.conf.talk-proposals.end-date
                     url=site.data.conf.talk-proposals.submission-form
@@ -99,11 +99,14 @@
                 %}
             {% endif %}
 
-            <!-- Panels -->
+            {% comment %}
+            Panels
+            @TODO the more-info-link page does not exist yet! but we should make it
+            {% endcomment %}
             {% if site.data.conf.panel-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Panels'
-                    more-info-link='/about/propose-a-panel.html'
+                    more-info-link='/general-info/propose-a-panel.html'
                     more-info-text='About panel proposals'
                     end-date=site.data.conf.panel-proposals.end-date
                     url=site.data.conf.panel-proposals.submission-form
@@ -125,7 +128,7 @@
             {% if site.data.conf.workshop-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Workshops'
-                    more-info-link='/about/propose-a-workshop.html'
+                    more-info-link='/general-info/propose-a-workshop.html'
                     more-info-text='About workshop proposals'
                     end-date=site.data.conf.workshop-proposals.end-date
                     url=site.data.conf.workshop-proposals.submission-form
