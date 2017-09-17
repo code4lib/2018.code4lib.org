@@ -94,5 +94,5 @@ livestream:
   url: "https://www.youtube.com/user/code4lib"
 
 # If true, any "Sponsors" links with go to /prospectus instead of /sponsors
-call-for-sponsors: true
+call-for-sponsors: false
 search: false
