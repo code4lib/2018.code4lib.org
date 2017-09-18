@@ -87,6 +87,17 @@
         <div class="col-xs-12">
             <h4 class="expo">Proposals</h4>
 
+
+            <!-- Keynotes -->
+            {% if site.data.conf.keynote-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Keynote Proposals'
+                    end-date=site.data.conf.keynote-proposals.end-date
+                    url=site.data.conf.keynote-proposals.submission-form
+                    url-text='Propose a speaker'
+                %}
+            {% endif %}
+
             <!-- Talks -->
             {% if site.data.conf.talk-proposals.show %}
                 {% include homepage/going_on_block.html
