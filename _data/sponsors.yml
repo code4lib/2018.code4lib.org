@@ -1,0 +1,85 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+- name: Rockefeller Archive Center
+  img: /assets/img/sponsors/RAC-logo.png
+  link: http://rockarch.org/
+  level: contributor
+
+- name: Crossref
+  img: /assets/img/sponsors/Crossref_Logo_Stacked_SingleColor_Logo.svg
+  link: https://www.crossref.org/
+  level: bronze
+  annotation: "Closed Captioning"
+
+- name: UNC School of Information and Library Science
+  img: /assets/img/sponsors/UNC.png
+  link: https://sils.unc.edu/
+  level: contributor
+
+- name: Dominican University School of Information Studies
+  link: http://sois.dom.edu/
+  level: supporter
+
+- name: MIT Libraries
+  img: /assets/img/sponsors/MIT-liblogo.red.png
+  link: https://libraries.mit.edu/
+  diversity: true
+
+- name: University of Arizona Libraries
+  img: /assets/img/sponsors/UA_UL_RGB_Primary.png
+  link: http://new.library.arizona.edu/
+  level: contributor
+
+- name: Balsamiq
+  link: https://balsamiq.com/
+  level: supporter
+
+- name: LYRASIS
+  link: https://www.lyrasis.org/
+  level: bronze
+
+- name: DuraSpace
+  link: http://duraspace.org/
+  diversity: true
+
+- name: Index Data
+  img: /assets/img/sponsors/indexdata_logo.png
+  link: http://www.indexdata.com/
+  level: gold
+
+- name: University of California, San Diego
+  link: https://ucsd.edu/
+  level: contributor
+
+- name: JHU Sheridan Libraries
+  img: /assets/img/sponsors/sheridan-museums-logo-small-horizontal-blue.jpg
+  link: https://www.library.jhu.edu/
+  level: bronze
+
+- name: OCLC
+  img: /assets/img/sponsors/OCLC_Logo_H_Color_NoTag.png
+  link: http://www.oclc.org/
+  level: platinum

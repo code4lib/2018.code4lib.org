@@ -139,6 +139,7 @@
     </div>
     {% endif %}
 </div>
+{% comment %}
 <div class="col-xs-12">
     {% assign ad_sponsors = site.data.sponsors | where: "level","adamantium" %}
     {% assign plat_sponsors = site.data.sponsors | where: 'level','platinum' %}
@@ -164,3 +165,4 @@
         {% endif %}
     {% endif %}
 </div>
+{% endcomment %}

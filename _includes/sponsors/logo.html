@@ -1,7 +1,7 @@
 <div class="{{ include.class }}">
-    <a href="{{ sponsor.link }}">
+    <a href="{{ sponsor.link }}" class="thumbnail">
         {% if sponsor.img.size %}
-        <img src="{{ sponsor.img }}" class="thumbnail" alt="{{ sponsor.name }}">
+        <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
         {% else %}
         <span class="sponsor-name-only">{{ sponsor.name }}</span>
         {% endif %}
