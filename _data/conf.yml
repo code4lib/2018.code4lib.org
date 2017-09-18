@@ -33,12 +33,12 @@ keynote-proposals:
 workshop-proposals:
   show: true
   submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSemKvIgU4hFsE7nD3Iac-5fFXQeFPJl0Dz2T1ztvjFBpqqgmg/viewform"
-  end-date: "2019-09-30"
+  end-date: "2017-09-30"
 
 talk-proposals:
-  show: false
-  sumbission-form: ""
-  end-date:
+  show: true
+  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSdtLIIPmQeOJRUoPDl6mEj0thtmV3qu4Me9z8-ffbne0qUqTw/viewform?usp=sf_link"
+  end-date: "2017-10-15"
 
 panel-proposals:
   show: false
