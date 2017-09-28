@@ -83,3 +83,13 @@
   img: /assets/img/sponsors/OCLC_Logo_H_Color_NoTag.png
   link: http://www.oclc.org/
   level: platinum
+
+- name: Falvey Memorial Library
+  link: https://library.villanova.edu/
+  level: supporter
+
+- name: CLIR/DLF
+  img: /assets/img/sponsors/CLIR_DLF_Combologo_2017.jpg
+  link: https://www.clir.org/dlf
+  level: silver
+  annotation: "Fiscal Host"
