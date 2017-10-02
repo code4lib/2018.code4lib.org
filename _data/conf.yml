@@ -31,7 +31,7 @@ keynote-proposals:
   end-date: "2017-10-15"
 
 workshop-proposals:
-  show: true
+  show: false
   submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSemKvIgU4hFsE7nD3Iac-5fFXQeFPJl0Dz2T1ztvjFBpqqgmg/viewform"
   end-date: "2017-09-30"
 
