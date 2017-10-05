@@ -60,8 +60,9 @@ keynote-voting:
 
 workshop-voting:
   show: false
-  url: ""
-  end-date:
+  url: "https://www.surveymonkey.com/r/Preview/?sm=WLNm7uSL1RM_2BC7hO_2BbsWOGQEdYDyfRY7bKWoh9Xo9FOD_2BJSEU8tX_2FGcIL5K27Hpa"
+  end-date: "2017-10-20"
+  # when voting opens, set to true and link needs to be replaced with actual voting link
 
 talk-voting:
   show: false
