@@ -9,21 +9,21 @@ layout: default
             <h3>Proposed Preconference Workshops</h3>
         </div>
         <div class="col-xs-12 col-sm-4">
-            {% if site.data.conf.toggles.vote-prop %}
+            {% if if site.data.conf.talk-voting.show %}
                 <a class="btn btn-primary pull-right" href="{{ site.data.conf.workshop-voting.url }}">Vote!</a>
             {% endif %}
         </div>
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
             {% for shop in site.data.workshop-proposals %}
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="{{ shop.timestamp }}Header">
+                <div class="panel-heading" role="tab" id="{{ shop.slug }}Header">
                     <h4 class="panel-title">
-                        <a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#{{ shop.timestamp }}" aria-expanded="true" aria-controls="{{ shop.timestamp }}">
+                        <a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#{{ shop.slug }}" aria-expanded="true" aria-controls="{{ shop.slug }}">
                             {{ shop.preconference-title }}
                         </a>
                     </h4>
                 </div>
-                <div id="{{ shop.timestamp }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ shop.timestamp }}Header">
+                <div id="{{ shop.slug }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ shop.slug }}Header">
                     <div class="panel-body">
                         <p>{{ shop.abstract }}<p>
 
@@ -49,8 +49,7 @@ layout: default
                             {% assign speaker_array = speaker_array | push: shop.fifth-facilitators-name %}
                         {% endif %}
 
-                        <h4>Proposed by: {{ speaker_array | array_to_sentence_string }}</h4>
-                        <h4>{{ shop.lengthtime-of-day-for-preconference }}</h4>
+                        <h4>{{ shop.length }}</h4>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,241 @@
+- slug: 35710236
+  preconference-title: "An Introduction to OpenRefine"
+  abstract: "Working with semi-structured or malformed data requires skills that cross disciplines. Fortunately there are tools that make cleaning and standardizing data easier. This workshop's goals are to introduce participants to OpenRefine, cover basic strategies for
+ its use, and perform exercises to familiarize them with its capabilities.
+ <p>
+ Participants will complete guided exercises where they clean and sort sample data. Participants are expected to have a current <a href=\"http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html\">Java SE Runtime Environment</a> and an installation of the most recent version of <a href=\"http://openrefine.org/download.html\">OpenRefine</a>. The Chrome browser, or its open-source sibling Chromium, are needed for full compatibility with OpenRefine's user interface."
+  length: One three-hour session
+
+- slug: 43910720
+  preconference-title: "Supercharging Your Work with Embedded Metadata Workflows"
+  abstract: "Metadata is the driving force behind digital file management, but not everyone understands how embedded metadata can be, or should be utilized to help with digital file management. Learn how you can use file-naming conventions and specific tools such as Phil Harvey’s EXIFTool or Python scripts to edit, apply, and manage metadata to large batches of files to facilitate asset discovery down the road. We’ll also take a look at how you can read and write embedded metadata to digital files. These embedded metadata exercises can be used to apply to a number of different goals such as:
+ <ul>
+ <li> Importing/exporting data to and from various systems (For example, integrating PIM/product information management data with a DAM tool)
+ <li> Understanding the provenance of digital asset collections for audit
+ <li> Automating metadata application using standardized file-naming conventions
+ <li> Embedded Metadata Exercises
+ <li> View embedded metadata of digital files
+ <li> Edit embedded metadata on digital files
+ <li> Export embedded metadata from digital files to a CSV or TXT file
+ <li> Pair two exported metadata files (CSV) on a single key using Python
+ <li> Rename your files using embedded metadata
+ <li> Embedded Metadata Exercises in DAM Systems
+ <li> Mapping embedded metadata to a taxonomy
+ <li> Exporting embedded metadata from a system
+ </ul>
+ <p>
+ And you’ll also learn some tips and tricks for when you might want to use embedded metadata, and other cases where using embedded metadata is not the standard practice (such as on ecommerce websites.)"
+  length: One three-hour session
+
+- slug: 21486838
+  preconference-title: "Using Digital Media for Research and Instruction"
+  abstract: "To use digital media effectively in both research and instruction, you need to go beyond just the playback of media files. You need to be able to stream the media, divide that stream into different segments, provide descriptive analysis of each segment, order, re-order and compare different segments from the same or different streams and create web sites that can show the result of your analysis. In this workshop, I will use Omeka and several plugins I have developed for working with digital media, to show the potential of video streaming, segmentation and descriptive analysis for research and instruction."
+  length: One three-hour session
+
+- slug: 62221057
+  preconference-title: "Introduction to Omeka S"
+  abstract: "Omeka S represents a complete rewrite of Omeka Classic (aka the Omeka 2.x series), adhering to our fundamental principles of encouraging use of metadata standards, easy web publishing, and sharing cultural history. New objectives in Omeka S include multisite functionality and increased interaction with other systems. This workshop will compare and contrast Omeka S with Omeka Classic to highlight our emphasis on 1) modern metadata standards, 2) interoperability with other systems including Linked Open Data, 3) use of modern web standards, and 4) web publishing to meet the goals medium- to large-sized institutions.
+ <p>
+ In this workshop we will walk through Omeka S Item creation, with emphasis on LoD principles. We will also look at the features of Omeka S that ease metadata input and facilitate project-defined usage and workflows. In accordance with our commitment to interoperability, we will describe how the API for Omeka S can be deployed for data exchange and sharing between many systems. We will also describe how Omeka S promotes multiple site creation from one installation, in the interest of easy publishing with many objects in many contexts, and simplifying the work of IT departments.
+ <p>
+ Participants in the workshop will learn:"
+  length: One three-hour session
+
+- slug: 11533072
+  preconference-title: "Fail4Lib 2018"
+  abstract: "We all face failure in our professional lives, but no one likes to talk about it. Our relationship with failure frequently comes hand in hand with embarrassment, fear, and taboo. But failure has intrinsic value and is an essential step on the path to professional success. And since it's inevitable, we ought to learn how to face failure, how to talk about it as professionals, and how to grow from it. Fail4Lib, now in its 6th year, is the perennial Code4Lib preconference dedicated to discussing and coming to terms with the failures that we all encounter in our professional lives. It is a safe space for us to explore failure, to talk about our own experiences with failure, and to encourage enlightened risk taking. The goal of Fail4Lib is for participants -- and their organizations -- to get better at failing gracefully, so that when we do fail, we do so in a way that moves us forward. This half-day preconference will consist of case studies, round-table discussions, and, for those interested in sharing, lightning talks on failures we've dealt with in our own work."
+  length: One three-hour session
+
+- slug: 85178149
+  preconference-title: "Getting started with static website generators"
+  abstract: "Have you been curious about static website generators? Have you been wondering who “Jekyll” and “Hugo” are? Then this workshop is for you!
+ <p>
+ Static website generators are tools used to build a website made up only of HTML, CSS, and JavaScript. Static websites, unlike dynamic sites built with tools like Drupal or WordPress, do not use databases or server-side scripting languages. Static websites have a number of benefits over dynamic sites, including reduced security vulnerabilities, simpler long-term maintenance, and easier preservation.
+ <p>
+ In this hands-on workshop, we’ll start by exploring static website generators, their components, some of the different options available, and their benefits and disadvantages. Then, we’ll work on making our own sites, and for those that would like to, get them online with GitHub pages. Familiarity with HTML, git, and command line basics will be helpful but are not required."
+  length: One three-hour session
+
+- slug: 78067889
+  preconference-title: "Wikisource4Lib"
+  abstract: "Introduction to transcription with Wikisource. Introduction to wikicode and Visual Editor (WYSIWYG) in Wikisource. Comparison with other transcription efforts. Practice editing with experienced Wikimedian tutors."
+  length: One three-hour session
+
+- slug: 67581468
+  preconference-title: "Customizing Blacklight: Approaches and Best Practices"
+  abstract: "This workshop will do a deep dive into approaches and recommend best practices for customizing Blacklight applications. We will discuss a range of topics, including styling and theming, customizing discovery experiences, and working with Solr."
+  length: One three-hour session
+
+- slug: 81883124
+  preconference-title: "Introduction to Spotlight"
+  abstract: "Spotlight is an open source application that extends the digital library ecosystem by providing a means for institutions to reuse digital content in easy-to-produce, attractive, and scholarly-oriented websites. Librarians, curators, and other content experts can build Spotlight exhibits to showcase digital collections using a self-service workflow for selection, arrangement, curation, and presentation.
+ <p>
+ This workshop will introduce the main features of Spotlight and present examples of Spotlight-built exhibits from the community of adopters. We'll also describe the technical requirements for adopting Spotlight and highlight the potential to customize and extend Spotlight's capabilities for their own needs while contributing to its growth as an open source project."
+  length: One three-hour session
+
+- slug: 21589344
+  preconference-title: "Digital Empathy: Creating Safe Spaces Online"
+  abstract: "User research is often focused on measures of the usability of online spaces. We look at search traffic, run card sorting and usability testing activities, and track how users navigate our spaces. Those results inform design decisions through the lens of information architecture. This is important, but doesn't encompass everything a user needs in a space.
+ <p>
+ This workshop will focus on the other component of user experience design and user research: how to create spaces where users feel safe. Users bring their anxieties and stressors with them to our online spaces, but informed design choices can help to ameliorate that stress. This will ultimately lead to a more positive interaction between your institution and your users.
+ <p>
+ The presenters will discuss the theory behind empathetic design, delve deeply into using ethnographic research methods - including an opportunity for attendees to practice those ethnographic skills with student participants - and finish with the practical application of these results to ongoing and future projects."
+  length: One three-hour session
+
+- slug: 49396047
+  preconference-title: "Large Scale Web Scraping: Building a Toolkit to Scrape All the Things!"
+  abstract: "At previous Code4Lib conferences, there have been wonderful workshops showcasing a variety of tools and methods useful in webscraping. However, every tool has its limitations. In this workshop, we aim to demonstrate some of these limitations via a case study approach in order to highlight the need for a robust toolkit of scraping tools and methodologies when collecting for archival and research purposes. Then, we use practical, hands-on demonstrations to assist workshop participants in developing their own robust toolkits for scraping the web."
+  length: One three-hour session
+
+- slug: 29485160
+  preconference-title: "Impostor Syndrome & Us (led by an Impostor)"
+  abstract: "Impostor syndrome is a drag. You think you aren’t good enough to do what you do, even if there’s a wealth of information refuting that. Maybe you feel lost, alone, and afraid while doing specific parts of your job. If this is a thing that feels familiar to you, come to this workshop! We’ll get some group therapy in, I’ll tell you some sweet (read: terrifying) stories from my own professional experience, and I’ll give you some great resources for battling that “I should be quiet in the corner” mentality. There will be a handout.
+ <p>Am I qualified to lead this workshop? Probably not (I struggle with this every day), but I also think there should be something for people like us at every professional conference."
+  length: One three-hour session
+
+- slug: 73294835
+  preconference-title: "Build your own Twitter bot: a gentle and fun introduction to Python"
+  abstract: "In this hands-on workshop, you will get introduced to the Python programming language through a fun project you can show off. With a starter kit of Python code provided by workshop leaders, you’ll customize your Twitter bot and see it send tweets out into the world. Why learn Python? It’s a great “gateway” language to programming. It’s commonly used, very human-readable, and especially suited to text processing tasks you may come across in library work. Why bots? Bots work behind the scenes of the web. They can tell us the weather forecast when we ask (hey Siri), they systematically fix broken links on Wikipedia, they summarize financial data (Forbes), and on Twitter, whimsical bots can add a little bit of fun to the Internet. (Our favorites include @JustToSayBot, @TwoHeadlines, and @big_ben_clock.) By the end of this workshop, you will have a functional bot of your very own and an elementary understanding of Python.
+ <p>
+ Open to everyone who has an interest in learning about programming. No prior experience needed."
+  length: One three-hour session
+
+- slug: 26134112
+  preconference-title: "Writing Plug-ins for ArchivesSpace"
+  abstract: "Plug-ins provide a simple mechanism to customize ArchivesSpace without changing the core codebase. They can be used to extend or override built-in functionality and the look and feel of the application. Through examples and hands-on activities, this workshop will introduce the concept of plug-ins, demystify the process of building them, and provide participants with tips and tools for building their own."
+  length: One three-hour session
+
+- slug: 73586859
+  preconference-title: "Learning and Teaching Tech"
+  abstract: "Tech workshops pose two unique problems: finding skilled instructors for that content, and instructing that content well. Library hosted workshops are often a primary educational resource for solo learners, and many librarians utilize these workshops as a primary outreach platform. Tackling these two issues together often makes the most sense for our limited resources. Whether a programming language or software tool, learning tech to teach tech can be one of the best motivations for learning that tech skill or tool, but equally important is to learn how to teach and present tech well.
+ <p>
+ This hands-on workshop will guide participants through developing their own learning plan, reviewing essential pedagogy for teaching tech, and crafting a workshop of their choice. Each participant will leave with an actionable learning schedule, a prioritized list of resources to investigate, and an outline of a workshop they would like to teach."
+  length: Two three-hour sessions
+
+- slug: 52467737
+  preconference-title: "Getting Started Visualizing your IoT Data in Tableau"
+  abstract: "The Internet of Things is a rising trend in library research. IoT sensors can be used for space assessment, service design, and environmental monitoring. IoT tools create lots of data that can be overwhelming and hard to interpret. <a href=\"ttps://public.tableau.com/en-us/s/\">Tableau Public</a> is a data visualization tool that allows you to explore this information quickly and intuitively to find new insights.
+ This full-day workshop will teach you the basics of building your own own IoT sensor using a <a href=\"https://www.raspberrypi.org/\">Raspberry Pi</a> in order to gather, manipulate, and visualize your data.
+ All are welcome, but some familiarity with Python is recommended."
+  length: Two three-hour sessions
+
+- slug: 99344882
+  preconference-title: "Interacting with Standards, Hands-on Fedora"
+  abstract: "This workshop will focus on understanding and experiencing the interaction models defined by the web-standards that are contained in the Fedora Repository API. Specifically:
+
+ <ul>
+ <li> Memento
+ <li> Web Access Control
+ <li> Linked Data Platform
+ <li> Activity Streams
+ </ul>"
+  length: One three-hour session
+
+- slug: 68372587
+  preconference-title: "LC for Robots: Exploring the Chronicling America API"
+  abstract: "We will play with historic newspaper data by working through some guided tasks using the Chronicling America API."
+  length: One three-hour session
+
+- slug: 89547657
+  preconference-title: "The Virtualized Library: A Librarian's Introduction to Docker and Virtual Machines"
+  abstract: "This session will introduce two major types of virtualization, virtual machines using tools like VirtualBox and Vagrant, and containers using Docker. The relative strengths and drawbacks of the two approaches will be discussed along with plenty of hands-on time. Though geared towards integrating these tools into a development workflow, the workshop should be useful for anyone interested in creating stable and reproducible computing environments, and examples will focus on library-specific tools like Archivematica and EZPaarse. With virtualization taking a lot of the pain out of installing and distributing software, alleviating many cross-platform issues, and becoming increasingly common in library and industry practices, now is a great time to get your feet wet."
+  length: One three-hour session
+
+- slug: 76346172
+  preconference-title: "Enabling Social Media Research and Archiving"
+  abstract: "Social media data represents a tremendous opportunity for memory institutions of all kinds, be they large academic research libraries, or small community archives. Researchers from a broad swath of disciplines have a great deal of interest in working with social media content, but they often lack access to datasets or the technical skills needed to create them. Further, it is clear that social media is already a crucial part of the historical record in areas ranging from events your local community to national elections. But attempts to build archives of social media data are largely nascent. This workshop will be both an introduction to collecting data from the APIs of social media platforms, as well as a discussion of the roles of libraries and archives in that collecting.
+ <p>
+ Assuming no prior experience, the workshop will begin with an explanation of how APIs operate. We will then focus specifically on the Twitter API, as Twitter is of significant interest to researchers and hosts an important segment of discourse. Through a combination of hands-on and demos, we will gain experience with a number of tools that support collecting social media data (e.g., Twarc, Social Feed Manager, DocNow, Twurl, and TAGS), as well as tools that enable sharing social media datasets (e.g., Hydrator, TweetSets, and the Tweet ID Catalog).
+ <p>
+ The workshop will then turn to a discussion of how to build a successful program enabling social media collecting at your institution. This might cover a variety of topics including outreach to campus researchers, collection development strategies, the relationship between social media archiving and web archiving, and how to get involved with the social media archiving community. This discussion will be framed by a focus on ethical considerations of social media data, including privacy and responsible data sharing.
+ <p>
+ Time permitting, we will provide a sampling of some approaches to social media data analysis, including Twarc Utils and Jupyter Notebooks."
+  length: One three-hour session
+
+- slug: 13877175
+  preconference-title: "JSTOR Labs' Design Thinking Methods: Getting to Innovation and Impact, Quickly"
+  abstract: "In this hands-on workshop, we’ll lead you through a series of information gathering and design thinking activities that will teach you methods to explore any problem, then ideate and refine your way to a solution. You’ll learn the user research tools needed to root an investigation in the perspective and needs of a target user. You'll learn how to conduct structured group-brainstorming that works for introverts and extroverts alike and generates dozens of ideas in no time. Last, you'll learn how to quickly refine and select an approach using rapid prototyping and user feedback. You and your team will leave with the tools needed to run your own innovation project, whether it be a new internal service, an externally-facing product or even a funded planning grant."
+  length: One three-hour session
+
+- slug: 33700664
+  preconference-title: "Building Open: Integrating Open Source Discovery Tools with Summon and Alma"
+  abstract: "This hands-on workshop details the steps involved in successfully integrating Alma, Summon and OS discovery systems including Blacklight and VUFind. This will be a technical workshop--a deep dive with a review of the Alma and Summon APIs used in production today, an emphasis on obstacles faced during development, best practice documentation, and ongoing maintenance. Most importantly, the technical details of the integrations will be accompanied by the strategic decisions faced by libraries during the project. Come learn more about existing open source projects and how to develop within the open Ex Libris framework."
+  length: One three-hour session
+
+- slug: 65830236
+  preconference-title: "Creating Data Dashboards using Angular and D3.js"
+  abstract: "Library-generated data related to space utilization, technology utilization, and other primary services can be a main source of insight into the current state of operations. However, if trapped in spreadsheets and on server logs, the data is difficult to evaluate, and often remains unevaluated. Web-based data dashboards provide a platform independent way of incorporating this data into a near realtime visual summary.
+ <p>
+ In this hands on workshop we will utilize the web framework Angular and the visualization library D3.js to walk participants through the creation of a sample data dashboard application. Benefits of using the Angular framework include reusable components, two-way data binding, and access to command line tools which simplify code generation. D3.js provides a feature-rich library for crafting personalized and modular visualizations.
+ <p>
+ This sample application will highlight the best of both of these tools. When used together, they create a dynamic, interactive data dashboard that could be used to display a wide variety of relevant institutional metrics. While designed as a brief overview of both of these tools, previous experience with JavaScript would be helpful."
+  length: One three-hour session
+
+- slug: 64673581
+  preconference-title: "Solr for newbies"
+  abstract: "This is an introductory workshop to Solr, the fast and open source search platform that powers a lot of library products. This workshop is geared to anyone that has never used Solr or uses it but has not looked under the hood to see how it can be configured or explored some of the features that Solr offers out of the box.
+ <p>
+ We'll start the workshop with a quick review on how Solr stores data and the process that it goes when a search is submitted.
+ <p>
+ We'll then go through a tour of the main features in Solr:
+ <ul>
+ <li> Indexing: where all of it starts
+ <li> How to configure fields for different needs (ever wonder what does the \"_t\" means in a Solr field and how is it different from a \"_s\" field?)
+ <li> What are Search Request Handlers
+ <li> What do the different parses do (even been puzzled by dismax vs edismax?)
+ <li> What's the difference between the \"q\" and \"fq\" parameters when you search
+ <li> How to use facets, synonyms, and hit highlighting
+ <li> How tweak the ranking of results
+ <li> What are local parameters
+ <li> How to configure search term suggestions
+ <li> How to configure replication (it's easy) and how you can use it
+ </ul>
+ <p>
+ While practical, this workshop does not require you to be a coder. The idea is for you to learn the concepts, features, and how they work. If you choose, we'll show you how to install Solr on your machine to experiment with the concepts as we go. But if you prefer not to install Solr (of updating configuration files is not your thing) you can still follow along and learn with us."
+  length: One three-hour session
+
+- slug: 20213275
+  preconference-title: "Transforming MARC and Metadata into RDF-based Applications"
+  abstract: "While MARC still remains the authoritative data source for library catalogs, projects like the Library of Congress's Marc2Bibframe2 and BIBCAT are among the first tools in extracting data out of MARC records into RDF BIBFRAME triples. The conversion process produces BIBFRAME RDF data that must be cleaned, sorted, and linked to the web. This working session provides a hands-on experience in manipulating linked-data using the BIBFRAME RDF vocabulary in building cataloging and bibliographic applications. Other topics include mapping BIBFRAME to Schema.org for search engine indexing and the challenges in the conversion process, such as resolving locally constructed entities to external IRIs. We will also cover the uses of BIBCAT and RDF Maps to extract data from non-RDF sources like MODS XML, CSV, JSON feeds, and SPARQL endpoints to BIBFRAME and Schema.org triples."
+  length: One three-hour session
+
+- slug: 55282487
+  preconference-title: "Advocating for Library Accessibility: An Introduction"
+  abstract: "Libraries must ensure that users of all abilities can successfully use the technologies we provide. Despite the many ethical and legal motivations, not all of our technologies meet accessibility standards. Ultimately, the responsibility for making technologies accessible falls to the developers and vendors, but it does not begin with them. Advocacy from library staff of all duties is crucial for ensuring that disability access is a priority in library technology.
+ <p>
+ This workshop provides a foundation of skills and knowledge for becoming an accessibility advocate for any library worker. Background on disability types, assistive technologies, standards, and laws will be provided. Basic technology accessibility concepts will be covered, including simple tests and questions for working with vendors. Depending on the interests and background of workshop attendees, additional topics may be explored such as document formats, metadata, or testing practices.
+ <p>
+ No technical expertise is required of participants, although some discussions will get into HTML and other semantic markup languages."
+  length: One three-hour session
+
+- slug: 86269747
+  preconference-title: "Mapping Veronese & Muses Workshop"
+  abstract: "This Mapping Veronese & Muses Workshop is based on leveraging <a href=\"https://storymaps.arcgis.com/en/\">Esri Story Mapping software</a> and publicly available museum data. The workshop teaches simple ways to research and identify museum and art data on the internet; create a simple map; and create a story of images, history, and text that can be shared online. The software empowers curators and historians to develop a story with maps, texts, and imagery to complement online discussions, presentations, and tours. At the end of the workshop, participants will have a simple story map utilizing Esri that they can further build upon post-workshop."
+  length: One three-hour session
+
+- slug: 94574294
+  preconference-title: "ARIA Basics: Making Your Web Content Sing Accessibility"
+  abstract: "Are you a web developer or create web content? Do you add dynamic elements to your pages? If so, you should be concerned with making those dynamic elements accessible and usable to as many as possible. One of the most powerful tools currently available for making web pages accessible is ARIA, the Accessible Rich Internet Applications specification. This workshop will teach you the basics for leveraging the full power of ARIA to make great accessible web pages. Through several hands-on exercises, participants will come to understand the purpose and power of ARIA and how to apply it for a variety of different dynamic web elements. Topics will include semantic HTML, ARIA landmarks and roles, expanding/collapsing content, and modal dialog. Participants will also be taught some basic use of the screen reader NVDA for use in accessibility testing. Finally, the lessons will also emphasize learning how to keep on learning as HTML, JavaScript, and ARIA continue to evolve and expand.
+ <p>Participants will need a basic background in HTML, CSS, and some JavaScript."
+  length: One three-hour session
+
+- slug: 48490395
+  preconference-title: "Spark in the Dark 101"
+  abstract: "This is an introductory session on <a href=\"https://spark.apache.org/\">Apache Spark</a>, a framework for large-scale data processing. We will introduce high level concepts around Spark, including how Spark execution works and it’s relationship to the other technologies for working with Big Data. Following this introduction to the theory and background, we will walk workshop participants through hands-on usage of spark-shell, Zeppelin notebooks, and Spark SQL for processing library data. The workshop will wrap up with use cases and demos for leveraging Spark within cultural heritage institutions and information organizations, connecting the building blocks learned to current projects in the real world. This year’s Code4Lib marks the second anniversary of Sebastian Hammer’s description of the platform concept to the community, 18 months since the code repositories were opened, and a year since the FOLIO curriculum invited developers to test drive FOLIO concepts. The foundation is now broader and deeper. Participants will learn how to build and integrate new RESTful services on the back end as well as how to make use of the React- and Redux-based user interface components."
+  length: One three-hour session
+
+- slug: 42397248
+  preconference-title: "Apps on a Platform: Making Use of FOLIO in Your Library"
+  abstract: "What can you do with apps on a platform? FOLIO is a platform for developing services geared towards libraries. With built-in support for handling patron data and a multitude of metadata formats, FOLIO provides the foundation to build new tools and integrate existing services into a cohesive whole."
+  length: One three-hour session
+
+- slug: 50121151
+  preconference-title: "ISLE: Islandora Simplified"
+  abstract: "An introduction to the mechanics of <a href=\"https://bit.ly/isle2017\">ISLE</a>, including a demo of new systems creation and existing systems maintenance processes. ISLE separates an institution's customizations from core code, and moves that core code into containers that are easily updated, simplifying and largely automating the process of installation and updates/maintenance of Islandora. ISLE also bundles together the best shared modules into a common, production-ready and security-hardened platform."
+  length: One three-hour session
+
+- slug: 10249245
+  preconference-title: "IIIF Hands-on Technical Workshop"
+  abstract: "The International Image Interoperability Framework (IIIF) is a set of technical specifications built around shared challenges in cultural heritage access. This technical workshop will provide an overview of the IIIF specifications and hands-on exercises to gain a deeper understanding of the current landscape of tools and concepts.
+ <p>
+ Participants will explore the core Image and Presentation APIs, take a close look at various IIIF viewers, and get a brief introduction to the Content Search and Authentication APIs. Participants will also have an opportunity to discuss their institution's use cases and appropriate solutions, see some examples of use beyond the standard image viewers/tools, and receive pointers for how to go further and engage with the community."
+  length: Two three-hour sessions
