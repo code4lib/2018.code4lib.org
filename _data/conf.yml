@@ -59,9 +59,9 @@ keynote-voting:
   end-date:
 
 workshop-voting:
-  show: false
-  url: ""
-  end-date:
+  show: true
+  url: "https://www.surveymonkey.com/r/c4l2018-precon"
+  end-date: "2017-10-20"
 
 talk-voting:
   show: false
