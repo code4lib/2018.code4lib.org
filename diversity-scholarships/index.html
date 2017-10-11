@@ -23,39 +23,43 @@ title: Apply for a Diversity Scholarship
     </div>
 </section>
 
- {% if site.data.conf.diversity-scholarship-applications.show or site.data.conf.diversity-scholarship-general-info.show  %}
+ {% if site.data.conf.diversity-scholarship-applications.show or site.data.conf.diversity-scholarship-general-sponsors.show  %}
 <section>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <h1>Code4lib 2018 Diversity Scholarships</h1>
+                {% if site.data.conf.diversity-scholarship-applications.show  %}
                 <p>
                     As part of Code4lib's ongoing commitment to eliminating barriers that prevent participation for underrepresented
                     groups, we are pleased to announce that we are now seeking applicants for our 2018 Diversity Scholarship program.
                     The Code4Lib Scholarship Committee hopes to award 15 Diversity Scholarships, based on merit and need. Each
                     scholarship will cover up to $1200 for travel costs, lodging, and conference fees for selected applicants to attend the
                     <a href="/">2018 Code4Lib Conference</a>, which will be held in Washington, D.C., February 13-16, 2018.
-                </p>
-                {% if site.data.conf.diversity-scholarship-applications.show  %}
+                </p>                
                 <p>
-                    <strong>Applications are due by {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}} at 5 PM EST</strong> (<a href="#how-to-apply">see below for more details</a>).
+                    <strong>Applications are due by {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date%} at 5 PM EST</strong> (<a href="#how-to-apply">see below for more details</a>).
                 </p>
-                {% endif %}
-                <h4>This program is made possible by the generosity of our sponsors and community</h4>
+                {% endif %}                
             </div>
-
-            {% assign sponsors = site.data.sponsors | where: "diversity", true %}
-            {% for sponsor in sponsors %}
-                <div class="col-xs-6 col-md-4">
-                {% if sponsor.img %}
-                <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                    <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                </a>
-                {% else %}
-                <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                {% endif %}
+            
+            {% if site.data.conf.diversity-scholarship-general-sponsors.show  %}
+            <div class="col-xs-12">
+                <h4>This program is made possible by the generosity of our sponsors and community</h4>
+                {% assign sponsors = site.data.sponsors | where: "diversity", true %}
+                {% for sponsor in sponsors %}
+                    <div class="col-xs-6 col-md-4">
+                    {% if sponsor.img %}
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                    {% else %}
+                    <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                    {% endif %}
+                    </div>
+                {% endfor %}
                 </div>
-            {% endfor %}
+            {% endif %}
         </div>
     </div>
 </section>

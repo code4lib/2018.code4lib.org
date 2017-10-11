@@ -112,6 +112,6 @@ diversity-scholarship-applications:
   url-text: "How to Apply"
   end-date: "2017-11-17"
 
-# When true, general information and sponsors for diversity scholarship will show
-diversity-scholarship-general-info:
+# When true, sponsors for diversity scholarship will show
+diversity-scholarship-general-sponsors:
   show: false
