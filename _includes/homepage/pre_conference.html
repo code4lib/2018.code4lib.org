@@ -149,6 +149,29 @@
         </div>
     </div>
     {% endif %}
+    
+    <!-- Announcements -->
+    {% if site.data.conf.diversity-scholarship-applications.show  %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Announcements</h4>
+
+            <!-- Scholarships -->
+            {% if site.data.conf.diversity-scholarship-applications.show %}
+                {% include homepage/going_on_block.html
+                    title='Diversity Scholarship Applications'
+                    more-info-link='/general-info/scholarships/'
+                    more-info-text='About Diversity Scholarships'
+                    end-date=site.data.conf.diversity-scholarship-applications.end-date
+                    url=site.data.conf.diversity-scholarship-applications.url
+                    url-text=site.data.conf.diversity-scholarship-applications.url-text
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+
 </div>
 {% comment %}
 <div class="col-xs-12">

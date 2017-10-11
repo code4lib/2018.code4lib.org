@@ -23,40 +23,43 @@ title: Apply for a Diversity Scholarship
     </div>
 </section>
 
-{% comment %}
+ {% if site.data.conf.diversity-scholarship-applications.show or site.data.conf.diversity-scholarship-general-info.show  %}
 <section>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1>Code4lib 2017 Diversity Scholarships</h1>
+                <h1>Code4lib 2018 Diversity Scholarships</h1>
                 <p>
                     As part of Code4lib's ongoing commitment to eliminating barriers that prevent participation for underrepresented
-                    groups, we are pleased to announce that we are now seeking applicants for our 2017 Diversity Scholarship program.
+                    groups, we are pleased to announce that we are now seeking applicants for our 2018 Diversity Scholarship program.
                     The Code4Lib Scholarship Committee hopes to award 15 Diversity Scholarships, based on merit and need. Each
                     scholarship will cover up to $1200 for travel costs, lodging, and conference fees for selected applicants to attend the
-                    <a href="http://2017.code4lib.org/">2017 Code4Lib Conference</a>, which will be held in Los Angeles, CA, March 6-9, 2017.
+                    <a href="/">2018 Code4Lib Conference</a>, which will be held in Washington, D.C., February 13-16, 2018.
                 </p>
+                {% if site.data.conf.diversity-scholarship-applications.show  %}
                 <p>
-                    <strong>Applications are due by December 14, 2016 at 5 PM EST</strong> (<a href="#how-to-apply">see below for more details</a>).
+                    <strong>Applications are due by {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}} at 5 PM EST</strong> (<a href="#how-to-apply">see below for more details</a>).
                 </p>
+                {% endif %}
                 <h4>This program is made possible by the generosity of our sponsors and community</h4>
             </div>
 
-            {% sponsors = site.data.sponsors | where: "diversity", true %}
+            {% assign sponsors = site.data.sponsors | where: "diversity", true %}
             {% for sponsor in sponsors %}
-                {% include sponsor/logo.html class="col-xs-6 col-md-4" %}
+                <div class="col-xs-6 col-md-4">
+                {% if sponsor.img %}
+                <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                    <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                </a>
+                {% else %}
+                <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+                {% endif %}
+                </div>
             {% endfor %}
-
-            <div class="col-xs-12">
-                <h4>
-                    <img src="/assets/img/theme-images/c4l-logo.svg" alt="Individual Contributions from the Code4lib Community" />
-                    Indivdual Donations from Members of the Community
-                </h4>
-            </div>
         </div>
     </div>
 </section>
-{% endcomment %}
+{% endif %}
 
 <section>
     <div class="container">
@@ -92,7 +95,7 @@ title: Apply for a Diversity Scholarship
     </div>
 </section>
 
-{% comment %}
+{% if site.data.conf.diversity-scholarship-applications.show %}
 <section>
     <div class="container">
         <div class="row">
@@ -101,7 +104,7 @@ title: Apply for a Diversity Scholarship
                 <h3>How to Apply</h3>
                 <p>
                     To apply, please send an email to <a href="mailto:code4lib-scholarships@googlegroups.com">code4lib-scholarships@googlegroups.com</a> with the subject heading
-                    Code4Lib 2017 Diversity Scholarship Application containing the following:
+                    Code4Lib 2018 Diversity Scholarship Application containing the following:
                 </p>
                 <ol>
                     <li>
@@ -120,14 +123,13 @@ title: Apply for a Diversity Scholarship
                     of the number submitted, all files should follow a “Lastname-Firstname.pdf” naming convention.
                 </p>
                 <p>
-                    The application deadline is <strong>Dec. 14, 2016, 5pm EST</strong>. The scholarship committee will
-                    notify successful candidates the week of January 2, 2017.
+                    The application deadline is <strong>{{ site.data.conf.diversity-scholarship-applications.end-date | date: '%b %-d, %Y '}}at 5pm EST</strong>.
                 </p>
             </div>
         </div>
     </div>
 </section>
-{% endcomment %}
+{% endif %}
 
 <section>
     <div class="container">

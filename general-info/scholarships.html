@@ -8,6 +8,22 @@ active: Scholarships
     <div class="row">
         <div class="col-xs-12">
             <h1>Scholarships</h1>
+                {% if site.data.conf.diversity-scholarship-applications.show %}                
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="col-xs-9">
+                                <a href="/diversity-scholarships/">Diversity Scholarship</a> applications are being accepted until {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date %}
+                            </div>
+                            <div class="col-xs-3">
+                                <a class="btn btn-primary btn-xs btn-block" href="{{ site.data.conf.diversity-scholarship-applications.url }}">
+                                    Apply
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
               <p>
                     We are seeking organizations to sponsor <a href="/diversity-scholarships/">diversity scholarships</a>;
                     if you are interested, please
