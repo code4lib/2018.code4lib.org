@@ -107,7 +107,7 @@ livestream:
 ###########
 
 diversity-scholarship-applications:
-  show: false
+  show: true
   url: "/diversity-scholarships#how-to-apply"
   url-text: "How to Apply"
   end-date: "2017-11-17"
