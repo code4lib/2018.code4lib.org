@@ -93,3 +93,11 @@
   link: https://www.clir.org/dlf
   level: silver
   annotation: "Fiscal Host"
+
+- name: USMAI
+  link: http://usmai.org/
+  level: bronze
+
+- name: Northwestern
+  link: http://www.northwestern.edu/
+  level: contributor
