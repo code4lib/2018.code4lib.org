@@ -107,11 +107,11 @@ livestream:
 ###########
 
 diversity-scholarship-applications:
-  show: false
-  url: "/diversity-scholarships#how-to-apply"
+  show: true
+  url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
   end-date: "2017-11-17"
 
 # When true, sponsors for diversity scholarship will show
 diversity-scholarship-general-sponsors:
-  show: false
+  show: true
