@@ -7,6 +7,10 @@ sponsor-contact-email: "c4l2018-sponsor@umd.edu"
 donate-link: ""
 hero-image-alt: "Library of Congress Interior"
 
+# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
+call-for-sponsors: false
+search: false
+
 ###################
 # Homepage section
 # Values can be one of
@@ -98,6 +102,16 @@ livestream:
   show: false
   url: "https://www.youtube.com/user/code4lib"
 
-# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
-call-for-sponsors: false
-search: false
+###################
+# Scholarships
+###########
+
+diversity-scholarship-applications:
+  show: false
+  url: "/general-info/scholarships#how-to-apply"
+  url-text: "How to Apply"
+  end-date: "2017-11-17"
+
+# When true, sponsors for diversity scholarship will show
+diversity-scholarship-general-sponsors:
+  show: false
