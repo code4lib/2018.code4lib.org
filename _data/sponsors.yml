@@ -101,3 +101,7 @@
 - name: Northwestern
   link: http://www.northwestern.edu/
   level: contributor
+
+- name: Rutgers, School of Communication and Information
+  link: https://comminfo.rutgers.edu/
+  level: bronze
