@@ -31,7 +31,7 @@ homepage-display: pre
 # Proposals
 ###########
 keynote-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2018_Keynote_Speakers_Nominations"
   end-date: "2017-10-15"
 
@@ -41,7 +41,7 @@ workshop-proposals:
   end-date: "2017-09-30"
 
 talk-proposals:
-  show: true
+  show: false
   submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSdtLIIPmQeOJRUoPDl6mEj0thtmV3qu4Me9z8-ffbne0qUqTw/viewform?usp=sf_link"
   end-date: "2017-10-15"
 
