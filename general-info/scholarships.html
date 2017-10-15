@@ -52,35 +52,17 @@ subnav:
            {% if site.data.conf.diversity-scholarship-applications.show  %}
            <h2>Accepting Applications Now!</h2>
            <p>
-               As part of Code4lib's ongoing commitment to eliminating barriers that prevent participation for underrepresented
-               groups, we are pleased to announce that we are now seeking applicants for our 2018 Diversity Scholarship program.
-               The Code4Lib Scholarship Committee hopes to award 15 Diversity Scholarships, based on merit and need. Each
-               scholarship will cover up to $1200 for travel costs, lodging, and conference fees for selected applicants to attend the
-               <a href="/">2018 Code4Lib Conference</a>, which will be held in Washington, D.C., February 13-16, 2018.
+               As part of Code4Lib's ongoing commitment to reducing economic barriers that prevent participation for underrepresented groups, and to achieving a balanced representation of the human experience, we are pleased to announce that we are now seeking applicants for our 2018 Diversity Scholarship program! The Code4Lib Scholarship Committee hopes to award 15 Diversity Scholarships, based on merit and need.  Each scholarship will cover up to $1200 for travel costs, lodging, and conference fees for selected applicants to attend the <a href="/">2018 Code4Lib Conference</a> in Washington, D.C.
            </p>
            <p>
-               <strong>Applications are due by {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date%} at 5 PM EST</strong> (<a href="#how-to-apply">see below for more details</a>).
+              <strong>The deadline for applications is {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date%} at 11:59 PM ET</strong> (<a href="#how-to-apply">see below for more details</a>).
            </p>
+         <p>The scholarship will cover conference registration and hotel accommodations up front to scholarship awardees. Other incidentals like travel and meals may be reimbursed based on the amount awarded. Reimbursement will be managed independently at the conference. Pairing up housing with other scholarship awardees or conference attendees may also be accommodated. Please contact <a href="mailto:{{site.data.conf.scholarship-contact-email}}">{{site.data.conf.scholarship-contact-email}}</a> with any questions about this arrangement. We want to ensure that financial issues do not discourage anyone from applying to this award.
+         </p>
+          <p>We do not expect scholarship recipients to be responsible for being an ambassador for their group or an educator of others during the conference. While learning and exchange may happen as a result of interactions between participants, scholarship recipients are encouraged to focus on getting the most out of their experience and have no special duties or obligations apart from conference attendance, engaged participation to their comfort level, and giving us feedback on their experience.
+         </p>
            {% endif %}
        </div>
-
-       {% if site.data.conf.diversity-scholarship-general-sponsors.show  %}
-       <div class="col-xs-12">
-           <h4>This program is made possible by the generosity of our sponsors and community</h4>
-           {% assign sponsors = site.data.sponsors | where: "diversity", true %}
-           {% for sponsor in sponsors %}
-               <div class="col-xs-6 col-md-4">
-               {% if sponsor.img %}
-               <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                   <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
-               </a>
-               {% else %}
-               <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-               {% endif %}
-               </div>
-           {% endfor %}
-           </div>
-       {% endif %}
    </div>
 </div>
 {% endif %}
@@ -92,25 +74,24 @@ subnav:
            <h2>Eligibility, Criteria, And Requirements</h2>
            <ul>
                <li>
-               An applicant must be a member of a group not well-represented within the code4lib community, including but
-               not limited to: women, people of color, people with disabilities, LGBT+
+               An applicant must be a member of a group not well-represented within the code4lib community, including but not limited to: women, people of color, LGBTQ+, ability/disability, non-binary gender identities, etc. We also invite applications from members of underrepresented and/or marginalized groups that don't fit into the categories listed above.
                </li>
                <li>
-               An applicant must be interested in actively contributing to the mission and goals of the Code4Lib Conference.
+               An applicant must be interested in actively engaging with the Code4Lib community. For more information about Code4Lib, see the <a href="/general-info/about-c4l">About Code4Lib Page</a>.
                </li>
                <li>
                The scholarship recipients will be selected based upon their merit and financial needs.
                </li>
            </ul>
 
-           <h3> Registration Details</h3>
+           <h2> Registration Details</h2>
            <p>
            Registration spots and hotel rooms are being held for scholarship recipients. If you can attend only if you
            receive a scholarship, there is no need to register for the conference or book a hotel room when registration
-           opens.
+           opens. Code4Lib will assist you with both registration and hotel arrangements.
            </p>
            <p>
-           If you register for the conference or book a hotel room, you will reimbursed along with other expenses.
+           If you register for the conference or book a hotel room, you will be reimbursed along with other expenses.
            Reimbursement for expenses will be provided to recipients during the conference.
            </p>
        </div>
@@ -123,30 +104,31 @@ subnav:
        <div class="col-xs-12">
            <a name="how-to-apply"></a>
            <h2>How to Apply</h2>
-
            {% if site.data.conf.diversity-scholarship-applications.show %}
            <p>
-               To apply, please send an email to <a href="mailto:code4lib-scholarships@googlegroups.com">code4lib-scholarships@googlegroups.com</a> with the subject heading
-               Code4Lib 2018 Diversity Scholarship Application containing the following:
+               Submit your application materials via the Code4Lib online form: <a href="{{ site.data.conf.scholarship-application.url }}"{{ site.data.conf.scholarship-application.url }}</a>
            </p>
+         <p>
+           You will need to prepare:
            <ol>
                <li>
-                   A brief letter of interest, which:
+                   A brief letter of interest, no more than 500 words, which:
                    <ul>
                        <li>Identifies your eligibility for a diversity scholarship</li>
-                       <li>Describes your interest in the conference and how you intend to participate </li>
-                       <li>Discusses your merit and needs for the scholarship</li>
+                       <li>Describes how you see yourself benefiting from and participating in the Code4Lib 2018 conference and the general Code4Lib community </li>
                    </ul>
                </li>
-               <li>A resume or CV</li>
-               <li>Contact information for one professional or academic references</li>
+               <li>Your current resume or CV</li>
+               <li>Contact information for one reference who can speak to your professional goals and/or achievements</li>
            </ol>
            <p>
-               Please note: All parts of the submissions should be combined into a single PDF. Regardless
-               of the number submitted, all files should follow a “Lastname-Firstname.pdf” naming convention.
+               Please note: Your brief letter of interest and current CV/resume should be <strong>combined into a single PDF</strong>. Your file should follow a “Lastname-Firstname.pdf” naming convention. Questions can be directed to <a href="mailto:{{site.data.conf.scholarship-contact-email}}">{{site.data.conf.scholarship-contact-email}}</a>.
            </p>
            <p>
-               The application deadline is <strong>{{ site.data.conf.diversity-scholarship-applications.end-date | date: '%b %-d, %Y '}}at 5pm EST</strong>.
+               The application deadline is <strong>{{ site.data.conf.diversity-scholarship-applications.end-date | date: '%b %-d, %Y '}}at 11:59 PM ET</strong>.
+           </p>
+         <p>
+              The scholarship committee will notify all applicants by <strong> Friday, December 1, 2017</strong>, regardless of award results.
            </p>
            {% else %}
            <p>
@@ -157,6 +139,27 @@ subnav:
    </div>
 </div>
 
+{% if site.data.conf.diversity-scholarship-general-sponsors.show  %}
+<div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+      <h2>This program is made possible by the generosity of our sponsors and community</h2>
+       {% assign sponsors = site.data.sponsors | where: "diversity", true %}
+       {% for sponsor in sponsors %}
+        <div class="col-xs-6 col-md-4">
+        {% if sponsor.img %}
+        <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+            <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
+        </a>
+        {% else %}
+        <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
+        {% endif %}
+        </div>
+       {% endfor %}
+     </div>
+   </div>
+</div>
+{% endif %}
 
 <div class="container">
    <div class="row">
