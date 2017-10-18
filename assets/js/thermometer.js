@@ -1,7 +1,8 @@
-const key = '1WxNKuJPEf18qsD5CuecDekwFoW34AzU7yMjyhuq9uRA'
+const key = '1l7zZGlulF9nHoPlrbUmt7nteqmkUsCOQirs_9T2gzgU'
 // first spreadsheet is donations, second is list of goals
 const donations_url = `https://spreadsheets.google.com/feeds/cells/${key}/1/public/basic?alt=json`
 const goals_url = `https://spreadsheets.google.com/feeds/cells/${key}/2/public/basic?alt=json`
+const total_url = `https://spreadsheets.google.com/feeds/cells/${key}/3/public/basic?alt=json`
 
 // first fetch & parse donation goals
 fetch(goals_url)
@@ -55,6 +56,7 @@ fetch(goals_url)
                         return
                     } else if (cell.column === 'A') {
                         donations[index].donor = item.content.$t
+                        donations[index].amount = 0 // initialize amount
                     } else if (cell.column === 'B') {
                         donations[index].amount = parseFloat(item.content.$t)
                     } else if (cell.column === 'C') {
@@ -108,4 +110,13 @@ fetch(goals_url)
                     d.querySelector('#donation-thermometers').append(clone)
                 })
             })
+    })
+
+fetch(total_url)
+    .then(res => res.json())
+    .then(data => {
+        let total = data.feed.entry ? new Intl.NumberFormat('en-US',
+            {style: 'currency', currency: 'USD'}).format(data.feed.entry[0].content.$t) : "$0"
+        // insert into page
+        document.querySelector('#donation-total').innerHTML = `<h2>${total} raised so far.</h2>`
     })
