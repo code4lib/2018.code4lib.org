@@ -4,28 +4,61 @@ title: Angel Fund
 categories: scholarships
 ---
 
-<div class="container-fluid" id="angel-fund">
+<div class="container" id="angel-fund">
 	<div class="row">
 		<div class="col-xs-12">
 			<h2>Diversity Scholarships Angel Fund</h2>
 			<p>
-				As part of the Code4Lib community's ongoing commitment to helping under-represented groups excel in
-				computing and technology, we offer multiple scholarships to attend the annual conference. In addition
-				to <a href="/prospectus/index.html#Diversity-Scholarships">seeking organization sponsors</a>
-				for scholarships, we will be able to accept donations from individuals who would like to support the scholarship program on Wednesday, Oct 18th. Individual donors will be thanked on the <a href="/sponsors/">Sponsors</a>
-				page, though anonymous donation is also possible.
+				As part of the Code4Lib community's ongoing commitment to helping under-represented groups excel in computing and technology, we offer multiple scholarships to attend the annual conference.
+			</p>
+			<p>
+				In addition to seeking organization sponsors for scholarships, we are accepting donations from individuals who would like to support the scholarship program. Individual donors will be thanked on the Scholarship page, though anonymous donation is also possible.
+			</p>
+			<p>
+				All funds raised will help pay for transportation, accommodation, and conference registration costs for Code4Lib's Diversity Scholarships recipients for our annual conference. Please feel free to direct any question to c4l2018-sponsor@umd.edu.
 			</p>
 			{% if site.data.conf.donate-link != '' %}
 			<p>
-				<a class="btn btn-primary btn-lg" href="{{ site.data.conf.donate-link}}" target="_blank">Donate Now</a>
+				<a class="btn btn-primary btn-lg" href="{{ site.data.conf.donate-link}}" target="_blank">Donate to the Angel Fund today!</a>
 			</p>
 			{% endif %}
 			<p>
-				All funds raised will help pay for transportation, accommodation, and conference registration costs
-				for Code4Lib's Diversity Scholarships recipients for our annual conference. Please feel free to
-				direct any question to the <a href="https://wiki.code4lib.org/Code4Lib_2018_Conference_Committees#Scholarship_Committee">Scholarship Committee</a>
-				or send message to <a href="mailto:c4l2018-sponsor@umd.edu">c4l2018-sponsor@umd.edu</a>.
+				Matching Funds is our new initiative to raise Diversity Scholarship funds and to double your donation’s impact! Generous individuals in the code4lib community have pledged to match funds once a Matching Fund goal is reached. When donating to the Angel Fund, you can designate which Matching Fund you would like to contribute.
 			</p>
+
+			<div id="donation-total"></div>
+
+			<div id="donation-thermometers"></div>
+
+			<!-- thermometer HTML/CSS based on https://codepen.io/robotballoon/pen/Fjnyp -->
+			<template id="thermometer">
+			    <div class=countdown-wrap>
+			      <div class="goal-title">
+			          <div class="label">{{label}}</div>
+			          <div class="goal">{{goal}}</div>
+			      </div>
+			      <div class="glass">
+			        <div class="progress">
+			        </div>
+			      </div>
+			      <div class="goal-stat">
+			        <span class="goal-number percent">{{percent}}</span>
+			        <span class="goal-label">Funded</span>
+			      </div>
+			      <div class="goal-stat">
+			        <span class="goal-number total">{{total}}</span>
+			        <span class="goal-label">Raised</span>
+			      </div>
+			      <div class="goal-stat">
+			        <span class="goal-number donations">{{donations}}</span>
+			        <span class="goal-label">Donations</span>
+			      </div>
+			    </div>
+			</template>
 		</div>
 	</div>
 </div>
+
+{% comment %} for donation "thermometer" display {% endcomment %}
+<script src="/assets/js/thermometer.js"></script>
+<style>@import url('/assets/css/thermometer.css') screen;</style>
