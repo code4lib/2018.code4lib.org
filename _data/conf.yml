@@ -5,7 +5,7 @@ captioning-url: ""
 main-conf-email: ""
 sponsor-contact-email: "c4l2018-sponsor@umd.edu"
 scholarship-contact-email: "code4libaward@gmail.com"
-donate-link: ""
+donate-link: "https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3"
 hero-image-alt: "Library of Congress Interior"
 
 # If true, any "Sponsors" links with go to /prospectus instead of /sponsors
@@ -115,7 +115,7 @@ diversity-scholarship-applications:
 
 scholarship-application:
   url: "https://goo.gl/forms/Re2sJwXPjgi2mi2F2"
-  
+
 # When true, sponsors for diversity scholarship will show
 diversity-scholarship-general-sponsors:
   show: false
