@@ -1,6 +1,5 @@
 .countdown-wrap {
   clear: both;
-  margin: 2em;
   max-width: 650px;
   padding: 20px;
   width: 100%;
@@ -13,6 +12,7 @@
 .label {
     color: #000;
     float: left;
+    white-space: normal;
 }
 
 .goal {
