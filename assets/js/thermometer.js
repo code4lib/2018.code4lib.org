@@ -29,6 +29,9 @@ fetch(goals_url)
                 return
             } else if (cell.column === 'A') {
                 goals[index].label = item.content.$t
+                // also initialize donations, total
+                goals[index].donations = 0
+                goals[index].total = 0
             } else if (cell.column === 'B') {
                 goals[index].fund = item.content.$t
             } else if (cell.column === 'C') {
@@ -67,13 +70,9 @@ fetch(goals_url)
                 // now add sums to goals hash
                 donations.forEach(donation => {
                     goals.forEach(goal => {
-                        if (goal.fund === donation.fund) {
-                            // total amount donated
-                            if (!goal.total) goal.total = 0
+                        if (goal.fund.toLowerCase() === donation.fund.toLowerCase()) {
+                            // add to total amount & number of donations
                             goal.total += donation.amount
-
-                            // total number of donations
-                            if (!goal.donations) goal.donations = 0
                             goal.donations++
                         }
                     })
