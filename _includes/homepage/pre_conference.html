@@ -173,14 +173,14 @@
 
 
 </div>
-{% comment %}
 <div class="col-xs-12">
     {% assign ad_sponsors = site.data.sponsors | where: "level","adamantium" %}
+    {% assign di_sponsors = site.data.sponsors | where: "level","diamond" %}
     {% assign plat_sponsors = site.data.sponsors | where: 'level','platinum' %}
 
-    {% if ad_sponsors.size and plat_sponsors.size %}
+    {% if ad_sponsors.size > 0 or di_sponsors.size > 0 or plat_sponsors.size > 0 %}
         <h3>Thanks to our sponsors!</h3>
-        {% if ad_sponsors.size %}
+        {% if ad_sponsors.size > 0 %}
         <h4>Adamantium</h4>
         <div class="row">
             {% for sponsor in ad_sponsors %}
@@ -189,7 +189,16 @@
         </div>
         {% endif %}
 
-        {% if plat_sponsors.size %}
+        {% if di_sponsors.size > 0 %}
+        <h4>Diamond</h4>
+        <div class="row">
+            {% for sponsor in di_sponsors %}
+            {% include sponsors/logo.html sponsor=sponsor class="col-xs-12 col-sm-4" %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if plat_sponsors.size > 0 %}
         <h4>Platinum</h4>
         <div class="row">
             {% for sponsor in plat_sponsors %}
@@ -199,4 +208,3 @@
         {% endif %}
     {% endif %}
 </div>
-{% endcomment %}
