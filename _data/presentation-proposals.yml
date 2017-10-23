@@ -1,0 +1,588 @@
+- presentation-title: "Automating ExLibris Voyager Circulation Notifications"
+  slug: 00763016
+  abstract: |
+    Always ask yourself, what can be automated. Out of the box circulation notifications for ExLibris' Voyager are a painfully manual process. I noticed how all the necessary information was available, in documentation, and text files within the Voyager directories, and automated the process, so we never had to worry about staff members forgetting to send the notices, not understanding the process, holiday/break processing, etc.
+
+- presentation-title: "900 of us are maintaining a 3,400 item dataset on GitHub"
+  slug: 01273612
+  abstract: |
+    Free-Programming-Books is the second most popular repo on GitHub, trailing only Twitter Bootstrap. With over 4,400 commits from over 900 contributors, it currently links to over 3,400 free programming resources in 27 languages.
+
+    Is it possible that the techniques and workflow that made Free-Programming-Books possible could be applied to million-item library catalogues? Will GitHub someday host a worldcat? This talk will run though the numbers and examine a few of the sticking points.
+
+- presentation-title: "For Beginners -- No Experience Necessary"
+  slug: 01282435
+  abstract: |
+    You are attending - or teaching - a workshop on the latest tech hotness. The ad said it was "For Beginners -- No Experience Necessary". You get there and a third of the attendees don't have the right equipment and software, a third are on the verge of tears, and a third are bored out of their minds. What's worse, the presenters want to sneak out the back door. Attendees suck at self-selecting for these workshops because people suck at teaching for beginners. We need to be better at understanding what it means to teach for true beginners and at communicating the real expectations for attendees. This presentation will cover some ideas to get us on the right path for better experiences teaching and learning about technology.
+
+- presentation-title: "An Open Science Framework for Solving Institutional Research Challenges: Supporting the Institutional Research Mission and the Full Project Lifecycle"
+  slug: 01304150
+  abstract: |
+    Institutional research support services have the considerable challenge of accessing and supporting the wide variety of research workflows across both disciplines and project lifecycles. The integration of these services within (rather than appended to) the researcher’s workflow is critical for increased adoption. The Open Science Framework (OSF; [http://osf.io](http://osf.io) )--a free, open source scholarly commons and workflow management service--was designed to address exactly these challenges via modular, flexible workflow components and an array of 3rd party service integrations, such as Dropbox, Github, and Dataverse. More recently, the OSF has been expanded to include institution-specific customization in order to integrate more deeply with local services and workflows and to enhance institutional collaboration and research visibility. OSF for Institutions provides a free platform that can support a diversity of workflows, as well as more direct access to those by research data service professionals. With enhanced visibility for institutional stakeholders of on-going and unpublished research, the impact of research data can be shared, measured, and expanded. 
+
+    This session will highlight the core OSF architecture available for institutions, the challenges that it addresses, and how this infrastructure can specifically support the institutional research mission with a collaborative approach to bridging current gaps in today’s research lifecycle. We are particularly interested in receiving additional feedback on additional workflow challenges (perhaps institution-specific) from the community.
+
+- presentation-title: "Deep Learning and Historical Collections"
+  slug: 04176330
+  abstract: |
+    Deep convolutional neural networks have led to breakthrough results in numerous machine learning tasks such as the classification of images in huge data sets, like ImageNet ; they have provided the framework for unsupervised control-policy-learning in the mastering by computers of sample human tasks, like Atari games; and have led to the defeat of the world champion, in the complex and computationally intractable, game of Go, a decade before computer scientists thought it possible. All of these applications first perform feature extraction on large data sets and then feed the results into a trainable classifier based on deep convolutional neural networks. This paper presents an introduction to a framework for the building of a feature extractor that employs large convolutional neural networks to identify and extract layer features from large sets of digitized historical maps that could be used in environmental, urban planning and development studies.
+
+- presentation-title: "Librarian, Coder, Teacher: Developing a New-to-Programming Undergraduate Courses"
+  slug: 05957936
+  abstract: |
+    At [X] University, librarians have taken a central role in the Digital Humanities program and are working toward building technology-centric, for-credit courses around information consumption and creation. This talk presents the successes and challenges of a course developed for teaching web programming to non-programmers and the roadmap for adding additional courses in a proposed digital studies program.
+
+- presentation-title: "Building ScholarsDB: Re-envisioning a Simple Faculty Publications Database"
+  slug: 07523844
+  abstract: |
+    In the Fall of 2015, the University Library at [X] University needed to upgrade its home-grown faculty publications database. With few resources to commit, they chose to implement the open-source system BibApp, which met its needs for a system.  Unfortunately, the software had ended active development and required knowledge of Ruby on Rails for further updates. With renewed time and resources in the summer of 2017, the process began towards reimagining BibApp as a Node application with a redesigned database.  This talk briefly discusses the status of the development and puts out a call for interest in contributing to the application.
+
+- presentation-title: "Pycallnumber! For Tricky Call Numbers"
+  slug: 10875145
+  abstract: |
+    Let's talk about call numbers. As library coders, many of us find them oddly alluring. They're compact and information-dense. Simple, yet structured. Not to mention handy! Need a virtual shelflist? A shelf-reading tool? A way to do collection analysis? Just pull your call numbers out of your ILS and start coding. Done, and done.
+  
+    But -- questions about how to parse them come up so often in the Code4lib community for a reason. When you start working with them, you realize: call numbers are like MARC concentrate, in a way. Like someone distilled everything that we love and hate about MARC into one tiny, wonderful, horrible package. They appear so simple -- they are ""just"" strings, after all! But they're hand-crafted, hand-encoded strings. They're strings structured based on implicit sets of rules, which people sometimes overextend or even flat-out break in application. Real-world sets of them always seem to end up comprising this unholy mixture of formats that conform to various standards, including localizations, with varying degrees of accuracy. Code that handles all the idiosyncrasies in one context invariably ends up being highly specific and difficult to reuse in a different context, collection, or project.
+
+    Although tools for parsing various types of call numbers exist, I haven't yet found one that really helps address this issue. So after wrestling with it for years on various projects, I finally decided to tackle it myself and roll my own library -- one that uses common, general patterns as defaults that are then easy to customize for a given situation. And, since I can't be the only weirdo out there who struggles with this, I wanted to share it with the community: both what I've done so far, which is open source and available on GitHub, and what I've learned.
+
+    The library is pycallnumber [1] -- a Python package that provides a toolset for modeling any string pattern via flexible, modular, composable, and extensible templates. Out of the box, it includes complete templates for Library of Congress, Dewey, and SuDocs call numbers along with template components for handling more generic data types such whole numbers, decimals, formatted numbers, date strings, alphabetical strings, and more. You can extend basic template types to create new types, build complex templates out of simpler pieces, or simply tweak existing templates to handle local variations on standard types using minimal code. It provides tools for parsing, normalizing, and operating on call numbers and call number ranges, any of which can be extended in your own call number subclasses if you need custom behavior.
+
+    [1] [https://github.com/unt-libraries/pycallnumber](https://github.com/unt-libraries/pycallnumber)
+
+- presentation-title: "Make Your Library an Open Data Superstar"
+  slug: 12015022
+  abstract: |
+    "Open data" -- government data released to the public for independent consumption and analysis -- has revolutionized the way citizens, businesses, and other groups interact with their governments.  Open data promotes transparency and accountability, while fueling new applications and innovative services in the civic tech arena.  Due to their unique nature as information repositories and community institutions, libraries are often perfectly-suited to serve as ""open data hubs,"" helping bridge the gap between government data publishers and citizen/business data consumers and application developers.  In addition, libraries themselves possess operational data that may be of interest to citizens, other government entities, and other community partners.
+
+    This brief interactive session is intended to:
+
+    - provide a very high-level overview of open data concepts and past successes
+    - present traditional and innovative examples of how libraries can participate in the open data/apps ecosystem
+    - bring librarian-technologists into the global open data conversation
+
+- presentation-title: "Gamification of Library Orientation and Instruction"
+  slug: 12403693
+  abstract: |
+    The rapid advent in the technologies of augmented and virtual reality (VR) in the last several years and the surge down in price creates possibilities for its increasing and ubiquitous application in education. A collaboration by a librarian and VR specialist led to testing opportunities to apply 360 video in academic library orientation. The team seeks to bank on the inherited interest of Millennials toward these technologies and their inextricable part of a growing gaming environment in education. A virtual introduction via 360 video aims to familiarize patrons with the library and its services: [http://bit.ly/VRlib](http://bit.ly/VRlib). I short Surveymonkey survey following the virtual introduction assesses learning outcomes and allows further instruction when necessary. Patrons can use any electronic devices from desktop to any size mobile devices. Patrons can also watch in panorama mode, and are provided with goggles if they would like to experience the VR mode.
+
+    The next step is an introduction to basic bibliographic instruction, followed by a gamified “scavenger hunt”-kind of exercise, which aims to gamify students’ ability to perform basic research: [http://bit.ly/learnlib](http://bit.ly/learnlib). The game is web-based and it can be played on any electronic devices from desktops to mobile devices. The game is followed by a short Google Form survey, which assesses learning outcomes and allows further work shall any knowledge gaps occur.
+
+    The team relies on the constructivist theory of assisting patrons in building their knowledge in their own pace and on their own terms, rather than being lectured and guided by a librarian only.
+
+    This proposal envisions half a day activities for participants to study the opportunities presented by 360 video camera and acquire the necessary skills to collect quickly useful footage and process it for the library needs. The second half of the day is allocated for learning Adobe Dreamweaver to manipulate the preexisting “templates” (HTML and jQuery code) for the game and adapt the content and the format to the needs of the participants’ libraries.
+
+- presentation-title: "Code4Bib[liometrics]"
+  slug: 12615200
+  abstract: |
+    Metrics for measuring impact and output is an evergreen topic in research institutions with perpetually shrinking funds and increasing competition. Metrics and more specifically bibliometrics, are also useful for collection development, technology watch/horizon scanning activities, and profiling institutions whether for competitive intelligence or to locate likely collaborators or funders. It is tempting to rely on data providers who -  for a hefty fee - provide some measures out of a box. Better is to use free or open source packages to calculate and visualize standard as well as novel measures. In this session we will describe and evaluate new packages for R and Python that facilitate calculating and visualizing bibliometrics.
+
+- presentation-title: "Using Elastic Search with Kibana for a Technology Watch Portal"
+  slug: 14587607
+  abstract: |
+   Yes, the federal government is very interested in forecasting what new technology will emerge for use by the good and the bad guys. The new Tech Watch Horizon Scanning Community invited librarians to the table to negotiate licenses, dazzle them with bibliometrics, and test/refine open source tools for their new platform. Can those tools be used to predict the next technology breakthrough? Can Kibana, Elastic Search, and a host of open source visualizations help the Defense Department search and analyze data to guide their research investments?  Saavy coders and data librarians can play a big role in moving even the largest of organizations forward in leveraging open source tools with large datasets.
+
+- presentation-title: "Configuring Public Knowledge Project's Open Conference Systems for Digital Scholarship"
+  slug: 16531713
+  abstract: |
+    The Media History Exchange (MHX) is an archive, social network, conference management tool and collaborative workspace for the international, interdisciplinary community of researchers studying the history of journalism and communication. Launched as a pilot project in 2012, the MHX currently has more than 500 members and houses in excess of 1,200 items including more than 550 conference abstracts and 250 conferences papers. It opens a new scholarly space between the academic conference and the peer-reviewed journal by archiving “born digital” conference papers and abstracts that frequently have not been saved previously. 
+
+    Originally developed in Drupal with substantial custom code, MHX has been maintained by Loyola Notre Dame Library (LNDL). With limited developer support, the maintenance for the site became increasingly difficult as standard modules needed to be updated for security concerns and custom modules needed to be reworked to accommodate these updates. 
+
+    In the spring of 2017, LNDL technology staff investigated alternatives. After considering the pros and cons of various open source and licensed services, LNDL decided to migrate MHX to the Public Knowledge Project’s (PKP) Open Conference Systems (OCS). This open source solution operates on a standard LAMP (Linux Apache MySQL PHP) stack and has a community of developers focused on sustaining the service. It does exactly what we want – no need for custom code! If your library is interested in expanding its digital scholarship offerings to include conference support, or if your library offers its own library-focused conference, this technology might be exactly what you need.
+
+- presentation-title: "Python for Data Transformation"
+  slug: 16625613
+  abstract: |
+    The National Archives has several partnerships with organizations digitizing our records. Once we received the digitized images and metadata back, we faced a significant challenge of transforming that metadata to match our data model for upload to the National Archives Catalog. This led staff of our Office of Innovation to develop an innovative approach using Python. Since implementing Python tools for data transformation, the National Archives has made over 25 million pages of partner-digitized records available and this number is growing significantly as we refine our tools. We also share our Python tools on GitHub for public reuse.
+
+- presentation-title: "Low-Cost Preservation Environment Monitoring with the Raspberry Pi"
+  slug: 17965267
+  abstract: |
+    Controlling environmental conditions is an important tool used in preserving archives and manuscripts; in combination with HVAC systems, independent devices called preservation environment monitors (PEMs) are used to log data such as temperature and relative humidity.  This talk will detail the presenter’s construction of a do-it-yourself (DIY) PEM—using the Raspberry Pi—and compare its performance against a popular, but expensive, commercial PEM device.
+
+- presentation-title: "Accessibility and eBooks: What Librarians Should Know and How they can Serve their Users"
+  slug: 19403057
+  abstract: |
+    eBooks have great potential for users with accessibility needs. Why, then, do users so often encounter eBooks that aren’t compatible with screen readers and other assistive technologies?  This will be a discussion about how publishers, aggregators, and libraries can partner to provide a better experience for users. We will discuss the consolidated results of a number of studies and audits of eBook accessibility, limitations and options for creating accessible PDF and EPUB eBook files, the real-life impact of these limitations on users, and what skillsets we can help to develop and disseminate to help close the gap.
+
+- presentation-title: "Detecting Anomalous Usage Activity for JSTOR to Support Library Decision Making"
+  slug: 19711649
+  abstract: |
+    JSTOR uses a robust set of usage and access-denial data to demonstrate value to libraries and illustrate user demand for new collections. In recent years robots and webcrawlers within universities has obfuscated the behavior and usage of human library patrons in reports. In mid-2017 JSTOR's Analytics team began a three-month project to systematically identify anomalous usage events in non-COUNTER library usage reports in order to deliver to librarians a more accurate view of the value students and researchers are getting from JSTOR products. The Analytics team used a combination of statistical methods, the Python DBSCAN clustering package, and targeted grooming in order to flag these events. The project tackled challenges of scale to apply these method to two-and-a-half years of hourly and event-level usage data for more than 9000 institutions.
+
+- presentation-title: "Av.Preservation.With.Open.Formats.S13E01.FFV1[cellar].mkv"
+  slug: 19759118
+  abstract: |
+    The CELLAR working group of the Internet Engineering Task Force has been a collaborative effort by open media developers, specification writers, audiovisual archivists, and other interested contributors to formalize standards for FFV1 (lossless video), FLAC (lossless audio), and Matroska (audiovisual container). This presentation shall review the features of these specification relevant to preservation needs, discuss strategies for collaboration between specification and preservation communities, and analyze existing implementation of open, lossless audiovisual formats.
+
+- presentation-title: "Deep Learning for Libraries"
+  slug: 19906222
+  abstract: |
+    Learn how to leverage open source tools like Python, Pandas, Seaborn, and Tensor Flow/Keras to develop machine learning frameworks for your library. We’ll share simple workflows that we have developed to combine sensor data from access control gates, computer visions systems, and data science methods to develop predictive models for library space assessment. We’ll cover the specific hardware and software tools we used, share data visualizations, and explore how to move from data collection to actionable insights.
+
+- presentation-title: "Auditing algorithms in commercial discovery tools"
+  slug: 22190453
+  abstract: |
+    Library search tools are littered with algorithms that determine what a search ""means"" and what items are ""relevant,"" among other things. Evaluating these algorithms is hard, because their workings are unknown. The algorithms are the major intellectual property asset of the software vendors, and how they work is protected as a trade secret and competitive advantage. But knowing how the algorithms that shape our users experience of our collections and services is essential if we are to make informed decisions around software licensing and development, user and instructional support, and collection development.
+
+    I've been experimenting with methods for auditing algorithms by assessing large results sets to determine patterns and screen for systemic problems and biases. In this presentation, I'll discuss the methods I've used for algorithmic audits, the potential impacts of algorithmic auditing on library operations, and auditing algorithms without violating the software's Terms of Service.
+
+- presentation-title: "GIVE BACK! Yes, your code is already good enough!"
+  slug: 23209567
+  abstract: |
+    A brief pep talk and call to action for developers to share their cool hacks with the community, because that's how this whole thing works, right?
+
+- presentation-title: "The Future is Serverless, Codeless, Drag And Drop"
+  slug: 25681142
+  abstract: |
+    Application development is becoming easier than ever. New technologies that are inexpensive and easy to use will soon revolutionize both front-end and back-end development. Front-end developers will leverage technologies like WebAssembly. This will allow web base applications to be more like traditional desktop applications. They will be cross platform, faster and written in any language. They will also be easily distributed, and like many applications, will not require installation. Traditional back-end development is changing at a rapid pace as well. Serverless arcitecture on platforms like AWS Lambda and others will allow developers to easily and rapidly create and scale applications to allow for super fast and easy development.
+
+- presentation-title: "Old stuff, new schtick: using JIRA to manage archives workflows"
+  slug: 26693034
+  abstract: |
+    Managing archival material, wrangling its associated data, and making it accessible to users is a constant juggling act. When you’re trying to keep so many balls in the air - people, systems, tools, etc. - having a reliable system to track projects and manage workflows is crucial. At UCLA Library, the special collections department has collaborated with DIIT to develop a strategy for managing and tracking archives-specific workflows using JIRA’s ticketing system. Beginning with project management for born-digital processing and tracking peer review of finding aids and MARC records, our implementation of JIRA is flexible and extensible. In this talk we’ll demonstrate how we tamed the JIRA beast and bent it to our (archival) will, and discuss how other libraries and archives could leverage JIRA’s flexibility to manage projects outside of an I.T. context.
+
+- presentation-title: "Advances in Data Mining and Machine Learning for Chat Sentiment and Library Account-Based Recommendations"
+  slug: 27076092
+  abstract: |
+    Library transactional data from chat transactions and subject metadata in checkout clusters represent hugely untapped areas for innovation. Two recent projects at a research library have highlighted the applicability of machine learning methods to reveal trends in large sets of library transactional data. This presentation will detail the machine learning methods utilized for two recent research projects, an account based recommender service and data mining chat transactions for sentiment analysis. A contention of this talk is that research library systems hold vast stores of use data whose size precludes regular analysis through traditional manual methods or basic search queries.  Machine learning offers great potential to routinely analyze library big data and provide new sources of insight into user behavior and needs.
+
+    The basis for the account-based recommendations begins with clusters of checked out items that the integrated library system records when items are checked out. Drawing on examples from “consumer data science” (e.g. Netflix) it is clear that large corpus data that receive millions of ratings daily are part of the strategy for creating compelling recommender algorithms. Topic metadata clusters, collected from transactional checkout data of items that are checked out together form the basis for generating a rule set. After nearly a year of data stream collection the system has collected over 250,000 rows of anonymized transactions representing checkouts with topic metadata. The research team used the data mining tool WEKA to run a machine learning process offline.
+
+    Chat transcripts were analyzed using methods from sentiment mining social media data and product reviews to build and test an automated sentiment analyzer. Anonymized transcripts were human-coded for sentiment to produce a gold standard dataset. Freely available natural language learning tools utilizing Python and Scikit-learn were then trained and tested on the dataset to develop an automated sentiment classifier. The classifier reported high levels of precision and accuracy in analyzing the test set of data, and the study revealed a number of fruitful paths to study in refining and implementing analysis into routine assessment activities.
+
+- presentation-title: "Digitizing Arabic-language Scholarly Content: An Investigation (JSTOR)"
+  slug: 28523315
+  abstract: |
+    Despite enormous advances in digitization techniques over the past decade, a tremendous volume of Arabic-language scholarly content remains available only in print form. The complications of scanning Arabic script, along with a need for standards and publicly available information about practices for digitizing Arabic, has both slowed the scanning of printed texts and hindered the discoverability of those Arabic-language texts that have already been converted from print to digital form. 
+
+    JSTOR, a not-for-profit digital library, is carrying out a year-long investigation, supported by the National Endowment for the Humanities, into community needs and practices for digitizing Arabic scholarly journals. This presentation will cover early findings from our exploration of the available digitization software packages and processes for Arabic content, and will outline some of the general policy and copyright challenges in building a digital collection of global scholarly content. During the Q&A session, attendees will have a chance to respond to the project findings, and the presenters especially hope that attendees will suggest other digitization projects and potential partners who might benefit from this research.
+
+- presentation-title: "Algorithms and Democracy /Coding for Freedom"
+  slug: 30068736
+  abstract: |
+    Partisan gerrymandering has a long history in both in politics and cartography.  Today however, with the use of specialized algorithms and supercomputers, it has become a mapping and computational project very different from what is was in the 19th and 20th centuries. This talk will give an introduction to what ever librarian and archivist should know about the code that sits at the foundation of the modern science of gerrymandering and discuss how massively parallel computation is giving rise to new forms of cartography based on the processing of huge amounts of thematic data. These maps and simulations are revealing hidden patterns in voting behavior and have led to new and interesting forms of cartographic visualization and have created deep questions concerning what constitutes a gerrymandered map.
+
+- presentation-title: "Tele like it is: making a case for telecommuting"
+  slug: 30125497
+  abstract: |
+    Telecommuting creates flexible working conditions that benefit both the library and the employee. Benefits include higher job satisfaction, the ability for employees to execute work more effectively and efficiently, retention of valued employees, recruitment of a strong workforce, and reduced absenteeism. Yet, there are still many obstacles facing employees who would like to incorporate telecommuting into their work schedule. This presentation will illustrate how librarians, information professionals, and staff can address the resistance they might encounter when trying to telecommute.
+
+- presentation-title: "Is it safe? Is it secret"
+  slug: 30875638
+  abstract: |
+    Managing your secrets in an audit friendly way.
+
+- presentation-title: "Building an LDA topic model using Wikipedia"
+  slug: 31387409
+  abstract: |
+    Join [the presenters] as they discuss how they went about creating training data for use in JSTOR’s new Text Analyzer, a tool that allows users to upload a document, have it automatically analyzed, and find relevant content on JSTOR.  Using the JSTOR Thesaurus hierarchy of 48,000 terms the team identified and reviewed Wikipedia articles to be used as training data for a topic model using a custom curation tool.  The result was a topic model including the most significant terms from the JSTOR Thesaurus (approx. 18,000) trained using curated Wikipedia articles.   In this presentation, [they] will discuss the process used, share initial findings and areas for future work (including multilingual topic inferencing), and provide a short demo of the curation tool and Text Analyzer app.
+
+- presentation-title: "One step at a time: Laying the groundwork for Linked Data with URIs"
+  slug: 32169031
+  abstract: |
+    Although libraries have spent many years discussing and preparing for it, linked data in our library catalogs remains an overwhelming and confounding technology to many, including the technical services staff creating and maintaining catalog data.  Using a philosophy of project based learning and iterative experimentation, NCSU Libraries conducted a pilot project to take a step towards catalog linked data: adding URIs.
+    
+    Many libraries are preparing their catalogs for linked data by inserting URIs into MARC records.  This is such an important step towards linked data that the Program for Cooperative Cataloging (PCC) formed a Task Group on URIs in MARC.  This presentation shares the methods and results of a pilot project with two goals: 1) assess the viability and scalability of adding URIs to MARC using a) SirsiDynix Symphony APIs, and b) MarcEdit; and 2) engage all 22 members of the Acquisitions & Discovery department in a linked data project that creates a dataset ripe for further linked data experimentation while teaching the importance of URIs in an linked data environment.  This project also ties into a larger plan for linked data experimentation and learning at NCSU libraries.
+
+- presentation-title: "Coding with Only Your Browser"
+  slug: 32812705
+  abstract: |
+    Imagine if the only tool you needed to start writing code is a browser. Imagine replicating your development environment from your work computer, to your home computer or to a chromebook that you could borrow from your library. Imagine how this could lower the barrier of entry for other collaborators. Imagine being able to share a fully-functional development platform with workshop attendees.
+
+    This presentation will highlight the capabilities of some of the existing Cloud IDE platforms such as Cloud9 and Codenvy and their applicability to library software projects.
+
+- presentation-title: "Publishing from your Online Git Repository"
+  slug: 32856450
+  abstract: |
+    There are many benefits to sharing code in an online code repository such as GitHub.  Code assets can be modified and synchronized across a branch or a release.
+
+    In addition to publishing code assets, online code repositories provide a fantastic platform for publishing documentation resources.  The ability to render markdown files allows for quick creation and editing of text.  Presentation libraries such as Reveal.js or services such as GitPitch can publish dynamic slideshows from modular markdown components.
+
+    Publishing from an online git repository can provide a mechanism to tell the story of your open source project participation.  Interactive documentation editing can be an excellent way to introduce colleagues to source code management practices.
+
+- presentation-title: "Automate Library Applications with Google Apps Script"
+  slug: 33401888
+  abstract: |
+    The ubiquity of Google Drive solves many problems (file sharing, web publishing, bulk editing) that are cumbersome to build in a home-grown application.  
+
+    With a little bit of JavaScript magic, you can build a custom solution on top of the Google Apps your users use every day.  Google Apps Script is a server-side implementation of JavaScript supporting API calls to Google Services.
+
+    This presentation will describe the Google Apps Script platform and the API’s available to the platform.  This presentation will describe the various ways that your custom code can be deployed for a library audience (formula functions, document scripts, web service or domain add-ons).
+
+- presentation-title: "The Authority Decentralization of Blockchains and How it Applies to Libraries."
+  slug: 34462116
+  abstract: |
+    We'll explore what blockchains are, and how they are poised to dramatically change industries by decentralizing trust.  We'll look at some current applications of blockchains and how they may map to libraries.
+
+- presentation-title: "Clojure Super Powers"
+  slug: 35552408
+  abstract: |
+    Clojure is a relatively new language that runs on the Java platform. In this talk I'll introduce you some of the unique attributes of this language that really make it shine and be fun to play with.
+
+- presentation-title: "Big Data In Libraries: Creating An Analytics Hub To Reveal Patterns, Trends, And Associations In Your Library"
+  slug: 37357754
+  abstract: |
+   Does your library have important analytics you would like to share with others but you are not sure where to begin? Do you have existing reports you would like to compare to reveal patterns, trends, and associations but they are in different formats? This presentation shows a unique approach to managing your library’s big data using free online tools to create an analytics hub that breaks down the traditional silo approach to reports. In addition, you will learn how to publish the results online as real-time charts or as inline text within your current website. The best part? You can do it within an hour with little to no programming skills! Get hands-on with your library's big data, more effectively manage content on the web, and learn how to collaborate on live website content using Google Drive.
+
+- presentation-title: "Ten Ways to Improve EZproxy Security"
+  slug: 38307433
+  abstract: |
+    EZproxy is one of the most ubiquitous library products, and one of the most common vectors of cyberattack within it. In this presentation, 10 tweaks, tips, and tools will be discussed to prevent fraudulent access and identify compromised user credentials in EZproxy. While examples from EZproxy will be discussed, many of the lessons learned can be used in other systems.
+
+- presentation-title: "Hold the soup! Using XPath within the Python lxml module"
+  slug: 38448063
+  abstract: |
+    Newcomers to web scraping in Python are faced with a seemingly endless catalogue of frameworks and packages to use.  One of the most popular HTML parsers being Beautiful Soup, which is the highlight of many tutorials and useful in many contexts, but is not always the most efficient package choice in the library context. Libraries have more than pure HTML data to parse and often at a scale well beyond standard web scraping tasks. The ever expanding workload of librarianship also means that we must invest our learning time wisely, but the challenge is knowing what the alternatives are.
+
+    This talk will argue that the lxml Python package can be a beneficial place to start honing your webscraping skills because of how deeply those abilites can be extended for more complex tasks.  lxml supports direct use of XPath queries and has ability to parse pure XML documents.  XPath is a concise but readable system of describing XML paths for data access and extraction, and is supported in many other tools, such as the Oxygen XML Editor [https://www.oxygenxml.com/](https://www.oxygenxml.com/).  These statements are described in terms of the XML schema, allow many to leverage their deep understanding of metadata and XML for immediately powerful results.
+
+    I will briefly introduce the XPath query language, an overview of how it is used within the lxml module, some straight forward template code for basic lookups, and suggested resources for getting started.  While other scraping packages may need to remain as part of your toolbox, the combination of lxml with XPath can be an option that grows along with your data needs and help you avoid unnecessary package switching and wasted learning time.
+
+- presentation-title: "Tree Diagram in D3.js"
+  slug: 40356641
+  abstract: |
+    [X] University has finished a project that used D3.js to visualize one aspect of the library facts. With efforts to accommodate our specific needs, there are numerous challenges in the development duration. One of the challenges was to dynamically generate tree diagrams which are known not to have consistent representations. Instead of confronting the problem directly, the trick used worked perfectly well by taking a route (first forcing consistency and then dealing with individual differences), and can be considered innovative(ish). This presentation focuses on the tree diagram of D3.js, talks about how a tree diagram works (which you’ll never find anywhere else), and shares the tricks used to overcome challenges. The ideal outcome of this presentation is let you get all you need to customize a tree diagram using D3.js.
+
+- presentation-title: "Open Access Button: Putting OA into Interlibrary Loan"
+  slug: 41690210
+  abstract: |
+    The Open Access Button is a family of tools to get access to articles behind paywalls, either by finding free, legal alternatives or requesting an author make a copy available. The Open Access Button has been working to integrate our services and others with library catalogs and interlibrary loan systems — to surface accessible copies of articles directly through library discovery systems and fulfill interlibrary loan requests instantly when accessible copies are available in repositories. Our goal is to save staff time, reduce costs, and increase the percentage of articles available through repositories, all while improving user experience. We’re delighted to have new tools that help do all this, including DeliverOA [https://openaccessbutton.org/deliveroa](https://openaccessbutton.org/deliveroa), EmbedOA [https://openaccessbutton.org/embedoa](https://openaccessbutton.org/embedoa) and OAsheet [https://openaccessbutton.org/oasheet](https://openaccessbutton.org/oasheet). In this session we will walk through these new tools, preview what’s coming next, and share some insights into what we’re learning along the way.
+
+- presentation-title: "Don't Get MADS About It"
+  slug: 42273321
+  abstract: |
+    In 2016 the Smithsonian National Museum of African American History and Culture, in cooperation with the Smithsonian Office of the Chief Information Officer, embarked on a project to develop an online streaming video player capable of delivering audiovisual assets from 19 Smithsonian museum collections to the public. This talk will provide insights into the building of a new streaming player while integrating it with a pre-exisiting digital repository, highlighting the successes and failures in systems coordination for the world's largest museum.
+
+- presentation-title: "Cryptography 101"
+  slug: 43696732
+  abstract: |
+    What should you take into account if you’re developing an application that requires authentication process? To make it worse, your application is intended to be used beyond the university scope, which implies the available LDAP server may not be a preferred way to go. Which implemented functions can you use for your application’s password security? All the questions have been researched and answered by our recent development of a new application (we use PHP and MySQL), and will be shared in the presentation where basics of cryptography is also going to be covered.
+
+- presentation-title: "Essentialism and Digital Preservation: A Lightweight Solution for Digital Asset Management"
+  slug: 44383563
+  abstract: |
+    Creating and implementing software designed to support every aspect of a robust digital preservation strategy is a daunting task. It often requires long and expensive development roadmaps, which could result in an organization deferring action for planning. At the same time we know that promptly performing even basic preservation tasks on digital assets can result in tremendous advantages related to long-term preservation outcomes.
+
+    After a recent review  of our digital preservation policies and workflows our internal Digital Curation Working Group was able to determine what stages in the digital preservation lifecycle we needed to improve upon, and how a simple digital asset management system could fulfill most of the technical recommendations.
+
+    We have started development of an application that is focused on providing the basic DAMS functions of file tracking, checksum polling and reporting features that notify users of corrupt assets. Limiting the scope of the initial iteration of the development cycle allows for an earlier functional deployment that can address our immediate needs, while leaving open the possibility of expanding the tool’s features in later development cycles. 
+
+    This talk will focus on the process we used to identify enhancements to our digital preservation strategy, and why we chose to build a new application rather than implement an existing open source solution. It will also include a technical overview of the resulting application which we intend to release as an open source tool available to the digital preservation community.
+
+- presentation-title: "The ad hoc technologist: Personal competencies and professional responsibilities"
+  slug: 44537759
+  abstract: |
+    Librarians in technologically adjacent fields such as scholarly communication and digital scholarship may find themselves acting as a technology advisor in smaller institutions. How can librarians with an interest in technological solutions integrate that focus into positions which do not explicitly include oversight of systems or platforms? How can existing technological competencies among staff be leveraged to benefit the library and its users? What are the potential pitfalls of incorporating additional technological responsibilities (on an ad hoc or permanent basis) into non-tech-focused positions?
+
+- presentation-title: "So you want to migrate your data from DSpace to Hyrax? Here’s our approach!"
+  slug: 45958631
+  abstract: |
+    We will introduce Dspace2Hydra (D2H), the software we wrote to facilitate the repository migration from DSpace to Hyrax. D2H was designed to facilitate the migration of ScholarsArchive, Oregon State University’s institutional repository that contains more than 60,000 scholarly works in types such as thesis and dissertations, journal articles, and research datasets. In addition to migrating data, D2H was designed with the ability to cleanup, validate, and augment metadata. Operating on BAG files exported from DSpace, D2H is a Ruby application that will upload the files into Hyrax, crosswalk the metadata, and publish new works to Hyrax with attached files. 
+
+    Major features and guiding principles of D2H are;
+    - Explicit metadata mapping configuration, no metadata will slip through the cracks
+    - Flexible configurations to normalize, transform, and crosswalk metadata
+    - Support for migrating both simple as well as compound objects by creating parent and children works in Hyrax
+    - Automate mediated deposits using workflows in Hyrax such as Review, Approv, and Publish works
+
+    The migration of ScholarsArchive aims to be completed in November 2017 using D2H, after which point we’ll reflect on the lessons learned and opportunities for improvements to the tool.
+
+- presentation-title: "Easter Fool's Day, or, the Chocolate Carrot on a Stick"
+  slug: 47211033
+  abstract: |
+    This year Easter is on April 1st, and wouldn't it be great to be able to offer some fun, foolish secrets to discover (Easter Eggs) around the libraries' web presence?  Oh, but first we need a platform that can support that...
+
+    This is the story of how a frivolous convergence of holidays drove the implementation timeline of a significant user services project:  My Library Account.  This new tool will provide a single point of entry for UMass Amherst library patrons, using campus authentication, to their borrowed and requested materials, and current curricular support materials, across multiple data silos (ILS, ILL, EReserves, LibGuides).  The unified data will also be provided as a web service, for easy integration into the campus LMS's and other offerings.  Oh, yeah, and they'll be something in there for tracking the Easter Eggs you've found, too, if there's time...
+
+    Presentation will include lots of charts, diagrams, and photos of cute bunnies.
+
+- presentation-title: "Low Tech Approach to Beginning a Redesign"
+  slug: 48306850
+  abstract: |
+    When redesigning a website, it’s important to make sure the content is what the audience wants. Recently, we decided to refresh the homepage at our academic library, and wanted to start with the question “what do students actually want to see on the homepage?”. An incredibly low-tech, low cost UX test commenced and was fantastically successful. We learned a lot from the students that were surveyed, and the results ended up driving the homepage’s refresh.
+
+    In this presentation, the UX test will be described along with the ways in which it guided the redesign process. How we got the students to help us out with very little publicity or effort on our part will also be explained.
+
+- presentation-title: "Your Forms Can Just Be Made Better"
+  slug: 50801740
+  abstract: |
+    Almost every university library has a number of forms, whether it is for research consultation or for reserves request. Forms are so common and tiny compared to a web application that one has taken for granted the way they are for a long time. However, they’re indeed worth more of your attention for the sake of your users. The libraries system at our university hosts about 50 forms. Over the past decades, forms are either created or modified by numerous number of librarians, making it unnecessarily hard to maintain them as each form accommodates a mixture of individual taste. Surprisingly, there are some forms that are not even sticky, which is one of the easiest things one can do to enhance user experience.
+
+    A project (which is part of a bigger initiative) was launched this year, for the sake of improved functionality, usability and accessibility of our libraries’ web presence. Among completed tasks were thoroughly review code, strengthen control flow, streamline operations, and standardize procedures. Meanwhile, a PHP validation engine was also researched, investigated, and put in use. The presentation will cover how the validation package fit into the picture, how operations are standardized, which together result in the made template for future creation, and possibly more.
+
+- presentation-title: "Are You a “Solo” Librarian Working on Cutting-Edge Technology?"
+  slug: 52229058
+  abstract: |
+    When I started to work around 2 years ago, I was tasked with constructing Machine Learning models to enhance resources discoverability. Without any STEM background or colleagues I could collaborate with, I worked as if I were a solo librarian, and have been making continuous efforts, attempting to navigate myself out. During the session, I’d like to see if there’s someone who has the similar experiences as I did, how (s)he cope with the situation, and meanwhile, to share what I will have learnt by the conference.
+
+- presentation-title: "Mapping the Research Landscape with Bibliometric Tools"
+  slug: 52342646
+  abstract: |
+    When bibliometric analysis is applied to a collection of academic literature, libraries can identify dominant trends in publishing or predict emerging research areas. This talk will introduce several free and open-source tools--CiteSpace, Sci2, and tm and bibliometrix in R--that allow you to perform simple text mining, identify emerging keywords, and create network and tree diagrams. We'll show off some of the more interesting visualizations we've produced to date. We'll also provide some tips and tricks to help you conduct your own analyses.
+
+- presentation-title: "From problems to solutions: A case study in building the right thing"
+  slug: 55544333
+  abstract: |
+    We build software to solve problems, but understanding users’ problems is not a trivial task.  Because we love writing code, it’s tempting to begin designing solutions too early in the process. In this presentation, we will share a real-life example of how we took a user-centered approach to designing a mobile application specifically for library student workers.  We learned that taking the time upfront to understand end-user problems leads to greater success in development projects. We will also discuss the implications of this process for API-first development. The value of designing and developing your APIs before your application will only be realized if you adopt a user-problems-first perspective.
+
+- presentation-title: "Freaky Fast: How PhoneGap Made it Easy to Create a Mobile App on iOS and Android"
+  slug: 56014498
+  abstract: |
+    This presentation recounts what we learned in building a cross-platform mobile application in 9 months, and how adopting PhoneGap was pivotal in accomplishing this goal. We will show how we used the modern PhoneGap stack to leverage our expertise in JavaScript/HTML5/CSS3 development to efficiently produce mobile applications for the iOS and Android operating systems. We’ll cover working with PhoneGap in an integrated development environment, accessing device elements such as cameras, building a modern JavaScript stack with Node, unit testing, functional testing, deploying development testing, internally evaluating, and deploying into production.
+
+- presentation-title: "The Best Pick-up Line Ever: How to Mine Your Line-Oriented Files to Better Understand Your Customers"
+  slug: 57135250
+  abstract: |
+    Everyone wants to understand how their customers are really using their services. And everyone has line-oriented files, like access logs, generated from these services. This presentation will show you how to use an open source application to create reports and dashboards out of these files to answer your unique questions about your customers – without storing or curating the access logs themselves.
+
+- presentation-title: "Using a large metadata aggregation to improve data reconciliation"
+  slug: 58256663
+  abstract: |
+    Hear about our process to greatly increase the likelihood of making the first match the “best” match for most string matches. When we were automatically reconciling lists of strings representing entities from bibliographic metadata against a range of target vocabularies for a project, we found that we could use the representation of those target vocabularies in a separately managed large data aggregation. This provided an additional weighting to apply to the standard Levenshtein distance calculations, and thus much higher likelihood of first, best matches. We’ll describe the steps in the project, success metrics, and reflections on other data reconciliation projects that can benefit from this approach.
+
+- presentation-title: "HOOT + ELF + FOLIO = Awesome Borrowing Experience for Consumer Electronics"
+  slug: 58257175
+  abstract: |
+    This presentation is a report of developer experiences building new apps on the FOLIO platform. A development grant from the EBSCO FOLIO Innovation Challenge [https://www.ebsco.com/folio-innovation-challenge](https://www.ebsco.com/folio-innovation-challenge) made it possible for a software prototyping team to allocate sustained time integrating custom technology loan apps into the platform. The custom circulation software includes the HOOT app: [https://youtu.be/INuzXyv6O1A](https://youtu.be/INuzXyv6O1A) and the Equipment Loan Form--ELF: [https://goo.gl/US5TfA](https://goo.gl/US5TfA). The overall design approach for this project is to support extensibility of meta-services.
+
+- presentation-title: "LOCKSS System Re-Architecture"
+  slug: 59167371
+  abstract: |
+   The LOCKSS software provides a digital preservation foundation for a growing number of communities, institutions, content types, and use cases. The core of the LOCKSS software's unique preservation capabilities is its polling and repair protocol. Other key functionality includes flexible ingest mechanisms, metadata extraction, discovery system integrations, and access interfaces. The LOCKSS software is now in the midst of a multi-year re-architecture effort to make its system components, including the polling and repair protocol, externally reusable as RESTful Web Services. This will afford the opportunity for LOCKSS peer-to-peer, distributed integrity auditing and maintenance in contexts other than LOCKSS networks, with a more expansive range of possible storage back-ends. Example use cases could be as part of the preservation replication layer of an institutional repository, or between nodes participating in other distributed digital preservation networks. This talk will detail the capabilities of the LOCKSS software, including the polling and repair protocol, and how they can be leveraged via the new Web Services.
+
+- presentation-title: "LOCKSS Plugin Architecture"
+  slug: 59238301
+  abstract: |
+    The LOCKSS digital preservation system, historically rooted in Web preservation, offers a flexible plugin architecture to adapt itself to the specifics of a preservation target (Web site, digital collection, institutional repository, etc.). LOCKSS preservation networks leverage features from existing or custom LOCKSS plugins to allow for the collaborative preservation of a target as it evolves with the Web over time, for the extraction of metadata and meaning from preserved content, for the future replay of preserved resources, and more. This presentation will give a technical overview of customizable features of the LOCKSS plugin architecture, including link extractors, HTTP response handlers, login page checkers, URL normalizers, content validators, content filters, article iterators, metadata extractors, link rewriters, and more, illustrated with use cases taken from real-life Web preservation situations. The capabilities of LOCKSS plugins may soon be available for use outside the context of LOCKSS networks, through the work of a major software re-architecture currently underway.
+
+- presentation-title: "Bonding with Project Electron: Building a Born-Digital Records Transfer App Together"
+  slug: 60266848
+  abstract: |
+    Archivists, developers, and IT professionals share common goals in the management of digital records, yet lack a common language in which to communicate. This session brings together representatives from three institutions to share their experiences with the collaborative planning, development, and implementation of an application to support the ongoing secure transfer of digital records from active organizations to archives. This open-source application, called Aurora, is part of the larger Project Electron, an effort to develop infrastructure to support the archival management and preservation of born-digital records. Presenters will include a digital archivist, a developer, and an IT professional. Together, they will discuss how to shape a collaborative project in a way that values and effectively leverages the expertise of all participants.
+
+- presentation-title: "APIs at the Core: How FOLIO Wants to Engage You In Creating New Library Services"
+  slug: 60702825
+  abstract: |
+    FOLIO’s design puts the “platform” in “library services platform”. Everything from initializing the first tenant on the platform to upgrading the circulation business logic module to adding a line in an order is handled with a well-defined RESTful API. What new service could you create if the details of handling patrons, setting item statuses, and registering/cataloging new content was handled by modules you could extend? The community of developers and library experts has grown dramatically since [the introduction of] what would be come FOLIO in [a] 2016 Code4Lib talk “Constructive disintegration -- re-imagining the library platform as microservices”. Hear how the microservices platform concepts have matured and what it means for services in your library.
+
+- presentation-title: "Creating Persistent Links for ARKival Resources"
+  slug: 61594324
+  abstract: |
+    With migrations inevitably occurring every five to ten years, providing persistent access to collections can be challenging. This issue is compounded when dealing with digitized materials, as librarians frequently reference collections published on different platforms in a single record. This case study examines the workflow developed by a university library to add persistent identifiers for EAD finding aids to XML records of digitized special collections materials using EZID. The EZID service was chosen because it was already being subscribed to by the library and it offered a low-tech option for the stewardship of finding aid links. This presentation will cover the structure and affordances of ARKs, the use of the EZID API, and the challenges faced in implementation. Two factors that influenced the process include the library’s status as a DPLA service hub and the fact that finding aids within the institution are frequently updated, consolidated, and even deleted. It is hoped that adding ARKs will highlight the library’s physical special collections and promote usage while also making maintenance and transformation of digital records more manageable.
+
+- presentation-title: "Data Analytics and Patron Privacy in Libraries: A Balancing Act"
+  slug: 63655704
+  abstract: |
+    Libraries have a complicated relationship with data. We believe that patrons must have privacy while using library services and resources, but the systems we use collect patron data that is highly sought after for analytics, marketing, and assessment needs for internal and external audiences. Libraries are then left to figure out how to meet data analytical and assessment needs of the organization without betraying patron trust in the library to protect their privacy. This talk, based on a case study at a large library system, will discuss many of the issues in balancing the need for analytical data while upholding patron privacy and library ethics, including:
+
+    - De-identification of patron data, including strategies and the risks involved with several de-identification methods
+    - Technical processes and structures for building and maintaining a data warehouse
+    - Data and privacy policies and governance at the organizational level
+    - Auditing what data is being collected by the library, from system logs to paper forms
+
+    The talk will address how these issues impact libraries with both limited and extensive resources in their efforts to balance data analytical needs and patron privacy.
+
+- presentation-title: "Leveling Up in LibTech - Administration and Non-Administration Paths For Your LibTech Career"
+  slug: 64599255
+  abstract: |
+    Programmers and other technical staff come to a point in their careers where they need to decide about the path of their career trajectory. Many libraries and organizations view the path forward as one into administration, and many workers believe that path as the only way to move up in their careers. What does taking the path to library technology administration really look like? Is this the only way forward career-wise? A library technology worker-turned-administrator will share their experience, as well as other case studies from other library technology staff and administrators. The talk will cover two areas, the first being how to get onto the path of administration, and what library technology administration actually entails (spoiler alert: meetings; meetings everywhere). This talk will also cover other ways to advance in one’s career without going into administration, as well as bowing out of the administration path if you find that the path is not for you.
+
+- presentation-title: "Airing our Dirty Laundry: Digital Preservation Gaps and How We're Fixing Them"
+  slug: 65222817
+  abstract: |
+    Objects in the [X] Digital Repository are versioned and backed up, but our object recovery process has been … challenging. Our digital preservation processes are optimized for “write once; read never." To address our digital preservation gaps, we are creating a proactive audit process for preserved data and we are completely revamping how we back up and archive our digital content (for better long term preservation and easier recovery). We are also implementing better ways to get at status information about our archived digital content. We’ll present details about our preservation gaps and the solutions (which should all be in place by Code4Lib 2018), including how we're leveraging the cloud.
+
+- presentation-title: "Information extraction techniques for knowledge graph development"
+  slug: 65755116
+  abstract: |
+    This talk will provide an introductory survey of methods for information extraction and automatic knowledge-base construction. Methods discussed will include dictionary-based systems, rule-based systems, and more contemporary machine learning approaches. Special attention will be given to entity recognition techniques and to methodologies for relation extraction. The talk will illustrate some of these techniques by exploring a "units and measurements extraction" use case. The technique uses a dictionary of measurement units and pattern matching of part-of-speech tags to build up a set of annotations for each measured value. These are then used in further natural language and part-of-speech pattern matching to identify specific measured properties such as compressive strength of concrete, spike amplitudes of neurons, temperatures of bioteriums, or dosages of drugs. The properties extracted can then be validated via crowd-sourcing or using neural network-based classifiers. Future directions include combining units with noun phrase extraction and relation extraction, with the end goal of generating triples to populate domain specific scientific knowledge graphs.
+
+- presentation-title: "Web Archiving Interoperability"
+  slug: 68491607
+  abstract: |
+    Does your institution have web archives?  Are you interested in being able to transfer or copy WARC files between systems?  In this presentation we’ll discuss the systems interoperability of web archives, the design and development of the Internet Archive’s tools, and demo the IMLS-funded WASAPI data transfer API, as well as other web archiving APIs.
+
+- presentation-title: "Free metadata from Crossref"
+  slug: 71701180
+  abstract: |
+    Scholarly communications communities are thirsty for all kinds of information: 
+    - Who is funding research? 
+    - Who is sharing research? 
+    - How much of it is OA? 
+    - What supporting research data is available? 
+    - What kind of TDM licenses exist for content? 
+    - What other activity is trackable beyond citation?
+    - How can we link up all of this ‘stuff’?
+
+    The answer is metadata, including persistent identifiers. Crossref now collects a lot more metadata than just bibliographic metadata and we’ve moved beyond simply DOI registration. We provide millions of item-level metadata records for free. Records that include information for text and data mining, funding sources, clinical trials, license rights, data links, relation types, and more.
+
+    We also makes these almost 100 million metadata records available for reuse without restriction through public Metadata APIs.
+
+    But challenges exist. This session will walk through how metadata collection and distribution has evolved, what insights we’ve gained, what resources and metadata we have available, how metadata can be retrieved using our public Metadata APIs, and how we hope to expand our resources to better collaborate with the library community.  We’ll describe what metadata is available, how to get it, and what libraries are doing with it. What could you build on top of Crossref metadata?
+
+- presentation-title: "Massively Responsive Web Design"
+  slug: 73056172
+  abstract: |
+    When designing a modern web page it is necessary to consider the multiple devices on which your site will be viewed. Everything from standard CSS media queries to entire style frameworks are available to help us design layouts and interactions that can accommodate any mobile, laptop, or desktop screen we might encounter. These responsive tools simplify the creation of tailored web experiences, but what happens when your displays go beyond the desktop monitor? What happens when you get to 5K? What if your aspect ratio is 16:1? Unique screen sizes are becoming more common as immersive spaces and large scale public displays are incorporated into modern library design. This talk will cover how we have leveraged responsive design web standards to develop exhibits and templates that allow the display of content across common and unique displays. We will provide an overview of development workflows and tools for responsive design, demonstrate successful projects built with these tools, and discuss the possibilities of scaling these resources to promote content sharing between institutions.
+
+- presentation-title: "Avro 101: Overview and Implications for Metadata Processing"
+  slug: 75285679
+  abstract: |
+    Meet Avro: the new and improved book cart.  Just as our library carts improved to more efficiently move books around the library, now so have our digital file formats improved for moving data between systems and workflows.  This poster will showcase the Avro file format, touching on the Apache Spark framework used for handling large datasets, to explore new ways of thinking about processing library metadata. Drawing upon our experiences, we hope to show our audience how to think about Avro, how to determine when Avro is appropriate for use with library metadata, and the benefits derived from using it.
+
+- presentation-title: "Open Social Tagging in TagTeam"
+  slug: 75368743
+  abstract: |
+    TagTeam is an open-source tagging platform with the power to move a project’s  folksonomy to a controlled vocabulary. Developed by the Harvard Open Access Project (HOAP) at the Berkman Klein Center for Internet & Society at Harvard University, TagTeam is a tool that supports social tagging and information aggregation, enabling users to make project and item level decisions about their tag vocabularies with the ability to filter and view feeds on those tags in multiple formats. This session will provide an overview of TagTeam as an tool for social tagging and metadata creation in an open source platform.
+
+- presentation-title: "Save Homestar Runner!: Preserving Flash on the Web"
+  slug: 76046691
+  abstract: |
+    Macromedia (and later, Adobe) Flash was ubiquitous with the web in the late 1990s and early 2000s, as webseries like Homestar Runner can attest. However, the web's evolution has left Flash by the wayside, culminating in Adobe's recent announcement to cease support for Flash by he end of 2020. This presentation explores the issues of web preservation when considering Flash content for the web, as well as strategies for preservation planning.
+
+- presentation-title: "Scaling EaaS – An Introduction"
+  slug: 78249354
+  abstract: |
+    In 2018, Yale University Library’s Digital Preservation Services team will begin the Scaling Emulation and Software Preservation Infrastructure project, a two-and-a-half year initiative funded by the Alfred P. Sloan Foundation and the Andrew W. Mellon Foundation. This project will build on our existing efforts in implementation of the bwFLA Emulation-as-a-Service framework at Yale, expanding and improving the capabilities of on-demand emulation for access to legacy digital objects. Our work will include collaboration with the Software Preservation Network, and other stakeholder communities, to identify and configure software environments populated with influential and high-usage legacy software applications and to determine required features to support various use cases for software preservation and access. This introductory presentation will provide an overview of the project’s scope and timeline, review the proposed outcomes of our efforts, and demonstrate recent development of the EaaS framework in use at Yale.
+
+- presentation-title: "From Wikidata to Scholia: creating structured linked data to generate scholarly profiles"
+  slug: 79136182
+  abstract: |
+    Wikidata, the newest project of the Wikimedia Foundation, has been increasingly attracting contributors from all over the world. Wikidata is a free knowledge base that stores multilingual structured linked data. At the IUPUI University Library, we are working on a project where our goal is to provide a presence in Wikidata for our faculty members. As we will demonstrate, adding data about our faculty will enable us to generate scholarly profiles for them. For the pilot project, we selected 18 faculty members from the IU Lilly Family School of Philanthropy. The School of Philanthropy, located in the IUPUI campus, is the first school dedicated solely to philanthropy education and research. The school and its faculty also provide many widely used works of scholarship.
+
+    We approached this project by using Wikidata as the repository for all the data associated with the faculty members. We created entries (namely Items in Wikidata) for the selected group of faculty, their co-authors, and all their published articles with DOIs. To create entries for the articles, we used a tool that allows users to enter either a DOI, PMID or PMCID and generates the Items directly in Wikidata. We then used Scholia, an open source application, to generate the scholarly profiles. Scholia queries Wikidata and presents the user with aggregated and graphically-displayed information. It also enables us, for example, to learn more about our faculty members’ collaborators and scholarly interests. In addition to demonstrating our methods for contributing content to a structured linked data knowledge base, this presentation will share the potential benefits and challenges for libraries to consider. Libraries have both the expertise and data sources to take a leading role in contributing to and promoting open knowledge projects for their communities.
+
+- presentation-title: "Sunsetting: Strategies for Portfolio Management and Decommissioning Projects"
+  slug: 79245325
+  abstract: |
+    Highly successful projects and services result in maintenance needs that can take a significant amount of ongoing time and effort. How do you continue to have the time to do new projects and start new initiatives? Shutting things down takes time and effort, but can allow you to go in new directions and meet current and emerging needs. As a community we talk about how to initially develop successful projects and services, and it is about time that we talk more about these later stages of the project lifecycle: sunsetting and decommissioning.
+
+    We will present on different possible paths to take to decommissioning and otherwise greatly reducing the maintenance burden of past projects. Within this context we will talk about the ways we have approached portfolio management for individuals and our department with an eye towards identifying candidate applications, initiatives, and services for sunsetting. We will also talk about how the approaches we have taken to reducing our maintenance burden have changed the way we approach new projects.
+
+- presentation-title: "Systems thinking: a practical field guide"
+  slug: 79819743
+  abstract: |
+    Regardless of your role -- manager, developer, public services type, etc. -- systems thinking is a critical skill for improving your own work and your organization. Systems analysis allows us to introspect on our work, to recognize incipient failures, to diagnose systemic problems, and to optimize workflows. But how do we get good at thinking in systems? The answer, as with many things, is practice. Luckily, the world around us gives us many opportunities to do so: systems are everywhere, and examining an unfamiliar system is a great way to develop your systems thinking muscles.
+
+    In this presentation, drawing from real-world examples in our day-to-day lives (from burrito shops to public-restroom paper towel dispensers), we will demonstrate how to tease apart the threads of an unfamiliar system using limited evidence. We'll identify the opportunities to observe and derive insight from unfamiliar systems, and we'll form a broad framework for thinking about systems -- both new ones and those that are familiar to us. Part field guide, part collection of lateral-thinking exercises, this presentation will encourage audience members to look at systems in a new light, to observe the effects of systems design, and to work backward and forward to understand the underlying systems more completely. These skills are directly transferrable to our day-to-day work; by better understanding systems in the wider world, we can gain new insights into our own systems. The audience will come away from this talk with a renewed recognition of and appreciation for systems, a framework for understanding systems and system design choices, and a thirst for puzzling through the systems they encounter both in their work and in the world at large.
+
+- presentation-title: "Use vs. Reuse: Assessing the value of our digital collections"
+  slug: 81455839
+  abstract: |
+    Content reuse, defined as how often and in what ways digital library materials are utilized and repurposed, is a key indicator of the impact and value of a digital collection. However, traditional library analytics focus almost entirely on simple access statistics, which do not show how users utilize or transform unique materials from cultural heritage organization’s hosted digital collections. This lack of distinction, combined with a lack of standardized assessment approaches, makes it difficult to develop user-responsive collections or highlight the value of these materials. This in turn presents significant challenges for developing the appropriate staffing, system infrastructure, and long-term funding models needed to support digital collections.
+
+    Developing a Framework for Measuring Reuse of Digital Objects, the IMLS-funded project (LG-73-17-0002-17) by the Digital Library Federation Assessment Interest Group (DLF-AIG), seeks to conduct a needs assessment of the Digital Library community to determine desired functionality for a future reuse assessment toolkit. The end product of the grant project will consist of well-defined functional requirements and use cases, which will serve as the building blocks that will drive the future development of an assessment toolkit.
+
+    In addition to providing more information on the goals and methods of the grant project, this presentation will: define and offer popular types of digital library reuse; share the results of the project thus far, which includes data analysis from (a) a survey identifying how cultural heritage organizations currently assess digital library reuse, barriers to assessing reuse, and community priorities for potential solutions and next steps together; and (b) in-person and virtual focus groups sessions designed to explore issues regarding reuse. The presentation will conclude with the team’s current understanding of the functional requirements needed for a toolkit focused on assessing the reuse of digital library items and invite the CODE4LIB community’s feedback.
+
+- presentation-title: "Jitterbug into my brain: something's bugging me, and it's AV"
+  slug: 81504921
+  abstract: |
+    In looking to build a centralized, authoritative location for the description and discovery of archival audiovisual materials, the Southern Folklife Collection at the University of North Carolina developed a MySQL database and user interface, Jitterbug, to fulfill large-scale audiovisual digitization and preservation needs. With users spanning across the library, including curators, archivists, reference staff, and audio engineers, the application needed to focus on simplifying data entry, search and re-use. Speaking to their experiences in data cleanup, migration and development, the Product Owner and Developer of this open-source database management application will share useful lessons learned, as well as the tools and resources utilized to manage the messiest data you've never wanted to touch, and the soft skills and strategies for cross-communication required to build the application.
+
+- presentation-title: "DevOps for Library Operations & Systems"
+  slug: 82005895
+  abstract: |
+    DevOps has been a hot topic in IT for the last several years and has also begun to gain steam within the Library technology community.  But, many times, the focus is on application development (usually open source) and places emphasis on software developers and engineers taking ownership and having barriers removed so they can do their work.  However, many libraries do not have full-scale application development nor full-time software developers much less a software development team.  Does the lack of full-time development mean library operations cannot adopt DevOps culture and practices?  No!  DevOps can be a useful methodology for empowering library systems teams to better handle change, respond more quickly to issues, and to have more successful collaborative efforts.  This session will begin by introducing some of the concepts and tenants of DevOps that are particularly relevant for library technology and will then move into how these concepts are currently working, challenges, and future goals for adoption of DevOps methodology within a library systems team.
+
+- presentation-title: "Web Archiving and You / Web Archiving and Us"
+  slug: 82427158
+  abstract: |
+    Web archiving is often undertaken at scale by public and private memory institutions, academic researchers, and the Internet Archive. However, individuals and non-institutional communities also have a stake in documenting particular experiences of the live web: as collectors building our own archives; as subjects represented via captured websites; and as users of web archives that have been constructed in different ways and for a variety of purposes. In this talk, I'll review some ways in which web archives impact a growing code4lib community – as subjects, users, and collectors – and reasons we might have to care about those impacts. I'll also discuss hows and whys of DIY/personal web archiving, which I hope will inspire exploration and action.
+
+- presentation-title: "Framing the Museum GitHub Repository"
+  slug: 82636619
+  abstract: |
+    This session will present on the findings of article, “Framing the Museum GitHub Repository”. 
+
+    In reviewing the GitHub README documents of four institutions including Metropolitan Museum of Art, Museum of Modern Art (MoMA), Tate, Cooper Hewitt Smithsonian Design Museum, this session will review how museums have chosen to communicate their open data on GitHub and outline its usage.
+
+    More information: [https://medium.com/berkman-klein-center/framing-the-museum-github-repository-afcc55695129](https://medium.com/berkman-klein-center/framing-the-museum-github-repository-afcc55695129)
+
+- presentation-title: "Stay JSON Schemin’: An open-source metadata validation workflow for large-scale media preservation projects"
+  slug: 82707896
+  abstract: |
+    There are a number of resources such as PBCore and AE-57 for defining metadata specifications for a digitization project, but there are very few resources on how to ensure that the metadata you receive meets your specifications. This presentation outlines an approach taken using JSON Schema to validate the metadata produced by in-house and external labs across multiple projects while digitizing a quarter-million audio, video, and film media.
+
+    After discussing our initial use of spreadsheets, the problems they solved, and the problems they caused, we will introduce our metadata schema and demonstrate how we use it for validation. Particularly important, we will discuss how we maintain and update the schema over time, and how its use has strengthened our preservation workflows.
+
+- presentation-title: "Non-Descriptive Metadata in RDF"
+  slug: 82746002
+  abstract: |
+    Many repositories store descriptive metadata as xml based documents.  In recent versions of one popular repository platform, Fedora, RDF based encodings are encouraged and more easily exposed through a supporting triplestore.  Through this and related communities, there is some agreement on mapping MODS xml documents to RDF, but similar discussions for non-descriptive metadata are not as widespread.
+  
+    This presentation will discuss the motivations behind moving from XML based encodings to storing non-descriptive metadata such as PREMIS events and rights metadata as linked data and challenges behind implementing this, including results from performance tests.  As an example, we will share a linked data model for PREMIS events and license information and make the case for repositories wanting to move towards an RDF based approach for preservation and other non-descriptive metadata.
+
+- presentation-title: "Databases for Days"
+  slug: 83302120
+  abstract: |
+    The Acquisitions & Discovery Department at NCSU Libraries is a combined and streamlined technical services department that provides acquisitions, cataloging, metadata, and data support for the libraries.  Supporting many of these functions are database used to store, organize, query, reconcile, and report data.  This lightning talk discusses the department and library’s various database needs and how the department has provided support and infrastructure for local, offline databases through the Data Project & Partnerships (DPP) Unit, the Friends of Databases committee, training opportunities, and git and GitHub.
+
+- presentation-title: "Beyond Keywords: Making Search Better"
+  slug: 83666631
+  abstract: |
+    Text-based retrieval and ranking methods have been with us since the 60s. Open-source projects like Solr and Elastic Search made this technology scalable, performant, and more easily accessible, but what you get out-of-the-box is more or less the same techniques we’ve been talking about for half a century. We can do better! In this talk, we’ll discuss practical techniques for improving your organization’s search engine.
+
+- presentation-title: "Collaboratively building the Digital Inclusion Resource Library"
+  slug: 83874995
+  abstract: |
+    Over the past 9 months, Related Works and The National Digital Inclusion Alliance have been working closely to create the Digital Inclusion Resource Library from the ground up. What was key to the success of its creation and usefulness was the community's involvement throughout the entire process. In this talk, we’ll cover the steps we took in building the library and internal tool used to ingest and vet community submitted resources, and talk through key learnings and takeaways from our collaboration so far.
+
+- presentation-title: "A Google Apps Script Story"
+  slug: 84717194
+  abstract: |
+    Many librarians find themselves writing scripts here and there as a solution to a task or problem.  When it comes time to share that solution with colleagues, however, setting up the right environment or using command line tools can become a barrier. This brief lightning talk discusses the benefits of Google Apps scripts when collaborating with colleagues through the story of one such project.
+
+- presentation-title: "How does Search work, anyhow?"
+  slug: 85032415
+  abstract: |
+    It’s in your browser. Your operating system. Your phone. Your car. Your automated home assistant. And of course, it’s probably on your institution's public website. Search is everywhere. So, how does Search work, anyhow? Journey with us on this talk to the heart of the inverted index.
+
+- presentation-title: "Schema-now or Schema-later -- the Myth of Unstructured Data"
+  slug: 85364850
+  abstract: |
+    Over the past few years, there has been an explosion of new database technology that have promised to not only simplify development and increase performance, but also eschew the basic need for structure in our data. True to their word, these technologies have revolutionized modern development, yet in some ways things are still the same -- migrations will always need to occur, applications will need to understand the data, and basic aggregations will need to happen. This talk will focus on what's different about these tasks in a noSQL world, the advantages of these solutions, and how to determine if the tradeoffs are right for you.
+
+- presentation-title: "Beyond Open Data"
+  slug: 86825003
+  abstract: |
+    In our daily lives, we are awash in data, visualizations and analysis. Libraries, too, recognize the potential power in expressing our collections and their content as data, and we've made some strides in putting this data online to be downloaded, manipulated, recombined, and analyzed. But who is actually using and making sense of it? If we are to encourage a data revolution in libraries, we will need to make our data more accessible and malleable to more people, civilians and librarians alike, in formats that work with common tools and that make it easy for anyone to learn about the potentials and limitation in our data and collections. Having learned some tough lessons from technical and institutional challenges in generating, publishing, and stewarding open cultural heritage data, we're working on a way to look beyond current library practices to get open data out and about the world and into the hands of people of all skillsets. We're putting out a call to you to join us in breaking open datasets free from their institutional homes, repackaging them in more standard, tool-friendly data structures, and promoting them more widely. Using the Frictionless Data spec, the Internet Archive, and open data from all around the library world as an example, we'll show a possible model for liberating data for wider use.
+
+- presentation-title: "Head in the cloud, or feet on the ground? Making preservation hardware platform choices."
+  slug: 87436396
+  abstract: |
+    A two-year project to develop the next-generation architecture for the Portico archive of  e-journals, e-books, and other electronic scholarly content was the occasion for Portico staff to step back and consider, not just what that architecture should be, but also where it should be.  Should we continue to host all of our ingest, archiving, management, and access systems in our current data centers, or should we leverage the elasticity of established cloud infrastructures, with easy hardware scalability (both vertical and horizontal) as well as well-developed DevOps and other software tools?
+
+    This talk walks through the process Portico undertook to develop the criteria for making this choice, the decisions we reached, and why.
+
+- presentation-title: "Building a cloud platform using AWS for data analysis of Digital Library"
+  slug: 88838225
+  abstract: |
+    Librarians build many digital library repositories to store and manage their collections. They also develop analysis tools to analyze user activities and understand how the users using their service. With the rapid development of the cloud computing, we can build these tools more efficiently and don’t need to implement everything from scratch. 
+
+    In this talk, we present how we use Amazon Web Services (AWS) to build a cloud platform to process digital library datasets and service logs, generate user activity reports, and explore more customized and granular insights. We also illustrate several AWS services we used and demonstrate our approaches to handle dataset - including our digital library dataset, open research data and service (e.g. DSpace, Samvera, and Fedora) logs. 
+
+    Last, we share our experience on architecting cloud platform in AWS, design strategies and best practices to process digital library dataset and retrieve results in a cost-effectiveness way.
+
+- presentation-title: "Better Interviewing and Onboarding:  What we've done to improve our interview process and to make it easier for new hires to integrate into our teams"
+  slug: 91045896
+  abstract: |
+    This is an intro for an hour-long breakout session that we hope to hold.  We'd like to discuss the things we've done to improve screening and in-person interviewing of candidates, as well as the things we've done to improve onboarding for new hires.  On the interviewing side of things, we've tried to keep an eye towards standardization of interview questions, we've tried to make our desired characteristics for positions as explicit as possible, and for potential software developers, we've tried to use a pairing exercise which is a small simulation of our day to day approach to agile development.  On the onboarding side, we've embraced the assignment of specific peer mentors for new hires, we've tried to update our checklists and explicitly assign responsibility for each task to the appropriate role, we've scheduled retrospectives for the six week mark after the new hire joins, and for software developers, we've encouraged pairing as much as possible with everyone in the team (as well as thoughtful initial assignments, to projects that will allow the new developer to acclimate more easily).  We'd also like to discuss things that we can improve on in the future, including more focus on increasing the diversity of our candidate pipeline.
+
+- presentation-title: "OSSArcFlow: Modeling Digital Curation Workflows for Born Digital Content"
+  slug: 91407553
+  abstract: |
+    Libraries and archives tend to adopt and integrate separate systems for different functions, with each system using distinct tools and generating its own forms of metadata. OSSArcFlow: Researching Archival Workflows for Born-Digital Content project is a two-year effort funded by the Institute of Museum and Library Services (IMLS) and now underway to investigate, model, and test workflows that combine multiple systems for born-digital content curation in libraries and archives. Specifically, the OSSArcFlow project aims to 1)  inform our understanding of the socio-technical factors that shape digital curation workflows, 2) promote the benefits of a modular approach to digital curation and to 3) support the continued health of the open source software communities that build collection management and digital curation tools. Project outputs include detailed documentation of partner institutions’ workflows, scripts to streamline the transfer of metadata from one system to another, and generalizable guidance documentation to help institutions of many types as they select and implement digital curation and preservation tools and workflows in their own environments. 
+    
+    In this presentation, the project team will introduce emerging themes, models and project impact through the lens of a single institutional use case.
+
+- presentation-title: "Dealing with Technical Debt a Point-of-View: DevOps and Managerial"
+  slug: 92389908
+  abstract: |
+    This talk will aim to briefly address how a DevOps Engineer recommends analyzing and dealing technical debt (with the use of real life use cases) and then on the flip side, provide the take on how a project manager addresses dealing with technical debt.
+
+    Technical debt can refer to many different things including, but not limited to: infrastructure, software, design/UX, documentation or code. I want to note that inevitably we will always take on some sort of technical debt, debt that we create, often unknowingly and usually while learning and working on a new project and debt that we’ve inherited. Technical debt, when taken on haphazardly and not managed, can shut down a team’s ability to move forward on a project. It is important to have ways of hammering through it, as well as having preventative measures in place to keep debt to a minimum and manageable for as long as possible. 
+
+    The decisions that are made which result in technical debt should be made with a strategic engineering perspective. Addressing technical debt from a DevOps point-of-view and a Managerial point-of-view can have significantly different perspectives of the impact and detriment of technical debt, affecting when, how and what technical debt should be addressed and dealt with.
