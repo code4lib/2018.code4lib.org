@@ -59,9 +59,9 @@ shirt-proposals:
 # Voting
 ###########
 keynote-voting:
-  show: false
-  url: ""
-  end-date:
+  show: true
+  url: "https://www.surveymonkey.com/r/c4l2018-keynote"
+  end-date: "2017-11-13"
 
 workshop-voting:
   show: false
