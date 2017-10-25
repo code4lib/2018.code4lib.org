@@ -118,4 +118,4 @@ scholarship-application:
 
 # When true, sponsors for diversity scholarship will show
 diversity-scholarship-general-sponsors:
-  show: false
+  show: true
