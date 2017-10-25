@@ -23,6 +23,13 @@ body {
   font-weight: 300;
 }
 
+// halve blockquote padding on smaller screens
+@media screen and (max-width: $screen-sm) {
+    blockquote {
+        padding: ($line-height-computed / 4) ($line-height-computed / 2);
+    }
+}
+
 h1, h2, h3, h4, h5 {
   font-family: "Ubuntu",Helvetica,Arial,sans-serif;
   letter-spacing: .02em;
