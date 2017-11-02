@@ -110,3 +110,13 @@
   link: https://www.loc.gov/
   img: /assets/img/sponsors/LC-Primary.png
   level: adamantium
+
+- name: UMD College of Information Studies
+  img: /assets/img/sponsors/UMD_CIS_Primary_Logo_Small.jpg
+  link: https://go.umd.edu/code4lib
+  level: bronze
+
+- name: Smithsonian Libraries
+  img: /assets/img/sponsors/Smithsonian_E-Template_Option1_Tag_RGB.png
+  link: https://library.si.edu/
+  diversity: true
