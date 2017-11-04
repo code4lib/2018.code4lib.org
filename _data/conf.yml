@@ -51,9 +51,9 @@ panel-proposals:
   end-date:
 
 shirt-proposals:
-  show: false
-  submission-form: ""
-  end-date:
+  show: true
+  submission-form: "https://wiki.code4lib.org/2018_Code4Lib_T-Shirt_Design_Competition"
+  end-date: "2017-12-01"
 
 ###################
 # Voting
