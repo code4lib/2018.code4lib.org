@@ -1,7 +1,7 @@
 - name: Venues
   url: /general-info/venues
-- name: Proposals
-  url: /general-info/proposals
+- name: Speaker FAQ
+  url: /general-info/speaker-faq
 - name: Scholarships
   url: /general-info/scholarships
 - name: About Code4Lib
