@@ -55,6 +55,11 @@ shirt-proposals:
   submission-form: "https://wiki.code4lib.org/2018_Code4Lib_T-Shirt_Design_Competition"
   end-date: "2017-12-01"
 
+host-proposals:
+  show: true
+  submission-form: "https://wiki.code4lib.org/2019_Hosting_Proposals"
+  end-date: "2018-01-22"
+
 ###################
 # Voting
 ###########

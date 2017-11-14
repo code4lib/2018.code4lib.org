@@ -146,6 +146,16 @@
                     url-text='Propose a workshop'
                 %}
             {% endif %}
+
+            <!-- Conference Hosting -->
+            {% if site.data.conf.host-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='2019 Conference Hosting'
+                    end-date=site.data.conf.host-proposals.end-date
+                    url=site.data.conf.host-proposals.submission-form
+                    url-text='Propose to be a host'
+                %}
+            {% endif %}
         </div>
     </div>
     {% endif %}
