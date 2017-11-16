@@ -1,18 +1,25 @@
 ---
-layout: default
-title: Attend
+layout: secondary-nav
+title: Attend Code4Lib
+nav: general-info
+active: Attend Code4Lib
 ---
-<section>
+<section class="general-info">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <h1>Attend Code4Lib</h1>
 
                     <h3>Conference</h3>
+
                     {% if site.data.conf.conference-registration.show %}
-                        <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                        {% if site.data.conf.conference-registration.open %}
+                            <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                        {% else %}
+                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.conf.conference-registration.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
+                        {% endif %}
                     {% else %}
-                        <!--<p>Registration will open again at 12 p.m. EST / 9 a.m. PST on Wednesday, 11 January 2017.</p>-->
+                        <p>When the price and date of registration are known, they will be posted here.</p>
                     {% endif %}
 
                     {% if site.data.conf.workshop-registration.show %}
@@ -23,20 +30,31 @@ title: Attend
         </div>
 
         <!-- Registration Fees -->
-        <!--
         <div class="row">
             <div class="col-xs-12">
                 <h3>Registration Fees</h3>
                 <ul>
-                    <li><strong>Main Conference </strong> : $275</li>
+                    <li><strong>Main Conference </strong> : $350</li>
                     <li><strong>Pre-Conference </strong> : $60</li>
                 </ul>
-                <p>Pre-Conference Sessions are being offered on Monday, March 6, with an additional cost of $60 for the day.  If you are interested in attending, please add one or more optional sessions listed below to your schedule.</p>
-                <p>Please Note: Pre-Conference day is $60 regardless of the number of sessions you choose.  If you select two half-day sessions you will notice two charges of $60 per session and a Multi-Session Discount of $60, for a total daily charge of $60.</p>
-                <p>Pre-Conference Only registrations are now available starting 11 January 2017.</p>
+
+                <p>
+                    When you register, you will be able to select one all-day workshop or two
+                    half-day workshops. As with past Code4Lib conferences, it will be
+                    possible to register for the main conference, the main conference +
+                    pre-conference day, or only for the pre-conference day (although
+                    pre-conference-only registration will not be available before
+                    January).
+                </p>
+
+                <p>
+                    We are also introducing a rate for people who are accompanying
+                    conference attendees who wish to partake of the food and meals on
+                    offer by the conference. This rate will be $40; this +1 rate can also
+                    be paid on-site.
+                </p>
             </div>
         </div>
-        -->
 
         <!-- Hotel Fees -->
         <!--
@@ -54,20 +72,7 @@ title: Attend
         </div>
         -->
 
-        <!-- Childcare Fees -->
-        <!--
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>Childcare</h3>
-                <p>
-                    Childcare is offered Monday - Thursday at a highly subsidized rate of $10/day, thanks to a generous
-                    sponsorship by Equinox and CurateCamp. Details about Childcare are <a href="{site.data.path}childcare">available on the conference website</a>.
-                </p>
-            </div>
-        </div>
-        -->
-
-        <!-- Additional Info -->
+        <!-- Additional Info
         <div class="row">
             <div class="col-xs-12">
                 <h3>Additional Information</h3>
@@ -85,7 +90,6 @@ title: Attend
                         A waitlist will be available once this final round of registration is
                         closed.
                     </li>
-                    <!--
                     <li>
                         <a href="/talks/">Conference Talks</a>
                         The conference program is not complete at this time.
@@ -96,23 +100,22 @@ title: Attend
                         results, topic diversity, and speaker diversity. These selections will be
                         announced in coming weeks.
                     </li>
-                    -->
                     <li>
                         Registration will include the option to select preconference workshops.
                         You can view workshops as part of the registration form to get an
-                        idea of what will be offered. <!-- Wait lists will be available for
+                        idea of what will be offered. Wait lists will be available for
                         workshops, and you will receive relevant instructions with your
-                        confirmation email. -->
+                        confirmation email.
                     </li>
                 </ol>
             </div>
         </div>
-
+        -->
     </div>
 </section>
 
 
-<section id="remote">
+<section class="general-info" id="remote">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -147,63 +150,6 @@ title: Attend
                         </a>
                     </div>
                 </div>
-                -->
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--
-<section id="childcare">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Childcare</h2>
-                <p>
-                    Childcare is offered Monday - Thursday at a highly subsidized rate of $10/day, thanks to a generous
-                    sponsorship by Equinox and CurateCamp. Details about Childcare are <a href="{site.data.path}childcare">available on the conference website</a>.
-                </p>
-            </div>
-        </div>
-        <div class="row sponsor-row">
-            <div class="col-xs-12 col-md-6">
-                <a href="https://esilibrary.com" class="thumbnail">
-                    <img src="/assets/img/logos/equinox-logo.svg" alt="Equinox">
-                </a>
-            </div>
-            <div class="col-xs-12 col-md-6">
-                <a href="#" class="thumbnail">
-                    <img src="http://curatecamp.org/sites/default/files/digital_curation_logo2.png" alt="Curate Camp">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
--->
-
-<section id="policies">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Policies</h2>
-
-                <h3>Code of Conduct</h3>
-                <p>
-                    The Code4Lib community seeks to provide a welcoming, safe, and fun conference environment for all
-                    attendees. In support of this, all conference attendees are required to adhere to the
-                    <a href="http://2018.code4lib.org/conduct/">Code4Lib Code of Conduct</a> throughout the entire
-                    conference including pre-conference and post-conference activities in all event venues both physical
-                    and virtual including presentations, workshops, or any community channel such as the chatroom or mailing list.
-                </p>
-
-                <!--
-                <h3>Registration Cancelation Policy</h3>
-                <p>
-                    All cancellations received on or
-                    before February 6, 2017 are eligible for a full refund of
-                    fees paid, less a 10% cancellation fee. No refunds will be
-                    issued after the February 6 cut-off date.
-                </p>
                 -->
             </div>
         </div>

@@ -5,10 +5,11 @@
     {% if site.data.conf.conference-registration.show %}
         {% include homepage/going_on_block.html
             primary=true
-            title='Registration'
-            more-info-link='/attend/'
+            title='Registration fee announced!'
+            more-info-link='/general-info/attend'
             more-info-text='Fees & additional information'
             end-date=site.data.conf.conference-registration.end-date
+            start-date=site.data.conf.conference-registration.start-date
             url=site.data.conf.conference-registration.url
             url-text='Register!'
         %}
@@ -159,7 +160,7 @@
         </div>
     </div>
     {% endif %}
-    
+
     <!-- Announcements -->
     {% if site.data.conf.diversity-scholarship-applications.show  %}
     <div class="row">
