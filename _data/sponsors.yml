@@ -120,3 +120,7 @@
   img: /assets/img/sponsors/Smithsonian_E-Template_Option1_Tag_RGB.png
   link: https://library.si.edu/
   diversity: true
+
+- name: The Ohio State University Libraries
+  link: https://library.osu.edu/
+  diversity: true
