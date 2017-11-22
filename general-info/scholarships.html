@@ -63,17 +63,11 @@ subnav:
                <div class="col-xs-12">
                  <h3>Made possible by the generosity of our sponsors and community</h3>
                  {% assign sponsors = site.data.sponsors | where: "diversity", true %}
-                 {% for sponsor in sponsors %}
-                  <div class="col-xs-6 col-md-4">
-                  {% if sponsor.img %}
-                  <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                      <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                  </a>
-                  {% else %}
-                  <a href="{{ sponsor.link }}" class="sponsor-name-only">{{ sponsor.name }}</a>
-                  {% endif %}
-                  </div>
-                 {% endfor %}
+                   <div class="sponsor-group">
+                   {% for sponsor in sponsors %}
+                    {% include sponsors/logo.html sponsor=sponsor %}
+                   {% endfor %}
+                   </div>
                </div>
              </div>
            {% endif %}

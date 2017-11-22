@@ -193,7 +193,8 @@
         <h3>Thanks to our sponsors!</h3>
         {% if ad_sponsors.size > 0 %}
         <h4>Adamantium</h4>
-        <div class="row">
+
+        <div class="sponsor-group">
             {% for sponsor in ad_sponsors %}
             {% include sponsors/logo.html sponsor=sponsor class="col-xs-12 col-sm-4" %}
             {% endfor %}
@@ -202,7 +203,7 @@
 
         {% if di_sponsors.size > 0 %}
         <h4>Diamond</h4>
-        <div class="row">
+        <div class="sponsor-group">
             {% for sponsor in di_sponsors %}
             {% include sponsors/logo.html sponsor=sponsor class="col-xs-12 col-sm-4" %}
             {% endfor %}
@@ -211,7 +212,7 @@
 
         {% if plat_sponsors.size > 0 %}
         <h4>Platinum</h4>
-        <div class="row">
+        <div class="sponsor-group">
             {% for sponsor in plat_sponsors %}
             {% include sponsors/logo.html sponsor=sponsor class="col-xs-6 col-sm-3" %}
             {% endfor %}
