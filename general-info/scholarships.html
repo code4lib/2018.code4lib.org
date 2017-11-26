@@ -45,11 +45,10 @@ subnav:
     </div>
 </div>
 
-{% if site.data.conf.diversity-scholarship-applications.show or site.data.conf.diversity-scholarship-general-sponsors.show  %}
+{% if site.data.conf.diversity-scholarship-applications.show %}
 <div class="container-fluid">
    <div class="row">
        <div class="col-xs-12">
-           {% if site.data.conf.diversity-scholarship-applications.show  %}
            <h2>Accepting Applications Now!</h2>
            <p>
                As part of Code4Lib's ongoing commitment to reducing economic barriers that prevent participation for underrepresented groups, and to achieving a balanced representation of the human experience, we are pleased to announce that we are now seeking applicants for our <a href="/general-info/scholarships">2018 Diversity Scholarship program</a>! The <a href="https://wiki.code4lib.org/Code4Lib_2018_Conference_Committees#Scholarship_Committee">Code4Lib Scholarship Committee</a> hopes to award 15 Diversity Scholarships, based on merit and need.  Each scholarship will cover up to $1500 for travel costs, lodging, and conference fees for selected applicants to attend the <a href="/">2018 Code4Lib Conference</a> in Washington, D.C.
@@ -58,27 +57,29 @@ subnav:
               <strong>The deadline for applications is {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date%} at 11:59 PM ET</strong> (<a href="#how-to-apply">see below for more details</a>).
            </p>
 
-           {% if site.data.conf.diversity-scholarship-general-sponsors.show  %}
-             <div class="row">
-               <div class="col-xs-12">
-                 <h3>Made possible by the generosity of our sponsors and community</h3>
-                 {% assign sponsors = site.data.sponsors | where: "diversity", true %}
-                   <div class="sponsor-group">
-                   {% for sponsor in sponsors %}
-                    {% include sponsors/logo.html sponsor=sponsor %}
-                   {% endfor %}
-                   </div>
-               </div>
-             </div>
-           {% endif %}
-
          <p>The scholarship will cover conference registration and hotel accommodations up front to scholarship awardees. Other incidentals like travel and meals may be reimbursed based on the amount awarded. Reimbursement will be managed independently at the conference. Pairing up housing with other scholarship awardees or conference attendees may also be accommodated. Please contact <a href="mailto:{{site.data.conf.scholarship-contact-email}}">{{site.data.conf.scholarship-contact-email}}</a> with any questions about this arrangement. We want to ensure that financial issues do not discourage anyone from applying to this award.
          </p>
           <p>We do not expect scholarship recipients to be responsible for being an ambassador for their group or an educator of others during the conference. While learning and exchange may happen as a result of interactions between participants, scholarship recipients are encouraged to focus on getting the most out of their experience and have no special duties or obligations apart from conference attendance, engaged participation to their comfort level, and giving us feedback on their experience.
          </p>
-           {% endif %}
        </div>
    </div>
+</div>
+{% endif %}
+
+{% if site.data.conf.diversity-scholarship-general-sponsors.show  %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Made possible by the generosity of our sponsors and community</h2>
+
+      {% assign sponsors = site.data.sponsors | where: "diversity", true %}
+      <div class="sponsor-group">
+        {% for sponsor in sponsors %}
+          {% include sponsors/logo.html sponsor=sponsor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 {% endif %}
 
