@@ -124,3 +124,7 @@
 - name: The Ohio State University Libraries
   link: https://library.osu.edu/
   diversity: true
+
+- name: Individual Donations from the Community
+  link: /general-info/angel-fund.html
+  diversity: true
