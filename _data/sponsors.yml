@@ -71,6 +71,7 @@
   level: gold
 
 - name: University of California, San Diego
+  img: /assets/img/sponsors/UCSD_NewLibraryLogo-Black.png
   link: https://ucsd.edu/
   level: contributor
 
@@ -103,6 +104,7 @@
   level: contributor
 
 - name: Rutgers, School of Communication and Information
+  img: /assets/img/sponsors/RU_SIG_SCI.gif
   link: https://comminfo.rutgers.edu/
   level: bronze
 
@@ -122,6 +124,7 @@
   diversity: true
 
 - name: The Ohio State University Libraries
+  img: /assets/img/sponsors/TheOhioStateUniversity.png
   link: https://library.osu.edu/
   diversity: true
 
@@ -130,14 +133,20 @@
   diversity: true
   
 - name: Temple University
+  img: /assets/img/sponsors/templelibraries-logo.svg
   link: https://library.temple.edu/
   diversity: true
   
 - name: The School of Information Sciences at the University of Illinois
+  img: /assets/img/sponsors/SIS_UI_iSchoolwordmark_Imark.png
   link: https://ischool.illinois.edu/
   diversity: true
-  
-- name: The School of Information Sciences at the University of Illinois
-  link: https://ischool.illinois.edu/
   level: bronze
   
+- name: ByWater Solutions
+  link: http://bywatersolutions.com/
+  level: contributor
+
+- name: Simmons College
+  link: http://www.simmons.edu/
+  level: contributor
