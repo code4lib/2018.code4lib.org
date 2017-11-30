@@ -85,7 +85,7 @@
   link: http://www.oclc.org/
   level: platinum
 
-- name: Falvey Memorial Library
+- name: Villanova University
   link: https://library.villanova.edu/
   level: supporter
 
@@ -117,7 +117,11 @@
   img: /assets/img/sponsors/UMD_CIS_Primary_Logo_Small.jpg
   link: https://go.umd.edu/code4lib
   level: bronze
-
+  
+- name: Emory University Libraries
+  link: http://libraries.emory.edu/
+  level: bronze
+  
 - name: Smithsonian Libraries
   img: /assets/img/sponsors/Smithsonian_E-Template_Option1_Tag_RGB.png
   link: https://library.si.edu/
@@ -128,10 +132,6 @@
   link: https://library.osu.edu/
   diversity: true
 
-- name: Individual Donations from the Community
-  link: /general-info/angel-fund.html
-  diversity: true
-  
 - name: Temple University
   img: /assets/img/sponsors/templelibraries-logo.svg
   link: https://library.temple.edu/
@@ -142,6 +142,10 @@
   link: https://ischool.illinois.edu/
   diversity: true
   level: bronze
+  
+- name: Individual Donations from the Community
+  link: /general-info/angel-fund.html
+  diversity: true
   
 - name: ByWater Solutions
   link: http://bywatersolutions.com/
