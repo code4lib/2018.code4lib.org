@@ -6,6 +6,8 @@ active: Venues
 subnav:
 - name: Conference Hotel
   url: '#conference-hotel'
+- name: Reception
+  url: '#reception'
 - name: Accommodations
   url: '#accommodations'
 ---
@@ -28,6 +30,12 @@ subnav:
       <div class="row">
         <div class="col-xs-12">
           {% include_relative hotel.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative reception.html %}
         </div>
       </div>
 
