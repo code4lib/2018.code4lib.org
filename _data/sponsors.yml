@@ -155,3 +155,9 @@
 - name: Simmons College
   link: http://www.simmons.edu/
   level: contributor
+
+- name: Blacklight
+  img: /assets/img/sponsors/blacklight-logo-vectorized.svg
+  link: http://projectblacklight.org/
+  level: diamond
+ 
