@@ -16,13 +16,13 @@ title: Speakers
                 {% for person in site.data.speakers %}
                     {% assign speaker = person[1] %}
                     {% if speaker.keynote == 1 %}
-                        {# we have at least one keynote, doesn't show placeholder #}
+                        {% comment %} we have at least one keynote, doesn't show placeholder {% endcomment %}
                         {% assign no_keynotes = false %}
                         {% include speaker_box.html param=speaker %}
                     {% endif %}
                 {% endfor %}
 
-                {# placeholder for no keynotes #}
+                {% comment %} placeholder for no keynotes {% endcomment %}
                 {% if no_keynotes %}
                     <div class="speaker-box text-center" id="no_keynote-id" data-speaker-info="#no_keynote-info">
                         <div class="speaker-box-inner">

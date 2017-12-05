@@ -18,58 +18,14 @@
                 <!-- HOME -->
                 <li><a href="/">Home</a></li>
 
-                <!-- TODO: toggles in _data/conf.yml should handle nav links -->
-                <!-- SCHEDULE (exchange with temp schedule)
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/schedule">Overview</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="/workshops">Workshops</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="/posters">Posters</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="/schedule/day-1">Day 1</a></li>
-                        <li><a href="/schedule/day-2">Day 2</a></li>
-                        <li><a href="/schedule/day-3">Day 3</a></li>
-                    </ul>
-                </li>
-                -->
-
-                <!-- TEMP SCHEDULE -->
-                <li><a href="/schedule/timeline.html">Schedule</a></li>
-
-                <!-- ATTEND
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Attend <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/attend">Registration</a></li>
-                        <li><a href="/attend/index.html#remote">Remote Attendance</a></li>
-                        <li><a href="/attend/index.html#policies">Policies</a></li>
-                    </ul>
-                </li>
-                -->
-
-                <!-- SPEAKERS (exchange with past speakers)
-                <li><a href="/speakers/">Speakers</a></li>
-                -->
-
-                <!-- PAST KEYNOTES -->
-                <li><a href="/speakers/past-keynotes.html">Speakers</a></li>
-
-                <!-- VENUE dropdown
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venues <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/venue">Conference</a></li>
-                        <li><a href="/venue/workshops.html">Workshops</a></li>
-                        <li><a href="/venue/reception.html">Reception</a></li>
-                        <li><a href="/venue/playandshare.html">Play &amp; Share</a></li>
-                        <li><a href="/venue/dinner.html">Newcomer Dinner</a></li>
-                        <li><a href="https://drive.google.com/open?id=11dBRFfMhYump8B5nCznsx-iVFVs&amp;usp=sharing" target="_blank">Activity Map</a>
-                    </ul>
-                </li>
-                -->
+                {% if site.data.conf.program-nav-links %}
+                    <li><a href="/schedule/">Schedule</a></li>
+                    <li><a href="/speakers/">Speakers</a></li>
+                {% else %}
+                    <!-- Information for before we have program/preconf details -->
+                    <li><a href="/schedule/timeline.html">Schedule</a></li>
+                    <li><a href="/speakers/past-keynotes.html">Speakers</a></li>
+                {% endif %}
 
                 {% comment %}
                 when looking for sponsors before conf, send users to prospectus

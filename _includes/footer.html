@@ -3,16 +3,21 @@
         <a href="#"><img src="/assets/img/theme-images/c4l-logo.svg" alt="Code4Lib"></a>
         <ul class="list-inline list-unstyled small">
             <li class="list-item tci"><a href="/index.html">Home</a></li>
-            <li class="list-item tci"><a href="/schedule/timeline.html">Schedule</a></li>
-            <!-- TODO: toggles in _data/conf.yml should handle nav links -->
-            <!-- <li class="list-item tci"><a href="/schedule/">Schedule</a></li> -->
-            <li class="list-item tci"><a href="/speakers/past-keynotes.html">Speakers</a></li>
-            <!-- <li class="list-item tci"><a href="/speakers/index.html">Speakers</a></li> -->
+
+            {% if site.data.conf.program-nav-links %}
+                <li class="list-item tci"><a href="/schedule/">Schedule</a></li>
+                <li class="list-item tci"><a href="/speakers/index.html">Speakers</a></li>
+            {% else %}
+                <li class="list-item tci"><a href="/schedule/timeline.html">Schedule</a></li>
+                <li class="list-item tci"><a href="/speakers/past-keynotes.html">Speakers</a></li>
+            {% endif %}
+
             {% if site.data.conf.call-for-sponsors %}
                 <li><a href="/prospectus">Sponsors</a></li>
             {% else %}
                 <li><a href="/sponsors">Sponsors</a></li>
             {% endif %}
+
             <li class="list-item tci"><a href="/general-info/attend">General Info</a></li>
             <li class="list-item tci"><a href="/conduct">Conduct & Safety</a></li>
         </ul>

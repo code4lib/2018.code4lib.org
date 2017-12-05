@@ -11,6 +11,9 @@ hero-image-alt: "Library of Congress Interior"
 # If true, any "Sponsors" links with go to /prospectus instead of /sponsors
 call-for-sponsors: false
 search: false
+# If false (we don't have program info yet), the main nav links go:
+# schedule -> preparation timeline, speakers -> past keynotes
+program-nav-links: false
 
 ###################
 # Homepage section
