@@ -1,0 +1,91 @@
+cua-campus:
+    id: cua-campus
+    Building: 'CUA Campus'
+    Room: 'Law School Building'
+    AM-sessions: iiif-hands-on-technical-workshop
+    PM-sessions: iiif-hands-on-technical-workshop
+    Map: ''
+daniel-shaw-library:
+    id: daniel-shaw-library
+    Building: 'Daniel/Shaw Library'
+    Room: 'Meeting Room'
+    AM-sessions: an-introduction-to-openrefine
+    PM-sessions: writing-plug-ins-for-archivesspace
+    Map: ''
+georgetown-library:
+    id: georgetown-library
+    Building: 'Georgetown Library'
+    Room: 'Meeting Room'
+    AM-sessions: digital-empathy-creating-safe-spaces-online
+    PM-sessions: building-open-integrating-open-source-discovery-tools-with-summon-and-alma
+    Map: ''
+mt-pleasant-library:
+    id: mt-pleasant-library
+    Building: 'Mt. Pleasant Library'
+    Room: 'Meeting Room'
+    AM-sessions: advocating-for-library-accessibility-an-introduction
+    PM-sessions: aria-basics-making-your-web-content-sing-accessibility
+    Map: ''
+northeast-library:
+    id: northeast-library
+    Building: 'Northeast Library'
+    Room: 'Meeting Room'
+    AM-sessions: fail4lib-2018
+    PM-sessions: impostor-syndrome-us-led-by-an-impostor
+    Map: ''
+congressional-a:
+    id: congressional-a
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Congressional A'
+    AM-sessions: transforming-marc-and-metadata-into-rdf-based-applications
+    PM-sessions: creating-data-dashboards-using-angular-and-d3-js
+    Map: ''
+congressional-b:
+    id: congressional-b
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Congressional B'
+    AM-sessions: large-scale-web-scraping-building-a-toolkit-to-scrape-all-the-things
+    PM-sessions: enabling-social-media-research-and-archiving
+    Map: ''
+council-room:
+    id: council-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Council Room'
+    AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
+    PM-sessions: learn-tech-to-teach-tech
+    Map: ''
+cabinet-room:
+    id: cabinet-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Cabinet Room'
+    AM-sessions: interacting-with-standards-hands-on-fedora
+    PM-sessions: getting-started-with-static-website-generators
+    Map: ''
+senate-room:
+    id: senate-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Senate Room'
+    AM-sessions: spark-in-the-dark-101
+    PM-sessions: isle-islandora-installation-simplified
+    Map: ''
+forum-room:
+    id: forum-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Forum Room'
+    AM-sessions: the-virtualized-library-a-librarian-s-introduction-to-docker-and-virtual-machines
+    PM-sessions: supercharging-your-work-with-embedded-metadata-workflows
+    Map: ''
+petworth-library:
+    id: petworth-library
+    Building: 'Petworth Library'
+    Room: 'Meeting Room'
+    AM-sessions: introduction-to-spotlight
+    PM-sessions: introduction-to-omeka-s
+    Map: ''
+west-end-library:
+    id: west-end-library
+    Building: 'West End Library'
+    Room: 'Meeting Room'
+    AM-sessions: solr-for-newbies
+    PM-sessions: build-your-own-twitter-bot-a-gentle-and-fun-introduction-to-python
+    Map: ''

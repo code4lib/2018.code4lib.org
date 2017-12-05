@@ -3,13 +3,13 @@
 
 {% if page.type == 'workshop' %}
     {% assign pageLength = 'empty' %}
-    {% assign pageDate = 'March 6th' %}
+    {% assign pageDate = 'February 13th' %}
     {% if page.time == 'full' %}
-        {% assign pageLength = '9:00-4:30 (w/ lunch break)' %}
+        {% assign pageLength = '9:00-5:00 (w/ lunch break)' %}
     {% elsif page.time == 'am' %}
         {% assign pageLength = '9-12' %}
     {% elsif page.time == 'pm' %}
-        {% assign pageLength = '1:30-4:30' %}
+        {% assign pageLength = '2:00-5:00' %}
     {% endif %}
 {% endif %}
 
@@ -44,21 +44,21 @@
                     <h3>Speaker(s)</h3>
                     {% for speakerId in page.speakers %}
                         {% if speakerId != 0 %}
-                            {% assign speaker = site.data.speakers_final[speakerId] %}
-                            {% if speaker.Show == 1 %}
+                            {% assign speaker = site.data.speakers[speakerId] %}
+                            {% if speaker.show == 1 %}
                             <div class="col-sm-3 text-center">
-                                <a href="/speakers/#{{speaker.Name | slugify }}">
-                                    <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                <a href="/speakers/#{{speaker.name | slugify }}">
+                                    <img class="clip-circle-speaker" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
                                     {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                    <span>{{ speaker.Name }}</span>
+                                    <span>{{ speaker.name }}</span>
                                     {% endif %}
                                 </a>
                             </div>
                             {% else %}
                                 <div class="col-sm-3 text-center">
-                                    <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                                    <img class="clip-circle-speaker" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
                                     {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                    <span>{{ speaker.Name }}</span>
+                                    <span>{{ speaker.name }}</span>
                                     {% endif %}
                                 </div>
                             {% endif %}
