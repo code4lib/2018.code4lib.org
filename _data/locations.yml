@@ -51,8 +51,8 @@ council-room:
     id: council-room
     Building: 'Omni Shoreham Hotel'
     Room: 'Council Room'
-    AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
-    PM-sessions: learn-tech-to-teach-tech
+    AM-sessions:
+    PM-sessions:
     Map: ''
 cabinet-room:
     id: cabinet-room
@@ -88,4 +88,18 @@ west-end-library:
     Room: 'Meeting Room'
     AM-sessions: solr-for-newbies
     PM-sessions: build-your-own-twitter-bot-a-gentle-and-fun-introduction-to-python
+    Map: ''
+tbd-1:
+    id: tbd-1
+    Building: 'To Be Determined'
+    Room: ''
+    AM-sessions: learn-tech-to-teach-tech
+    PM-sessions: learn-tech-to-teach-tech
+    Map: ''
+tbd-2:
+    id: tbd-2
+    Building: 'To Be Determined'
+    Room: ''
+    AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
+    PM-sessions: getting-started-visualizing-your-iot-data-in-tableau
     Map: ''
