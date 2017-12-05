@@ -17,11 +17,11 @@ title: Schedule
         <div class="col-xs-12 col-md-9 sched-well">
             <h3><a href="/workshops">Preconference Workshops</a></h3>
             <p>
-                Preconference details are available on the <a href="/workshops">Preconference Workshops</a> page
-                {% comment %}
-                    and at the <a href="https://www.eventsforce.net/concentra/frontend/reg/tDailyAgenda.csp?pageID=7678&eventID=14&popup=1&eventID=14">registration site</a>
-                {% endcomment %}
-                .
+                Preconference details are available
+                {% if site.data.conf.workshop-registration.url.size > 0 %}
+                    on the <a href="{{site.data.conf.workshop-registration.url}}">registration site</a> and
+                {% endif %}
+                on the <a href="/workshops">Preconference Workshops</a> page.
             </p>
         </div>
     </div>
