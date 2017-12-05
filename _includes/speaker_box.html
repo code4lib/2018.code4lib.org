@@ -1,6 +1,8 @@
 
 {% assign speaker = include.param %}
 
+{% capture thisSpeakerId %}{% if speaker.id.size %}{{ speaker.id }}{% else %}{{ speaker.name | slugify }}{% endif %}{% endcapture %}
+
 <div class="speaker-box text-center" id="{{ speaker.name | slugify }}-id" data-speaker-info="#{{ speaker.name | slugify }}-info">
     <div class="speaker-box-inner">
         <a href="#" class="speaker-info-toggle" data-target="#{{ speaker.name | slugify }}">
@@ -14,9 +16,9 @@
         <div class="arrow-down"></div>
     </div>
 </div>
-<div class="speaker-info" id="{{ speaker.id }}-info">
+<div class="speaker-info" id="{{ thisSpeakerId }}-info">
     <div class="speaker-info-inner">
-        {% if speaker.twitter-handle %}
+        {% if speaker.twitter-handle.size > 0 %}
         <p class="speaker-bio">
             <span class="icon  icon--twitter">
               <a href="https://twitter.com/{{ speaker.twitter-handle }}">
@@ -34,8 +36,7 @@
         <p class="speaker-bio">
             {{ speaker.bio }}
         </p>
-        {% if speaker.Keynote == 0 %}
-            {% capture thisSpeakerId %}{{ speaker.id }}{% endcapture %}
+        {% if speaker.keynote == 0 %}
             {% assign talks = site.posts | where:'type','talk' %}
             {% for talk in talks  %}
                 {% for speakerId in talk.speakers %}
