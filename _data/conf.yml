@@ -13,7 +13,7 @@ call-for-sponsors: false
 search: false
 # If false (we don't have program info yet), the main nav links go:
 # schedule -> preparation timeline, speakers -> past keynotes
-program-nav-links: false
+program-nav-links: true
 
 ###################
 # Homepage section
@@ -102,10 +102,10 @@ workshop-registration:
 # "show" just means display on home page, "open" means people can register
 conference-registration:
   show: true
-  url:
+  url: http://www.cvent.com/d/3tqn5s/4W
   start-date: "2017-12-06"
   end-date:
-  open: false
+  open: true
 
 ###################
 # Misc
