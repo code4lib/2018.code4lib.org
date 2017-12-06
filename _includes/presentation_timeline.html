@@ -1,6 +1,7 @@
 
 <div id="cd-timeline" class="cd-container">
-    {% for event in include.events | sort: "time" %}
+    {% assign sorted_events = include.events | sort: "time" %}
+    {% for event in sorted_events %}
         <div class="cd-timeline-block">
             <div class="cd-timeline-img">
                 <img src="/assets/img/clockface/{{ event.timeImg }}">
