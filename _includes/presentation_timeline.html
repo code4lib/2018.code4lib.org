@@ -49,10 +49,10 @@
                             </div>
                             <div class="col-xs-12 hidden-xs">
                                 {% for speakerId in talk.speakers %}
-                                    {% assign speaker = site.data.speakers | where:"id", speakerId %}
+                                    {% assign speaker = site.data.speakers[speakerId] %}
                                     {% if speaker %}
                                         <div class="col-sm-3 text-center">
-                                            <a href="/speakers/#{{ speaker.id }}">
+                                            <a href="/speakers/#{{ speakerId }}">
                                                 <img class="clip-circle-speaker" src="{{ speaker.image-url }}" alt="{{ speaker.name }}">
                                                 {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
                                                     <span>{{ speaker.name }}</span>
