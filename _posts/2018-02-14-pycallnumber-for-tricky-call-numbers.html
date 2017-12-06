@@ -1,0 +1,27 @@
+---
+layout: presentation
+day: 1
+group: 2
+spot: 7
+length: 15
+type: talk
+categories: talks
+starttime: 1518614700
+endtime: 1518615600
+miltime: 13:25-13:40
+speakers-text: Jason Thomale
+speakers:
+- jason-thomale
+title: Pycallnumber! For Tricky Call Numbers
+---
+<p>
+"Let's talk about call numbers. As library coders, many of us find them oddly alluring. They're compact and information-dense. Simple, yet structured. Not to mention handy! Need a virtual shelflist? A shelf-reading tool? A way to do collection analysis? Just pull your call numbers out of your ILS and start coding. Done, and done.
+
+But -- questions about how to parse them come up so often in the Code4lib community for a reason. When you start working with them, you realize: call numbers are like MARC concentrate, in a way. Like someone distilled everything that we love and hate about MARC into one tiny, wonderful, horrible package. They appear so simple -- they are ""just"" strings, after all! But they're hand-crafted, hand-encoded strings. They're strings structured based on implicit sets of rules, which people sometimes overextend or even flat-out break in application. Real-world sets of them always seem to end up comprising this unholy mixture of formats that conform to various standards, including localizations, with varying degrees of accuracy. Code that handles all the idiosyncrasies in one context invariably ends up being highly specific and difficult to reuse in a different context, collection, or project.
+
+Although tools for parsing various types of call numbers exist, I haven't yet found one that really helps address this issue. So after wrestling with it for years on various projects, I finally decided to tackle it myself and roll my own library -- one that uses common, general patterns as defaults that are then easy to customize for a given situation. And, since I can't be the only weirdo out there who struggles with this, I wanted to share it with the community: both what I've done so far, which is open source and available on GitHub, and what I've learned.
+
+The library is pycallnumber [1] -- a Python package that provides a toolset for modeling any string pattern via flexible, modular, composable, and extensible templates. Out of the box, it includes complete templates for Library of Congress, Dewey, and SuDocs call numbers along with template components for handling more generic data types such whole numbers, decimals, formatted numbers, date strings, alphabetical strings, and more. You can extend basic template types to create new types, build complex templates out of simpler pieces, or simply tweak existing templates to handle local variations on standard types using minimal code. It provides tools for parsing, normalizing, and operating on call numbers and call number ranges, any of which can be extended in your own call number subclasses if you need custom behavior.
+
+[1] https://github.com/unt-libraries/pycallnumber"
+</p>
