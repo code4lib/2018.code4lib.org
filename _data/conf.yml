@@ -87,9 +87,9 @@ panel-voting:
   end-date:
 
 shirt-voting:
-  show: false
-  url: ""
-  end-date:
+  show: true
+  url: "https://www.surveymonkey.com/r/F3T2V8V"
+  end-date: "2017-12-24"
 
 ###################
 # Registration
