@@ -15,6 +15,9 @@ search: false
 # schedule -> preparation timeline, speakers -> past keynotes
 program-nav-links: true
 
+# If true, will display links to the daily menus on the schedule pages
+show-daily-menus: false
+
 ###################
 # Homepage section
 # Values can be one of

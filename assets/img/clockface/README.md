@@ -9,21 +9,35 @@ Settings are as follows:
 * Clock Face
   * Back: transparent
   * Edge: transparent
-  * Tick: #4d4d4d (keep slider at default, but it is 5 from the left)
-  * Subtick: transparent
+  * Tick:
+    * Colour: #4d4d4d
+    * Length: 4
+    * Thickness: 5
+  * Subtick:
+    * Colour: transparent
+    * Length: 0
+    * Thickness: 0
 * Numerals
   * Colour: transparent
   * All other settings @ default
-* Hands
-  * Hours
-    * Colour: #4d4d4d
-    * All other settings @ default
-  * Minutes
-    * Colour: #4d4d4d
-    * All other settings @ default
-  * Seconds
-    * Colour: Transparent
-    * All other settings @ default
+* Hour Hand
+  * Position: (the hour you need)
+  * Pointer: None
+  * Colour: #4d4d4d
+  * Length: 9
+  * Thickness 10
+* Minute Hand
+  * Position: (the minute you need)
+  * Pointer: None
+  * Colour: #4d4d4d
+  * Length: 18
+  * Thickness 5
+* Second Hand
+  * Position: 0
+  * Pointer: None
+  * Colour: transparent
+  * Length: 0
+  * Thickness o
  
  
 Note: For transparent, click on the color selection box (where you would enter the hex code) and drag the opacity slider all the way down.
