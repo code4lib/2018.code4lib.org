@@ -150,14 +150,22 @@
   
 - name: ByWater Solutions
   link: http://bywatersolutions.com/
-  level: contributor
+  level: supporter
 
 - name: Simmons College
   link: http://www.simmons.edu/
-  level: contributor
+  level: supporter
 
 - name: Blacklight
   img: /assets/img/sponsors/blacklight-logo-vectorized.svg
   link: http://projectblacklight.org/
   level: diamond
+  
+- name: Ithaka
+  link: www.ithaka.org
+  level: bronze
+  
+- name: KnowledgeLinks.io
+  link: http://knowledgelinks.io/
+  level: supporter
  
