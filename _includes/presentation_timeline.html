@@ -19,15 +19,17 @@
                         {% else %}
                             <h2>
                             {{ event.title }}
-                            {% if event.title == "Lunch" %}
-                                &nbsp;
-                                <a href="/schedule/food/{{ include.menuDay }}-menus.html#Lunch" class="btn btn-primary" >View Menu</a>
-                            {% elsif event.title == "Registration/Breakfast" %}
-                                &nbsp;
-                                <a href="/schedule/food/{{ include.menuDay }}-menus.html#Breakfast" class="btn btn-primary" >View Menu</a>
-                            {% elsif event.title == "Break" %}
-                                &nbsp;
-                                <a href="/schedule/food/{{ include.menuDay }}-menus.html#Snacks" class="btn btn-primary" >View Menu</a>
+                            {% if site.data.conf.show-daily-menus %}
+                                {% if event.title == "Lunch" %}
+                                    &nbsp;
+                                    <a href="/schedule/food/{{ include.menuDay }}-menus.html#Lunch" class="btn btn-primary" >View Menu</a>
+                                {% elsif event.title == "Registration/Breakfast" %}
+                                    &nbsp;
+                                    <a href="/schedule/food/{{ include.menuDay }}-menus.html#Breakfast" class="btn btn-primary" >View Menu</a>
+                                {% elsif event.title == "Break" %}
+                                    &nbsp;
+                                    <a href="/schedule/food/{{ include.menuDay }}-menus.html#Snacks" class="btn btn-primary" >View Menu</a>
+                                {% endif %}
                             {% endif %}
                             </h2>
                         {% endif %}
