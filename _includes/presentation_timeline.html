@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 {% if event.groupId %}
-                    {% assign talks = site.posts | where:"group",event.groupId | sort:"spot" %}
+                    {% assign talks = site.posts | where:"group",event.groupId | where:"type","talk" | sort:"spot" %}
                     {% for talk in talks %}
                         <div class="row talk-row">
                             <div class="col-xs-12">
