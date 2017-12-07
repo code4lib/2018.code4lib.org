@@ -35,7 +35,7 @@ layout: null
 
         {% endif %}
 
-        {% assign speaker = site.data.speakers_final[speakerId] %}
+        {% assign speaker = site.data.speakers[speakerId] %}
         {% capture speakers %}{{speakers}}{{speaker.Name}}{{spacing}}{% endcapture %}
 
       {% endif %}
