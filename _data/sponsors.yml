@@ -162,10 +162,18 @@
   level: diamond
   
 - name: Ithaka
-  link: www.ithaka.org
+  link: https://www.ithaka.org/
   level: bronze
   
 - name: KnowledgeLinks.io
   link: http://knowledgelinks.io/
   level: supporter
+  
+- name: Penn State Libraries
+  link: https://libraries.psu.edu/
+  level: bronze
+  
+- name: University of Rhode Island
+  link: https://web.uri.edu/library/
+  level: contributor
  
