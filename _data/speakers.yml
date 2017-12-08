@@ -22,7 +22,7 @@ shawn-averkamp:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic2.jpg
+  image-src: /assets/img/speakers/averkamp_shawn.jpg
 
 chris-beer:
   name: Chris Beer
@@ -61,7 +61,7 @@ ashley-blewer:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic5.jpg
+  image-src: /assets/img/speakers/blewer_ashley.jpg
 
 sarah-branham:
   name: Sarah Branham
@@ -74,7 +74,7 @@ sarah-branham:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/speakers/Branham_Sarah_Shealy.jpg
+  image-src: /assets/img/speakers/branham_shealy_Sarah.jpg
 
 mark-breedlove:
   name: Mark Breedlove
@@ -113,7 +113,7 @@ jason-clingerman:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic9.jpg
+  image-src: /assets/img/speakers/clingerman_jason.jpg
 
 karen-coombs:
   name: Karen Coombs
@@ -217,7 +217,7 @@ lauren-di-monte:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic6.jpg
+  image-src: /assets/img/speakers/DiMonte_Lauren.jpg
 
 naomi-dushay:
   name: Naomi Dushay
@@ -282,7 +282,7 @@ giovanni-fernandez-kincade:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic11.jpg
+  image-src: /assets/img/speakers/fernandez-kicade_giovanni.jpg
 
 walter-forsberg:
   name: Walter Forsberg
@@ -321,7 +321,7 @@ jim-hahn:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic3.jpg
+  image-src: /assets/img/speakers/hahn_jim.jpg
 
 christina-harlow:
   name: Christina Harlow
@@ -349,7 +349,7 @@ corey-harper:
   show: 1
   image-src: /assets/img/nopics/nopic5.jpg
 
-genevieve-havemeyerking:
+genevieve-havemeyer-king:
   name: Genevieve Havemeyer-King
   last: Havemeyer-King
   bio:
@@ -373,7 +373,7 @@ john-hessler:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic7.jpg
+  image-src: /assets/img/speakers/Hessler_John.jpg
 
 charles-ed-hill:
   name: Charles Ed Hill
@@ -414,7 +414,7 @@ christa-jameson:
   show: 1
   image-src: /assets/img/nopics/nopic10.jpg
 
-david-keiserclark:
+david-keiser-clark:
   name: David Keiser-Clark
   last: Keiser-Clark
   bio:
@@ -479,7 +479,7 @@ nick-krabbenhoeft:
   show: 1
   image-src: /assets/img/nopics/nopic4.jpg
 
-mairelys-lemusrojas:
+mairelys-lemus-rojas:
   name: Mairelys Lemus-Rojas
   last: Lemus-Rojas
   bio:
@@ -490,7 +490,7 @@ mairelys-lemusrojas:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic5.jpg
+  image-src: /assets/img/speakers/Lemus-Rojas_Mairelys.jpg
 
 justin-littman:
   name: Justin Littman
@@ -529,7 +529,7 @@ monica-maceli:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic8.jpg
+  image-src: /assets/img/speakers/maceli_monica.jpg
 
 john-martin:
   name: John Martin
@@ -594,7 +594,7 @@ matt-miller:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic2.jpg
+  image-src: /assets/img/speakers/miller_matt.jpeg
 
 jeff-mixter:
   name: Jeff Mixter
@@ -607,7 +607,7 @@ jeff-mixter:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic3.jpg
+  image-src: /assets/img/speakers/mixter_jeff.jpg
 
 gavin-morris:
   name: Gavin Morris
@@ -633,9 +633,9 @@ peter-murray:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic5.jpg
+  image-src: /assets/img/speakers/Murray_Peter.jpg
 
-patrick-murrayjohn:
+patrick-murray-john:
   name: Patrick Murray-John
   last: Murray-John
   bio:
@@ -711,7 +711,7 @@ jere-odell:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic11.jpg
+  image-src: /assets/img/speakers/Odell_Jere.jpg
 
 andreas-orphanides:
   name: Andreas Orphanides
@@ -802,7 +802,7 @@ matthew-reidsma:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic7.jpg
+  image-src: /assets/img/speakers/Reidsma_Matthew.jpg
 
 jason-ronallo:
   name: Jason Ronallo
@@ -854,7 +854,7 @@ joel-shields:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic11.jpg
+  image-src: /assets/img/speakers/shields_joel.jpg
 
 noah-smith:
   name: Noah Smith
@@ -919,7 +919,7 @@ hank-sway:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic5.jpg
+  image-src: /assets/img/speakers/sway_hank.jpg
 
 julie-c-swierczek:
   name: Julie C. Swierczek
@@ -932,7 +932,7 @@ julie-c-swierczek:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic6.jpg
+  image-src: /assets/img/speakers/Swierczek_julie.jpg
 
 jason-thomale:
   name: Jason Thomale
@@ -1010,7 +1010,7 @@ whitni-watkins:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic1.jpg
+  image-src: /assets/img/speakers/watkins_whitni.jpg
 
 elizabeth-wickes:
   name: Elizabeth Wickes
@@ -1101,7 +1101,7 @@ becky-yoose:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic8.jpg
+  image-src: /assets/img/speakers/Yoose_Becky.jpg
 
 jacob-zaborowski:
   name: Jacob Zaborowski
