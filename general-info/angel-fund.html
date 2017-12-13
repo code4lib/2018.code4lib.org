@@ -17,6 +17,11 @@ categories: scholarships
 			<p>
 				All funds raised will help pay for transportation, accommodation, and conference registration costs for Code4Lib's Diversity Scholarships recipients for our annual conference. Please feel free to direct any question to c4l2018-sponsor@umd.edu.
 			</p>
+			{% if site.data.conf.donate-link != '' %}
+			<p>
+				<a class="btn btn-primary btn-lg" href="{{ site.data.conf.donate-link}}" target="_blank">Donate to the Angel Fund today!</a>
+			</p>
+			{% endif %}
 
 			<div id="donation-total"></div>
 
