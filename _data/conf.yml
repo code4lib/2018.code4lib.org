@@ -1,10 +1,12 @@
 ###################
 # "Global" Vars
 ###########
+year: 2018
 captioning-url: ""
 main-conf-email: ""
 sponsor-contact-email: "c4l2018-sponsor@umd.edu"
 scholarship-contact-email: "code4libaward@gmail.com"
+# NOTE: this doubles as a "show donation text" toggle when not an empty string
 donate-link: ""
 hero-image-alt: "Library of Congress Interior"
 
