@@ -1115,3 +1115,29 @@ jacob-zaborowski:
   keynote: 0
   show: 1
   image-src: /assets/img/nopics/nopic9.jpg
+
+chris-bourg:
+  name: Chris Bourg
+  last: Bourg
+  bio: "Chris Bourg is the Director of Libraries at Massachusetts Institute of Technology (MIT), where she also has oversight of the MIT Press. She chooses to believe that libraries can and should promote social justice. (Detailed bio at http://bit.ly/cbourgbio)"
+  work-title: Director of Libraries
+  institution: Massachusetts Institute of Technology
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 1
+  show: 1
+  image-src: /assets/img/speakers/bourg_chris.jpg
+
+mega-subramaniam:
+  name: Mega Subramaniam
+  last: Subramaniam
+  bio: "Mega Subramaniam is an Associate Professor at the College of Information Studies at the University of Maryland. Dr. Subramaniam’s research focuses on enhancing the role of libraries in fostering the mastery of emerging literacies that are essential for STEM learning among underserved young people. Dr. Subramaniam serves as a fellow for the Libraries Ready to Code (RtC) project led by the Office for Information Technology Policy at the American Library Association (ALA OITP). (Detailed bio at http://bit.ly/msubramaniambio)"
+  work-title: Associate Professor, College of Information Studies
+  institution: University of Maryland
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 1
+  show: 1
+  image-src: /assets/img/speakers/Subramaniam_Mega.jpg
