@@ -2,8 +2,8 @@
 {% include search_results.html %}
 
 {% if page.type == 'workshop' %}
+    {% assign pageDate = page.date %}
     {% assign pageLength = 'empty' %}
-    {% assign pageDate = 'February 13th' %}
     {% if page.time == 'full' %}
         {% assign pageLength = '9:00-5:00 (w/ lunch break)' %}
     {% elsif page.time == 'am' %}
@@ -13,20 +13,8 @@
     {% endif %}
 {% endif %}
 
-{% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
-    {% if page.day == 1 %}
-        {% assign pageDate = 'February 14th' %}
-    {% endif %}
-    {% if page.day == 2 %}
-        {% assign pageDate = 'February 15th' %}
-    {% endif %}
-    {% if page.day == 3 %}
-        {% assign pageDate = 'February 16th' %}
-    {% endif %}
-{% endif %}
-
-{% if page.type == 'poster' %}
-    {% assign pageDate = 'February 15th' %}
+{% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' or page.type == 'poster' %}
+    {% assign pageDate = page.startTime %}
 {% endif %}
 
 <div class="container">
@@ -74,10 +62,10 @@
                     <!--<h3>Date</h3>-->
                     {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
-                        <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ pageDate }}</a></div>
+                        <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ pageDate | date: "%B %e" }}{% include date_ordinals.html date=pageDate %}</a></div>
                     {% else %}
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
-                        <div class="talk-box-detail-value"> <a href="/workshops">{{ pageDate }}</a></div>
+                        <div class="talk-box-detail-value"> <a href="/workshops">{{ pageDate | date: "%B %e" }}{% include date_ordinals.html date=pageDate %}</a></div>
                     {% endif %}
                 </div>
 
