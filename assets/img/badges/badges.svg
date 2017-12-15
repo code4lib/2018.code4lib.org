@@ -97,6 +97,19 @@
             <path id="thumb-pinky-finger" d="M61.846,94.186 C59.299,94.186 57.235,92.51 57.235,90.444 L57.235,79.208 C57.235,77.14 59.299,75.462 61.846,75.462 L99.288,75.462 C101.834,75.462 103.899,77.14 103.899,79.208 L103.899,90.444 C103.899,92.51 101.834,94.186 99.288,94.186 L61.846,94.186 L61.846,94.186 Z"></path>
             <circle id="thumb-button" stroke="#80D3F1" style="stroke: var(--tertiary-color)" stroke-width="2.199" cx="14.792" cy="46.777" r="6.885"></circle>
         </g>
+
+        <!-- PRESENT -->
+        <g id="present" transform="translate(73,52) scale(.35)" stroke-width="5.1311" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--primary-color); stroke-linecap:round; stroke-linejoin:round; stroke-width:10px;">
+            <rect x="5" y="163.41" width="242" height="127" />
+            <rect x="113.51" y="161.81" width="274.66" height="33" transform="translate(41.93 -180.19) rotate(32.87)" />
+            <polygon points="35.43 154.16 22.89 140.46 4.5 143.02 13.65 126.86 5.53 110.17 23.73 113.88 37.1 100.99 39.19 119.44 55.58 128.18 38.68 135.87 35.43 154.16" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--tertiary-color);stroke-linejoin:round;stroke-width:3px;" />
+            <polygon points="73.29 125.07 72.97 114.27 63.9 108.41 74.07 104.76 76.84 94.32 83.44 102.87 94.23 102.28 88.14 111.2 92.04 121.28 81.67 118.24 73.29 125.07" stroke="#2AACE3" fill="#FFFFFF" style="fill: var(--background-color); stroke: var(--tertiary-color);stroke-linejoin:round;stroke-width:3px;"/>
+            <path d="M179.5,198.5c0,14.92,11.63,27,26,27" transform="translate(-95 -72.59)" stroke="#2AACE3" style="stroke: var(--tertiary-color); stroke-width: 2px;" />
+            <path d="M147.67,208.77A52.48,52.48,0,0,1,171,225" transform="translate(-95 -72.59)" stroke="#2AACE3" style="stroke: var(--tertiary-color); stroke-width: 2px;"/>
+            <path d="M260.82,162.1c-23.45-14.79-36.64-40.69-34-58.89A34.86,34.86,0,0,1,237,83.62c.87-.8,11.77-10.49,25.43-3.51a34.93,34.93,0,0,1,15.18,16.07C285.05,113,279.38,141.51,260.82,162.1Z" transform="translate(-95 -72.59)" />
+            <path d="M264,163.37c14.47-23.65,40.19-37.19,58.43-34.85a34.78,34.78,0,0,1,19.72,10c.82.85,10.65,11.62,3.86,25.38a34.92,34.92,0,0,1-15.86,15.39C313.38,186.93,284.8,181.64,264,163.37Z" transform="translate(-95 -72.59)" />
+            <rect x="153.5" y="283" width="125" height="20" transform="translate(419 9.41) rotate(90)" style="stroke-width: 1px; fill: var(--primary-color);"/>
+        </g>
     </defs>
 
     <!-- ADAMANTIUM BADGE -->
@@ -139,5 +152,12 @@
         <use xlink:href="#badge"></use>
         <use xlink:href="#thumbs"></use>
         <use xlink:href="#thumbs-sparkles"></use>
+    </symbol>
+
+    <!-- PRESENT BADGE -->
+    <symbol id="present-badge" viewBox="0 0 237 220">
+        <use xlink:href="#badge"></use>
+        <use xlink:href="#present"></use>
+        <use xlink:href="#sparkles"></use>
     </symbol>
 </svg>
