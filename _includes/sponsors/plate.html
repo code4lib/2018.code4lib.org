@@ -3,6 +3,7 @@
 {% elsif include.level == 'gold' or level == 'silver' or level == 'bronze' %}medal-badge
 {% elsif include.level == 'contributor' %}star-badge
 {% elsif include.level == 'supporter' %}thumbs-badge
+{% elsif include.level == 'giveaway' %}present-badge
 {% else %}{{ level }}-badge
 {% endif %}
 {% endcapture %}
