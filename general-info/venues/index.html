@@ -10,11 +10,11 @@ subnav:
   url: '#reception'
 - name: Accommodations
   url: '#accommodations'
+- name: Newcomer Dinner
+  url: '#dinner'
 ---
 
 {% comment %} // Add these to subnav once we have content
-- name: Newcomer Dinner
-  url: '#dinner'
 - name: Play &amp; Share
   url: '#play-and-share'
 - name: Reception
@@ -38,10 +38,9 @@ subnav:
           {% include_relative reception.html %}
         </div>
       </div>
-
+      
       {% comment %}
 
-        {% include_relative dinner.html %}
         {% include_relative playandshare.html %}
         {% include_relative reception.html %}
         {% include_relative workshops.html %}
@@ -53,5 +52,12 @@ subnav:
           {% include_relative accommodations.html %}
         </div>
       </div>
+      
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative dinner.html %}
+        </div>
+      </div>
+
     </div>
 </div>
