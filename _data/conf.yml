@@ -92,7 +92,7 @@ panel-voting:
   end-date:
 
 shirt-voting:
-  show: true
+  show: false
   url: "https://www.surveymonkey.com/r/F3T2V8V"
   end-date: "2017-12-24"
 
