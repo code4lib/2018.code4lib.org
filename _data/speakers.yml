@@ -219,6 +219,19 @@ lauren-di-monte:
   show: 1
   image-src: /assets/img/speakers/DiMonte_Lauren.jpg
 
+mike-durbin:
+  name: Mike Durbin
+  last: Durbin
+  bio:
+  work-title:
+  institution:
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 0
+  show: 1
+  image-src: /assets/img/nopics/nopic8.jpg
+
 naomi-dushay:
   name: Naomi Dushay
   last: Dushay
