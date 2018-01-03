@@ -73,7 +73,7 @@ forum-room:
     Building: 'Omni Shoreham Hotel'
     Room: 'Forum Room'
     AM-sessions: the-virtualized-library-a-librarian-s-introduction-to-docker-and-virtual-machines
-    PM-sessions: supercharging-your-work-with-embedded-metadata-workflows
+    PM-sessions: ''
     Map: ''
 petworth-library:
     id: petworth-library
