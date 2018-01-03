@@ -184,3 +184,15 @@
 - name: Washington Research Library Consortium
   link: https://www.wrlc.org/
   level: supporter
+  
+- name: Oxygen XML Editor
+  link: https://www.oxygenxml.com/
+  level: giveaway
+  
+- name: Rosenfeld Media
+  link: http://rosenfeldmedia.com/
+  level: giveaway
+  
+- name: JetBrains
+  link: https://www.jetbrains.com/
+  level: giveaway
