@@ -187,13 +187,16 @@
   level: supporter
   
 - name: Oxygen XML Editor
+  img: /assets/img/sponsors/oxygen250x80.png
   link: https://www.oxygenxml.com/
   level: giveaway
   
 - name: Rosenfeld Media
+  img: /assets/img/sponsors/RM_Logo_logotype.jpg
   link: http://rosenfeldmedia.com/
   level: giveaway
   
 - name: JetBrains
+  img: /assets/img/sponsors/jetbrains-variant-3.png
   link: https://www.jetbrains.com/
   level: giveaway
