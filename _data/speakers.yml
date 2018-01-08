@@ -427,6 +427,32 @@ christa-jameson:
   show: 1
   image-src: /assets/img/nopics/nopic10.jpg
 
+bergis-jules:
+  name: Bergis Jules
+  last: Jules
+  bio:
+  work-title: Archivist and Community Lead for Documenting the Now
+  institution: University of California, Riverside
+  twitter-handle: bergisjules
+  slack-handle:
+  github-handle:
+  keynote: 0
+  show: 1
+  image-src: /assets/img/speakers/jules-bergis.jpg
+
+francis-kayiwa:
+  name: Francis Kayiwa
+  last: Kayiwa
+  bio:
+  work-title: Señor UNIX Administrator
+  institution: Princeton University
+  twitter-handle: kayiwa
+  slack-handle:
+  github-handle: kayiwa
+  keynote: 0
+  show: 1
+  image-src: /assets/img/speakers/kayiwa-francis.jpg
+
 david-keiser-clark:
   name: David Keiser-Clark
   last: Keiser-Clark
@@ -914,9 +940,9 @@ ed-summers:
   bio:
   work-title: Lead Developer
   institution: Maryland Institute for Technology in the Humanities
-  twitter-handle:
+  twitter-handle: edsu
   slack-handle:
-  github-handle:
+  github-handle: edsu
   keynote: 0
   show: 1
   image-src: /assets/img/speakers/Summers_Ed.jpg
