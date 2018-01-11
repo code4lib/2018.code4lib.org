@@ -648,6 +648,19 @@ jeff-mixter:
   show: 1
   image-src: /assets/img/speakers/mixter_jeff.jpg
 
+carrie-moran:
+  name: Carrie Moran
+  last: Moran
+  bio:
+  work-title: Head of User Services/User Experience Librarian
+  institution: California State University San Marcos
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 0
+  show: 1
+  image-src: /assets/img/speakers/moran_carrie.jpg
+
 gavin-morris:
   name: Gavin Morris
   last: Morris
