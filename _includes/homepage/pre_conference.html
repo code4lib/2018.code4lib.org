@@ -149,6 +149,16 @@
                 %}
             {% endif %}
 
+            <!-- Posters -->
+            {% if site.data.conf.poster-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Propose a Poster!'
+                    end-date=site.data.conf.poster-proposals.end-date
+                    url=site.data.conf.poster-proposals.submission-form
+                    url-text='Submit a Poster'
+                %}
+            {% endif %}
+
             <!-- Workshops -->
             {% if site.data.conf.workshop-proposals.show %}
                 {% include homepage/going_on_block.html
