@@ -59,7 +59,7 @@ panel-proposals:
   end-date:
 
 poster-proposals:
-    show: true
+    show: false
     submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSfT9F22hexnAHDc5YWdC28dD1AErH05njVRnRgb8krvctKdNw/viewform?usp=sf_link"
     end-date: "2018-01-14"
 
