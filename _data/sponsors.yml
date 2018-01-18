@@ -71,6 +71,10 @@
   link: http://www.indexdata.com/
   level: gold
 
+- name: Ex Libris
+  link: http://exlibrisgroup.com/
+  level: bronze
+
 - name: University of California, San Diego
   img: /assets/img/sponsors/UCSD_NewLibraryLogo-Black.png
   link: https://ucsd.edu/
@@ -186,6 +190,10 @@
   link: https://www.wrlc.org/
   level: supporter
   
+- name: Harvard Library
+  link: http://library.harvard.edu/
+  level: contributor
+  
 - name: Oxygen XML Editor
   img: /assets/img/sponsors/oxygen250x80.png
   link: https://www.oxygenxml.com/
@@ -199,4 +207,8 @@
 - name: JetBrains
   img: /assets/img/sponsors/jetbrains-variant-3.png
   link: https://www.jetbrains.com/
+  level: giveaway
+  
+- name: GitHub
+  link: https://github.com/
   level: giveaway
