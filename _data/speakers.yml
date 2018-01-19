@@ -323,6 +323,19 @@ walter-forsberg:
   show: 1
   image-src: /assets/img/nopics/nopic1.jpg
 
+andrew-french:
+  name: Andrew French
+  last: French
+  bio:
+  work-title: Director of Sales Operations
+  institution: Ex Libris
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 0
+  show: 1
+  image-src: /assets/img/nopics/nopic10.jpg
+
 walt-gurley:
   name: Walt Gurley
   last: Gurley
@@ -426,19 +439,6 @@ shane-huddleston:
   keynote: 0
   show: 1
   image-src: /assets/img/speakers/huddleston_shane.jpeg
-
-christa-jameson:
-  name: Christa Jameson
-  last: Jameson
-  bio:
-  work-title: Director of Marketing
-  institution: Ex Libris
-  twitter-handle:
-  slack-handle:
-  github-handle:
-  keynote: 0
-  show: 1
-  image-src: /assets/img/nopics/nopic10.jpg
 
 bergis-jules:
   name: Bergis Jules
@@ -1076,6 +1076,19 @@ whitni-watkins:
   keynote: 0
   show: 1
   image-src: /assets/img/speakers/watkins_whitni.jpg
+
+josh-weisman:
+  name: Josh Weisman
+  last: Weisman
+  bio:
+  work-title: VP Development
+  institution: Ex Libris
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 0
+  show: 1
+  image-src: /assets/img/nopics/nopic1.jpg
 
 elizabeth-wickes:
   name: Elizabeth Wickes
