@@ -167,6 +167,19 @@ esme-cowles:
   show: 1
   image-src: /assets/img/nopics/nopic2.jpg
 
+jenn-dandle:
+  name: Jenn Dandle
+  last: Dandle
+  bio:
+  work-title: Web Manager
+  institution: UC San Diego Library
+  twitter-handle:
+  slack-handle:
+  github-handle:
+  keynote: 0
+  show: 1
+  image-src: /assets/img/speakers/Dandle_Jenn.jpg
+
 robin-davis:
   name: Robin Davis
   last: Davis
@@ -191,7 +204,7 @@ katherine-deibel:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic4.jpg
+  image-src: /assets/img/speakers/Deibel_Katherine.jpg
 
 michael-della-bitta:
   name: Michael Della Bitta
