@@ -2,6 +2,13 @@ cua-campus:
     id: cua-campus
     Building: 'CUA Campus'
     Room: 'Law School Building'
+    AM-sessions: learn-tech-to-teach-tech
+    PM-sessions: learn-tech-to-teach-tech
+    Map: ''
+cua-campus-2:
+    id: cua-campus-2
+    Building: 'CUA Campus'
+    Room: 'Law School Building'
     AM-sessions: iiif-hands-on-technical-workshop
     PM-sessions: iiif-hands-on-technical-workshop
     Map: ''
@@ -10,20 +17,20 @@ daniel-shaw-library:
     Building: 'Daniel/Shaw Library'
     Room: 'Meeting Room'
     AM-sessions: an-introduction-to-openrefine
-    PM-sessions: writing-plug-ins-for-archivesspace
+    PM-sessions: building-open-integrating-open-source-discovery-tools-with-summon-and-alma
     Map: ''
 georgetown-library:
     id: georgetown-library
     Building: 'Georgetown Library'
     Room: 'Meeting Room'
-    AM-sessions: digital-empathy-creating-safe-spaces-online
-    PM-sessions: building-open-integrating-open-source-discovery-tools-with-summon-and-alma
+    AM-sessions: ''
+    PM-sessions: ''
     Map: ''
 mt-pleasant-library:
     id: mt-pleasant-library
     Building: 'Mt. Pleasant Library'
     Room: 'Meeting Room'
-    AM-sessions: advocating-for-library-accessibility-an-introduction
+    AM-sessions: ''
     PM-sessions: aria-basics-making-your-web-content-sing-accessibility
     Map: ''
 northeast-library:
@@ -51,8 +58,8 @@ council-room:
     id: council-room
     Building: 'Omni Shoreham Hotel'
     Room: 'Council Room'
-    AM-sessions:
-    PM-sessions:
+    AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
+    sPM-sessions: getting-started-visualizing-your-iot-data-in-tableau
     Map: ''
 cabinet-room:
     id: cabinet-room
@@ -65,7 +72,7 @@ senate-room:
     id: senate-room
     Building: 'Omni Shoreham Hotel'
     Room: 'Senate Room'
-    AM-sessions: spark-in-the-dark-101
+    AM-sessions: digital-empathy-creating-safe-spaces-online
     PM-sessions: isle-islandora-installation-simplified
     Map: ''
 forum-room:
@@ -75,31 +82,31 @@ forum-room:
     AM-sessions: the-virtualized-library-a-librarian-s-introduction-to-docker-and-virtual-machines
     PM-sessions: ''
     Map: ''
+private-dining-room:
+    id: private-dining-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Private Dining Room'
+    AM-sessions: advocating-for-library-accessibility-an-introduction
+    PM-sessions: introduction-to-omeka-s
+    Map: ''
+executive-room:
+    id: executive-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Executive Room'
+    AM-sessions: solr-for-newbies
+    PM-sessions: writing-plug-ins-for-archivesspace
+    Map: ''
 petworth-library:
     id: petworth-library
     Building: 'Petworth Library'
     Room: 'Meeting Room'
     AM-sessions: introduction-to-spotlight
-    PM-sessions: introduction-to-omeka-s
+    PM-sessions:
     Map: ''
 west-end-library:
     id: west-end-library
     Building: 'West End Library'
     Room: 'Meeting Room'
-    AM-sessions: solr-for-newbies
+    AM-sessions: spark-in-the-dark-101
     PM-sessions: build-your-own-twitter-bot-a-gentle-and-fun-introduction-to-python
-    Map: ''
-tbd-1:
-    id: tbd-1
-    Building: 'To Be Determined'
-    Room: ''
-    AM-sessions: learn-tech-to-teach-tech
-    PM-sessions: learn-tech-to-teach-tech
-    Map: ''
-tbd-2:
-    id: tbd-2
-    Building: 'To Be Determined'
-    Room: ''
-    AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
-    PM-sessions: getting-started-visualizing-your-iot-data-in-tableau
     Map: ''
