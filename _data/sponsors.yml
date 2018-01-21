@@ -72,6 +72,7 @@
   level: gold
 
 - name: Ex Libris
+  img: /assets/img/sponsors/Ex_Libris_a_ProQuest_Company_logo.png
   link: http://exlibrisgroup.com/
   level: bronze
 
@@ -191,6 +192,7 @@
   level: supporter
   
 - name: Harvard Library
+  img: /assets/img/sponsors/Harvard_Library_Horizontal_Small_Signature_RGB.jpg
   link: http://library.harvard.edu/
   level: contributor
   
@@ -210,5 +212,6 @@
   level: giveaway
   
 - name: GitHub
+  img: /assets/img/sponsors/GitHub_Logo.png
   link: https://github.com/
   level: giveaway
