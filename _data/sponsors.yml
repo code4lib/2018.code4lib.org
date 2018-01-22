@@ -196,6 +196,10 @@
   link: http://library.harvard.edu/
   level: contributor
   
+- name: ESRI
+  link: https://www.esri.com/en-us/home
+  level: platinum 
+  
 - name: Oxygen XML Editor
   img: /assets/img/sponsors/oxygen250x80.png
   link: https://www.oxygenxml.com/
