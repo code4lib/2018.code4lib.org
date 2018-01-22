@@ -479,19 +479,6 @@ david-keiser-clark:
   show: 1
   image-src: /assets/img/nopics/nopic10.jpg
 
-elizabeth-kelly:
-  name: Elizabeth Kelly
-  last: Kelly
-  bio:
-  work-title:
-  institution:
-  twitter-handle:
-  slack-handle:
-  github-handle:
-  keynote: 0
-  show: 1
-  image-src: /assets/img/nopics/nopic1.jpg
-
 dan-kerchner:
   name: Dan Kerchner
   last: Kerchner
@@ -934,19 +921,6 @@ noah-smith:
   show: 1
   image-src: /assets/img/nopics/nopic1.jpg
 
-ayla-stein:
-  name: Ayla Stein
-  last: Stein
-  bio:
-  work-title:
-  institution:
-  twitter-handle:
-  slack-handle:
-  github-handle:
-  keynote: 0
-  show: 1
-  image-src: /assets/img/nopics/nopic2.jpg
-
 todd-stoffer:
   name: Todd Stoffer
   last: Stoffer
@@ -1153,7 +1127,7 @@ liz-woolcott:
   github-handle:
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic6.jpg
+  image-src: /assets/img/speakers/woolcott_liz.jpg
 
 laura-wrubel:
   name: Laura Wrubel
