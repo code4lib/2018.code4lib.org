@@ -19,13 +19,6 @@ mt-pleasant-library:
     AM-sessions: an-introduction-to-openrefine
     PM-sessions: building-open-integrating-open-source-discovery-tools-with-summon-and-alma
     Map: ''
-mt-pleasant-library-2:
-    id: mt-pleasant-library-2
-    Building: 'Mt. Pleasant Neighborhood Library'
-    Room: 'Meeting Room'
-    AM-sessions: ''
-    PM-sessions: aria-basics-making-your-web-content-sing-accessibility
-    Map: ''
 northeast-library:
     id: northeast-library
     Building: 'Northeast Library'
@@ -73,7 +66,7 @@ forum-room:
     Building: 'Omni Shoreham Hotel'
     Room: 'Forum Room'
     AM-sessions: the-virtualized-library-a-librarian-s-introduction-to-docker-and-virtual-machines
-    PM-sessions: ''
+    PM-sessions: aria-basics-making-your-web-content-sing-accessibility
     Map: ''
 private-dining-room:
     id: private-dining-room
