@@ -12,23 +12,16 @@ cua-campus-2:
     AM-sessions: iiif-hands-on-technical-workshop
     PM-sessions: iiif-hands-on-technical-workshop
     Map: ''
-daniel-shaw-library:
-    id: daniel-shaw-library
-    Building: 'Daniel/Shaw Library'
+mt-pleasant-library:
+    id: mt-pleasant-library
+    Building: 'Mt. Pleasant Neighborhood Library'
     Room: 'Meeting Room'
     AM-sessions: an-introduction-to-openrefine
     PM-sessions: building-open-integrating-open-source-discovery-tools-with-summon-and-alma
     Map: ''
-georgetown-library:
-    id: georgetown-library
-    Building: 'Georgetown Library'
-    Room: 'Meeting Room'
-    AM-sessions: ''
-    PM-sessions: ''
-    Map: ''
-mt-pleasant-library:
-    id: mt-pleasant-library
-    Building: 'Mt. Pleasant Library'
+mt-pleasant-library-2:
+    id: mt-pleasant-library-2
+    Building: 'Mt. Pleasant Neighborhood Library'
     Room: 'Meeting Room'
     AM-sessions: ''
     PM-sessions: aria-basics-making-your-web-content-sing-accessibility
@@ -96,9 +89,9 @@ executive-room:
     AM-sessions: solr-for-newbies
     PM-sessions: writing-plug-ins-for-archivesspace
     Map: ''
-petworth-library:
-    id: petworth-library
-    Building: 'Petworth Library'
+tenley-library:
+    id: tenley-Library
+    Building: 'Tenley-Friendship Neighborhood Library'
     Room: 'Meeting Room'
     AM-sessions: introduction-to-spotlight
     PM-sessions:
