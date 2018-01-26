@@ -82,8 +82,19 @@ title: Preconference Workshops
                         </div>
                         <div class="col-xs-12">
                             <h5>Location</h5>
-                            <p><a href="{{ postMap }}">{{ postLocale.Building }} - {{ postLocale.Room }}</a></p>
-                            <!--<p><a href="{{ postLocale.Map }}" target="_blank">{{ postLocale.Building }} - {{ postLocale.Room }}</a></p>-->
+                            <p>
+                                <a href="{{ postMap }}">
+                                    {{ postLocale.Building }} - {{ postLocale.Room }}
+                                </a>
+                            </p>
+
+                            {% if postLocale.map.size > 0 %}
+                                <p>
+                                    <a href="{{ postLocale.Map }}" target="_blank">
+                                        {{ postLocale.Building }} - {{ postLocale.Room }}
+                                    </a>
+                                </p>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
