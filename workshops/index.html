@@ -11,7 +11,7 @@ title: Preconference Workshops
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-12">
-            <p>Preconference Workshops will start at 9:00 a.m. and 2:00 p.m.</p>
+            <p>Preconference Workshops will start at 9:30 a.m. and 2:30 p.m.</p>
         </div>
     </div>
     <div class="row" id="workshop-sorting-div">
@@ -47,12 +47,12 @@ title: Preconference Workshops
                         {% assign postLocale = loc %}
                         {% assign postMap = loc.Map %}
                     {% elsif loc.AM-sessions == post.slugTitle %}
-                        {% assign postLength = '9-12' %}
+                        {% assign postLength = '9:30-12:30' %}
                         {% assign postTime = 'am' %}
                         {% assign postLocale = loc %}
                         {% assign postMap = loc.Map %}
                     {% elsif loc.PM-sessions == post.slugTitle %}
-                        {% assign postLength = '2:00-5:00' %}
+                        {% assign postLength = '2:30-5:30' %}
                         {% assign postTime = 'pm' %}
                         {% assign postLocale = loc %}
                         {% assign postMap = loc.Map %}
