@@ -24,15 +24,15 @@
   day1: true
   time: 10:00-10:15
 
-- timeImg: 9.55.png
+- timeImg: 2.40.png
   title: Break
-  day2: true
-  time: 09:55-10:00
+  day1: true
+  time: 2:40-2:45
 
-- timeImg: 10.55.png
+- timeImg: 9.50.png
   title: Break
   day2: true
-  time: 10:55-11:00
+  time: 09:50-10:05
 
 - timeImg: 3.00.png
   title: Break
@@ -45,10 +45,10 @@
   time: 10:00-10:10
 
 # Breakouts
-- timeImg: 2.40.png
+- timeImg: 2.45.png
   title: Breakout Sessions 1
   day1: true
-  time: 14:40-15:40
+  time: 14:45-15:55
 
 - timeImg: 10.00.png
   title: Breakout Sessions 2
@@ -56,10 +56,10 @@
   time: 10:00-10:55
 
 # lightning
-- timeImg: 3.45.png
+- timeImg: 4.00.png
   title: Lightning Talks 1
   day1: true
-  time: 15:45-16:50
+  time: 16:00-17:05
 
 - timeImg: 2.05.png
   title: Lightning Talks 2
@@ -71,11 +71,18 @@
   day3: true
   time: 10:15-11:00
 
+# Poster Session
+Thursday, February 15 starting at 3:15pm
+- timeImg: 3.15.png
+  title: Poster Session in Foyer of the Regency Ballroom
+  day2: true
+  time: 3:15 - 3:40
+
 # wrap ups
-- timeImg: 4.50.png
+- timeImg: 5.05.png
   title: Daily Wrap-up
   day1: true
-  time: 16:50-17:00
+  time: 17:05-17:15
 
 - timeImg: 5.10.png
   title: Daily Wrap-up
@@ -189,11 +196,11 @@
   start: 1518700200
   end: 1518703500
 
-- timeImg: 3.20.png
+- timeImg: 3.40.png
   title: Group 4&#58; 110 minutes (6 talks)
   day2: true
   groupId: 6
-  time: 15:20-17:10
+  time: 15:40-17:10
   start: 1518708000
   end: 1518714600
 
