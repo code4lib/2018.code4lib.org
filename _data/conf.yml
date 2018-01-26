@@ -71,7 +71,7 @@ shirt-proposals:
 host-proposals:
   show: true
   submission-form: "https://wiki.code4lib.org/2019_Hosting_Proposals"
-  end-date: "2018-01-22"
+  end-date: "2018-02-23"
 
 ###################
 # Voting
