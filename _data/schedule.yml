@@ -29,10 +29,10 @@
   day1: true
   time: 2:40-2:45
 
-- timeImg: 9.50.png
+- timeImg: 9.55.png
   title: Break
   day2: true
-  time: 09:50-10:05
+  time: 09:55-10:05
 
 - timeImg: 3.00.png
   title: Break
@@ -50,10 +50,10 @@
   day1: true
   time: 14:45-15:55
 
-- timeImg: 10.00.png
+- timeImg: 10.05.png
   title: Breakout Sessions 2
   day2: true
-  time: 10:00-10:55
+  time: 10:05-10:55
 
 # lightning
 - timeImg: 4.00.png
@@ -72,11 +72,10 @@
   time: 10:15-11:00
 
 # Poster Session
-Thursday, February 15 starting at 3:15pm
 - timeImg: 3.15.png
   title: Poster Session in Foyer of the Regency Ballroom
   day2: true
-  time: 3:15 - 3:40
+  time: 15:15 - 15:35
 
 # wrap ups
 - timeImg: 5.05.png
@@ -126,10 +125,10 @@ Thursday, February 15 starting at 3:15pm
   day2: true
   time: 13:05-13:10
 
-- timeImg: 3.15.png
+- timeImg: 3.35.png
   title: Announcements
   day2: true
-  time: 15:15-15:20
+  time: 15:35-15:40
 
 - timeImg: 10.10.png
   title: Announcements
