@@ -24,13 +24,22 @@ title: Preconference Workshops
             </div>
         </div>
         <div class="col-xs-12 col-sm-6">
-            <!--<select class="form-control sort-workshop-locale">
+            <select class="form-control sort-workshop-locale">
                 <option value="all">All Locations</option>
+                {% comment %}
+                    All the contortions below dedupe the options list that's being built,
+                    something that Liquid is really not designed to do.
+                {% endcomment %}
+                {% assign location_options = "" | split: "" %}
                 {% for location in site.data.locations %}
                     {% assign loc = location[1] %}
-                    <option value="{{ loc.Room | slugify }}">{{ loc.Room }} - {{ loc.Building }}</option>
+                    {% assign location_code = loc.Room | append: loc.Building | slugify %}
+                    {% if location_options contains location_code %}{% else %}
+                        {% assign location_options = location_options | push: location_code %}
+                        <option value="{{ location_code }}">{{ loc.Room }} - {{ loc.Building }}</option>
+                    {% endif %}
                 {% endfor %}
-            </select>-->
+            </select>
         </div>
     </div>
     <div class="row">
@@ -58,7 +67,7 @@ title: Preconference Workshops
                         {% assign postMap = loc.Map %}
                     {% endif %}
                 {% endfor %}
-                <div class="well workshop-well" data-length="{{ postTime }}" data-location="{{ postLocale.Room | slugify }}">
+                <div class="well workshop-well" data-length="{{ postTime }}" data-location="{{ postLocale.Room | append: postLocale.Building | slugify }}">
                     <div class="row">
                         <div class="col-xs-12">
                             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
