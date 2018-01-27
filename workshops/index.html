@@ -11,7 +11,7 @@ title: Preconference Workshops
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-12">
-            <p>Preconference Workshops will start at 9:00 a.m. and 2:00 p.m.</p>
+            <p>Preconference Workshops will start at 9:30 a.m. and 2:30 p.m.</p>
         </div>
     </div>
     <div class="row" id="workshop-sorting-div">
@@ -24,13 +24,22 @@ title: Preconference Workshops
             </div>
         </div>
         <div class="col-xs-12 col-sm-6">
-            <!--<select class="form-control sort-workshop-locale">
+            <select class="form-control sort-workshop-locale">
                 <option value="all">All Locations</option>
+                {% comment %}
+                    All the contortions below dedupe the options list that's being built,
+                    something that Liquid is really not designed to do.
+                {% endcomment %}
+                {% assign location_options = "" | split: "" %}
                 {% for location in site.data.locations %}
                     {% assign loc = location[1] %}
-                    <option value="{{ loc.Room | slugify }}">{{ loc.Room }} - {{ loc.Building }}</option>
+                    {% assign location_code = loc.Room | append: loc.Building | slugify %}
+                    {% if location_options contains location_code %}{% else %}
+                        {% assign location_options = location_options | push: location_code %}
+                        <option value="{{ location_code }}">{{ loc.Room }} - {{ loc.Building }}</option>
+                    {% endif %}
                 {% endfor %}
-            </select>-->
+            </select>
         </div>
     </div>
     <div class="row">
@@ -42,23 +51,23 @@ title: Preconference Workshops
                 {% for location in site.data.locations %}
                     {% assign loc = location[1] %}
                     {% if loc.AM-sessions == post.slugTitle and loc.PM-sessions == post.slugTitle %}
-                        {% assign postLength = '9:00-5:00 (w/ lunch break)' %}
+                        {% assign postLength = '9:30-5:30 (w/ lunch break)' %}
                         {% assign postTime = 'full' %}
                         {% assign postLocale = loc %}
                         {% assign postMap = loc.Map %}
                     {% elsif loc.AM-sessions == post.slugTitle %}
-                        {% assign postLength = '9-12' %}
+                        {% assign postLength = '9:30-12:30' %}
                         {% assign postTime = 'am' %}
                         {% assign postLocale = loc %}
                         {% assign postMap = loc.Map %}
                     {% elsif loc.PM-sessions == post.slugTitle %}
-                        {% assign postLength = '2:00-5:00' %}
+                        {% assign postLength = '2:30-5:30' %}
                         {% assign postTime = 'pm' %}
                         {% assign postLocale = loc %}
                         {% assign postMap = loc.Map %}
                     {% endif %}
                 {% endfor %}
-                <div class="well workshop-well" data-length="{{ postTime }}" data-location="{{ postLocale.Room | slugify }}">
+                <div class="well workshop-well" data-length="{{ postTime }}" data-location="{{ postLocale.Room | append: postLocale.Building | slugify }}">
                     <div class="row">
                         <div class="col-xs-12">
                             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -73,8 +82,19 @@ title: Preconference Workshops
                         </div>
                         <div class="col-xs-12">
                             <h5>Location</h5>
-                            <p><a href="{{ postMap }}">{{ postLocale.Building }} - {{ postLocale.Room }}</a></p>
-                            <!--<p><a href="{{ postLocale.Map }}" target="_blank">{{ postLocale.Building }} - {{ postLocale.Room }}</a></p>-->
+                            <p>
+                                <a href="{{ postMap }}">
+                                    {{ postLocale.Building }} - {{ postLocale.Room }}
+                                </a>
+                            </p>
+
+                            {% if postLocale.map.size > 0 %}
+                                <p>
+                                    <a href="{{ postLocale.Map }}" target="_blank">
+                                        {{ postLocale.Building }} - {{ postLocale.Room }}
+                                    </a>
+                                </p>
+                            {% endif %}
                         </div>
                     </div>
                 </div>

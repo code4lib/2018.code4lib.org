@@ -5,11 +5,11 @@
     {% assign pageDate = page.date %}
     {% assign pageLength = 'empty' %}
     {% if page.time == 'full' %}
-        {% assign pageLength = '9:00-5:00 (w/ lunch break)' %}
+        {% assign pageLength = '9:30-5:30 (w/ lunch break)' %}
     {% elsif page.time == 'am' %}
-        {% assign pageLength = '9-12' %}
+        {% assign pageLength = '9:30-12:30' %}
     {% elsif page.time == 'pm' %}
-        {% assign pageLength = '2:00-5:00' %}
+        {% assign pageLength = '2:30-5:30' %}
     {% endif %}
 {% endif %}
 
