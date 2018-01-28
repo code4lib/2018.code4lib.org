@@ -199,6 +199,10 @@
 - name: ESRI
   link: https://www.esri.com/en-us/home
   level: platinum 
+   
+- name: The iSchool at UW-Madison
+  link: http://ischool.wisc.edu
+  level: supporter
   
 - name: Oxygen XML Editor
   img: /assets/img/sponsors/oxygen250x80.png

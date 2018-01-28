@@ -154,18 +154,18 @@ deirdre-costello:
   show: 1
   image-src: /assets/img/speakers/costello_deirdre.jpg
 
-esme-cowles:
-  name: Esme Cowles
+esmé-cowles:
+  name: Esmé Cowles
   last: Cowles
   bio:
-  work-title: Digital Infrastructure Developer
+  work-title: Acting Application Development Manager
   institution: Princeton University Library
-  twitter-handle:
-  slack-handle:
-  github-handle:
+  twitter-handle: escowles
+  slack-handle: escowles
+  github-handle: escowles
   keynote: 0
   show: 1
-  image-src: /assets/img/nopics/nopic2.jpg
+  image-src: /assets/img/speakers/cowles_esme.jpg
 
 jenn-dandle:
   name: Jenn Dandle
