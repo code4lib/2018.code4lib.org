@@ -113,27 +113,45 @@ active: 'Conduct & Safety'
                     <h3>Contacting a Duty Officer</h3>
 
                     <p>
-                      Duty Officers for the 2018 conference have not yet been selected. You may still be able to contact a duty officer from the previous year using one of these methods:
                       <ul>
-                        <li>Send an email to <a href="mailto:c4l17-duty-officers@googlegroups.com">c4l17-duty-officers@googlegroups.com</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.</li>
+                        <li>Send an email to <a href="mailto:c4l18-duty-officers@googlegroups.com">c4l18-duty-officers@googlegroups.com</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.</li>
                         <li>Use the <code>/dutyofficers</code> command on the <a href="https://code4lib.slack.com/">Code4lib Slack team.</a></li>
-                        <li>Use the <a href="https://c4l17.libraryexchange.org/">anonymous report form</a>.</li>
+                        <li>Use the <a href="https://c4l18.libraryexchange.org/">anonymous report form</a>.</li>
                       </ul>
                     </p>
 
                     {% if site.data.duty-officers %}
                     <div class="row">
-                    {% for officer in site.data.duty-officers %}
+                    {% assign onsite_officers = site.data.duty-officers | where:"onsite","true" %}
+
+                    <h3> On-Site Duty Officers </h3>
+                    {% for officer in onsite_officers %}
+
                         <div class="col-md-4">
                             <div class="speaker-box text-center">
                                 <div class="speaker-box-inner">
                                     <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
-                                    <h3 class="speaker-name">{{ officer.name }}</h3>
+                                    <h4 class="speaker-name">{{ officer.name }}</h4>
                                 </div>
                             </div>
                         </div>
                     {% endfor %}
                     </div>
+                    <div class="row">
+                      <h3> Online Duty Officers</h3>
+                      <p> Duty Officers are also present on various online code4lib
+                        platforms, primarily Slack, IRC, and the #c4l18 conference hashtag feed.
+                      </p>
+                      {% assign online_officers = site.data.duty-officers | where:"onsite","false" %}
+                      {% for officer in online_officers %}
+                      <div class="col-md-4">
+                        <h4 class="speaker-name">{{ officer.name }}</h4>
+                      </div>
+                      {% endfor %}
+                    </div>
+
+
+
                     {% endif %}
 
                     {% if site.data.duty-officer-schedule %}

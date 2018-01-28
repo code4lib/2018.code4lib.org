@@ -1,59 +1,64 @@
-- name: "Galen Charlton"
+charlton:
+  name: "Galen Charlton"
   img: assets/img/duty-officers/Charlton_Galen.png
   onsite: true
-  shift: ""
 
-- name: "Shaun Ellis"
+ellis:
+  name: "Shaun Ellis"
   img: assets/img/duty-officers/Ellis_Shaun.png
   onsite: true
-  shift: ""
 
-- name: "Bobbi Fox"
+fox:
+  name: "Bobbi Fox"
   img: assets/img/duty-officers/Fox_Bobbi.png
   onsite: true
-  shift: ""
 
-- name: "Mark Matienzo"
+matienzo:
+  name: "Mark Matienzo"
   img: assets/img/duty-officers/Matienzo_Mark.jpg
   onsite: true
-  shift: ""
 
-- name: "Chad Nelson"
+nelson:
+  name: "Chad Nelson"
   img: assets/img/duty-officers/Nelson_Chad.jpg
   onsite: true
-  shift: ""
 
-- name: "Bethany Nowviskie"
+nowviskie:
+  name: "Bethany Nowviskie"
   img: assets/img/duty-officers/Nowviskie_Bethany.jpg
   onsite: true
-  shift: ""
 
-- name: "Christie Peterson"
+peterson:
+  name: "Christie Peterson"
   img: assets/img/duty-officers/Peterson_Christie.jpg
   onsite: true
-  shift: ""
 
-- name: "Becky Yoose"
+yoose:
+  name: "Becky Yoose"
   img: assets/img/duty-officers/Yoose_Becky.jpg
   onsite: true
-  shift: ""
 
-- name: "Karen Coyle"
+coyle:
+  name: "Karen Coyle"
   onsite: false
-  shift: ""
+  handle: ""
 
-- name: "Josh Hutchinson"
+hutchinson:
+  name: "Josh Hutchinson"
   onsite: false
-  shift: ""
+  handle: ""
 
-- name: "Katherine Kim"
+kim:
+  name: "Katherine Kim"
   onsite: false
-  shift: ""
+  handle: ""
 
-- name: "Jill Locascio"
+locascio:
+  name: "Jill Locascio"
   onsite: false
-  shift: ""
+  handle: ""
 
-- name: "Becca Quon"
+quon:
+  name: "Becca Quon"
   onsite: false
-  shift: ""
+  handle: ""
