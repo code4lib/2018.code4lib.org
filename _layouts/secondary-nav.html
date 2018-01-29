@@ -8,16 +8,16 @@
                 {% for nav in site.data.navs[page.nav] %}
                     {% if page.active == nav.name %}
                         <li role="presentation" class="active">
-                            <a href="{{ nav.url }}">{{ nav.name }}</a>
+                            <a href="{{ nav.url }}"><div class="secondnav-item">{{ nav.name }}</div></a>
                             <ul>
                                 {% for subnav in page.subnav %}
-                                    <li><a href="{{ subnav.url }}">{{ subnav.name }}</a></li>
+                                    <li><a href="{{ subnav.url }}"><div class="secondnav-item">{{ subnav.name }}</div></a></li>
                                 {% endfor %}
                             </ul>
                         </li>
                     {% else %}
                         <li role="presentation">
-                            <a href="{{ nav.url }}">{{ nav.name }}</a>
+                            <a href="{{ nav.url }}"><div class="secondnav-item">{{ nav.name }}</div></a>
                         </li>
                     {% endif %}
                 {% endfor %}
