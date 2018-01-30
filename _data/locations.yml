@@ -1,16 +1,16 @@
-cua-campus:
-    id: cua-campus
-    Building: 'CUA Campus'
-    Room: 'Law School Building'
-    AM-sessions: learn-tech-to-teach-tech
-    PM-sessions: learn-tech-to-teach-tech
-    Map: ''
-cua-campus-2:
-    id: cua-campus-2
+law-school-building:
+    id: law-school-building
     Building: 'CUA Campus'
     Room: 'Law School Building'
     AM-sessions: iiif-hands-on-technical-workshop
     PM-sessions: iiif-hands-on-technical-workshop
+    Map: ''
+pryzbyla-center:
+    id: pryzbyla-center
+    Building: 'CUA Campus'
+    Room: 'Pryzbyla Center 321'
+    AM-sessions: learn-tech-to-teach-tech
+    PM-sessions: learn-tech-to-teach-tech
     Map: ''
 mt-pleasant-library:
     id: mt-pleasant-library
@@ -25,6 +25,13 @@ northeast-library:
     Room: 'Meeting Room'
     AM-sessions: fail4lib-2018
     PM-sessions: impostor-syndrome-us-led-by-an-impostor
+    Map: ''
+cabinet-room:
+    id: cabinet-room
+    Building: 'Omni Shoreham Hotel'
+    Room: 'Cabinet Room'
+    AM-sessions: interacting-with-standards-hands-on-fedora
+    PM-sessions: getting-started-with-static-website-generators
     Map: ''
 congressional-a:
     id: congressional-a
@@ -45,21 +52,14 @@ council-room:
     Building: 'Omni Shoreham Hotel'
     Room: 'Council Room'
     AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
-    sPM-sessions: getting-started-visualizing-your-iot-data-in-tableau
+    PM-sessions:
     Map: ''
-cabinet-room:
-    id: cabinet-room
+executive-room:
+    id: executive-room
     Building: 'Omni Shoreham Hotel'
-    Room: 'Cabinet Room'
-    AM-sessions: interacting-with-standards-hands-on-fedora
-    PM-sessions: getting-started-with-static-website-generators
-    Map: ''
-senate-room:
-    id: senate-room
-    Building: 'Omni Shoreham Hotel'
-    Room: 'Senate Room'
-    AM-sessions: digital-empathy-creating-safe-spaces-online
-    PM-sessions: isle-islandora-installation-simplified
+    Room: 'Executive Room'
+    AM-sessions: solr-for-newbies
+    PM-sessions: writing-plug-ins-for-archivesspace
     Map: ''
 forum-room:
     id: forum-room
@@ -75,12 +75,12 @@ private-dining-room:
     AM-sessions: advocating-for-library-accessibility-an-introduction
     PM-sessions: introduction-to-omeka-s
     Map: ''
-executive-room:
-    id: executive-room
+senate-room:
+    id: senate-room
     Building: 'Omni Shoreham Hotel'
-    Room: 'Executive Room'
-    AM-sessions: solr-for-newbies
-    PM-sessions: writing-plug-ins-for-archivesspace
+    Room: 'Senate Room'
+    AM-sessions: spark-in-the-dark-101
+    PM-sessions: isle-islandora-installation-simplified
     Map: ''
 tenley-library:
     id: tenley-Library
@@ -93,6 +93,6 @@ west-end-library:
     id: west-end-library
     Building: 'West End Library'
     Room: 'Meeting Room'
-    AM-sessions: spark-in-the-dark-101
+    AM-sessions: digital-empathy-creating-safe-spaces-online
     PM-sessions: build-your-own-twitter-bot-a-gentle-and-fun-introduction-to-python
     Map: ''
