@@ -1,9 +1,16 @@
-cua-campus:
-    id: cua-campus
+law-school-building:
+    id: law-school-building
     Building: 'CUA Campus'
     Room: 'Law School Building'
     AM-sessions: iiif-hands-on-technical-workshop
     PM-sessions: iiif-hands-on-technical-workshop
+    Map: ''
+pryzbyla-center:
+    id: pryzbyla-center
+    Building: 'CUA Campus'
+    Room: 'Pryzbyla Center 321'
+    AM-sessions: learn-tech-to-teach-tech
+    PM-sessions: learn-tech-to-teach-tech
     Map: ''
 mt-pleasant-library:
     id: mt-pleasant-library
@@ -40,19 +47,12 @@ congressional-b:
     AM-sessions: large-scale-web-scraping-building-a-toolkit-to-scrape-all-the-things
     PM-sessions: enabling-social-media-research-and-archiving
     Map: ''
-council-room-a:
-    id: council-room-a
+council-room:
+    id: council-room
     Building: 'Omni Shoreham Hotel'
-    Room: 'Council Room A'
+    Room: 'Council Room'
     AM-sessions: getting-started-visualizing-your-iot-data-in-tableau
-    PM-sessions: getting-started-visualizing-your-iot-data-in-tableau
-    Map: ''
-council-room-b:
-    id: council-room-a
-    Building: 'Omni Shoreham Hotel'
-    Room: 'Council Room B'
-    AM-sessions: learn-tech-to-teach-tech
-    PM-sessions: learn-tech-to-teach-tech
+    PM-sessions:
     Map: ''
 executive-room:
     id: executive-room
