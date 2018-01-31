@@ -51,7 +51,7 @@ title: Speakers
             <div class="col-xs-12 speaker-sequence sequence">
             {% for person in site.data.speakers %}
                 {% assign speaker = person[1] %}
-                    {% if speaker.keynote == 0 and speaker.show == 1%}
+                    {% if speaker.keynote == 0 %}
                         {% include speaker_box.html param=speaker %}
                     {% endif %}
             {% endfor %}

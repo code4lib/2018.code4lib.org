@@ -20,40 +20,11 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-9">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.full == true %}
-                    <h4 class="text-danger">This workshop is full</h4>
-                    {% endif %}
-                    {{ content }}
-                </div>
-                <div class="col-xs-12">
-                    <h3>Speaker(s)</h3>
-                    {% for speakerId in page.speakers %}
-                        {% if speakerId != 0 %}
-                            {% assign speaker = site.data.speakers[speakerId] %}
-                            {% if speaker.show == 1 %}
-                            <div class="col-sm-3 text-center">
-                                <a href="/speakers/#{{speaker.name | slugify }}">
-                                    <img class="clip-circle-speaker" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
-                                    {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                    <span>{{ speaker.name }}</span>
-                                    {% endif %}
-                                </a>
-                            </div>
-                            {% else %}
-                                <div class="col-sm-3 text-center">
-                                    <img class="clip-circle-speaker" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
-                                    {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                    <span>{{ speaker.name }}</span>
-                                    {% endif %}
-                                </div>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
+            <h1>{{ page.title }}{% if page.full == true %}<small class="text-danger">This workshop is full</small>{% endif %}</h1>
+            {{ content }}
+            {% if page.speakers.length > 0 %}
+                {% include presentations/speakers.html speaker_ids=page.speakers %}
+            {% endif %}
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3 text-center">
             <div class="row talk-detail-box">
@@ -130,36 +101,12 @@
               <span class="glyphicon glyphicon-blackboard"></span>&nbsp;View Slides</a></div>
             {% endif %}
         </div>
+        <div class="col-xs-12">
+            {% if page.type === 'workshop' %}
+            <h2>Workshop location</h2>
+            <div style="margin: auto; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
+                <iframe src=""></iframe>
+            </div>
+        </div>
     </div>
 </div>
-
-{% if page.type == 'workshop' %}
-<!-- Floor plan modal -->
-<div class="modal fade" id="floorplan" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">{{pageLocale.Building}} Floor Plan</h4>
-            </div>
-            <div class="modal-body">
-                <p>{{pageLocale.Strat}}</p>
-                <img class="img-responsive" src="{{pageLocale.Floor}}">
-            </div>
-            <div class="modal-footer">
-                <div class="pull-left">
-                    {% if pageLocale.Building == 'Chemical Heritage Foundation' %}
-                    <span><small>Image by <a href="http://www.chemheritage.org/visit/conference-center-rental/floor-plans.aspx">Chemical Heritage Foundation</a></small></span>
-                    {% endif %}
-                    {% if pageLocale.Building == 'Sheraton Hotel' %}
-                    <span><small>Image by <a href="http://www.starwoodhotels.com/sheraton/property/meetings/stacked_map.html?propertyID=166&buildingKey=1013372586&floorKey=all">Sheraton</a></small></span>
-                    {% endif %}
-                </div>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-{% endif %}
-
-{% include footer.html %}

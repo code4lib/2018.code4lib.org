@@ -1,0 +1,16 @@
+<h2>Speaker(s)</h2>
+<div class="row">
+    <div class="col-xs-12">
+        {% for speaker_id in include.speaker_ids %}
+            {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
+            {% if speaker and speaker != blank %}
+                <div class="col-sm-3 text-center">
+                    <a href="/speakers/#{{ speaker.id }}">
+                        <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.name }}">
+                        <span>{{ speaker.name }}</span>
+                    </a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
