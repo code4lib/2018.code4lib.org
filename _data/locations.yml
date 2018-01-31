@@ -36,7 +36,7 @@
   google-maps: 'https://goo.gl/maps/oGeBBxNdNWs'
   embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.068969921744!2d-77.05545508453612!3d38.92240105307481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7d37787c433%3A0x7451de2b2bec1404!2sOmni+Shoreham+Hotel!5e0!3m2!1sen!2sus!4v1517347711357'
   floor-plan: 'https://www.omnihotels.com/-/media/images/hotels/wassho/meetings/floorplans/washington-dc-shoreham-spec-floor-plans.pdf?la=en'
-- id: tenley-Library
+- id: tenley-library
   name: 'Tenley-Friendship Neighborhood Library'
   google-maps: 'https://goo.gl/maps/63gvoPZt9k92'
   embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.9590338783937!2d-77.08203318453552!3d38.94776425157837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9c2e65d1529%3A0xc5cb63886d7029e5!2sTenley-Friendship+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347771939'
