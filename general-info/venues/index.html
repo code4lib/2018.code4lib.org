@@ -6,6 +6,8 @@ active: Venues
 subnav:
 - name: Conference Hotel
   url: '#conference-hotel'
+- name: Workshops
+  url: '#workshops'
 - name: Reception
   url: '#reception'
 - name: Accommodations
@@ -13,17 +15,8 @@ subnav:
 - name: Newcomer Dinner
   url: '#dinner'
 - name: Game Night
-  url: '#gaming'  
+  url: '#gaming'
 ---
-
-{% comment %} // Add these to subnav once we have content
-- name: Play &amp; Share
-  url: '#play-and-share'
-- name: Reception
-  url: '#reception'
-- name: Workshops
-  url: '#workshops'
-{% endcomment %}
 
 <div class="container-fluid">
     <div class="row">
@@ -37,17 +30,15 @@ subnav:
 
       <div class="row">
         <div class="col-xs-12">
-          {% include_relative reception.html %}
+          {% include_relative workshops.html %}
         </div>
       </div>
 
-      {% comment %}
-
-        {% include_relative playandshare.html %}
-        {% include_relative reception.html %}
-        {% include_relative workshops.html %}
-
-      {% endcomment %}
+      <div class="row">
+        <div class="col-xs-12">
+          {% include_relative reception.html %}
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-xs-12">
