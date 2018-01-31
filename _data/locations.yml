@@ -1,19 +1,19 @@
 - id: law-school-building
   name: 'CUA Campus - Law School Building'
-  google-maps: 'https://goo.gl/maps/tbmqSZkDPjK2'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d617.2297252329815!2d-76.99683608900858!3d38.93622744922624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7e8639965ed%3A0xf3b10f49d85b2e9b!2sColumbus+School+of+Law+The+Catholic+University+of+America!5e0!3m2!1sen!2sus!4v1517346573765'
+  google_maps: 'https://goo.gl/maps/tbmqSZkDPjK2'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d617.2297252329815!2d-76.99683608900858!3d38.93622744922624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7e8639965ed%3A0xf3b10f49d85b2e9b!2sColumbus+School+of+Law+The+Catholic+University+of+America!5e0!3m2!1sen!2sus!4v1517346573765'
 - id: pryzbyla-center
   name: 'CUA Campus - Pryzbyla Center 321'
-  google-maps: 'https://goo.gl/maps/2Ln4hgLtknq'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.3727359155328!2d-77.00211308453565!3d38.93831235213627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7efdf15b3d9%3A0x717feb655a77f6d9!2s620+Michigan+Ave+NE%2C+Washington%2C+DC+20064!5e0!3m2!1sen!2sus!4v1517346845934'
+  google_maps: 'https://goo.gl/maps/2Ln4hgLtknq'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.3727359155328!2d-77.00211308453565!3d38.93831235213627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7efdf15b3d9%3A0x717feb655a77f6d9!2s620+Michigan+Ave+NE%2C+Washington%2C+DC+20064!5e0!3m2!1sen!2sus!4v1517346845934'
 - id: mt-pleasant-library
   name: 'Mt. Pleasant Neighborhood Library'
-  google-maps: 'https://goo.gl/maps/VCy3FdxAtw32'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.7154197440823!2d-77.03941748453593!3d38.9304815525983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c821252cf2d1%3A0x43dd040ed9d489df!2sMt.+Pleasant+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517346957720'
+  google_maps: 'https://goo.gl/maps/VCy3FdxAtw32'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.7154197440823!2d-77.03941748453593!3d38.9304815525983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c821252cf2d1%3A0x43dd040ed9d489df!2sMt.+Pleasant+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517346957720'
 - id: northeast-library
   name: 'Northeast Library'
-  google-maps: 'https://goo.gl/maps/E9adNhEV1352'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12421.179442761337!2d-76.996446!3d38.894372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce488aa8a8d38a1c!2sNortheast+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347470084'
+  google_maps: 'https://goo.gl/maps/E9adNhEV1352'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12421.179442761337!2d-76.996446!3d38.894372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce488aa8a8d38a1c!2sNortheast+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347470084'
 - id: omni-shoreham
   name: 'Omni Shoreham Hotel'
   rooms:
@@ -33,14 +33,14 @@
       name: 'Private Dining Room'
     - id: senate-room
       name: 'Senate Room'
-  google-maps: 'https://goo.gl/maps/oGeBBxNdNWs'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.068969921744!2d-77.05545508453612!3d38.92240105307481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7d37787c433%3A0x7451de2b2bec1404!2sOmni+Shoreham+Hotel!5e0!3m2!1sen!2sus!4v1517347711357'
-  floor-plan: 'https://www.omnihotels.com/-/media/images/hotels/wassho/meetings/floorplans/washington-dc-shoreham-spec-floor-plans.pdf?la=en'
+  google_maps: 'https://goo.gl/maps/oGeBBxNdNWs'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.068969921744!2d-77.05545508453612!3d38.92240105307481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7d37787c433%3A0x7451de2b2bec1404!2sOmni+Shoreham+Hotel!5e0!3m2!1sen!2sus!4v1517347711357'
+  floor_plan: 'https://www.omnihotels.com/-/media/images/hotels/wassho/meetings/floorplans/washington-dc-shoreham-spec-floor-plans.pdf?la=en'
 - id: tenley-library
   name: 'Tenley-Friendship Neighborhood Library'
-  google-maps: 'https://goo.gl/maps/63gvoPZt9k92'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.9590338783937!2d-77.08203318453552!3d38.94776425157837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9c2e65d1529%3A0xc5cb63886d7029e5!2sTenley-Friendship+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347771939'
+  google_maps: 'https://goo.gl/maps/63gvoPZt9k92'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.9590338783937!2d-77.08203318453552!3d38.94776425157837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9c2e65d1529%3A0xc5cb63886d7029e5!2sTenley-Friendship+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347771939'
 - id: west-end-library
   name: 'West End Neighborhood Library'
-  google-maps: 'https://goo.gl/maps/vTKShxTBjCo'
-  embed-code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.8717442104144!2d-77.05273658453645!3d38.90404815415695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7b41f4bcde3%3A0xfcb5377df1db43fb!2sWest+End+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347914265'
+  google_maps: 'https://goo.gl/maps/vTKShxTBjCo'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.8717442104144!2d-77.05273658453645!3d38.90404815415695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7b41f4bcde3%3A0xfcb5377df1db43fb!2sWest+End+Neighborhood+Library!5e0!3m2!1sen!2sus!4v1517347914265'

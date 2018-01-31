@@ -14,6 +14,7 @@ speakers.each do |speaker, data|
         'slack_handle' => data['slack-handle'],
         'github_handle' => data['github_handle'],
         'keynote' => data['keynote'] == 1 ? true : false,
+        'bio' => data['bio'],
         'image_src' => data['image-src']
     }
 

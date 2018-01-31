@@ -13,12 +13,11 @@ title: Speakers
         <div class="row">
             <div class="col-xs-12 keynote-sequence sequence">
                 {% assign no_keynotes = true %}
-                {% for person in site.data.speakers %}
-                    {% assign speaker = person[1] %}
-                    {% if speaker.keynote == 1 %}
+                {% for speaker in site.data.speakers %}
+                    {% if speaker.keynote %}
                         {% comment %} we have at least one keynote, doesn't show placeholder {% endcomment %}
                         {% assign no_keynotes = false %}
-                        {% include speaker_box.html param=speaker %}
+                        {% include speaker_box.html speaker=speaker %}
                     {% endif %}
                 {% endfor %}
 
@@ -49,11 +48,10 @@ title: Speakers
         </div>
         <div class="row">
             <div class="col-xs-12 speaker-sequence sequence">
-            {% for person in site.data.speakers %}
-                {% assign speaker = person[1] %}
-                    {% if speaker.keynote == 0 %}
-                        {% include speaker_box.html param=speaker %}
-                    {% endif %}
+            {% for speaker in site.data.speakers %}
+                {% unless speaker.keynote %}
+                    {% include speaker_box.html speaker=speaker %}
+                {% endunless %}
             {% endfor %}
             </div>
         </div>

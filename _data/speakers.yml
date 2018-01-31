@@ -8,6 +8,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic1.jpg"
 - id: shawn-averkamp
   name: Shawn Averkamp
@@ -18,6 +19,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/averkamp_shawn.jpg"
 - id: chris-beer
   name: Chris Beer
@@ -28,6 +30,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: alison-blaine
   name: Alison Blaine
@@ -38,6 +41,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: ashley-blewer
   name: Ashley Blewer
@@ -48,6 +52,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/blewer_ashley.jpg"
 - id: sarah-branham
   name: Sarah Branham
@@ -58,6 +63,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/branham_shealy_Sarah.jpg"
 - id: mark-breedlove
   name: Mark Breedlove
@@ -68,6 +74,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: yinlin-chen
   name: Yinlin Chen
@@ -78,6 +85,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/yinlin_chen.jpg"
 - id: jason-clingerman
   name: Jason Clingerman
@@ -88,6 +96,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/clingerman_jason.jpg"
 - id: karen-coombs
   name: Karen Coombs
@@ -98,6 +107,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/coombs_karen.jpeg"
 - id: hector-correa
   name: Hector Correa
@@ -108,6 +118,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/correa_hector.jpg"
 - id: deirdre-costello
   name: Deirdre Costello
@@ -118,6 +129,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/costello_deirdre.jpg"
 - id: esmé-cowles
   name: Esmé Cowles
@@ -128,6 +140,7 @@
   slack_handle: escowles
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/cowles_esme.jpg"
 - id: jenn-dandle
   name: Jenn Dandle
@@ -138,6 +151,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Dandle_Jenn.jpg"
 - id: robin-davis
   name: Robin Davis
@@ -148,6 +162,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Davis_Robin.jpg"
 - id: katherine-deibel
   name: Katherine Deibel
@@ -158,6 +173,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Deibel_Katherine.jpg"
 - id: michael-della-bitta
   name: Michael Della Bitta
@@ -168,6 +184,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic5.jpg"
 - id: lauren-di-monte
   name: Lauren Di Monte
@@ -178,6 +195,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/DiMonte_Lauren.jpg"
 - id: mike-durbin
   name: Mike Durbin
@@ -188,6 +206,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic8.jpg"
 - id: naomi-dushay
   name: Naomi Dushay
@@ -198,6 +217,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: mark-eaton
   name: Mark Eaton
@@ -208,6 +228,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/eaton_mark.jpg"
 - id: shaun-ellis
   name: Shaun Ellis
@@ -218,6 +239,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/ellis_shaun.jpg"
 - id: erin-fahy
   name: Erin Fahy
@@ -228,6 +250,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: giovanni-fernandez-kincade
   name: Giovanni Fernandez-Kincade
@@ -238,6 +261,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/fernandez-kicade_giovanni.jpg"
 - id: walter-forsberg
   name: Walter Forsberg
@@ -248,6 +272,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic1.jpg"
 - id: andrew-french
   name: Andrew French
@@ -258,6 +283,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: walt-gurley
   name: Walt Gurley
@@ -268,6 +294,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic2.jpg"
 - id: jim-hahn
   name: Jim Hahn
@@ -278,6 +305,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/hahn_jim.jpg"
 - id: christina-harlow
   name: Christina Harlow
@@ -288,6 +316,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: corey-harper
   name: Corey Harper
@@ -298,6 +327,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic5.jpg"
 - id: genevieve-havemeyer-king
   name: Genevieve Havemeyer-King
@@ -308,6 +338,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic6.jpg"
 - id: john-hessler
   name: John Hessler
@@ -318,6 +349,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Hessler_John.jpg"
 - id: charles-ed-hill
   name: Charles Ed Hill
@@ -328,6 +360,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Hill_Charles.JPG"
 - id: shane-huddleston
   name: Shane Huddleston
@@ -338,6 +371,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/huddleston_shane.jpeg"
 - id: bergis-jules
   name: Bergis Jules
@@ -348,6 +382,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/jules-bergis.jpg"
 - id: francis-kayiwa
   name: Francis Kayiwa
@@ -358,6 +393,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/kayiwa-francis.jpg"
 - id: david-keiser-clark
   name: David Keiser-Clark
@@ -368,7 +404,8 @@
   slack_handle: 
   github_handle: 
   keynote: false
-  image_src: "/assets/img/nopics/nopic10.jpg"
+  bio: 
+  image_src: "/assets/img/speakers/david-keiser-clark.jpg"
 - id: dan-kerchner
   name: Dan Kerchner
   last: Kerchner
@@ -378,6 +415,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Kerchner_Dan.jpg"
 - id: emily-kolvitz
   name: Emily Kolvitz
@@ -388,6 +426,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/kolvitz_emily.jpg"
 - id: nick-krabbenhoeft
   name: Nick Krabbenhoeft
@@ -398,6 +437,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: mairelys-lemus-rojas
   name: Mairelys Lemus-Rojas
@@ -408,6 +448,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Lemus-Rojas_Mairelys.jpg"
 - id: justin-littman
   name: Justin Littman
@@ -418,6 +459,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Littman_Justin.jpg"
 - id: natalia-lopez
   name: Natalia Lopez
@@ -428,6 +470,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Lopez_Natalia-2017-14.jpg"
 - id: monica-maceli
   name: Monica Maceli
@@ -438,6 +481,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/maceli_monica.jpg"
 - id: john-martin
   name: John Martin
@@ -448,6 +492,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic9.jpg"
 - id: bleakley-mcdowell
   name: Bleakley McDowell
@@ -458,6 +503,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: laney-mcglohon
   name: Laney McGlohon
@@ -468,6 +514,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/mcglohon_laney.jpg"
 - id: derek-merleaux
   name: Derek Merleaux
@@ -478,7 +525,8 @@
   slack_handle: 
   github_handle: 
   keynote: false
-  image_src: "/assets/img/nopics/nopic1.jpg"
+  bio: 
+  image_src: "http://commonmediainc.com/wp-content/uploads/bio_pic_Derek.png"
 - id: matt-miller
   name: Matt Miller
   last: Miller
@@ -488,6 +536,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/miller_matt.jpeg"
 - id: jeff-mixter
   name: Jeff Mixter
@@ -498,6 +547,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/mixter_jeff.jpg"
 - id: carrie-moran
   name: Carrie Moran
@@ -508,6 +558,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/moran_carrie.jpg"
 - id: gavin-morris
   name: Gavin Morris
@@ -518,7 +569,8 @@
   slack_handle: 
   github_handle: 
   keynote: false
-  image_src: "/assets/img/nopics/nopic4.jpg"
+  bio: 
+  image_src: "http://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Gavin.png"
 - id: peter-murray
   name: Peter Murray
   last: Murray
@@ -528,6 +580,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Murray_Peter.jpg"
 - id: patrick-murray-john
   name: Patrick Murray-John
@@ -538,6 +591,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/murray-john_patrick.jpg"
 - id: sonoe-nakasone
   name: Sonoe Nakasone
@@ -548,6 +602,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: jeremy-nelson
   name: Jeremy Nelson
@@ -558,6 +613,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic8.jpg"
 - id: kaitlin-newson
   name: Kaitlin Newson
@@ -568,6 +624,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/newson_kaitlin.jpg"
 - id: colin-nickels
   name: Colin Nickels
@@ -578,6 +635,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/nickels_colin.jpg"
 - id: jere-odell
   name: Jere Odell
@@ -588,6 +646,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Odell_Jere.jpg"
 - id: andreas-orphanides
   name: Andreas Orphanides
@@ -598,6 +657,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/orphanides_andreas.jpg"
 - id: nilesh-patil
   name: Nilesh Patil
@@ -608,6 +668,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic2.jpg"
 - id: dawn-pearce
   name: Dawn Pearce
@@ -618,6 +679,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: kim-pham
   name: Kim Pham
@@ -628,6 +690,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/pham_kim.jpg"
 - id: anthony-pinter
   name: Anthony Pinter
@@ -638,6 +701,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/pinter_anthony.jpeg"
 - id: jack-reed
   name: Jack Reed
@@ -648,6 +712,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/reed_jack.jpg"
 - id: matthew-reidsma
   name: Matthew Reidsma
@@ -658,6 +723,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Reidsma_Matthew.jpg"
 - id: jason-ronallo
   name: Jason Ronallo
@@ -668,6 +734,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/ronallo_jason.jpg"
 - id: kenneth-rose
   name: Kenneth Rose
@@ -678,6 +745,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/kenneth_rose.jpg"
 - id: crystal-sanchez
   name: Crystal Sanchez
@@ -688,6 +756,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: joel-shields
   name: Joel Shields
@@ -698,6 +767,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/shields_joel.jpg"
 - id: noah-smith
   name: Noah Smith
@@ -708,7 +778,8 @@
   slack_handle: 
   github_handle: 
   keynote: false
-  image_src: "/assets/img/nopics/nopic1.jpg"
+  bio: 
+  image_src: "http://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Noah.png"
 - id: todd-stoffer
   name: Todd Stoffer
   last: Stoffer
@@ -718,6 +789,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: ed-summers
   name: Ed Summers
@@ -728,6 +800,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Summers_Ed.jpg"
 - id: hank-sway
   name: Hank Sway
@@ -738,6 +811,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/sway_hank.jpg"
 - id: julie-c-swierczek
   name: Julie C. Swierczek
@@ -748,6 +822,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Swierczek_julie.jpg"
 - id: jason-thomale
   name: Jason Thomale
@@ -758,6 +833,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: rachel-trent
   name: Rachel Trent
@@ -768,6 +844,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic8.jpg"
 - id: jerry-waller
   name: Jerry Waller
@@ -778,6 +855,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/waller_jerry.jpg"
 - id: david-ward
   name: David Ward
@@ -788,6 +866,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: bruce-washburn
   name: Bruce Washburn
@@ -798,6 +877,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: whitni-watkins
   name: Whitni Watkins
@@ -808,6 +888,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/watkins_whitni.jpg"
 - id: josh-weisman
   name: Josh Weisman
@@ -818,6 +899,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/josh-weisman.jpg"
 - id: elizabeth-wickes
   name: Elizabeth Wickes
@@ -828,6 +910,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/wickes_elizabeth.jpg"
 - id: amy-wickner
   name: Amy Wickner
@@ -838,6 +921,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: scott-williams
   name: Scott Williams
@@ -848,6 +932,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: lora-woodford
   name: Lora Woodford
@@ -858,6 +943,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/woodford_lora.jpg"
 - id: liz-woolcott
   name: Liz Woolcott
@@ -868,6 +954,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/woolcott_liz.jpg"
 - id: laura-wrubel
   name: Laura Wrubel
@@ -878,6 +965,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Wrubel_Laura.jpg"
 - id: becky-yoose
   name: Becky Yoose
@@ -888,6 +976,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/speakers/Yoose_Becky.jpg"
 - id: jacob-zaborowski
   name: Jacob Zaborowski
@@ -898,6 +987,7 @@
   slack_handle: 
   github_handle: 
   keynote: false
+  bio: 
   image_src: "/assets/img/nopics/nopic9.jpg"
 - id: chris-bourg
   name: Chris Bourg
@@ -908,6 +998,9 @@
   slack_handle: 
   github_handle: 
   keynote: true
+  bio: Chris Bourg is the Director of Libraries at Massachusetts Institute of Technology
+    (MIT), where she also has oversight of the MIT Press. She chooses to believe that
+    libraries can and should promote social justice. (Detailed bio at http://bit.ly/cbourgbio)
   image_src: "/assets/img/speakers/bourg_chris.jpg"
 - id: mega-subramaniam
   name: Mega Subramaniam
@@ -918,4 +1011,11 @@
   slack_handle: 
   github_handle: 
   keynote: true
+  bio: Mega Subramaniam is an Associate Professor at the College of Information Studies
+    at the University of Maryland. Dr. Subramaniam’s research focuses on enhancing
+    the role of libraries in fostering the mastery of emerging literacies that are
+    essential for STEM learning among underserved young people. Dr. Subramaniam serves
+    as a fellow for the Libraries Ready to Code (RtC) project led by the Office for
+    Information Technology Policy at the American Library Association (ALA OITP).
+    (Detailed bio at http://bit.ly/msubramaniambio)
   image_src: "/assets/img/speakers/Subramaniam_Mega.jpg"
