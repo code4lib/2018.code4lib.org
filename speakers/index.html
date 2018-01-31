@@ -48,7 +48,7 @@ title: Speakers
         </div>
         <div class="row">
             <div class="col-xs-12 speaker-sequence sequence">
-            {% for speaker in site.data.speakers %}
+            {% for speaker in site.data.speakers | sort: 'last'%}
                 {% unless speaker.keynote %}
                     {% include speaker_box.html speaker=speaker %}
                 {% endunless %}
