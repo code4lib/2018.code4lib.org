@@ -1,5 +1,5 @@
 {% assign workshop = include.workshop %}
-{% capture post_length %}{% if workshop.time == 'am' %}9:30-12:30{% elsif workshop.time == 'pm' %}2:30-5:30{% else %}9:30-5:30 (w/ lunch break){% endif %}{% endcapture %}
+{% capture post_length %}{% if workshop.time == 'am' %}9:30-12:30{% elsif workshop.time == 'pm' %}2:30-5:30{% else %}9:00-5:00 (w/ lunch break){% endif %}{% endcapture %}
 {% assign location = site.data.locations | where: 'id', workshop.location | first %}
 {% assign location_display = location.name %}
 {% if workshop.room %}

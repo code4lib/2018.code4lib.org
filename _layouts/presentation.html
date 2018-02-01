@@ -3,7 +3,7 @@
 
 {% if page.type == 'workshop' %}
     {% assign page_date = page.date %}
-    {% capture page_length %}{% if page.time == 'am' %}9:30-12:30{% elsif page.time == 'pm' %}2:30-5:30{% else %}9:30-5:30 (w/ lunch break){% endif %}{% endcapture %}
+    {% capture page_length %}{% if page.time == 'am' %}9:30-12:30{% elsif page.time == 'pm' %}2:30-5:30{% else %}9:00-5:00 (w/ lunch break){% endif %}{% endcapture %}
     {% assign location = site.data.locations | where: 'id', page.location | first %}
     {% assign location_display = location.name %}
     {% if workshop.room %}
