@@ -50,12 +50,12 @@
                                 {% endif %}
                             </div>
                             <div class="col-xs-12 hidden-xs">
-                                {% for speakerId in talk.speakers %}
-                                    {% assign speaker = site.data.speakers[speakerId] %}
+                                {% for speaker_id in talk.speakers %}
+                                    {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                                     {% if speaker %}
                                         <div class="col-sm-3 text-center">
-                                            <a href="/speakers/#{{ speakerId }}">
-                                                <img class="clip-circle-speaker" src="{{ speaker.image-src }}" alt="{{ speaker.name }}">
+                                            <a href="/speakers/#{{ speaker.id }}">
+                                                <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.name }}">
                                                 {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
                                                     <span>{{ speaker.name }}</span>
                                                 {% endif %}
