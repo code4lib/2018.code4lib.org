@@ -626,17 +626,6 @@
   keynote: false
   bio: 
   image_src: "/assets/img/speakers/newson_kaitlin.jpg"
-- id: colin-nickels
-  name: Colin Nickels
-  last: Nickels
-  work_title: NCSU Libraries Fellow
-  institution: NCSU
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
-  keynote: false
-  bio: 
-  image_src: "/assets/img/speakers/nickels_colin.jpg"
 - id: jere-odell
   name: Jere Odell
   last: Odell
