@@ -102,6 +102,7 @@
   annotation: "Fiscal Host"
 
 - name: USMAI
+  img: /assets/img/sponsors/usmai_logo.png
   link: http://usmai.org/
   level: bronze
 
