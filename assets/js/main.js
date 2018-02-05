@@ -176,6 +176,20 @@ jQuery(document).ready(function($){
       }
     }, 100));
 
+    // For testing:
+    //var date = new Date('2018-02-15T01:00:00');
+    var date = new Date();
+    $('.event-day').each(function(){
+        var eventDate = new Date($(this).data('date'));
+        console.log([date, eventDate]);
+        if(date > eventDate) {
+            $(this).addClass('past');
+        }
+        if(date.getMonth() == eventDate.getMonth() && date.getDay() == eventDate.getDay()) {
+            $(this).addClass('active');
+        }
+    });
+
 
 
 });

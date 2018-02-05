@@ -7,6 +7,7 @@ title: code4lib 2018 - Washington, D.C.
 
 <section>
     <div class="container">
+        {% unless site.data.conf.homepage-display == 'peri' %}
         <div class="row">
             <div class="col-xs-12">
                 <h2>The conference for people who code for libraries.</h2>
@@ -16,6 +17,7 @@ title: code4lib 2018 - Washington, D.C.
                 </p>
             </div>
         </div>
+        {% endunless %}
         <div class="row">
             {% include homepage/{{ site.data.conf.homepage-display }}_conference.html %}
         </div>
