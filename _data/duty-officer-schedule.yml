@@ -1,0 +1,42 @@
+- title: "Tuesday - Morning Preconferences"
+  officers:
+    - "yoose"
+    - "nelson"
+
+- title: "Tuesday - Afternoon Preconferences"
+  officers:
+    - "matienzo"
+    - "fox" 
+
+- title: "Wednesday - Conference Day 1 (Morning)"
+  officers:
+    - "charlton"
+    - "fox"
+
+- title: "Wednesday - Conference Day 1 (Afternoon)"
+  officers:
+    - "ellis"
+    - "nowviskie"
+
+- title: "Wednesday - Game Night"
+  officers:
+    - "nelson"
+    - "peterson"
+
+- title: "Thursday - Conference Day 2 (Morning)"
+  officers:
+    - "nowviskie"
+    - "matienzo"
+
+- title: "Thursday - Conference Day 2 (Afternoon)"
+  officers:
+    - "yoose"
+    - "ellis"
+
+- title: "Thursday - Reception (Evening)"
+  all-hands: true
+
+- title: "Friday - Conference Day 3 (Morning)"
+  officers:
+    - "peterson"
+    - "charlton"

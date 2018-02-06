@@ -153,20 +153,21 @@ active: 'Conduct & Safety'
                     {% endif %}
 
                     {% if site.data.duty-officer-schedule %}
+                        <div class="row">
                     <h3>Duty Officer Schedule</h3>
                     {% for session in site.data.duty-officer-schedule %}
-                        <h2>{{ session.title }}</h2>
+                        <h4>{{ session.title }}</h4>
                         <div class="row">
                             <div class="col-xs-12 keynote-sequence sequence">
                                 {% if session.all-hands %}
                                     <p><strong>All duty officers attending the event &mdash; look for the black lanyards!</strong></p>
                                 {% else %}
                                     {% for officerId in session.officers %}
-                                    {% assign officer = site.data.duty-officers | where: "id", officerId | first %}
+                                    {% assign officer = site.data.duty-officers[officerId] %}
                                     <div class="speaker-box text-center">
                                         <div class="speaker-box-inner">
                                             <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
-                                            <h3 class="speaker-name">{{ officer.name }}</h3>
+                                            <h5 class="speaker-name">{{ officer.name }}</h5>
                                         </div>
                                     </div>
                                     {% endfor %}
@@ -174,6 +175,7 @@ active: 'Conduct & Safety'
                             </div>
                         </div>
                     {% endfor %}
+                        </div>
                     {% endif %}
 
                 </div>
