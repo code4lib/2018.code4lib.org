@@ -26,9 +26,12 @@
                                 {% elsif event.title == "Registration/Breakfast" %}
                                     &nbsp;
                                     <a href="/schedule/food/{{ include.menuDay }}-menus.html#Breakfast" class="btn btn-primary" >View Menu</a>
-                                {% elsif event.title == "Break" %}
+                                {% elsif event.title == "Morning Break" %}
                                     &nbsp;
-                                    <a href="/schedule/food/{{ include.menuDay }}-menus.html#Snacks" class="btn btn-primary" >View Menu</a>
+                                    <a href="/schedule/food/{{ include.menuDay }}-menus.html#Morning" class="btn btn-primary" >View Menu</a>
+                                {% elsif event.title == "Afternoon Break" %}
+                                    &nbsp;
+                                    <a href="/schedule/food/{{ include.menuDay }}-menus.html#Afternoon" class="btn btn-primary" >View Menu</a>
                                 {% endif %}
                             {% endif %}
                             </h2>

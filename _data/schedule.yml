@@ -20,27 +20,27 @@
 
 # Breaks
 - timeImg: 10.00.png
-  title: Break
+  title: Morning Break
   day1: true
   time: 10:00-10:15
 
 - timeImg: 2.40.png
-  title: Break
+  title: Afternoon Break
   day1: true
   time: 14:40-14:45
 
 - timeImg: 9.55.png
-  title: Break
+  title: Morning Break
   day2: true
   time: 09:55-10:05
 
 - timeImg: 3.00.png
-  title: Break
+  title: Afternoon Break
   day2: true
   time: 15:00-15:15
 
 - timeImg: 10.00.png
-  title: Break
+  title: Morning Break
   day3: true
   time: 10:00-10:10
 
