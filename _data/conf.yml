@@ -18,7 +18,7 @@ search: false
 program-nav-links: true
 
 # If true, will display links to the daily menus on the schedule pages
-show-daily-menus: false
+show-daily-menus: true
 
 ###################
 # Homepage section
