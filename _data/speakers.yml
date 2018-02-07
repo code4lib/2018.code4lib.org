@@ -4,988 +4,955 @@
   last: Altman
   work_title: Developer
   institution: DPLA
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic1.jpg"
 - id: shawn-averkamp
   name: Shawn Averkamp
   last: Averkamp
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/averkamp_shawn.jpg"
 - id: chris-beer
   name: Chris Beer
   last: Beer
   work_title: Quality Assurance Engineer
   institution: Stanford
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: alison-blaine
   name: Alison Blaine
   last: Blaine
   work_title: Digital Technologies Development Librarian
   institution: NCSU
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: ashley-blewer
   name: Ashley Blewer
   last: Blewer
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/blewer_ashley.jpg"
 - id: sarah-branham
   name: Sarah Branham
   last: Branham
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/branham_shealy_Sarah.jpg"
 - id: mark-breedlove
   name: Mark Breedlove
   last: Breedlove
   work_title: Senior Developer
   institution: DPLA
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: yinlin-chen
   name: Yinlin Chen
   last: Chen
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/yinlin_chen.jpg"
 - id: jason-clingerman
   name: Jason Clingerman
   last: Clingerman
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/clingerman_jason.jpg"
 - id: karen-coombs
   name: Karen Coombs
   last: Coombs
   work_title: Senior Product Analyst
   institution: OCLC
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/coombs_karen.jpeg"
 - id: hector-correa
   name: Hector Correa
   last: Correa
   work_title: Senior Library Applications Developer
   institution: Brown University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/correa_hector.jpg"
 - id: deirdre-costello
   name: Deirdre Costello
   last: Costello
   work_title: Director, User Experience Research
   institution: EBSCO
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/costello_deirdre.jpg"
 - id: esmé-cowles
   name: Esmé Cowles
   last: Cowles
   work_title: Acting Application Development Manager
   institution: Princeton University Library
-  twitter_handle: 
+  twitter_handle:
   slack_handle: escowles
-  github_handle: 
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/cowles_esme.jpg"
 - id: jenn-dandle
   name: Jenn Dandle
   last: Dandle
   work_title: Web Manager
   institution: UC San Diego Library
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Dandle_Jenn.jpg"
 - id: robin-davis
   name: Robin Davis
   last: Davis
   work_title: Robin Davis
   institution: John Jay College of Criminal Justice
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Davis_Robin.jpg"
 - id: katherine-deibel
   name: Katherine Deibel
   last: Deibel
   work_title: Web Applications Specialist
   institution: University of Washington Libraries
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Deibel_Katherine.jpg"
 - id: michael-della-bitta
   name: Michael Della Bitta
   last: Della Bitta
   work_title: Director of Technolog
   institution: DPLA
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic5.jpg"
 - id: lauren-di-monte
   name: Lauren Di Monte
   last: Di Monte
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/DiMonte_Lauren.jpg"
 - id: mike-durbin
   name: Mike Durbin
   last: Durbin
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic8.jpg"
 - id: naomi-dushay
   name: Naomi Dushay
   last: Dushay
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: mark-eaton
   name: Mark Eaton
   last: Eaton
-  work_title: 
+  work_title:
   institution: Kingsborough Community College
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/eaton_mark.jpg"
 - id: shaun-ellis
   name: Shaun Ellis
   last: Ellis
   work_title: Digital Library Collections Interface Developer
   institution: Princeton University Library
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/ellis_shaun.jpg"
 - id: erin-fahy
   name: Erin Fahy
   last: Fahy
   work_title: Sr. DevOps Engineer
   institution: Stanford University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic10.jpg"
-- id: giovanni-fernandez-kincade
-  name: Giovanni Fernandez-Kincade
-  last: Fernandez-Kincade
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
-  keynote: false
-  bio: 
-  image_src: "/assets/img/speakers/fernandez-kicade_giovanni.jpg"
 - id: walter-forsberg
   name: Walter Forsberg
   last: Forsberg
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic1.jpg"
 - id: andrew-french
   name: Andrew French
   last: French
   work_title: Director of Sales Operations
   institution: Ex Libris
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: walt-gurley
   name: Walt Gurley
   last: Gurley
   work_title: Visualization and Digital Media Librarian
   institution: NCSU
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic2.jpg"
 - id: jim-hahn
   name: Jim Hahn
   last: Hahn
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/hahn_jim.jpg"
 - id: christina-harlow
   name: Christina Harlow
   last: Harlow
   work_title: Repository Specialist
   institution: Stanford University Libraries
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: corey-harper
   name: Corey Harper
   last: Harper
   work_title: Data Scientist & Sr. Technology Researcher
   institution: Elsevier
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic5.jpg"
 - id: genevieve-havemeyer-king
   name: Genevieve Havemeyer-King
   last: Havemeyer-King
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic6.jpg"
 - id: john-hessler
   name: John Hessler
   last: Hessler
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Hessler_John.jpg"
 - id: charles-ed-hill
   name: Charles Ed Hill
   last: Hill
   work_title: Systems and Digital Services Librarian
   institution: Westfield State University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Hill_Charles.JPG"
-- id: shane-huddleston
-  name: Shane Huddleston
-  last: Huddleston
-  work_title: Product Manager
-  institution: OCLC
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
-  keynote: false
-  bio: 
-  image_src: "/assets/img/speakers/huddleston_shane.jpeg"
 - id: bergis-jules
   name: Bergis Jules
   last: Jules
   work_title: Archivist & Community Lead for Documenting the Now
   institution: University of California, Riverside
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/jules-bergis.jpg"
 - id: francis-kayiwa
   name: Francis Kayiwa
   last: Kayiwa
   work_title: Señor UNIX Administrator
   institution: Princeton University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/kayiwa-francis.jpg"
 - id: david-keiser-clark
   name: David Keiser-Clark
   last: Keiser-Clark
   work_title: Academic Application Developer
   institution: Williams
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/david-keiser-clark.jpg"
 - id: dan-kerchner
   name: Dan Kerchner
   last: Kerchner
   work_title: Senior Software Developer
   institution: George Washington University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Kerchner_Dan.jpg"
-- id: emily-kolvitz
-  name: Emily Kolvitz
-  last: Kolvitz
-  work_title: Digital asset management consultant, librarian, and author
-  institution: Bynder
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
-  keynote: false
-  bio: 
-  image_src: "/assets/img/speakers/kolvitz_emily.jpg"
 - id: nick-krabbenhoeft
   name: Nick Krabbenhoeft
   last: Krabbenhoeft
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: mairelys-lemus-rojas
   name: Mairelys Lemus-Rojas
   last: Lemus-Rojas
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Lemus-Rojas_Mairelys.jpg"
 - id: justin-littman
   name: Justin Littman
   last: Littman
   work_title: Software developer / librarian
   institution: George Washington University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Littman_Justin.jpg"
 - id: natalia-lopez
   name: Natalia Lopez
   last: Lopez
   work_title: Digital Scholarship Librarian
   institution: University of Delaware
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Lopez_Natalia-2017-14.jpg"
 - id: monica-maceli
   name: Monica Maceli
   last: Maceli
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/maceli_monica.jpg"
 - id: john-martin
   name: John Martin
   last: Martin
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic9.jpg"
 - id: bleakley-mcdowell
   name: Bleakley McDowell
   last: McDowell
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: laney-mcglohon
   name: Laney McGlohon
   last: McGlohon
   work_title: Technical Lead for ArchiveSpace
   institution: LYRASIS
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/mcglohon_laney.jpg"
 - id: derek-merleaux
   name: Derek Merleaux
   last: Merleaux
   work_title: Senior Project Manager
   institution: Common Media
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "http://commonmediainc.com/wp-content/uploads/bio_pic_Derek.png"
 - id: matt-miller
   name: Matt Miller
   last: Miller
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/miller_matt.jpeg"
 - id: jeff-mixter
   name: Jeff Mixter
   last: Mixter
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/mixter_jeff.jpg"
 - id: carrie-moran
   name: Carrie Moran
   last: Moran
   work_title: Head of User Services/User Experience Librarian
   institution: California State University San Marcos
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/moran_carrie.jpg"
 - id: gavin-morris
   name: Gavin Morris
   last: Morris
   work_title: Systems Developer
   institution: Common Media
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "http://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Gavin.png"
 - id: peter-murray
   name: Peter Murray
   last: Murray
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Murray_Peter.jpg"
 - id: patrick-murray-john
   name: Patrick Murray-John
   last: Murray-John
   work_title: Research Assistant Professor
   institution: Roy Rosenzweig Center for History and New Media
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/murray-john_patrick.jpg"
 - id: sonoe-nakasone
   name: Sonoe Nakasone
   last: Nakasone
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: jeremy-nelson
   name: Jeremy Nelson
   last: Nelson
   work_title: Meta-data/Systems Librarian
   institution: Colorado College
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic8.jpg"
 - id: kaitlin-newson
   name: Kaitlin Newson
   last: Newson
   work_title: Digital Projects Librarian, Scholars Portal
   institution: University of Toronto
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/newson_kaitlin.jpg"
 - id: jere-odell
   name: Jere Odell
   last: Odell
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Odell_Jere.jpg"
 - id: andreas-orphanides
   name: Andreas Orphanides
   last: Orphanides
   work_title: Associate Head, User Experience
   institution: NCSU
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/orphanides_andreas.jpg"
 - id: nilesh-patil
   name: Nilesh Patil
   last: Patil
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic2.jpg"
 - id: dawn-pearce
   name: Dawn Pearce
   last: Pearce
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: kim-pham
   name: Kim Pham
   last: Pham
   work_title: Digital Projects and Technologies Librarian
   institution: University of Toronto
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/pham_kim.jpg"
 - id: anthony-pinter
   name: Anthony Pinter
   last: Pinter
-  work_title: 
+  work_title:
   institution: University of Colorado Boulder
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/pinter_anthony.jpeg"
 - id: jack-reed
   name: Jack Reed
   last: Reed
   work_title: Geospatial Web Engineer
   institution: Stanford University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/reed_jack.jpg"
 - id: matthew-reidsma
   name: Matthew Reidsma
   last: Reidsma
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Reidsma_Matthew.jpg"
 - id: jason-ronallo
   name: Jason Ronallo
   last: Ronallo
   work_title: Department Head, Digital Library Initiatives
   institution: NCSU
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/ronallo_jason.jpg"
 - id: kenneth-rose
   name: Kenneth Rose
   last: Rose
   work_title: Project Manager
   institution: Carnegie Mellon University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/kenneth_rose.jpg"
 - id: crystal-sanchez
   name: Crystal Sanchez
   last: Sanchez
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: joel-shields
   name: Joel Shields
   last: Shields
   work_title: UX and Emerging Technologies Librarian
   institution: Washington Research Library Consortium
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/shields_joel.jpg"
 - id: noah-smith
   name: Noah Smith
   last: Smith
   work_title: Founder/CEO
   institution: Common Media
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "http://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Noah.png"
 - id: todd-stoffer
   name: Todd Stoffer
   last: Stoffer
   work_title: Digital Technologies Development Librarian
   institution: NCSU
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: ed-summers
   name: Ed Summers
   last: Summers
   work_title: Lead Developer
   institution: Maryland Institute for Technology in the Humanities
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Summers_Ed.jpg"
 - id: hank-sway
   name: Hank Sway
   last: Sway
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/sway_hank.jpg"
 - id: julie-c-swierczek
   name: Julie C. Swierczek
   last: Swierczek
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Swierczek_julie.jpg"
 - id: jason-thomale
   name: Jason Thomale
   last: Thomale
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic7.jpg"
 - id: rachel-trent
   name: Rachel Trent
   last: Trent
   work_title: Digital Services Manager
   institution: George Washington University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic8.jpg"
 - id: jerry-waller
   name: Jerry Waller
   last: Waller
   work_title: Systems Librarian
   institution: Elon University Library
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/waller_jerry.jpg"
 - id: david-ward
   name: David Ward
   last: Ward
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: bruce-washburn
   name: Bruce Washburn
   last: Washburn
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic10.jpg"
 - id: whitni-watkins
   name: Whitni Watkins
   last: Watkins
   work_title: Web Systems Engineer
   institution: Analog Devices
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/watkins_whitni.jpg"
 - id: josh-weisman
   name: Josh Weisman
   last: Weisman
   work_title: VP Development
   institution: Ex Libris
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/josh-weisman.jpg"
 - id: elizabeth-wickes
   name: Elizabeth Wickes
   last: Wickes
   work_title: Lecturer
   institution: The iSchool at Illinois
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/wickes_elizabeth.jpg"
 - id: amy-wickner
   name: Amy Wickner
   last: Wickner
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic3.jpg"
 - id: scott-williams
   name: Scott Williams
   last: Williams
   work_title: Developer
   institution: DPLA
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic4.jpg"
 - id: lora-woodford
   name: Lora Woodford
   last: Woodford
   work_title: DevOps Specialist
   institution: LYRASIS
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/woodford_lora.jpg"
 - id: liz-woolcott
   name: Liz Woolcott
   last: Woolcott
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/woolcott_liz.jpg"
 - id: laura-wrubel
   name: Laura Wrubel
   last: Wrubel
   work_title: Software Development Librarian
   institution: George Washington University
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Wrubel_Laura.jpg"
 - id: becky-yoose
   name: Becky Yoose
   last: Yoose
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/speakers/Yoose_Becky.jpg"
 - id: jacob-zaborowski
   name: Jacob Zaborowski
   last: Zaborowski
-  work_title: 
-  institution: 
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  work_title:
+  institution:
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: false
-  bio: 
+  bio:
   image_src: "/assets/img/nopics/nopic9.jpg"
 - id: chris-bourg
   name: Chris Bourg
   last: Bourg
   work_title: Director of Libraries
   institution: Massachusetts Institute of Technology
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: true
   bio: Chris Bourg is the Director of Libraries at Massachusetts Institute of Technology
     (MIT), where she also has oversight of the MIT Press. She chooses to believe that
@@ -996,9 +963,9 @@
   last: Subramaniam
   work_title: Associate Professor, College of Information Studies
   institution: University of Maryland
-  twitter_handle: 
-  slack_handle: 
-  github_handle: 
+  twitter_handle:
+  slack_handle:
+  github_handle:
   keynote: true
   bio: Mega Subramaniam is an Associate Professor at the College of Information Studies
     at the University of Maryland. Dr. Subramaniam’s research focuses on enhancing
