@@ -2,6 +2,7 @@
 # "Global" Vars
 ###########
 year: 2018
+hashtag: '#c4l2018'
 captioning-url: ""
 main-conf-email: ""
 sponsor-contact-email: "c4l2018-sponsor@umd.edu"
@@ -28,7 +29,7 @@ show-daily-menus: false
 # - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
 # - post:   for after the conference is close
 ###########
-homepage-display: pre
+homepage-display: peri
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
