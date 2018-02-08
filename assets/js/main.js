@@ -181,11 +181,10 @@ jQuery(document).ready(function($){
     var date = new Date();
     $('.event-day').each(function(){
         var eventDate = new Date($(this).data('date'));
-        console.log([date, eventDate]);
         if(date > eventDate) {
             $(this).addClass('past');
         }
-        if(date.getMonth() == eventDate.getMonth() && date.getDay() == eventDate.getDay()) {
+        if((date.getMonth() == eventDate.getMonth()) && (date.getDate() == eventDate.getDate())) {
             $(this).addClass('active');
         }
     });
