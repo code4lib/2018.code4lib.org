@@ -29,7 +29,7 @@ show-daily-menus: false
 # - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
 # - post:   for after the conference is close
 ###########
-homepage-display: peri
+homepage-display: pre
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
