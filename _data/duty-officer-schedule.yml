@@ -5,12 +5,12 @@
 
 - title: "Tuesday - Afternoon Preconferences"
   officers:
-    - "matienzo"
-    - "fox" 
+    - "charlton"
+    - "nowviskie"
 
 - title: "Wednesday - Conference Day 1 (Morning)"
   officers:
-    - "charlton"
+    - "matienzo"
     - "fox"
 
 - title: "Wednesday - Conference Day 1 (Afternoon)"
@@ -25,13 +25,13 @@
 
 - title: "Thursday - Conference Day 2 (Morning)"
   officers:
-    - "nowviskie"
-    - "matienzo"
+    - "fox"
+    - "ellis"
 
 - title: "Thursday - Conference Day 2 (Afternoon)"
   officers:
     - "yoose"
-    - "ellis"
+    - "matienzo"
 
 - title: "Thursday - Reception (Evening)"
   all-hands: true
