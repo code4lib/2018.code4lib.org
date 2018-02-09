@@ -445,6 +445,8 @@ p.speaker-title {
 p.speaker-inst {
   line-height: 1.4em;
   font-size: .9em;
+  position: relative;
+  z-index: 100;
 }
 
 .speaker-info {
