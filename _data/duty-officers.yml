@@ -41,24 +41,24 @@ yoose:
 coyle:
   name: "Karen Coyle"
   onsite: false
-  handle: ""
+  slack_handle: "kcoyle"
 
 hutchinson:
   name: "Josh Hutchinson"
   onsite: false
-  handle: ""
+  slack_handle: "josh_h_uci"
 
 kim:
   name: "Katherine Kim"
   onsite: false
-  handle: ""
+  slack_handle: "katkim"
 
 locascio:
   name: "Jill Locascio"
   onsite: false
-  handle: ""
+  slack_handle: "jkl"
 
 quon:
   name: "Becca Quon"
   onsite: false
-  handle: ""
+  slack_handle: "bquon"
