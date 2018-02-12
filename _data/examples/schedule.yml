@@ -24,6 +24,9 @@
   title: Break
   day1: true
   time: 10:00-10:15
+  # create a "View Menu" button by filling in the menu yml file & anchor heading
+  menu: day1-menus
+  submenu: Breakfast
 
 - timeImg: 2.30.png
   title: Break
@@ -105,7 +108,7 @@
   time: 17:45-19:45
 
 - timeImg: 6.00.png
-  title: <a href="http://wiki.code4lib.org/2016_Social_Activities#Play_and_Share_in_the_Conference_Hotel.2C_Wednesday.2C_March_9th">Play &amp; Share</a> 
+  title: <a href="http://wiki.code4lib.org/2016_Social_Activities#Play_and_Share_in_the_Conference_Hotel.2C_Wednesday.2C_March_9th">Play &amp; Share</a>
   day2: true
   time: 18:00-21:30
 
@@ -218,8 +221,3 @@
   time: 11:00-12:00
   start: 1457607600
   end: 1457607600
-
-
-
-
-
