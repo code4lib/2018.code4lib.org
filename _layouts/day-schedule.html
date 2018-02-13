@@ -8,7 +8,7 @@
             {% include schedule_nav.html param=page.day %}
             {{ content }}
             {% assign events = site.data.schedule | where:page.day, true %}
-            {% include presentation_timeline.html events=events menuDay=page.day %}
+            {% include presentation_timeline.html events=events %}
             {% include schedule_nav.html param=page.day %}
         </div>
     </div>

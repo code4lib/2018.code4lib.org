@@ -16,9 +16,6 @@ search: false
 # schedule -> preparation timeline, speakers -> past keynotes
 program-nav-links: true
 
-# If true, will display links to the daily menus on the schedule pages
-show-daily-menus: true
-
 ###################
 # Homepage section
 # Values can be one of
@@ -28,7 +25,7 @@ show-daily-menus: true
 # - post:   for after the conference is close
 #
 ###########
-homepage-display: pre
+homepage-display: peri
 
 ###################
 # Sponsors
@@ -130,6 +127,10 @@ conference-registration:
 livestream:
   show: true
   url: "https://www.youtube.com/user/code4lib"
+
+slides:
+  show: true
+  url: https://osf.io/view/code4lib2018/
 
 ###################
 # Scholarships

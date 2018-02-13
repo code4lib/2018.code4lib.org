@@ -79,8 +79,8 @@
 - id: yinlin-chen
   name: Yinlin Chen
   last: Chen
-  work_title:
-  institution:
+  work_title: Software Engineer
+  institution: Virginia Tech
   twitter_handle:
   slack_handle:
   github_handle:
@@ -218,7 +218,7 @@
   github_handle:
   keynote: false
   bio:
-  image_src: "/assets/img/nopics/nopic7.jpg"
+  image_src: "/assets/img/speakers/dushay_naomi.jpg"
 - id: mark-eaton
   name: Mark Eaton
   last: Eaton
