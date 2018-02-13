@@ -29,8 +29,11 @@
                       <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.conference-registration.url }}">Register Now!</a>
                       {% endif %}
                     {% endif %}
-                    
-                    <a class="btn btn-lg jumbotron-btn" href="/prospectus">Sponsor Code4Lib!</a>
+
+                    <!-- Sponsors -->
+                    {% if site.data.conf.homepage-sponsor-button %}
+                        <a class="btn btn-lg jumbotron-btn" href="/prospectus">Sponsor Code4Lib!</a>
+                    {% endif %}
                 </div>
             </div>
         </div>

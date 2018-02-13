@@ -3,7 +3,7 @@
 ###########
 year: 2018
 hashtag: '#c4l18'
-captioning-url: ""
+captioning-url: "https://2020captioning.1capapp.com/event/code4lib/"
 main-conf-email: ""
 sponsor-contact-email: "c4l2018-sponsor@umd.edu"
 scholarship-contact-email: "code4libaward@gmail.com"
@@ -11,8 +11,6 @@ scholarship-contact-email: "code4libaward@gmail.com"
 donate-link: ""
 hero-image-alt: "Library of Congress Interior"
 
-# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
-call-for-sponsors: false
 search: false
 # If false (we don't have program info yet), the main nav links go:
 # schedule -> preparation timeline, speakers -> past keynotes
@@ -25,11 +23,19 @@ show-daily-menus: true
 # Homepage section
 # Values can be one of
 # - pre :   displays the _includes/homepage/timeline.html partial
-#           this section provides an overview of important conference dates
+#           this section provides an overview of important conference dates.
 # - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
 # - post:   for after the conference is close
+#
 ###########
 homepage-display: pre
+
+###################
+# Sponsors
+###########
+# If true, any "Sponsors" links with go to /prospectus instead of /sponsors
+call-for-sponsors: false
+homepage-sponsor-button: false
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
@@ -116,13 +122,13 @@ conference-registration:
   url: http://www.cvent.com/d/3tqn5s/4W
   start-date: "2017-12-06"
   end-date:
-  open: true
+  open: false
 
 ###################
 # Misc
 ###########
 livestream:
-  show: false
+  show: true
   url: "https://www.youtube.com/user/code4lib"
 
 ###################
