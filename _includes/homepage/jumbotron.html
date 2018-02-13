@@ -31,6 +31,10 @@
                     {% endif %}
                     
                     <a class="btn btn-lg jumbotron-btn" href="/prospectus">Sponsor Code4Lib!</a>
+
+                    {% if site.data.conf.slides.show %}
+                      <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.slides.url }}">Slides</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
