@@ -122,6 +122,10 @@ livestream:
   show: false
   url: "https://www.youtube.com/user/code4lib"
 
+slides:
+  show: true
+  url: https://osf.io/view/code4lib2018/
+
 ###################
 # Scholarships
 ###########
