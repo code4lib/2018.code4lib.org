@@ -18,7 +18,12 @@
                             <h2><a href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
                         {% else %}
                             <h2>
-                            {{ event.title }}
+                            {% if event.link %}
+                                <a href="{{event.link}}">{{ event.title }}</a>
+                            {% else %}
+                                {{ event.title }}
+                            {% endif %}
+
                             {% if event.menu %}
                                     &nbsp;
                                     <a href="/schedule/food/{{ event.menu }}.html#{{ event.submenu }}" class="btn btn-primary" >View Menu</a>
