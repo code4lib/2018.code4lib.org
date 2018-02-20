@@ -126,7 +126,7 @@ conference-registration:
 ###########
 livestream:
   show: true
-  url: "https://www.youtube.com/user/code4lib"
+  url: "https://www.youtube.com/playlist?list=PLw-ls5JXzeNZc3FZMem-uLCPgiTM9IzKg"
 
 slides:
   show: true
