@@ -67,27 +67,32 @@
   title: Breakout Sessions 1
   day1: true
   time: 14:45-15:55
+  link: https://wiki.code4lib.org/Code4Lib2018_Breakout_Sessions
 
 - timeImg: 10.05.png
   title: Breakout Sessions 2
   day2: true
   time: 10:05-10:55
+  link: https://wiki.code4lib.org/Code4Lib2018_Breakout_Sessions
 
 # lightning
 - timeImg: 4.00.png
   title: Lightning Talks 1
   day1: true
   time: 16:00-17:05
+  link: https://wiki.code4lib.org/Code4Lib2018_Lightning_Talks#Day_1_Lightning_Talks_-_Feb_14.2C_2018
 
 - timeImg: 2.05.png
   title: Lightning Talks 2
   day2: true
   time: 14:05-15:00
+  link: https://wiki.code4lib.org/Code4Lib2018_Lightning_Talks#Day_2_Lightning_Talks_-_Feb_15.2C_2018
 
 - timeImg: 10.15.png
   title: Lightning Talks 3
   day3: true
   time: 10:15-11:00
+  link: https://wiki.code4lib.org/Code4Lib2018_Lightning_Talks#Day_3_Lightning_Talks_-_Feb_16.2C_2018
 
 # Poster Session
 - timeImg: 3.15.png
@@ -201,6 +206,7 @@
   time: 09:15-9:55
   start: 1518686100
   end: 1518688500
+  link: https://wiki.code4lib.org/Fiscal_Continuity#Report
 
 - timeImg: 11.00.png
   title: Group 3a&#58; 60 minutes (3 talks)
