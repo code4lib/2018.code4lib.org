@@ -493,7 +493,7 @@
   github_handle:
   keynote: false
   bio:
-  image_src: "http://commonmediainc.com/wp-content/uploads/bio_pic_Derek.png"
+  image_src: "https://commonmediainc.com/wp-content/uploads/bio_pic_Derek.png"
 - id: matt-miller
   name: Matt Miller
   last: Miller
@@ -537,7 +537,7 @@
   github_handle:
   keynote: false
   bio:
-  image_src: "http://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Gavin.png"
+  image_src: "https://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Gavin.png"
 - id: peter-murray
   name: Peter Murray
   last: Murray
@@ -735,7 +735,7 @@
   github_handle:
   keynote: false
   bio:
-  image_src: "http://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Noah.png"
+  image_src: "https://commonmediainc.com/wp-content/uploads/2017/01/bio_pic_Noah.png"
 - id: todd-stoffer
   name: Todd Stoffer
   last: Stoffer
